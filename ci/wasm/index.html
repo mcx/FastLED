@@ -1,0 +1,70 @@
+<!-- this index.html is a minmal stub to show that the wasm build works.
+     It will be packaged up with the js payload. Simply run it in the brower.
+     If you are using this locally then you can do this easily by using `python -m http.server`
+     or better yet, use npm's live-server and start live coding. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastLED Main Function</title>
+    <script>
+        const FRAME_RATE = 60; // 60 FPS
+
+        
+        // Function to call the setup and loop functions
+        function runFastLED(moduleInstance, frame_rate) {
+            if (moduleInstance._extern_setup && moduleInstance._extern_loop) {
+                console.log("Calling setup function...");
+                moduleInstance._extern_setup();
+                
+                console.log("Starting loop...");
+                const frameInterval = 1000 / frame_rate; // 60 FPS
+                let lastFrameTime = 0;
+                
+                function runLoop(currentTime) {
+                    if (currentTime - lastFrameTime >= frameInterval) {
+                        moduleInstance._extern_loop();
+                        lastFrameTime = currentTime;
+                    }
+                    setTimeout(() => requestAnimationFrame(runLoop), 0);
+                }
+                requestAnimationFrame(runLoop);
+            } else {
+                console.log("setup or loop functions are not available.");
+            }
+        }
+
+        // Ensure we wait for the module to load
+        window.onload = async () => {
+            try {
+                if (typeof fastled === 'function') {
+                    // Load the module
+                    fastled().then(instance => {
+                        console.log("Module loaded, running FastLED...");
+                        runFastLED(instance, FRAME_RATE);
+                    }).catch(err => {
+                        console.error("Error loading fastled as a module:", err);
+                    });
+                } else {
+                    console.log("Could not detect a valid module loading for FastLED.");
+                }
+            } catch (error) {
+                console.error("Failed to load FastLED:", error);
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <h1>Run FastLED Setup and Loop</h1>
+    <pre id="output"></pre>
+
+    <!-- Include the FastLED script -->
+    <script src="fastled.js"></script>
+</body>
+
+</html>

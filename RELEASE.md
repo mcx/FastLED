@@ -12,8 +12,7 @@ Edit these files to update the version number
   * library.json 
   * library.properties 
   * FastLED.h 
-  * README.md 
-  * Doxyfile
+  * docs/Doxyfile
 
 
 Edit this file with release notes and version number.
@@ -29,7 +28,9 @@ $ git push
 $ git push origin 3.2.10 
 ```
 
-Then use the GitHub UI to make a new “Release”
+Then use the GitHub UI to make a new “Release”:
+
+https://github.com/FastLED/FastLED/releases/new
 
 Announce new version on subreddit, highlighting major changes and thanking people for helping. 
 

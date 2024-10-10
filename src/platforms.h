@@ -8,6 +8,7 @@
 /// @file platforms.h
 /// Determines which platforms headers to include
 
+
 #if defined(NRF51)
 #include "platforms/arm/nrf51/fastled_arm_nrf51.h"
 #elif defined(NRF52_SERIES)
@@ -44,6 +45,10 @@
 #include "platforms/apollo3/fastled_apollo3.h"
 #elif defined(ARDUINO_ARCH_RENESAS) || defined(ARDUINO_ARCH_RENESAS_UNO) || defined(ARDUINO_ARCH_RENESAS_PORTENTA)
 #include "platforms/arm/renesas/fastled_arm_renesas.h"
+#elif defined(__x86_64__) || defined(FASTLED_STUB_IMPL)
+
+// stub platform for testing (on cpu)
+#include "platforms/stub/fastled_stub.h"
 #else
 // AVR platforms
 #include "platforms/avr/fastled_avr.h"

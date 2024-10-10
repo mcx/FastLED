@@ -1,4 +1,4 @@
-name: esp32s2wroom
+name: rp2040
 
 on:
   workflow_dispatch:
@@ -13,4 +13,4 @@ jobs:
   build:
     uses: ./.github/workflows/build_template.yml
     with:
-      args: --boards upesy_wroom
+      args: nanorp2040connect

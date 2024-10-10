@@ -7,6 +7,7 @@
 #include "FastLED.h"
 #include "pixeltypes.h"
 #include "fastled_progmem.h"
+#include "xymap.h"
 
 #if !defined(FASTLED_USE_32_BIT_GRADIENT_FILL)
   #if defined(__AVR__)
@@ -178,12 +179,9 @@ void fill_gradient( T* targetArray,
     huedelta823 *= 2;
     satdelta823 *= 2;
     valdelta823 *= 2;
-    #pragma GCC diagnostic push
-    #pragma GCC diagnostic ignored "-Wshift-count-overflow"
-    uint32_t hue824 = startcolor.hue << 24;
-    uint32_t sat824 = startcolor.sat << 24;
-    uint32_t val824 = startcolor.val << 24;
-		#pragma GCC diagnostic pop
+    uint32_t hue824 = static_cast<uint32_t>(startcolor.hue) << 24;
+    uint32_t sat824 = static_cast<uint32_t>(startcolor.sat) << 24;
+    uint32_t val824 = static_cast<uint32_t>(startcolor.val) << 24;
     for( uint16_t i = startpos; i <= endpos; ++i) {
         targetArray[i] = CHSV( hue824 >> 24, sat824 >> 24, val824 >> 24);
         hue824 += huedelta823;
@@ -469,7 +467,7 @@ void blur1d( CRGB* leds, uint16_t numLeds, fract8 blur_amount);
 /// @param width the width of the matrix
 /// @param height the height of the matrix
 /// @param blur_amount the amount of blur to apply
-void blur2d( CRGB* leds, uint8_t width, uint8_t height, fract8 blur_amount);
+void blur2d( CRGB* leds, uint8_t width, uint8_t height, fract8 blur_amount, const XYMap& xymap);
 
 
 /// Perform a blur1d() on every row of a rectangular matrix
@@ -478,11 +476,11 @@ void blur2d( CRGB* leds, uint8_t width, uint8_t height, fract8 blur_amount);
 /// @param width the width of the matrix
 /// @param height the height of the matrix
 /// @param blur_amount the amount of blur to apply
-void blurRows( CRGB* leds, uint8_t width, uint8_t height, fract8 blur_amount);
+void blurRows( CRGB* leds, uint8_t width, uint8_t height, fract8 blur_amount, const XYMap& xymap);
 
 /// Perform a blur1d() on every column of a rectangular matrix
 /// @copydetails blurRows()
-void blurColumns(CRGB* leds, uint8_t width, uint8_t height, fract8 blur_amount);
+void blurColumns(CRGB* leds, uint8_t width, uint8_t height, fract8 blur_amount, const XYMap& xymap);
 
 /// @} ColorBlurs
 
@@ -631,23 +629,23 @@ typedef TDynamicRGBGradientPalette_bytes TDynamicRGBGradientPalettePtr;  ///< Al
 /// Convert a 16-entry palette to a 256-entry palette
 /// @param srcpal16 the source palette to upscale
 /// @param destpal256 the destination palette for the upscaled data
-void UpscalePalette(const struct CRGBPalette16& srcpal16, struct CRGBPalette256& destpal256);
+void UpscalePalette(const class CRGBPalette16& srcpal16, class CRGBPalette256& destpal256);
 /// @copydoc UpscalePalette(const struct CRGBPalette16&, struct CRGBPalette256&)
-void UpscalePalette(const struct CHSVPalette16& srcpal16, struct CHSVPalette256& destpal256);
+void UpscalePalette(const class CHSVPalette16& srcpal16, class CHSVPalette256& destpal256);
 
 /// Convert a 16-entry palette to a 32-entry palette
 /// @param srcpal16 the source palette to upscale
 /// @param destpal32 the destination palette for the upscaled data
-void UpscalePalette(const struct CRGBPalette16& srcpal16, struct CRGBPalette32& destpal32);
+void UpscalePalette(const class CRGBPalette16& srcpal16, class CRGBPalette32& destpal32);
 /// @copydoc UpscalePalette(const struct CRGBPalette16&, struct CRGBPalette32&)
-void UpscalePalette(const struct CHSVPalette16& srcpal16, struct CHSVPalette32& destpal32);
+void UpscalePalette(const class CHSVPalette16& srcpal16, class CHSVPalette32& destpal32);
 
 /// Convert a 32-entry palette to a 256-entry palette
 /// @param srcpal32 the source palette to upscale
 /// @param destpal256 the destination palette for the upscaled data
-void UpscalePalette(const struct CRGBPalette32& srcpal32, struct CRGBPalette256& destpal256);
-/// @copydoc UpscalePalette(const struct CRGBPalette32&, struct CRGBPalette256&)
-void UpscalePalette(const struct CHSVPalette32& srcpal32, struct CHSVPalette256& destpal256);
+void UpscalePalette(const class CRGBPalette32& srcpal32, class CRGBPalette256& destpal256);
+/// @copydoc UpscalePalette(const struct CRGBPalette32&, class CRGBPalette256&)
+void UpscalePalette(const class CHSVPalette32& srcpal32, class CHSVPalette256& destpal256);
 
 /// @} PaletteUpscale
 
@@ -1940,17 +1938,46 @@ CRGB ColorFromPalette( const CRGBPalette16& pal,
                       uint8_t brightness=255,
                       TBlendType blendType=LINEARBLEND);
 
-/// @copydoc ColorFromPalette(const CRGBPalette16&, uint8_t, uint8_t, TBlendType)
-CRGB ColorFromPalette( const TProgmemRGBPalette16& pal,
-                       uint8_t index,
-                       uint8_t brightness=255,
-                       TBlendType blendType=LINEARBLEND);
+
+/// @brief Same as ColorFromPalette, but with uint16_t `index` to give greater precision.
+/// @author https://github.com/generalelectrix
+/// @source https://github.com/FastLED/FastLED/pull/202
+/// @example https://wokwi.com/projects/285170662915441160
+/// @example https://wokwi.com/projects/407831886158110721
+CRGB ColorFromPaletteExtended(
+    const CRGBPalette16& pal,
+    uint16_t index,
+    uint8_t brightness,
+    TBlendType blendType);
+
+/// @brief Same as ColorFromPalette, but higher precision. Will eventually
+///        become the default.
+/// @author https://github.com/generalelectrix
+/// @source https://github.com/FastLED/FastLED/pull/202#issuecomment-631333384
+/// @example https://wokwi.com/projects/285170662915441160
+CRGB ColorFromPaletteExtended(
+    const CRGBPalette32& pal,
+    uint16_t index,
+    uint8_t brightness,
+    TBlendType blendType);
 
 /// @copydoc ColorFromPalette(const CRGBPalette16&, uint8_t, uint8_t, TBlendType)
-CRGB ColorFromPalette( const CRGBPalette256& pal,
-                       uint8_t index,
-                       uint8_t brightness=255,
-                       TBlendType blendType=NOBLEND );
+CRGB ColorFromPalette(const TProgmemRGBPalette16& pal,
+                      uint8_t index,
+                      uint8_t brightness=255,
+                      TBlendType blendType=LINEARBLEND);
+
+/// @copydoc ColorFromPalette(const CRGBPalette16&, uint8_t, uint8_t, TBlendType)
+CRGB ColorFromPalette(const CRGBPalette256& pal,
+                      uint8_t index,
+                      uint8_t brightness=255,
+                      TBlendType blendType=NOBLEND );
+
+// @author https://github.com/generalelectrix
+CRGB ColorFromPaletteExtended(const CRGBPalette256& pal,
+                              uint16_t index,
+                              uint8_t brightness,
+                              TBlendType blendType);
 
 /// @copydoc ColorFromPalette(const CRGBPalette16&, uint8_t, uint8_t, TBlendType)
 CHSV ColorFromPalette( const CHSVPalette16& pal,
