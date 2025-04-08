@@ -1,0 +1,13 @@
+digraph "CPixelView::nblend"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="CPixelView::nblend",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Destructively modifies all LEDs, blending in a given fraction of an overlay color."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CPixelView::begin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/group___pixel_set.html#af3254e14aaccb1e8b38272ddeb6d8013",tooltip="Makes an iterator instance for the start of the LED set."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CPixelView::end",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/group___pixel_set.html#a5492e41e8b06dc599ab81b465c4236ed",tooltip="Makes an iterator instance for the end of the LED set."];
+}

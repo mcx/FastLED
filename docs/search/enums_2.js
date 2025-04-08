@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['hsvhue_0',['HSVHue',['../group___pixel_types.html#ga6585ae9f9a54e6a1fcb7c5f985931fb3',1,'chsv.h']]],
-  ['htmlcolorcode_1',['HTMLColorCode',['../struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99',1,'CRGB']]]
+  ['eblockchipsets_0',['EBlockChipsets',['../db/d97/_fast_l_e_d_8h.html#adcf22542128a12d8c3c304777422c7cc',1,'FastLED.h']]],
+  ['eorder_1',['EOrder',['../db/d07/eorder_8h.html#a3c26d076773aa0f331d3066b46dbc6a4',1,'eorder.h']]],
+  ['eorderw_2',['EOrderW',['../db/d07/eorder_8h.html#a7b10868ffb3a3b54d46bca87a48e5472',1,'eorder.h']]],
+  ['esm_3',['ESM',['../db/d97/_fast_l_e_d_8h.html#ac8839f06bbcecd0dc5bde0a94510a657',1,'FastLED.h']]],
+  ['espichipsets_4',['ESPIChipsets',['../db/d97/_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926',1,'FastLED.h']]]
 ];

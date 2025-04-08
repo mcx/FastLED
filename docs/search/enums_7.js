@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['tblendtype_0',['TBlendType',['../group___palette_colors.html#ga565c04e626af4a3ec44bf97edc607b4e',1,'colorutils.h']]],
-  ['tgradientdirectioncode_1',['TGradientDirectionCode',['../group___color_fills.html#ga097bfc6a8459d95e8afa8a16b9e6476a',1,'colorutils.h']]]
+  ['midicontrolchangenumber_0',['MidiControlChangeNumber',['../d8/dd0/midi___defs_8h.html#aa1cfd7d9d1fe50ec27b566e854e98263',1,'midi_Defs.h']]],
+  ['miditype_1',['MidiType',['../d8/dd0/midi___defs_8h.html#ab8db39dcdc3eea8045b9c71b56bba84c',1,'midi_Defs.h']]],
+  ['mode_2',['Mode',['../d0/d32/classfl_1_1_digital_pin.html#a311bcf896155643629be9f7c1b8a0c17',1,'fl::DigitalPin::Mode'],['../d8/d7f/struct_thru.html#ad19abe318ba3710100aefdea1895fbbb',1,'Thru::Mode']]]
 ];

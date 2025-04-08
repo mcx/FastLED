@@ -1,9 +1,27 @@
 var searchData=
 [
-  ['f_0',['f',['../union_i_e_e_e754binary32__t.html#aab5cc664d19fbca45bc9d4af1758ee7f',1,'IEEE754binary32_t']]],
-  ['fastled_1',['FastLED',['../_fast_l_e_d_8cpp.html#a7077a6a69b1339a4c04f4bb9ecc0ad3f',1,'FastLED:&#160;FastLED.cpp'],['../_fast_l_e_d_8h.html#a7077a6a69b1339a4c04f4bb9ecc0ad3f',1,'FastLED:&#160;FastLED.cpp']]],
-  ['flags_2',['flags',['../structled__strip__rmt__config__t.html#a3b4179e0521ed754142ef558a6c5c94b',1,'led_strip_rmt_config_t::flags'],['../structled__strip__spi__config__t.html#a4ea66abbb350647228a7fa9bee4ca733',1,'led_strip_spi_config_t::flags'],['../structled__strip__config__t.html#a941a2be212342c87539f2f7a6bced989',1,'led_strip_config_t::flags']]],
-  ['forestcolors_5fp_3',['ForestColors_p',['../group___predefined_palettes.html#ga8a2b2f97cbfb58df9478b2d064abbbe0',1,'colorpalettes.cpp']]],
-  ['format_4',['format',['../unionled__color__component__format__t.html#ae7119fc5e0d9d55d48a89b78c9698e5c',1,'led_color_component_format_t']]],
-  ['format_5fid_5',['format_id',['../unionled__color__component__format__t.html#a685288df6e707a15365838d4f08999ee',1,'led_color_component_format_t']]]
+  ['f_0',['f',['../db/d58/group___fractional_types.html#a920ee70c50494bf8b4dca37cbb28194b',1,'qfx::f'],['../db/d58/group___fractional_types.html#aab5cc664d19fbca45bc9d4af1758ee7f',1,'IEEE754binary32_t::f']]],
+  ['fade_5famount_1',['fade_amount',['../dc/dd6/classfl_1_1_cylon.html#a25fdd1f1208977460407383a99c149c3',1,'fl::Cylon']]],
+  ['fairylight_5fp_2',['FairyLight_p',['../d4/d36/namespacefl.html#ace1de9edb33714f4962e3a296e0b4fcf',1,'fl::FairyLight_p'],['../d4/dd0/_twinkle_fox_8ino.html#a4fa66dff9a71e39fbcfa85ce040eeaa4',1,'FairyLight_p:&#160;TwinkleFox.ino']]],
+  ['fastled_3',['FastLED',['../d6/dda/_fast_l_e_d_8cpp.html#a7077a6a69b1339a4c04f4bb9ecc0ad3f',1,'FastLED:&#160;FastLED.cpp'],['../db/d97/_fast_l_e_d_8h.html#a7077a6a69b1339a4c04f4bb9ecc0ad3f',1,'FastLED:&#160;FastLED.cpp']]],
+  ['fft_4',['fft',['../d7/dfa/_p_j_r_c_spectrum_analyzer_8ino.html#a73e27170be4f75c0c95ba2891aa89837',1,'PJRCSpectrumAnalyzer.ino']]],
+  ['filesystem_5',['filesystem',['../d7/d35/_fx_sd_card_8ino.html#ac08d886518cb88f478e5390b9d56714c',1,'FxSdCard.ino']]],
+  ['fire_6',['fire',['../df/d57/_fx_fire2012_8ino.html#a134be447c5eb135a0782ea18fa6e4488',1,'FxFire2012.ino']]],
+  ['first_7',['first',['../d2/d3f/structfl_1_1_sorted_heap_map_1_1_pair.html#ac1967223ac7d02e73b2d5344309c5c17',1,'fl::SortedHeapMap::Pair::first'],['../d5/def/structfl_1_1_pair.html#a43505787b2b4b0880c2bc2dfdfbf4101',1,'fl::Pair::first']]],
+  ['flags_8',['flags',['../da/d7c/led__strip__rmt_8h.html#a3b4179e0521ed754142ef558a6c5c94b',1,'led_strip_rmt_config_t::flags'],['../db/d8e/led__strip__spi_8h.html#ac11f838f6b19cfb88abe9dc4fe4aaad5',1,'led_strip_spi_config_t::flags'],['../d4/d88/led__strip__types_8h.html#a941a2be212342c87539f2f7a6bced989',1,'led_strip_config_t::flags']]],
+  ['forestcolors_5fp_9',['ForestColors_p',['../d3/d4f/group___predefined_palettes.html#ga8a2b2f97cbfb58df9478b2d064abbbe0',1,'colorpalettes.cpp']]],
+  ['format_10',['format',['../d4/d88/led__strip__types_8h.html#ae7119fc5e0d9d55d48a89b78c9698e5c',1,'led_color_component_format_t']]],
+  ['format_5fid_11',['format_id',['../d4/d88/led__strip__types_8h.html#a685288df6e707a15365838d4f08999ee',1,'led_color_component_format_t']]],
+  ['frame_12',['frame',['../d6/d7f/classfl_1_1_fx_layer.html#af29129e241c6190995c595af7fbda152',1,'fl::FxLayer']]],
+  ['frame_5fbuffer_5f_13',['frame_buffer_',['../d4/df6/class_led_rope_t_c_l.html#a634686a768a519015c35d326df73954b',1,'LedRopeTCL']]],
+  ['frame_5ftime_14',['frame_time',['../d2/d32/structfl_1_1___draw_context.html#a37f54ef8595b3f737148e70751532068',1,'fl::_DrawContext']]],
+  ['framebuffer_15',['frameBuffer',['../d9/d33/classfl_1_1_object_f_l_e_d.html#ae2263c2d1e824abe715154f197c4bc74',1,'fl::ObjectFLED']]],
+  ['framebufferlocal_16',['frameBufferLocal',['../d9/d33/classfl_1_1_object_f_l_e_d.html#a167178729137ce18f8e4052cbffb9a42',1,'fl::ObjectFLED']]],
+  ['free_17',['Free',['../d5/d98/namespacefl_1_1anonymous__namespace_02allocator_8cpp_03.html#a061a5acbd43e6305bf6e4ec6b7a5bc3e',1,'fl::anonymous_namespace{allocator.cpp}']]],
+  ['frequencybinshorizontal_18',['frequencyBinsHorizontal',['../d7/dfa/_p_j_r_c_spectrum_analyzer_8ino.html#aba4479b06e6a2bdc61a124bc4538e35a',1,'PJRCSpectrumAnalyzer.ino']]],
+  ['fullstrbuffer_19',['fullstrBuffer',['../db/d0b/_pintest_8ino.html#a61de673999975e2e0c9a6cf95160128e',1,'Pintest.ino']]],
+  ['func_20',['func',['../d4/d36/namespacefl.html#af87c161925f97976cf00873bd4a9e893',1,'fl::AnimartrixEntry']]],
+  ['fx_21',['fx',['../d6/d7f/classfl_1_1_fx_layer.html#aa51f7cee66b1ace76ff913e4e6831b36',1,'fl::FxLayer']]],
+  ['fxengine_22',['fxEngine',['../dd/d96/_fx_animartrix_8ino.html#a410b121150487a003b0f04abe4e92e0b',1,'fxEngine:&#160;FxAnimartrix.ino'],['../d6/d35/_fx_engine_8ino.html#a410b121150487a003b0f04abe4e92e0b',1,'fxEngine:&#160;FxEngine.ino'],['../d7/dd3/wasm_8ino.html#a410b121150487a003b0f04abe4e92e0b',1,'fxEngine:&#160;wasm.ino']]],
+  ['fxindex_23',['fxIndex',['../dd/d96/_fx_animartrix_8ino.html#abc40f8ba826653eda0f5b55260eb4ac8',1,'fxIndex:&#160;FxAnimartrix.ino'],['../d7/dd3/wasm_8ino.html#a673045eb92470bfdbf081ab75bd03eb2',1,'fxIndex:&#160;wasm.ino']]]
 ];

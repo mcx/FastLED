@@ -1,13 +1,11 @@
 var searchData=
 [
-  ['tdynamicrgbgradientpalette_5fbyte_0',['TDynamicRGBGradientPalette_byte',['../group___palette_classes.html#ga9b4bbbaa572ed85baf5d098dc47a347b',1,'colorutils.h']]],
-  ['tdynamicrgbgradientpalette_5fbytes_1',['TDynamicRGBGradientPalette_bytes',['../group___palette_classes.html#gae1c82c19302557ba92e9ce0ec2c9ed5b',1,'colorutils.h']]],
-  ['tdynamicrgbgradientpaletteref_2',['TDynamicRGBGradientPaletteRef',['../group___palette_classes.html#ga4c4801b40c665d6cf7febd016a81a0cd',1,'colorutils.h']]],
-  ['tprogmemhsvpalette16_3',['TProgmemHSVPalette16',['../colorutils_8h.html#a68d7c7a5522fb7aa113e50351bd620d4',1,'colorutils.h']]],
-  ['tprogmemhsvpalette32_4',['TProgmemHSVPalette32',['../colorutils_8h.html#a4173693bfea9b72f0f73085e9a7318a8',1,'colorutils.h']]],
-  ['tprogmemrgbgradientpalette_5fbyte_5',['TProgmemRGBGradientPalette_byte',['../colorutils_8h.html#a5c6ee5f16c2e9dcea972adc5b582218c',1,'colorutils.h']]],
-  ['tprogmemrgbgradientpalette_5fbytes_6',['TProgmemRGBGradientPalette_bytes',['../colorutils_8h.html#a56cb3bce8ab7c903689192abedcc9699',1,'colorutils.h']]],
-  ['tprogmemrgbgradientpaletteref_7',['TProgmemRGBGradientPaletteRef',['../colorutils_8h.html#a4bad7a1170b89ee523a67dfdb3e480a7',1,'colorutils.h']]],
-  ['tprogmemrgbpalette16_8',['TProgmemRGBPalette16',['../colorutils_8h.html#a3ce4f8424098c820a739f95cf86d7663',1,'colorutils.h']]],
-  ['tprogmemrgbpalette32_9',['TProgmemRGBPalette32',['../colorutils_8h.html#a0402dc727d6a118cf426da017ff42152',1,'colorutils.h']]]
+  ['led_5fstrip_5fhandle_5ft_0',['led_strip_handle_t',['../d4/d88/led__strip__types_8h.html#ad657ffc84034956011592dd970d5a9eb',1,'led_strip_types.h']]],
+  ['led_5fstrip_5ft_1',['led_strip_t',['../d9/dcc/led__strip__interface_8h.html#adac1bcaf23868941644f8e42a7124a20',1,'led_strip_interface.h']]],
+  ['loadandscale_5fapa102_5fhdfunction_2',['loadAndScale_APA102_HDFunction',['../d8/d6c/pixel__iterator_8h.html#ac83652c79f2a45be8bee53209b1f3247',1,'pixel_iterator.h']]],
+  ['loadandscale_5fws2816_5fhdfunction_3',['loadAndScale_WS2816_HDFunction',['../d8/d6c/pixel__iterator_8h.html#a1852437f3b6630f68e2379fca4aa9375',1,'pixel_iterator.h']]],
+  ['loadandscalergbfunction_4',['loadAndScaleRGBFunction',['../d8/d6c/pixel__iterator_8h.html#a707f323bf759d3953faf6e868b299c9f',1,'pixel_iterator.h']]],
+  ['loadandscalergbwfunction_5',['loadAndScaleRGBWFunction',['../d8/d6c/pixel__iterator_8h.html#a566e16c04bfd8a088ad40bba343d43be',1,'pixel_iterator.h']]],
+  ['lut16_6',['LUT16',['../d4/d36/namespacefl.html#ae87f38b353cf66b4e5393f9b43293b0f',1,'fl']]],
+  ['lutxyfloat_7',['LUTXYFLOAT',['../d4/d36/namespacefl.html#a6e8ea9db183faf4d8dedc209d2ec96b4',1,'fl']]]
 ];

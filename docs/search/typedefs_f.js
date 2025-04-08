@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['saccum114_0',['saccum114',['../db/d58/group___fractional_types.html#ga95e7a40d98aa0371e9adce9220d3a67c',1,'types.h']]],
+  ['saccum1516_1',['saccum1516',['../db/d58/group___fractional_types.html#gad2dad84f67c8a4cc6d4c92e2c7d3e89f',1,'types.h']]],
+  ['saccum78_2',['saccum78',['../db/d58/group___fractional_types.html#ga9585be88f27cab4c367399d8e91c8467',1,'types.h']]],
+  ['settings_3',['Settings',['../df/d6a/class_midi_interface.html#a6a396ee4a55c0ed1ebeba2e5e1ed1c07',1,'MidiInterface::Settings'],['../de/d62/class_serial_m_i_d_i.html#a4a30d19601845c2edafd9232a39fa10b',1,'SerialMIDI::Settings']]],
+  ['sfract15_4',['sfract15',['../db/d58/group___fractional_types.html#ga00cb5dc9e5b477a58669a3e40bc473c2',1,'types.h']]],
+  ['sfract31_5',['sfract31',['../db/d58/group___fractional_types.html#gaacc97cd43c4cc598be826de6d4663ec2',1,'types.h']]],
+  ['sfract7_6',['sfract7',['../db/d58/group___fractional_types.html#ga7d6219a7247ab1923ed623e7ae0f34ae',1,'types.h']]],
+  ['simplepatternlist_7',['SimplePatternList',['../d5/d25/_demo_reel100_8ino.html#a9285b5c2872f60da1a8323d4e1d74085',1,'DemoReel100.ino']]],
+  ['sizefunction_8',['sizeFunction',['../d8/d6c/pixel__iterator_8h.html#a921cb5ab3b5af4e2a4432608312698a4',1,'pixel_iterator.h']]],
+  ['songpositioncallback_9',['SongPositionCallback',['../d8/dd0/midi___defs_8h.html#ae8b48ec835f93747386352193f9fc589',1,'midi_Defs.h']]],
+  ['songselectcallback_10',['SongSelectCallback',['../d8/dd0/midi___defs_8h.html#ac248a512f262e8a46a7cfba4ba81a541',1,'midi_Defs.h']]],
+  ['spi_11',['SPI',['../df/d0d/group___clocked_chipsets.html#a4f93f719fedbc98edc3d5f4efa87080c',1,'LPD8806Controller::SPI'],['../df/d0d/group___clocked_chipsets.html#af469296d1e1deda760cf21c01cc6664b',1,'WS2801Controller::SPI'],['../df/d0d/group___clocked_chipsets.html#ab7ba57e942270a5b4f953f5bb9ee94ae',1,'LPD6803Controller::SPI'],['../df/d0d/group___clocked_chipsets.html#a96f1b2379257b85eb7d038785bdcbe47',1,'APA102Controller::SPI'],['../df/d0d/group___clocked_chipsets.html#ad62550d394bbb9f8b808fc7721510652',1,'P9813Controller::SPI'],['../df/d0d/group___clocked_chipsets.html#ae40eb9f75b27855d060a82fc4d8d9cc1',1,'SM16716Controller::SPI']]],
+  ['startcallback_12',['StartCallback',['../d8/dd0/midi___defs_8h.html#ac1c3abb2f577b66315bfd4a80ad1bae3',1,'midi_Defs.h']]],
+  ['statusbyte_13',['StatusByte',['../d8/dd0/midi___defs_8h.html#a11ff4f08b08691aaf2d8b42b8330b87f',1,'midi_Defs.h']]],
+  ['stepditheringfunction_14',['stepDitheringFunction',['../d8/d6c/pixel__iterator_8h.html#a6a9c7f0f0b88f258a570b4a9c08d2d61',1,'pixel_iterator.h']]],
+  ['stopcallback_15',['StopCallback',['../d8/dd0/midi___defs_8h.html#a3d976f6f198f49417d156d8742777a8f',1,'midi_Defs.h']]],
+  ['systemexclusivecallback_16',['SystemExclusiveCallback',['../d8/dd0/midi___defs_8h.html#a72b4a10462bbd3b664c3720185c8e9cb',1,'midi_Defs.h']]],
+  ['systemresetcallback_17',['SystemResetCallback',['../d8/dd0/midi___defs_8h.html#aa6e986278cb047802e60d256445808f0',1,'midi_Defs.h']]]
+];

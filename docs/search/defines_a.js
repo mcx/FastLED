@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['rand16_5fseed_0',['RAND16_SEED',['../lib8tion_8cpp.html#a2184511e26c0caf04d34adab1c73eef8',1,'lib8tion.cpp']]],
-  ['recommended_5fvirtual_5fbits_1',['RECOMMENDED_VIRTUAL_BITS',['../pixel__controller_8h.html#a0d71bfb7ef663994e4121f7b42aa8183',1,'pixel_controller.h']]],
-  ['rgb_5fbyte_2',['RGB_BYTE',['../pixel__controller_8h.html#a29cf1a59cdb0fc81a54ba6ae0c865bc8',1,'pixel_controller.h']]],
-  ['rgb_5fbyte0_3',['RGB_BYTE0',['../pixel__controller_8h.html#a91cc38f145b4669c7285771d61babcc4',1,'pixel_controller.h']]],
-  ['rgb_5fbyte1_4',['RGB_BYTE1',['../pixel__controller_8h.html#a755c0684c69efc85971a1b23b13f0c15',1,'pixel_controller.h']]],
-  ['rgb_5fbyte2_5',['RGB_BYTE2',['../pixel__controller_8h.html#a3a773b9f4d127513db107060da8481f8',1,'pixel_controller.h']]],
-  ['ro_6',['RO',['../pixel__controller_8h.html#afef3a6dc05d96466ceb8bd8a89d7b6bd',1,'pixel_controller.h']]]
+  ['kmatrixheight_0',['kMatrixHeight',['../da/db6/_smart_matrix_8ino.html#a7488623a35a4d489e1a549dfa72f9ccd',1,'SmartMatrix.ino']]],
+  ['kmatrixserpentinelayout_1',['kMatrixSerpentineLayout',['../d7/ddc/_noise_playground_8ino.html#a268a33d1b2b5558e10b1ffed3959808d',1,'NoisePlayground.ino']]],
+  ['kmatrixwidth_2',['kMatrixWidth',['../da/db6/_smart_matrix_8ino.html#ae60a9f648123bf540d8898a231f64aa3',1,'SmartMatrix.ino']]]
 ];

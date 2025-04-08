@@ -1,0 +1,19 @@
+digraph "LPD6803Controller::init"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="LPD6803Controller::init",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize the LED controller."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="AVRSoftwareSPIOutput\l::init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#ae321dbae3fceaa2d73a98f6aa08ea3c5",tooltip="Set the clock/data pins to output and make sure the chip select is released."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="AVRSoftwareSPIOutput\l::release",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2",tooltip="Release the SPI chip select line."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Selectable::release",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47",tooltip="Release this object."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FastPin::setOutput",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d3b/class_fast_pin.html#ab4b349c1763a7565c3ee7b2de52a50c8",tooltip="Set the pin mode as OUTPUT"];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FastPin::_init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d3b/class_fast_pin.html#a60c6fb75993ac57d29b097bf8df013c2",tooltip=" "];
+}

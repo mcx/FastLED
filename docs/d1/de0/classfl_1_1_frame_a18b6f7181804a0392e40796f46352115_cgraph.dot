@@ -1,0 +1,25 @@
+digraph "fl::Frame::interpolate"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="fl::Frame::interpolate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CRGB::blend",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d87/group___pixel_types.html#a6348cb098a0b27f443bd1af290dafa94",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CRGB::CRGB",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d87/group___pixel_types.html#a08d8e05a3fcdb88dedb886cad9cbd3fa",tooltip="Default constructor."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="blend8",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377",tooltip="Blend a variable proportion (0-255) of one byte to another."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="cleanup_R1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79",tooltip="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="scale8_LEAVING_R1_DIRTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d",tooltip="This version of scale8() does not clean up the R1 register on AVR."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fl::Frame::rgb",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/de0/classfl_1_1_frame.html#af87085697e2f19076fa6cd89d995501b",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="fl::scoped_array::get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d92/classfl_1_1scoped__array.html#ac726846a84175cb31ff545082729900c",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="fl::Frame::size",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/de0/classfl_1_1_frame.html#a33cf60e696151e0d5777d89ed299c2f2",tooltip=" "];
+}

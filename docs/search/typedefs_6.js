@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['q124_0',['q124',['../group___fractional_types.html#ga94a3f0a96ceb1f254e6494e403427e0a',1,'qfx.h']]],
-  ['q44_1',['q44',['../group___fractional_types.html#ga0633f7b895315d42362360319177fb52',1,'qfx.h']]],
-  ['q62_2',['q62',['../group___fractional_types.html#ga5fb2a49f2ff13a8ebcd801e8f7ef8517',1,'qfx.h']]],
-  ['q88_3',['q88',['../group___fractional_types.html#gab0dd52829a2880f9d94a370216f17f90',1,'qfx.h']]]
+  ['gethdscalefunction_0',['getHdScaleFunction',['../d8/d6c/pixel__iterator_8h.html#ab460521c6b295c7313a3c92483dc6690',1,'pixel_iterator.h']]],
+  ['globalbrightness_1',['globalBrightness',['../d8/d6c/pixel__iterator_8h.html#a75784fbd5e2bc48ac0be2e33b98231c8',1,'pixel_iterator.h']]]
 ];

@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['port_5fptr_5ft_0',['port_ptr_t',['../class_pin.html#a8f8b180aa16d5a9e9af48a38dc1dca03',1,'Pin::port_ptr_t'],['../class_fast_pin.html#a9f23acc7c8c6ce0c760745d32d14932f',1,'FastPin::port_ptr_t']]],
-  ['port_5ft_1',['port_t',['../class_pin.html#aa0565bfc99cf3df826420f89304a7937',1,'Pin::port_t'],['../class_fast_pin.html#a23ad28734f9597c28afbba8b4bfcda09',1,'FastPin::port_t']]],
-  ['power_5ffunc_2',['power_func',['../_fast_l_e_d_8h.html#aa8a26176bfad65ad4447edd2ca99145e',1,'FastLED.h']]],
-  ['ptr_5freg32_5ft_3',['ptr_reg32_t',['../fastpin_8h.html#a3459200771dcb25906c9fe4857e76af7',1,'fastpin.h']]]
+  ['filtermode_0',['FilterMode',['../d8/dd0/midi___defs_8h.html#a6f8b374e6eb3328986bff00ee778f42b',1,'midi_Defs.h']]],
+  ['fract16_1',['fract16',['../db/d58/group___fractional_types.html#gaaf46b9f719ef3bdb574f8e967af6dbb5',1,'types.h']]],
+  ['fract32_2',['fract32',['../db/d58/group___fractional_types.html#gafa7b14c3e6a0991538326c3183933205',1,'types.h']]],
+  ['fract8_3',['fract8',['../db/d58/group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644',1,'types.h']]],
+  ['framebuffer_4',['FrameBuffer',['../d8/d94/classfl_1_1_frame_interpolator.html#afb9df1f570f7f71e7b30e26eef95ac4d',1,'fl::FrameInterpolator']]]
 ];

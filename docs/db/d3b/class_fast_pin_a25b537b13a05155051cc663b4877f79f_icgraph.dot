@@ -1,0 +1,56 @@
+digraph "FastPin::toggle"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FastPin::toggle",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Toggle the pin."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FastPin::strobe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d3b/class_fast_pin.html#aca5c32c1304354c79bb502714c72bf3d",tooltip="Toggle the pin twice to create a short pulse."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="AVRSoftwareSPIOutput\l::writeBit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497",tooltip="Write the BIT'th bit out via SPI, setting the data pin then strobing the clock."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="AVRSoftwareSPIOutput\l::writeBit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a4c5578242dfaf8d6713ec432d6985187",tooltip="The version of writeBit() to use when clock and data are on the same port with precomputed values for..."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="AVRSoftwareSPIOutput\l::writeByte",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a58393081ec8c54bd6968642b89e8bd43",tooltip="Write a single byte over SPI."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="APA102Controller::endBoundary",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$df/d0d/group___clocked_chipsets.html#ac9676b78658ebcab74033429c5c046f8",tooltip=" "];
+  Node5 -> Node10 [id="edge6_Node000005_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="LPD6803Controller::\lendBoundary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0d/group___clocked_chipsets.html#ab927434d5ab7d27132e4b6832a50a29e",tooltip=" "];
+  Node10 -> Node11 [id="edge7_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="LPD6803Controller::\lshowPixels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0d/group___clocked_chipsets.html#a35f42384ada050146e6813f0fc766356",tooltip="Send the LED data to the strip."];
+  Node5 -> Node11 [id="edge8_Node000005_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node12 [id="edge9_Node000005_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="LPD6803Controller::\lstartBoundary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0d/group___clocked_chipsets.html#a60fc5e3173df1c494951fbdd852969aa",tooltip=" "];
+  Node12 -> Node11 [id="edge10_Node000012_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node13 [id="edge11_Node000005_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="APA102Controller::write2\lBytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0d/group___clocked_chipsets.html#a2516bc6ae0059f28287e7fc6b8fd266f",tooltip=" "];
+  Node5 -> Node14 [id="edge12_Node000005_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="AVRSoftwareSPIOutput\l::writeByteNoWait",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad5f106b07a655da37d889037f524617d",tooltip="Write a single byte over SPI without waiting."];
+  Node5 -> Node15 [id="edge13_Node000005_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="AVRSoftwareSPIOutput\l::writeBytePostWait",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a80903ee9d3226ced43e8f614a9e486b1",tooltip="Write a single byte over SPI and wait afterwards."];
+  Node5 -> Node16 [id="edge14_Node000005_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="AVRSoftwareSPIOutput\l::writeBytes",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#af543930d08c9ce5c8229e45be97980e9",tooltip="Write an array of data to the SPI interface."];
+  Node5 -> Node18 [id="edge15_Node000005_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="AVRSoftwareSPIOutput\l::writeBytesValueRaw",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#abada62794ed922c2798bf462a98b57f0",tooltip="Write multiple bytes of the given value over SPI, without selecting the interface."];
+  Node5 -> Node21 [id="edge16_Node000005_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="SM16716Controller::\lwriteHeader",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$df/d0d/group___clocked_chipsets.html#a3e9e62e92d3f9e175b43e28dbb2254e9",tooltip=" "];
+  Node5 -> Node23 [id="edge17_Node000005_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="APA102Controller::writeLed",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$df/d0d/group___clocked_chipsets.html#a3e85825537bbd044569052476051a970",tooltip=" "];
+  Node5 -> Node24 [id="edge18_Node000005_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="P9813Controller::writeLed",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$df/d0d/group___clocked_chipsets.html#a153192c5ed8e28168bcb4179ed80598c",tooltip=" "];
+  Node5 -> Node26 [id="edge19_Node000005_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="AVRSoftwareSPIOutput\l::writePixels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a20772a8fdfa75015731375c36ccb3515",tooltip="Write LED pixel data to the SPI interface."];
+  Node5 -> Node27 [id="edge20_Node000005_Node000027",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="AVRSoftwareSPIOutput\l::writeWord",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a34421832d232a692d08d39d87733acd8",tooltip="Write a word (two bytes) over SPI."];
+  Node27 -> Node13 [id="edge21_Node000027_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 -> Node23 [id="edge22_Node000027_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node30 [id="edge23_Node000003_Node000030",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node30 [id="Node000030",label="AVRSoftwareSPIOutput\l::writeByte",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a0c8dbe47347851f226a525db7262c786",tooltip="writeByte() implementation with data/clock registers passed in."];
+  Node3 -> Node31 [id="edge24_Node000003_Node000031",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node31 [id="Node000031",label="AVRSoftwareSPIOutput\l::writeByte",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#aa0d0d1b56c6a174ff85e36c9ec06c7bf",tooltip="writeByte() implementation with not just registers passed in, but pre-baked values for said registers..."];
+  Node3 -> Node32 [id="edge25_Node000003_Node000032",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node32 [id="Node000032",label="AVRSoftwareSPIOutput\l::writeByte",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d57/class_a_v_r_software_s_p_i_output.html#a4bf20050509ed87b15c4df4070d000b6",tooltip="writeByte() implementation with the data register passed in and prebaked values for data hi w/clock h..."];
+  Node3 -> Node26 [id="edge26_Node000003_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

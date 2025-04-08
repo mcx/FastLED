@@ -1,0 +1,41 @@
+digraph "CLEDController::getEnabled"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="CLEDController::getEnabled",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CFastLED::show",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbb/class_c_fast_l_e_d.html#a83afdd1e2a21f33ac4f8d2610d6e331b",tooltip="Update all our controllers with the current led colors, using the passed in brightness."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="blink",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d4d/_blink_parallel_8ino.html#a29584c4a240c144644e81dfab0090635",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d4d/_blink_parallel_8ino.html#afe461d27b9c48d5921c00d521181f12f",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="colorWipe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db2/_octo_w_s2811_8ino.html#a87dad6cde22368918813bc56504b0dee",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db2/_octo_w_s2811_8ino.html#afe461d27b9c48d5921c00d521181f12f",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fillAndShow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3a/_r_g_b_w_emulated_8ino.html#a7786953e7de2513a3589a490e1e3355a",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3a/_r_g_b_w_emulated_8ino.html#afe461d27b9c48d5921c00d521181f12f",tooltip=" "];
+  Node2 -> Node9 [id="edge8_Node000002_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d0f/_apa102_8ino.html#afe461d27b9c48d5921c00d521181f12f",tooltip=" "];
+  Node2 -> Node10 [id="edge9_Node000002_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="LedRopeTCL::RawCommitDraw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/df6/class_led_rope_t_c_l.html#a2c5c772faf24596d5be70d96581e7454",tooltip=" "];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="LedRopeTCL::Draw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/df6/class_led_rope_t_c_l.html#a842cac2350fad4c68d21d232f6a8a4c0",tooltip=" "];
+  Node10 -> Node12 [id="edge11_Node000010_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="LedRopeTCL::DrawRepeat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/df6/class_led_rope_t_c_l.html#af19abbbe43110da5fd09c169d9ab9307",tooltip=" "];
+  Node10 -> Node13 [id="edge12_Node000010_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="LedRopeTCL::DrawSequential\lRepeat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/df6/class_led_rope_t_c_l.html#a90f6e3d74b585d37be799107d77421c8",tooltip=" "];
+  Node2 -> Node14 [id="edge13_Node000002_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/ddb/_chromancer_8ino.html#a4fc01d736fe50cf5b977f755b675f11d",tooltip=" "];
+  Node2 -> Node15 [id="edge14_Node000002_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="show_at_max_brightness\l_for_power",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d1d/group___power.html#ga510b6ca1ea6da7f0f89dcf353f19ffde",tooltip="Similar to CFastLED::show(), but pre-adjusts brightness to keep below the power threshold."];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="CFastLED::showColor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbb/class_c_fast_l_e_d.html#a7315b060d295bad5fbd32e50eaaf02b0",tooltip="Set all leds on all controllers to the given color/scale."];
+  Node16 -> Node17 [id="edge16_Node000016_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="CFastLED::clear",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbb/class_c_fast_l_e_d.html#aeb7bd3e8f2dbced6284a2182191d5fcb",tooltip="Clear the leds, wiping the local array of data."];
+}
