@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="CRGB.__unnamed15__.\l__unnamed19__.__unnamed21__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d87/group___pixel_types.html#df/dba/union_c_r_g_b_8____unnamed15_____8____unnamed19_____8____unnamed21____",tooltip=" "];
+  Node0 [id="Node000000",label="CRGB.__unnamed17__.\l__unnamed19__.__unnamed21__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d87/group___pixel_types.html#de/de4/union_c_r_g_b_8____unnamed17_____8____unnamed19_____8____unnamed21____",tooltip=" "];
 }

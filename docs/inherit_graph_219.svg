@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="d6/d39/group___palette_classes.html#d9/d76/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed17____" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="d6/d39/group___palette_classes.html#d0/d76/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed15____" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="144.25,-33.5 0,-33.5 0,0 144.25,0 144.25,-33.5"/>
 <text text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">TRGBGradientPaletteEntry</text>
-<text text-anchor="middle" x="72.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">Union.__unnamed17__</text>
+<text text-anchor="middle" x="72.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">Union.__unnamed15__</text>
 </a>
 </g>
 </g>

@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="db/d87/group___pixel_types.html#df/dba/union_c_r_g_b_8____unnamed15_____8____unnamed19_____8____unnamed21____" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="db/d87/group___pixel_types.html#de/de4/union_c_r_g_b_8____unnamed17_____8____unnamed19_____8____unnamed21____" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="176.5,-33.5 0,-33.5 0,0 176.5,0 176.5,-33.5"/>
-<text text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">CRGB.__unnamed15__.</text>
+<text text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">CRGB.__unnamed17__.</text>
 <text text-anchor="middle" x="88.25" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">__unnamed19__.__unnamed21__</text>
 </a>
 </g>

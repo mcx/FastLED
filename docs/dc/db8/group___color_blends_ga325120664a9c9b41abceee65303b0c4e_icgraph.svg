@@ -74,7 +74,7 @@
 <!-- Node64 -->
 <g id="Node000064" class="node">
 <title>Node64</title>
-<g id="a_Node000064"><a xlink:href="../../dc/db8/group___color_blends.html#ga2885fdebac696423812b10db0f45cb70" target="_top" xlink:title="Destructively blends a given fraction of a color array into an existing color array.">
+<g id="a_Node000064"><a xlink:href="../../dc/db8/group___color_blends.html#ga6d07fb779bbeddd59a9025cdc64594d6" target="_top" xlink:title="Destructively blends a given fraction of a color array into an existing color array.">
 <polygon fill="white" stroke="#666666" points="674.12,-343.75 625.12,-343.75 625.12,-323 674.12,-323 674.12,-343.75"/>
 <text text-anchor="middle" x="649.62" y="-330.25" font-family="Helvetica,sans-Serif" font-size="10.00">nblend</text>
 </a>
@@ -92,7 +92,7 @@
 <!-- Node65 -->
 <g id="Node000065" class="node">
 <title>Node65</title>
-<g id="a_Node000065"><a xlink:href="../../dc/db8/group___color_blends.html#ga930e843c33436435516637e3fc701a28" target="_top" xlink:title="Destructively blends a given fraction of a color array into an existing color array.">
+<g id="a_Node000065"><a xlink:href="../../dc/db8/group___color_blends.html#ga63e89e8505c65e973218d1638dda3b04" target="_top" xlink:title="Destructively blends a given fraction of a color array into an existing color array.">
 <polygon fill="white" stroke="#666666" points="674.12,-304.75 625.12,-304.75 625.12,-284 674.12,-284 674.12,-304.75"/>
 <text text-anchor="middle" x="649.62" y="-291.25" font-family="Helvetica,sans-Serif" font-size="10.00">nblend</text>
 </a>

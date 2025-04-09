@@ -5,7 +5,7 @@ var group___color_blends =
     [ "blend", "dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c", null ],
     [ "blend", "dc/db8/group___color_blends.html#ga2d29cff459b964cc51fbfe94db78f931", null ],
     [ "nblend", "dc/db8/group___color_blends.html#gab18a835a14780faf17c53c64f4ba0ae6", null ],
-    [ "nblend", "dc/db8/group___color_blends.html#ga2885fdebac696423812b10db0f45cb70", null ],
+    [ "nblend", "dc/db8/group___color_blends.html#ga6d07fb779bbeddd59a9025cdc64594d6", null ],
     [ "nblend", "dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e", null ],
-    [ "nblend", "dc/db8/group___color_blends.html#ga930e843c33436435516637e3fc701a28", null ]
+    [ "nblend", "dc/db8/group___color_blends.html#ga63e89e8505c65e973218d1638dda3b04", null ]
 ];

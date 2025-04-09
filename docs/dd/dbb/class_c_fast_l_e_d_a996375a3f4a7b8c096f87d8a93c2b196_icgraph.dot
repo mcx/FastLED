@@ -9,5 +9,5 @@ digraph "CFastLED::setMaxPowerInVoltsAndMilliamps"
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="set_max_power_in_volts\l_and_milliamps",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d1d/group___power.html#ga8db01f418cbff03a8d51caa528e44e0d",tooltip="Set the maximum power used in milliamps for a given voltage."];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/ded/_fx_pacifica_8ino.html#a4fc01d736fe50cf5b977f755b675f11d",tooltip=" "];
+  Node3 [id="Node000003",label="setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/_fx_twinkle_fox_8ino.html#a4fc01d736fe50cf5b977f755b675f11d",tooltip=" "];
 }

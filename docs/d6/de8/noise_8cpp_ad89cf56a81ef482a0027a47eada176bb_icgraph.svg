@@ -164,8 +164,8 @@
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_Node000016"><a xlink:href="../../d6/d9d/_noise_8ino.html#a695b396822bbfb2d9b29c121cf13e8f3" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="100,-59.75 39.75,-59.75 39.75,-39 100,-39 100,-59.75"/>
+<g id="a_Node000016"><a xlink:href="../../da/dda/_noise_plus_palette_8ino.html#a695b396822bbfb2d9b29c121cf13e8f3" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="100,-59.75 39.75,-59.75 39.75,-39 100,-39 100,-59.75"/>
 <text text-anchor="middle" x="69.88" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">fillnoise8</text>
 </a>
 </g>
@@ -179,19 +179,19 @@
 </a>
 </g>
 </g>
-<!-- Node18 -->
-<g id="Node000018" class="node">
-<title>Node18</title>
-<g id="a_Node000018"><a xlink:href="../../d9/d41/classfl_1_1_noise_palette.html#a22d1820b5a78e9ccfb4123ef9161f738" target="_top" xlink:title=" ">
+<!-- Node17 -->
+<g id="Node000017" class="node">
+<title>Node17</title>
+<g id="a_Node000017"><a xlink:href="../../d9/d41/classfl_1_1_noise_palette.html#a22d1820b5a78e9ccfb4123ef9161f738" target="_top" xlink:title=" ">
 <polygon fill="#fff0f0" stroke="red" points="139.75,-20.75 0,-20.75 0,0 139.75,0 139.75,-20.75"/>
 <text text-anchor="middle" x="69.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">fl::NoisePalette::fillnoise8</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node18 -->
-<g id="edge11_Node000007_Node000018" class="edge">
-<title>Node7&#45;&gt;Node18</title>
-<g id="a_edge11_Node000007_Node000018"><a xlink:title=" ">
+<!-- Node7&#45;&gt;Node17 -->
+<g id="edge11_Node000007_Node000017" class="edge">
+<title>Node7&#45;&gt;Node17</title>
+<g id="a_edge11_Node000007_Node000017"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M176.84,-51.48C165.95,-44.24 152.6,-36.13 139.75,-30.38 131.91,-26.86 123.29,-23.79 114.89,-21.18"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="174.59,-54.19 184.82,-56.95 178.55,-48.41 174.59,-54.19"/>
 </a>
