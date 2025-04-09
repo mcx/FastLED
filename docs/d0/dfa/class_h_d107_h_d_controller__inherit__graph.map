@@ -1,0 +1,17 @@
+<map id="HD107HDController&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" name="HD107HDController&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;">
+<area shape="rect" id="Node000001" title="HD107HD is just the APA102HD with a default 40Mhz clock rate." alt="" coords="1610,95,1809,156"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1347,95,1561,156"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1577,123,1610,123,1610,128,1577,128"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="568,35,858,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="873,84,1087,92,1323,107,1347,109,1346,114,1322,112,1087,97,873,89"/>
+<area shape="rect" id="Node000004" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="" coords="56,5,228,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,27,386,24,466,27,544,35,568,39,567,44,543,40,465,33,386,30,244,32"/>
+<area shape="rect" id="Node000010" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="598,154,828,267"/>
+<area shape="poly" id="edge7_Node000010_Node000004" title=" " alt="" coords="244,37,427,47,503,56,530,62,545,69,558,86,560,105,561,123,570,141,599,166,596,170,566,144,556,125,555,105,553,88,542,73,528,67,502,61,426,52,244,42"/>
+<area shape="rect" id="Node000006" href="$df/d0d/group___clocked_chipsets.html#d4/d96/class_a_p_a102_controller" title="APA102 controller class." alt="" coords="5,176,279,254"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="293,181,543,125,567,119,568,125,544,130,294,187"/>
+<area shape="poly" id="edge8_Node000010_Node000006" title=" " alt="" coords="253,257,303,269,370,280,423,283,476,280,543,269,597,256,599,261,544,274,477,285,423,288,370,285,302,274,252,262"/>
+<area shape="rect" id="Node000009" href="$df/d0d/group___clocked_chipsets.html#d6/dc7/class_a_p_a102_controller_h_d" title="APA102 high definition controller class." alt="" coords="907,136,1106,198"/>
+<area shape="poly" id="edge5_Node000002_Node000009" title=" " alt="" coords="1121,158,1322,141,1346,138,1347,143,1323,146,1122,163"/>
+<area shape="poly" id="edge6_Node000009_Node000010" title=" " alt="" coords="842,189,907,179,907,184,843,194"/>
+</map>

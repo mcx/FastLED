@@ -1,0 +1,5 @@
+<map id="PixelController::scale" name="PixelController::scale">
+<area shape="rect" id="Node000001" title="Scale a value." alt="" coords="5,5,164,33"/>
+<area shape="rect" id="Node000002" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="212,5,275,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,16,196,16,196,22,164,22"/>
+</map>

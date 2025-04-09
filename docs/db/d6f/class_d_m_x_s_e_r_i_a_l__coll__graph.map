@@ -1,0 +1,15 @@
+<map id="DMXSERIAL&lt; RGB_ORDER &gt;" name="DMXSERIAL&lt; RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="DMX512 based LED controller class, using the DMXSerial library." alt="" coords="7,464,216,491"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="35,370,188,414"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,430,114,463,109,463,109,430"/>
+<area shape="rect" id="Node000003" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="" coords="5,174,178,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,251,112,369,107,370,94,252"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html" title="Base definition for an LED controller." alt="" coords="48,17,167,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="108,60,97,174,92,174,102,60"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="184,22,194,31,186,39,168,43,167,37,183,35,189,31,181,26"/>
+<area shape="rect" id="Node000008" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="128,106,279,150"/>
+<area shape="poly" id="edge7_Node000008_Node000004" title=" " alt="" coords="133,54,184,103,180,107,130,58"/>
+<area shape="rect" id="Node000007" href="$d7/d6f/group___clockless_chipsets.html#d9/d0f/class_d_m_x_serial_controller" title="DMX512 based LED controller class, using the DMXSerial library." alt="" coords="128,260,282,305"/>
+<area shape="poly" id="edge5_Node000002_Node000007" title=" " alt="" coords="178,318,132,371,128,367,174,315"/>
+<area shape="poly" id="edge6_Node000007_Node000008" title=" " alt="" coords="206,165,207,260,202,260,201,165"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="CFastLED::addLeds" name="CFastLED::addLeds">
+<area shape="rect" id="Node000001" title="Add a CLEDController instance to the world." alt="" coords="535,88,678,116"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#a6c5edd63655c225b62ae35897c6e6602" title="Add an SPI based CLEDController instance to the world." alt="" coords="304,9,448,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="562,84,486,52,444,40,445,35,488,47,564,79"/>
+<area shape="rect" id="Node000003" href="$d4/df6/class_led_rope_t_c_l.html#a2c5c772faf24596d5be70d96581e7454" title=" " alt="" coords="265,61,487,89"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="519,94,487,91,488,85,520,89"/>
+<area shape="rect" id="Node000007" href="$dd/d0f/_apa102_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="347,113,404,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="520,114,405,127,405,121,519,109"/>
+<area shape="rect" id="Node000008" href="$db/de9/_esp32_s3_i2_s_demo_8ino.html#aac2669026fdd52035013cac9b23d95ba" title=" " alt="" coords="274,169,478,197"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="562,125,488,155,435,171,434,166,486,150,560,120"/>
+<area shape="rect" id="Node000004" href="$d4/df6/class_led_rope_t_c_l.html#a842cac2350fad4c68d21d232f6a8a4c0" title=" " alt="" coords="40,5,182,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="292,60,179,36,180,31,293,55"/>
+<area shape="rect" id="Node000005" href="$d4/df6/class_led_rope_t_c_l.html#af19abbbe43110da5fd09c169d9ab9307" title=" " alt="" coords="17,57,205,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="249,76,206,75,206,70,249,71"/>
+<area shape="rect" id="Node000006" href="$d4/df6/class_led_rope_t_c_l.html#a90f6e3d74b585d37be799107d77421c8" title=" " alt="" coords="5,109,217,154"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="292,95,218,111,216,106,291,90"/>
+<area shape="rect" id="Node000009" href="$db/de9/_esp32_s3_i2_s_demo_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="82,177,140,205"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="258,189,140,193,140,188,258,184"/>
+</map>

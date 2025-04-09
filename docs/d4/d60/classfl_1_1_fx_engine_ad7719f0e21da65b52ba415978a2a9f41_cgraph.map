@@ -1,0 +1,18 @@
+<map id="fl::FxEngine::getFx" name="fl::FxEngine::getFx">
+<area shape="rect" id="Node000001" title="Retrieves an effect from the engine without removing it." alt="" coords="5,33,148,61"/>
+<area shape="rect" id="Node000002" href="$d2/df3/classfl_1_1_fixed_map.html#ac2c703c3d250cdb2c30101766c1810d6" title=" " alt="" coords="197,7,325,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,34,181,29,182,35,148,39"/>
+<area shape="rect" id="Node000008" href="$d2/df3/classfl_1_1_fixed_map.html#a460e3d43563610531faa13038b8f3682" title=" " alt="" coords="196,59,326,86"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="148,54,181,59,180,64,148,60"/>
+<area shape="rect" id="Node000003" href="$d2/df3/classfl_1_1_fixed_map.html#a25851b559aa5ae81d52c0c5792d10bf5" title=" " alt="" coords="559,57,691,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,10,412,7,459,10,506,18,531,29,555,42,570,49,568,54,552,47,529,33,505,23,459,15,412,12,326,15"/>
+<area shape="rect" id="Node000005" href="$d2/df3/classfl_1_1_fixed_map.html#a85134d13ee9474e0ac60284e965ccbb3" title=" " alt="" coords="374,32,505,60"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="326,27,359,32,358,37,325,32"/>
+<area shape="rect" id="Node000004" href="$d3/d73/classfl_1_1_fixed_vector.html#af8f3eb485dff77110efec26993f206c4" title=" " alt="" coords="745,57,889,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="691,68,729,68,729,74,691,74"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="506,52,545,57,544,63,506,57"/>
+<area shape="rect" id="Node000006" href="$d2/df3/classfl_1_1_fixed_map.html#a5bcfb52c7949403994eed767316e237b" title=" " alt="" coords="553,5,697,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="506,34,537,29,538,34,506,39"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="326,70,544,69,544,74,326,75"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="326,60,358,55,359,61,327,65"/>
+</map>

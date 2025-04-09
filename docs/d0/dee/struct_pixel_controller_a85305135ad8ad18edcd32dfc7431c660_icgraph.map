@@ -1,0 +1,16 @@
+<map id="PixelController::size" name="PixelController::size">
+<area shape="rect" id="Node000001" title="Get the length of the LED strip." alt="" coords="534,143,684,171"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html#a35f42384ada050146e6813f0fc766356" title="Send the LED data to the strip." alt="" coords="302,5,452,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="580,134,537,99,485,65,452,50,454,45,487,60,540,94,584,130"/>
+<area shape="rect" id="Node000003" href="$d4/d28/group___chipsets.html#aba9a2f023f2950dbcdf3c2482f765350" title="Send the LED data to the strip." alt="" coords="283,75,471,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="538,141,465,123,467,117,539,136"/>
+<area shape="rect" id="Node000004" href="$d4/d28/group___chipsets.html#a7d9891631bb3b4e35dcbb93180ac8a55" title="Send the LED data to the strip." alt="" coords="268,143,486,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,160,487,160,487,154,519,154"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html#a632117bec47c6b4ba7e3ed1703478a42" title=" " alt="" coords="270,195,484,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="539,178,467,197,465,191,538,173"/>
+<area shape="rect" id="Node000007" href="$df/d0d/group___clocked_chipsets.html#a040f761b3d3bb30a9275f96548ec5ef7" title=" " alt="" coords="270,264,484,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="584,184,540,220,487,254,461,266,459,261,485,249,537,215,580,180"/>
+<area shape="rect" id="Node000006" href="$df/d0d/group___clocked_chipsets.html#a523f76b88c07e29cba6c40bd0cefe4b3" title="Send the LED data to the strip." alt="" coords="5,238,220,266"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="255,236,221,240,220,235,254,230"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="254,273,220,268,221,263,255,268"/>
+</map>

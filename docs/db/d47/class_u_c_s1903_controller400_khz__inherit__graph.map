@@ -1,0 +1,7 @@
+<map id="UCS1903Controller400Khz&lt; DATA_PIN, RGB_ORDER &gt;" name="UCS1903Controller400Khz&lt; DATA_PIN, RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="UCS1903 controller class @ 400 KHz." alt="" coords="6,116,209,161"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="225,133,236,139,210,145,209,140,231,138,224,138"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="224,128,355,128,402,131,422,139,400,146,349,149,210,149,210,144,349,144,399,141,417,139,401,137,355,134,224,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,210,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,83,110,116,105,116,105,83"/>
+</map>

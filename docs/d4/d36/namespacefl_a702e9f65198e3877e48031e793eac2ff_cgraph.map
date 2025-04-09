@@ -1,0 +1,19 @@
+<map id="fl::__builtin_five_bit_hd_gamma_bitshift" name="fl::__builtin_five_bit_hd_gamma_bitshift">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,148,183,192"/>
+<area shape="rect" id="Node000002" href="$d4/d36/namespacefl.html#aae9d44cd34c016ac8522f638f4b2624d" title=" " alt="" coords="245,105,382,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,147,235,134,236,140,183,152"/>
+<area shape="rect" id="Node000006" href="$d0/da8/group___scaling.html#gaa51d5b048c2a4a20a00bddcdc257daaf" title="Scale a 16&#45;bit unsigned value by an 8&#45;bit value, which is treated as the numerator of a fraction whos..." alt="" coords="482,161,577,189"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="183,168,466,172,466,177,183,174"/>
+<area shape="rect" id="Node000007" href="$d4/d36/namespacefl.html#abeb8d8ef178da3a4dbbed27dc6c0c3c7" title=" " alt="" coords="231,208,396,252"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="179,190,216,201,215,206,177,195"/>
+<area shape="rect" id="Node000003" href="$dc/d3e/group___dimming.html#gade4149bdb99e2307d4236e5e90031f94" title=" " alt="" coords="444,5,614,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,102,384,73,443,43,461,36,463,41,445,48,386,78,338,107"/>
+<area shape="rect" id="Node000004" href="$dc/d3e/group___dimming.html#gaacc037b326dc7b77b87708e5bf403c59" title=" " alt="" coords="448,57,610,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="378,102,448,86,449,92,379,107"/>
+<area shape="rect" id="Node000005" href="$d1/d12/group__intmap.html#ga43a52eb77959095c09b86f6d514eee5e" title=" " alt="" coords="478,109,580,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="382,118,463,119,463,125,382,123"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="370,131,467,156,466,162,369,136"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="396,206,466,188,467,193,397,211"/>
+<area shape="rect" id="Node000008" href="$d1/d12/group__intmap.html#gab217a118917847ecb8148cdc41fa6e07" title=" " alt="" coords="478,216,580,244"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="396,227,463,227,463,232,396,232"/>
+</map>

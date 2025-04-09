@@ -1,0 +1,13 @@
+<map id="fl::DemoReel100::rainbowWithGlitter" name="fl::DemoReel100::rainbowWithGlitter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,76,195,120"/>
+<area shape="rect" id="Node000002" href="$d1/d60/classfl_1_1_demo_reel100.html#a6148bf670945f5b58f5dadd3afa124a4" title=" " alt="" coords="243,57,445,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,85,227,81,227,87,196,90"/>
+<area shape="rect" id="Node000005" href="$d5/d25/_demo_reel100_8ino.html#a6784b2bb794bd47a615b7a9be2ebf7db" title=" " alt="" coords="307,109,380,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="196,105,292,115,292,120,195,110"/>
+<area shape="rect" id="Node000003" href="$d2/d0d/group___random.html#ga17034d936ef716efe820e11c1df043b0" title="Generate a 16&#45;bit random number." alt="" coords="498,5,585,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,54,481,32,483,37,400,59"/>
+<area shape="rect" id="Node000004" href="$d2/d0d/group___random.html#ga4e63c74426f6516f28470dc1b814aefe" title="Generate an 8&#45;bit random number." alt="" coords="502,57,581,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="445,68,486,68,486,74,445,74"/>
+<area shape="rect" id="Node000006" href="$da/de3/group___color_fills.html#ga0fef54ded2e4748869f1796603433b6b" title="Fill a range of LEDs with a rainbow of colors." alt="" coords="493,109,589,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="381,120,477,120,477,126,381,126"/>
+</map>

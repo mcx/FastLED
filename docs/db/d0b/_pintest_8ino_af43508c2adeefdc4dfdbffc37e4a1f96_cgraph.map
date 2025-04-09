@@ -1,0 +1,6 @@
+<map id="CheckPin" name="CheckPin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,87,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="24,30,20,20,23,11,32,5,46,3,61,5,69,11,66,16,59,10,46,8,34,10,27,14,26,20,29,28"/>
+<area shape="rect" id="Node000002" href="$db/d0b/_pintest_8ino.html#a93bbe376a29543413d0db81f2b454521" title=" " alt="" coords="135,29,203,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="87,40,119,40,119,46,87,46"/>
+</map>

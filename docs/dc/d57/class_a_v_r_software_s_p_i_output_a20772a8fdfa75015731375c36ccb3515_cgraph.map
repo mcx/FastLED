@@ -1,0 +1,50 @@
+<map id="AVRSoftwareSPIOutput::writePixels" name="AVRSoftwareSPIOutput::writePixels">
+<area shape="rect" id="Node000001" title="Write LED pixel data to the SPI interface." alt="" coords="5,386,174,431"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#ab44f62f166d162bd1e3b095b368feef2" title="Advance the data pointer forward, adjust position counter." alt="" coords="223,5,433,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,386,97,319,117,226,134,177,156,128,184,83,220,44,225,39,229,44,224,48,189,86,161,131,139,179,122,228,102,319,95,386"/>
+<area shape="rect" id="Node000003" href="$d0/dee/struct_pixel_controller.html#ac13f3e00855fcf6125ea27543c2fb48c" title="Do we have n pixels left to process?" alt="" coords="254,57,402,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,385,102,327,124,249,141,207,162,166,188,129,220,96,239,84,241,88,223,100,192,132,167,169,146,209,129,250,107,328,96,386"/>
+<area shape="rect" id="Node000004" href="$db/d3b/class_fast_pin.html#a2270a3882cf8646ce8abcae29cf6923a" title="Gets the state of the port with this pin HIGH" alt="" coords="274,109,382,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="93,385,106,335,131,270,168,203,192,173,220,146,238,135,259,128,260,133,241,140,223,151,196,176,172,206,136,273,112,337,98,386"/>
+<area shape="rect" id="Node000005" href="$d0/dee/struct_pixel_controller.html#a4984f158bbc3b6c79ca16dd847fe67e1" title="non&#45;template alias of loadAndScale&lt;0&gt;()" alt="" coords="239,161,416,206"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="98,384,116,348,143,302,178,256,220,216,227,211,230,216,223,220,182,259,147,305,121,350,103,387"/>
+<area shape="rect" id="Node000010" href="$d0/dee/struct_pixel_controller.html#a11f9b50f738c6d57d08d6776b3d8eb43" title="non&#45;template alias of loadAndScale&lt;1&gt;()" alt="" coords="239,230,416,275"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="108,384,156,334,187,308,220,285,230,279,233,284,223,289,190,312,159,338,112,388"/>
+<area shape="rect" id="Node000011" href="$d0/dee/struct_pixel_controller.html#a33c22b408cbc9eb8b9d98993fe985264" title="non&#45;template alias of loadAndScale&lt;2&gt;()" alt="" coords="239,300,416,344"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="146,383,221,354,240,347,242,352,223,359,148,388"/>
+<area shape="rect" id="Node000012" href="$db/d3b/class_fast_pin.html#a5148b7a0cd5fd551da455c03afc09003" title="Gets the state of the port with this pin LOW" alt="" coords="274,368,382,396"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="174,396,258,387,259,392,174,402"/>
+<area shape="rect" id="Node000013" href="$db/d3b/class_fast_pin.html#a97fd678e7bc05979582254783a1b5e57" title="Get the pin mask." alt="" coords="272,420,384,448"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="174,415,257,424,256,429,174,420"/>
+<area shape="rect" id="Node000014" href="$db/d3b/class_fast_pin.html#ab005abe848eadb60051daccb4eb7dbe8" title="Get the output state of the port." alt="" coords="277,472,378,500"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="147,429,222,457,263,468,261,473,221,462,145,434"/>
+<area shape="rect" id="Node000015" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="244,524,412,568"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="116,429,164,469,223,509,235,515,232,519,220,513,161,474,113,433"/>
+<area shape="rect" id="Node000017" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a15872bb6ae69fd5a5c04b246fe73740e" title="Select the SPI output (chip select)" alt="" coords="244,593,412,638"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="104,430,150,503,184,543,223,578,232,584,229,588,220,583,180,547,146,506,100,432"/>
+<area shape="rect" id="Node000019" href="$d0/dee/struct_pixel_controller.html#ac7cb7840989882cce60218ac43dbe8ef" title="Step the dithering forward." alt="" coords="222,661,434,689"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="99,430,113,477,138,536,175,597,197,624,223,648,229,652,226,656,220,652,193,628,170,600,134,538,108,479,94,432"/>
+<area shape="rect" id="Node000020" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497" title="Write the BIT&#39;th bit out via SPI, setting the data pin then strobing the clock." alt="" coords="486,733,655,778"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="96,431,107,487,130,560,146,599,167,636,193,670,223,698,241,708,265,717,328,731,471,747,471,753,327,736,263,722,239,713,220,703,189,673,163,639,141,601,125,562,102,488,91,432"/>
+<area shape="rect" id="Node000024" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a58393081ec8c54bd6968642b89e8bd43" title="Write a single byte over SPI." alt="" coords="244,764,412,808"/>
+<area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="96,431,107,492,129,575,146,620,167,664,193,706,224,743,236,753,232,757,220,746,188,709,162,667,141,622,124,577,101,493,91,432"/>
+<area shape="rect" id="Node000006" href="$d0/dee/struct_pixel_controller.html#a56fc5e5bf305e1760198c0a69ac85ff9" title="Loads, dithers, and scales a single byte for a given output slot, using class dither and scale values..." alt="" coords="482,230,659,275"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="410,204,476,223,475,228,408,209"/>
+<area shape="rect" id="Node000007" href="$d0/dee/struct_pixel_controller.html#aa2a1b38058a62a4337605425e482202f" title="Calculate a dither value using the per&#45;channel dither data." alt="" coords="717,213,880,241"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="659,240,701,235,702,241,660,245"/>
+<area shape="rect" id="Node000009" href="$d0/dee/struct_pixel_controller.html#a75ef76fbecdc9b39b01eeab216845d9d" title="Read a byte of LED data." alt="" coords="707,265,890,293"/>
+<area shape="poly" id="edge7_Node000006_Node000009" title=" " alt="" coords="660,260,692,264,691,269,659,266"/>
+<area shape="poly" id="edge9_Node000010_Node000006" title=" " alt="" coords="417,250,466,250,466,255,417,255"/>
+<area shape="poly" id="edge11_Node000011_Node000006" title=" " alt="" coords="408,296,475,277,476,282,410,301"/>
+<area shape="rect" id="Node000016" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="498,532,643,560"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="412,543,483,543,483,548,412,548"/>
+<area shape="rect" id="Node000018" href="$dd/da1/class_selectable.html#a5536adac637a1c55c3778158c7f38840" title="Select this object." alt="" coords="502,601,639,629"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="412,612,487,612,487,618,412,618"/>
+<area shape="rect" id="Node000021" href="$db/d3b/class_fast_pin.html#add52474362013eb37903fc832e2abdc2" title="Set the pin state to HIGH" alt="" coords="755,689,842,717"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="655,733,739,714,740,719,656,739"/>
+<area shape="rect" id="Node000022" href="$db/d3b/class_fast_pin.html#aa7420ec06218b5201f7f54cf6f4bfb86" title="Set the pin state to LOW" alt="" coords="755,741,842,769"/>
+<area shape="poly" id="edge22_Node000020_Node000022" title=" " alt="" coords="655,752,739,752,739,758,655,758"/>
+<area shape="rect" id="Node000023" href="$db/d3b/class_fast_pin.html#a25b537b13a05155051cc663b4877f79f" title="Toggle the pin." alt="" coords="740,793,857,821"/>
+<area shape="poly" id="edge23_Node000020_Node000023" title=" " alt="" coords="656,772,726,788,724,793,655,777"/>
+<area shape="poly" id="edge25_Node000024_Node000020" title=" " alt="" coords="412,773,471,765,472,770,413,778"/>
+</map>

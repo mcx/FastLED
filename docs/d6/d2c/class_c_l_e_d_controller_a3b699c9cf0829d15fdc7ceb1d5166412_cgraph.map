@@ -1,0 +1,17 @@
+<map id="CLEDController::showLeds" name="CLEDController::showLeds">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,197,137"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#af9962ef739bdb3b590ee66f3780765d6" title=" " alt="" coords="245,57,473,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,106,271,86,272,91,174,111"/>
+<area shape="rect" id="Node000005" href="$d6/d2c/class_c_l_e_d_controller.html#a49b221af013bf196c2068e2cbd1c299d" title=" " alt="" coords="251,109,467,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,120,235,120,235,126,197,126"/>
+<area shape="rect" id="Node000007" href="$d6/d2c/class_c_l_e_d_controller.html#ac5355e980ac13d9ae97561f183f73990" title="Write the data to the LEDs managed by this controller." alt="" coords="263,161,454,206"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="164,135,249,155,248,160,163,140"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a676f705adf93898739a405b85150a3e7" title="Get the dithering option currently set for this controller." alt="" coords="521,5,709,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,54,528,34,529,39,431,59"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html#a63f75cf7e55cf8da46db5fd27110bb3e" title="How many LEDs does this controller manage?" alt="" coords="538,57,692,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="474,68,523,68,523,74,474,74"/>
+<area shape="rect" id="Node000006" href="$d6/d2c/class_c_l_e_d_controller.html#a2a231accbeb00e6a6080a7e55274a279" title="Set the dithering mode for this controller to use." alt="" coords="522,109,709,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="467,120,506,120,506,126,467,126"/>
+<area shape="rect" id="Node000008" href="$d6/d2c/class_c_l_e_d_controller.html#afc8fb063666d03527aabc86d8531e007" title="Write the passed in RGB data out to the LEDs managed by this controller." alt="" coords="534,169,696,197"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="455,180,519,180,519,186,455,186"/>
+</map>

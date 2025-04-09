@@ -1,0 +1,7 @@
+<map id="Key::UpdateIntensity" name="Key::UpdateIntensity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="372,5,528,33"/>
+<area shape="rect" id="Node000002" href="$db/d42/struct_key.html#ac841a3966fde8cd5df0eafa0bdcf0cca" title=" " alt="" coords="225,5,324,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="356,22,324,22,324,16,356,16"/>
+<area shape="rect" id="Node000003" href="$db/d37/class_keyboard_state.html#a12563a96cac7c1069fd1fdcbed1ed3c0" title=" " alt="" coords="5,5,177,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,22,177,22,177,16,209,16"/>
+</map>

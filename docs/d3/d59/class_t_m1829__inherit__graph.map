@@ -1,0 +1,11 @@
+<map id="TM1829&lt; DATA_PIN, RGB_ORDER &gt;" name="TM1829&lt; DATA_PIN, RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="TM1829 controller class." alt="" coords="930,65,1117,110"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="677,65,881,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="896,85,929,85,929,90,896,90"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="251,5,432,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,52,677,75,677,80,447,58"/>
+<area shape="rect" id="Node000004" href="$d7/d6f/group___clockless_chipsets.html#d0/ddf/class_t_m1829_controller800_khz" title="TM1829 controller class." alt="" coords="240,108,443,152"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="459,116,677,95,677,100,459,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,91,191,169"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="206,127,240,127,240,133,206,133"/>
+</map>

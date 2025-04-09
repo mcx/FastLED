@@ -1,0 +1,5 @@
+<map id="fl::FxEngine::setSpeed" name="fl::FxEngine::setSpeed">
+<area shape="rect" id="Node000001" title="Sets the speed of the fx engine, which will impact the speed of all effects." alt="" coords="5,5,171,33"/>
+<area shape="rect" id="Node000002" href="$d4/d54/classfl_1_1_time_scale.html#a34b11d909a8db5fdc5bd9285182cb8b0" title=" " alt="" coords="219,5,387,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,16,203,16,203,22,171,22"/>
+</map>

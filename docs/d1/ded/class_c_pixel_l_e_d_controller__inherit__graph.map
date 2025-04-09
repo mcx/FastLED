@@ -1,0 +1,79 @@
+<map id="CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;" name="CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;">
+<area shape="rect" id="Node000001" title="Template extension of the CLEDController class." alt="" coords="174,718,346,780"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1815,41,2044,153"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,702,283,655,303,599,332,541,368,489,402,453,432,426,462,405,492,388,642,324,878,212,975,169,1066,132,1159,99,1260,71,1376,44,1515,18,1584,8,1638,3,1693,6,1761,19,1821,38,1820,43,1760,24,1692,11,1638,8,1584,13,1516,24,1377,49,1261,76,1160,104,1068,137,977,174,881,217,644,329,495,393,465,410,436,430,405,457,372,492,336,544,308,601,288,656,274,704"/>
+<area shape="rect" id="Node000007" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1807,303,2052,398"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="293,705,327,670,369,640,407,622,441,610,502,599,565,594,643,582,1078,491,1269,452,1515,408,1806,364,1807,369,1516,413,1270,458,1079,496,644,588,565,599,503,604,443,615,409,627,372,645,330,674,296,709"/>
+<area shape="rect" id="Node000009" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1784,177,2075,273"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="282,703,318,647,342,620,369,595,519,484,653,398,778,333,901,285,1029,248,1170,218,1515,160,1584,150,1638,146,1692,149,1761,160,1816,174,1814,179,1760,165,1692,154,1638,151,1584,155,1516,165,1171,223,1031,253,903,290,781,338,656,403,522,488,372,599,346,623,323,651,286,706"/>
+<area shape="rect" id="Node000010" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1807,448,2052,544"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="326,708,369,691,539,643,684,611,813,592,935,581,1190,568,1340,558,1515,540,1806,506,1807,512,1516,545,1340,563,1191,573,936,586,814,597,685,616,540,648,371,696,328,713"/>
+<area shape="rect" id="Node000012" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1796,577,2063,673"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="361,719,370,717,958,680,1796,630,1796,635,958,685,371,722,362,724"/>
+<area shape="rect" id="Node000014" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="1853,707,2006,751"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="362,742,738,726,1218,712,1515,710,1638,708,1760,710,1852,718,1852,723,1760,716,1638,714,1515,716,1218,717,738,732,362,747"/>
+<area shape="rect" id="Node000016" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="1828,811,2031,855"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="362,751,1828,825,1827,831,361,757"/>
+<area shape="rect" id="Node000018" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1836,1268,2023,1329"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="282,793,318,861,343,896,372,927,444,986,508,1030,569,1063,629,1088,761,1128,928,1179,1008,1203,1071,1219,1218,1242,1341,1256,1509,1269,1836,1290,1835,1296,1508,1275,1340,1261,1218,1248,1070,1224,1007,1209,927,1184,760,1133,628,1093,567,1068,506,1035,440,990,369,931,339,900,314,864,277,795"/>
+<area shape="rect" id="Node000020" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="698,924,849,969"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="302,789,334,818,372,842,455,879,543,906,627,924,698,936,698,941,626,929,542,911,454,884,369,847,331,822,299,793"/>
+<area shape="rect" id="Node000029" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="668,1315,879,1394"/>
+<area shape="poly" id="edge36_Node000001_Node000029" title=" " alt="" coords="266,795,273,924,290,1088,304,1169,322,1242,345,1300,358,1322,372,1338,392,1350,421,1358,496,1367,583,1367,667,1362,667,1368,583,1372,496,1372,420,1363,390,1355,369,1342,353,1325,340,1303,317,1244,299,1171,285,1089,267,924,260,796"/>
+<area shape="rect" id="Node000031" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="928,1423,1194,1518"/>
+<area shape="poly" id="edge38_Node000001_Node000031" title=" " alt="" coords="264,795,268,944,283,1140,296,1238,315,1325,340,1396,355,1422,372,1442,393,1447,439,1453,584,1460,927,1467,927,1472,583,1465,438,1458,392,1453,369,1446,351,1425,335,1398,310,1327,291,1238,277,1140,263,944,259,795"/>
+<area shape="rect" id="Node000034" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="643,1491,904,1586"/>
+<area shape="poly" id="edge41_Node000001_Node000034" title=" " alt="" coords="267,795,280,972,303,1208,317,1323,334,1423,353,1497,362,1521,372,1535,401,1556,432,1570,466,1580,501,1585,573,1585,642,1575,643,1580,574,1591,501,1591,465,1585,430,1575,398,1560,368,1539,358,1524,348,1499,329,1424,312,1324,298,1209,275,973,262,796"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html" title="Base definition for an LED controller." alt="" coords="5,735,125,763"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,746,173,746,173,752,140,752"/>
+<area shape="rect" id="Node000004" href="$df/d0d/group___clocked_chipsets.html#d6/dc7/class_a_p_a102_controller_h_d" title="APA102 high definition controller class." alt="" coords="2137,89,2335,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="2060,104,2137,110,2137,115,2059,109"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="2589,165,2804,227"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="2351,136,2589,175,2588,181,2350,141"/>
+<area shape="rect" id="Node000008" href="$df/d0d/group___clocked_chipsets.html#d9/d06/class_h_d107_controller" title="HD107 is just the APA102 with a default 40Mhz clock rate." alt="" coords="2147,320,2325,381"/>
+<area shape="poly" id="edge6_Node000007_Node000008" title=" " alt="" coords="2068,348,2147,348,2147,353,2068,353"/>
+<area shape="poly" id="edge8_Node000009_Node000005" title=" " alt="" coords="2090,216,2589,197,2589,202,2090,222"/>
+<area shape="rect" id="Node000011" href="$df/d0d/group___clocked_chipsets.html#d3/de0/class_s_k9822_controller" title="SK9822 controller class." alt="" coords="2124,465,2348,527"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="2068,493,2124,493,2124,498,2068,498"/>
+<area shape="rect" id="Node000013" href="$df/d0d/group___clocked_chipsets.html#da/d45/class_s_k9822_controller_h_d" title="SK9822 controller class." alt="" coords="2137,594,2335,656"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="2078,622,2137,622,2137,628,2078,628"/>
+<area shape="rect" id="Node000015" href="$d7/d6f/group___clockless_chipsets.html#df/d73/class_d_m_x_s_e_r_i_a_l" title="DMX512 based LED controller class, using the DMXSerial library." alt="" coords="2132,715,2340,743"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="2022,726,2132,726,2132,732,2022,732"/>
+<area shape="rect" id="Node000017" href="$d7/d6f/group___clockless_chipsets.html#da/d31/class_d_m_x_s_i_m_p_l_e" title="DMX512 based LED controller class, using the DmxSimple library." alt="" coords="2146,811,2327,855"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="2047,830,2145,830,2145,836,2047,836"/>
+<area shape="rect" id="Node000019" href="$df/d0d/group___clocked_chipsets.html#dc/d28/class_w_s2803_controller" title="WS2803 controller class." alt="" coords="2124,1268,2348,1329"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="2039,1296,2124,1296,2124,1301,2039,1301"/>
+<area shape="rect" id="Node000021" href="$df/d0d/group___clocked_chipsets.html#d4/d96/class_a_p_a102_controller" title="APA102 controller class." alt="" coords="1218,275,1491,354"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="804,911,1315,353,1319,356,808,915"/>
+<area shape="rect" id="Node000022" href="$d7/d6f/group___clockless_chipsets.html#d9/d0f/class_d_m_x_serial_controller" title="DMX512 based LED controller class, using the DMXSerial library." alt="" coords="1278,727,1431,771"/>
+<area shape="poly" id="edge26_Node000020_Node000022" title=" " alt="" coords="849,916,927,888,1281,770,1283,775,929,893,851,921"/>
+<area shape="rect" id="Node000023" href="$d7/d6f/group___clockless_chipsets.html#d0/da7/class_d_m_x_simple_controller" title="DMX512 based LED controller class, using the DmxSimple library." alt="" coords="1253,847,1456,891"/>
+<area shape="poly" id="edge28_Node000020_Node000023" title=" " alt="" coords="864,932,1252,880,1253,885,865,937"/>
+<area shape="rect" id="Node000024" href="$df/d0d/group___clocked_chipsets.html#d0/d40/class_l_p_d6803_controller" title="LPD6803 controller class (LPD1101)." alt="" coords="1256,916,1454,977"/>
+<area shape="poly" id="edge30_Node000020_Node000024" title=" " alt="" coords="864,944,1255,944,1255,949,864,949"/>
+<area shape="rect" id="Node000025" href="$df/d0d/group___clocked_chipsets.html#dc/d33/class_l_p_d8806_controller" title="LPD8806 controller class." alt="" coords="1256,1001,1454,1063"/>
+<area shape="poly" id="edge31_Node000020_Node000025" title=" " alt="" coords="865,957,1255,1015,1255,1020,864,962"/>
+<area shape="rect" id="Node000026" href="$df/d0d/group___clocked_chipsets.html#d2/dd6/class_p9813_controller" title="P9813 controller class." alt="" coords="1268,1086,1442,1148"/>
+<area shape="poly" id="edge32_Node000020_Node000026" title=" " alt="" coords="838,973,929,1009,1109,1061,1268,1097,1266,1103,1107,1066,927,1014,836,978"/>
+<area shape="rect" id="Node000027" href="$df/d0d/group___clocked_chipsets.html#d8/df9/class_s_m16716_controller" title="SM16716 controller class." alt="" coords="1256,1172,1454,1233"/>
+<area shape="poly" id="edge33_Node000020_Node000027" title=" " alt="" coords="805,979,859,1034,893,1062,929,1085,1011,1123,1097,1152,1181,1173,1255,1187,1254,1192,1180,1178,1096,1157,1009,1128,926,1090,890,1066,855,1038,801,983"/>
+<area shape="rect" id="Node000028" href="$df/d0d/group___clocked_chipsets.html#d9/d95/class_w_s2801_controller" title="WS2801 controller class." alt="" coords="1242,1308,1467,1369"/>
+<area shape="poly" id="edge34_Node000020_Node000028" title=" " alt="" coords="792,982,814,1027,844,1080,883,1133,929,1179,965,1205,1004,1228,1086,1266,1168,1295,1243,1315,1241,1320,1166,1300,1084,1271,1001,1233,962,1209,926,1183,879,1136,840,1082,809,1029,787,984"/>
+<area shape="poly" id="edge21_Node000021_Node000003" title=" " alt="" coords="1392,261,1445,204,1478,177,1514,155,1568,137,1645,123,1814,103,1815,108,1646,128,1570,142,1516,160,1481,181,1449,208,1396,265"/>
+<area shape="poly" id="edge22_Node000021_Node000007" title=" " alt="" coords="1507,343,1516,344,1667,353,1806,353,1806,358,1666,358,1515,349,1507,348"/>
+<area shape="poly" id="edge23_Node000021_Node000009" title=" " alt="" coords="1506,277,1515,276,1637,258,1760,245,1784,242,1784,247,1761,250,1638,264,1516,281,1507,283"/>
+<area shape="poly" id="edge24_Node000021_Node000010" title=" " alt="" coords="1412,362,1461,397,1516,427,1589,451,1665,469,1739,481,1807,488,1806,493,1738,486,1664,474,1587,457,1514,432,1458,402,1409,366"/>
+<area shape="poly" id="edge25_Node000021_Node000012" title=" " alt="" coords="1378,367,1400,415,1430,467,1469,517,1492,539,1517,558,1549,576,1583,591,1655,612,1728,624,1796,628,1796,634,1727,629,1654,617,1581,596,1546,581,1514,562,1488,543,1465,520,1426,470,1395,417,1373,370"/>
+<area shape="poly" id="edge27_Node000022_Node000014" title=" " alt="" coords="1447,743,1852,729,1852,734,1447,749"/>
+<area shape="poly" id="edge29_Node000023_Node000016" title=" " alt="" coords="1472,860,1760,842,1827,838,1828,843,1761,847,1472,865"/>
+<area shape="poly" id="edge35_Node000028_Node000018" title=" " alt="" coords="1482,1334,1616,1330,1760,1320,1835,1311,1835,1317,1761,1326,1617,1335,1483,1340"/>
+<area shape="rect" id="Node000030" href="$d4/d28/group___chipsets.html#d5/d83/class_r_g_b_w_emulated_controller" title=" " alt="" coords="1241,1393,1468,1438"/>
+<area shape="poly" id="edge37_Node000029_Node000030" title=" " alt="" coords="895,1364,1241,1401,1240,1406,894,1370"/>
+<area shape="rect" id="Node000032" href="$d4/d28/group___chipsets.html" title=" " alt="" coords="1836,1477,2023,1522"/>
+<area shape="poly" id="edge39_Node000031_Node000032" title=" " alt="" coords="1210,1473,1836,1494,1836,1499,1209,1478"/>
+<area shape="rect" id="Node000033" href="$d7/d6f/group___clockless_chipsets.html#dc/d9f/class_w_s2816" title="WS2816 controller class." alt="" coords="2142,1477,2330,1522"/>
+<area shape="poly" id="edge40_Node000032_Node000033" title=" " alt="" coords="2039,1497,2141,1497,2141,1502,2039,1502"/>
+<area shape="rect" id="Node000035" href="$d4/d28/group___chipsets.html#dd/dbc/class_w_s2816_controller" title=" " alt="" coords="1261,1515,1448,1559"/>
+<area shape="poly" id="edge42_Node000034_Node000035" title=" " alt="" coords="919,1535,1261,1535,1261,1540,919,1541"/>
+<area shape="poly" id="edge43_Node000035_Node000032" title=" " alt="" coords="1463,1528,1760,1509,1835,1504,1836,1509,1761,1514,1464,1533"/>
+</map>

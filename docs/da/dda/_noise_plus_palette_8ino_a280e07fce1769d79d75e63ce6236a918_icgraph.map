@@ -1,0 +1,9 @@
+<map id="mapNoiseToLEDsUsingPalette" name="mapNoiseToLEDsUsingPalette">
+<area shape="rect" id="Node000001" title=" " alt="" coords="310,32,525,60"/>
+<area shape="rect" id="Node000002" href="$d9/d41/classfl_1_1_noise_palette.html#afc6cd594830dfdd146c45e7ab1d1905d" title=" " alt="" coords="103,5,262,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,35,262,31,263,26,295,29"/>
+<area shape="rect" id="Node000004" href="$da/dda/_noise_plus_palette_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="158,57,207,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="295,62,208,71,207,66,294,56"/>
+<area shape="rect" id="Node000003" href="$df/d43/_overclock_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+</map>

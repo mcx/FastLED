@@ -1,0 +1,7 @@
+<map id="WS2816Controller&lt; DATA_PIN, RGB_ORDER &gt;::ControllerT" name="WS2816Controller&lt; DATA_PIN, RGB_ORDER &gt;::ControllerT">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,191,240,235"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html#de/d9d/class_w_s2812_controller800_khz" title="WS2812 controller class @ 800 KHz." alt="" coords="60,115,185,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,159,125,190,120,190,120,159"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="24,5,221,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,83,125,114,120,114,120,83"/>
+</map>

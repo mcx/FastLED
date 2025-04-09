@@ -1,0 +1,5 @@
+<map id="CRGB::addToRGB" name="CRGB::addToRGB">
+<area shape="rect" id="Node000001" title="Add a constant to each channel, saturating at 0xFF." alt="" coords="5,5,138,33"/>
+<area shape="rect" id="Node000002" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="186,5,247,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,16,170,16,170,22,138,22"/>
+</map>

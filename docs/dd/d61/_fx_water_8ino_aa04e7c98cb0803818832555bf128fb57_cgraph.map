@@ -1,0 +1,21 @@
+<map id="MyColorFromPaletteExtended" name="MyColorFromPaletteExtended">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,123,220,151"/>
+<area shape="rect" id="Node000002" href="$dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="268,72,325,100"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,120,252,96,253,101,166,125"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="671,35,768,63"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="137,120,195,89,267,58,350,29,418,10,486,3,574,9,660,28,659,33,573,14,487,8,419,15,352,34,269,63,197,94,139,125"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="622,111,817,139"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="160,149,239,169,342,188,399,194,457,196,516,193,573,185,630,167,679,144,681,149,632,172,574,190,517,199,457,201,398,199,341,193,237,174,159,154"/>
+<area shape="rect" id="Node000007" href="$d0/da8/group___scaling.html#ga39bf87e5526120889086cab19ac749b1" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="486,148,574,176"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="220,141,471,156,471,161,220,146"/>
+<area shape="rect" id="Node000003" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="373,72,438,100"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,84,357,84,357,89,325,89"/>
+<area shape="rect" id="Node000004" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="497,47,563,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="438,77,481,68,482,73,440,82"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="422,70,450,50,486,33,529,25,574,23,656,32,656,37,574,28,530,30,487,38,453,54,425,74"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="439,88,606,108,606,114,438,93"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="563,56,655,50,656,56,563,62"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="564,69,663,103,661,108,562,74"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="549,146,620,97,674,68,676,73,623,102,552,150"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="574,151,630,140,631,145,575,156"/>
+</map>

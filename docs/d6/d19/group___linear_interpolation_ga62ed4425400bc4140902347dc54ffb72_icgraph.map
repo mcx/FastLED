@@ -1,0 +1,5 @@
+<map id="lerp8by8" name="lerp8by8">
+<area shape="rect" id="Node000001" title="Linear interpolation between two unsigned 8&#45;bit values, with 8&#45;bit fraction." alt="" coords="153,5,231,33"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#a858435ed102057edaa676bd6d3d1e9cf" title="Return a new CRGB object after performing a linear interpolation between this object and the passed i..." alt="" coords="5,5,105,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,22,105,22,105,16,137,16"/>
+</map>

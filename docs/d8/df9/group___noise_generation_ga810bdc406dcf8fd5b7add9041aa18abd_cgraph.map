@@ -1,0 +1,5 @@
+<map id="inoise16_raw" name="inoise16_raw">
+<area shape="rect" id="Node000001" title="16&#45;bit, fixed point implementation of Perlin&#39;s noise without scaling." alt="" coords="5,5,113,33"/>
+<area shape="rect" id="Node000002" href="$d6/de8/noise_8cpp.html#a24cd7f7232e48b10b8bba34614a168b5" title=" " alt="" coords="161,5,227,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,16,145,16,145,22,113,22"/>
+</map>

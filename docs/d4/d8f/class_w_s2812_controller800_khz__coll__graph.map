@@ -1,0 +1,5 @@
+<map id="WS2812Controller800Khz&lt; DATA_PIN, RGB_ORDER &gt;" name="WS2812Controller800Khz&lt; DATA_PIN, RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="WS2812 controller class @ 800 KHz." alt="" coords="5,115,209,160"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,5,205,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,83,110,115,104,115,104,83"/>
+</map>

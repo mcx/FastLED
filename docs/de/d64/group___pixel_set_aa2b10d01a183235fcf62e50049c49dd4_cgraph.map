@@ -1,0 +1,7 @@
+<map id="CPixelView::operator()" name="CPixelView::operator()">
+<area shape="rect" id="Node000001" title="Access an inclusive subset of the LEDs in this set." alt="" coords="5,32,171,60"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#afe22ceed228286280b4c6f7692db105a" title="PixelSet copy constructor." alt="" coords="219,5,391,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,33,203,29,203,34,171,38"/>
+<area shape="rect" id="Node000003" href="$de/d64/group___pixel_set.html#a5492e41e8b06dc599ab81b465c4236ed" title="Makes an iterator instance for the end of the LED set." alt="" coords="243,57,367,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,53,227,59,227,65,171,58"/>
+</map>

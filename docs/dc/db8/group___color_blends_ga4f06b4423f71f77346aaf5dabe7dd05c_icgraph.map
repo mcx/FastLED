@@ -1,0 +1,103 @@
+<map id="blend" name="blend">
+<area shape="rect" id="Node000001" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="820,805,878,833"/>
+<area shape="rect" id="Node000002" href="$dc/db8/group___color_blends.html#ga7b2413e9940cad26227c41d222aecd94" title="Computes a new blended array of colors, each some fraction of the way between corresponding elements ..." alt="" coords="636,5,694,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="844,790,838,625,824,389,814,271,802,168,787,89,779,63,770,48,754,35,735,26,694,21,695,15,736,21,757,30,774,44,784,61,792,88,807,167,819,271,829,389,843,625,849,790"/>
+<area shape="rect" id="Node000003" href="$dc/db8/group___color_blends.html#ga2d29cff459b964cc51fbfe94db78f931" title="Computes a new blended array of colors, each some fraction of the way between corresponding elements ..." alt="" coords="636,57,694,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="844,790,837,635,822,416,800,211,786,138,778,114,770,100,754,87,735,78,694,73,695,67,736,73,757,82,774,96,783,112,791,137,805,210,827,415,842,635,849,790"/>
+<area shape="rect" id="Node000004" href="$d2/d73/group___palette_colors.html#gafdfc20fbf9b8e4b71e010a654ec27891" title="Get a color from a palette." alt="" coords="598,109,732,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="844,790,836,645,820,443,798,254,785,187,770,151,753,138,731,130,733,125,755,133,774,148,790,186,804,253,826,442,841,645,849,790"/>
+<area shape="rect" id="Node000005" href="$d2/d73/group___palette_colors.html#ga1684ed7eb860c68a915d03e94250e58a" title="Get a color from a palette." alt="" coords="598,161,732,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="845,790,845,665,836,491,827,402,814,321,795,254,783,229,770,209,753,194,731,185,733,180,755,190,774,205,788,226,800,253,819,320,832,402,842,491,850,665,851,790"/>
+<area shape="rect" id="Node000006" href="$d2/d73/group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd" title="Get a color from a palette." alt="" coords="598,727,732,754"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="818,798,771,770,731,756,733,751,773,765,820,793"/>
+<area shape="rect" id="Node000012" href="$d4/dd0/_twinkle_fox_8ino.html#a6d0a3407d4b43c23c7bdd4aac9fc76fd" title=" " alt="" coords="71,263,181,290"/>
+<area shape="poly" id="edge46_Node000001_Node000012" title=" " alt="" coords="846,790,845,725,835,638,826,590,812,543,794,497,770,454,715,382,689,356,661,336,596,303,509,274,466,263,421,256,331,253,248,259,181,268,180,263,248,253,331,248,422,251,467,258,511,269,598,298,664,331,692,352,719,378,775,451,799,494,817,541,831,589,840,637,850,724,851,790"/>
+<area shape="rect" id="Node000015" href="$de/db5/classfl_1_1_twinkle_fox.html#a67375829d0da55e17d3f74ac9817914d" title=" " alt="" coords="15,333,237,361"/>
+<area shape="poly" id="edge45_Node000001_Node000015" title=" " alt="" coords="837,791,802,692,774,625,738,554,693,482,641,413,579,352,545,326,509,304,480,291,454,283,430,281,407,283,357,293,295,304,228,318,169,335,168,330,227,313,294,299,356,287,406,277,430,276,455,278,481,286,511,299,548,322,583,348,645,409,698,479,742,551,779,623,807,690,842,789"/>
+<area shape="rect" id="Node000049" href="$d2/d73/group___palette_colors.html#gae5e137a13a4b6145fe40007328d398f4" title="Get a color from a palette." alt="" coords="598,779,732,806"/>
+<area shape="poly" id="edge39_Node000001_Node000049" title=" " alt="" coords="805,816,732,805,733,800,805,810"/>
+<area shape="rect" id="Node000050" href="$d2/d73/group___palette_colors.html#ga0a1bd774cd65ee7b85a20c11212bbd95" title="Get a color from a palette." alt="" coords="598,831,732,858"/>
+<area shape="poly" id="edge40_Node000001_Node000050" title=" " alt="" coords="805,828,733,838,732,833,805,822"/>
+<area shape="rect" id="Node000051" href="$d2/d73/group___palette_colors.html#gaea6bd3ab3ec62d88e2dcc7ab2486dcd4" title="Get a color from a palette." alt="" coords="598,883,732,910"/>
+<area shape="poly" id="edge41_Node000001_Node000051" title=" " alt="" coords="819,845,773,872,733,886,731,881,771,867,817,840"/>
+<area shape="rect" id="Node000052" href="$d2/d73/group___palette_colors.html#ga61f55da5eb81ddc50f7855b26fb0d69b" title="Same as ColorFromPalette, but with uint16_t index to give greater precision." alt="" coords="568,935,762,962"/>
+<area shape="poly" id="edge42_Node000001_Node000052" title=" " alt="" coords="837,848,811,888,794,907,774,924,749,937,747,932,771,920,790,904,807,884,832,845"/>
+<area shape="rect" id="Node000053" href="$d2/d73/group___palette_colors.html#ga681c8340a30e692e7bbfec5a104cc80f" title=" " alt="" coords="568,987,762,1014"/>
+<area shape="poly" id="edge43_Node000001_Node000053" title=" " alt="" coords="844,849,835,879,821,913,801,947,774,976,754,988,751,984,771,972,796,944,816,911,830,877,839,848"/>
+<area shape="rect" id="Node000054" href="$d2/d73/group___palette_colors.html#ga59c2f3e8a12b9eef789c37ae4d5f0182" title="Same as ColorFromPalette, but higher precision." alt="" coords="568,1039,762,1066"/>
+<area shape="poly" id="edge44_Node000001_Node000054" title=" " alt="" coords="848,849,842,889,829,937,807,986,792,1008,774,1028,755,1040,752,1036,771,1024,788,1005,803,983,824,935,837,888,843,848"/>
+<area shape="rect" id="Node000055" href="$de/da4/group___noise_fill.html#ga714a0f305e385a60d81a40d1f98b53fc" title="Fill an LED matrix with random colors, using 16&#45;bit noise." alt="" coords="610,1091,721,1118"/>
+<area shape="poly" id="edge47_Node000001_Node000055" title=" " alt="" coords="851,849,847,898,837,961,814,1024,796,1054,774,1080,750,1096,722,1104,721,1099,747,1091,771,1076,792,1051,809,1022,831,959,842,898,845,848"/>
+<area shape="rect" id="Node000057" href="$de/da4/group___noise_fill.html#ga6fcc17e60eac4b9dbb620f7e354177f1" title="Fill an LED matrix with random colors, using 8&#45;bit noise." alt="" coords="614,1143,717,1170"/>
+<area shape="poly" id="edge49_Node000001_Node000057" title=" " alt="" coords="847,849,838,916,823,1001,802,1080,789,1110,774,1132,748,1149,718,1157,717,1152,746,1144,770,1128,784,1108,797,1078,818,999,833,915,842,848"/>
+<area shape="rect" id="Node000058" href="$dd/d61/_fx_water_8ino.html#aa04e7c98cb0803818832555bf128fb57" title=" " alt="" coords="558,1307,772,1334"/>
+<area shape="poly" id="edge50_Node000001_Node000058" title=" " alt="" coords="849,849,843,911,830,996,808,1090,775,1183,754,1221,729,1256,683,1308,679,1304,725,1253,749,1218,770,1181,803,1089,825,995,837,911,843,848"/>
+<area shape="rect" id="Node000007" href="$d5/d25/_demo_reel100_8ino.html#a4875f6d9a2b0f08d3cf221974234121b" title=" " alt="" coords="377,779,428,806"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="583,759,428,790,427,785,582,754"/>
+<area shape="rect" id="Node000010" href="$d1/d60/classfl_1_1_demo_reel100.html#a72cc7eea48cf0be16b34fee7d4da64f4" title=" " alt="" coords="319,831,486,858"/>
+<area shape="poly" id="edge8_Node000006_Node000010" title=" " alt="" coords="585,758,559,769,545,781,536,794,527,807,511,820,484,832,482,828,509,816,523,804,532,791,541,778,557,765,583,753"/>
+<area shape="rect" id="Node000011" href="$d4/dd0/_twinkle_fox_8ino.html#aff322ac4b9956a48a5d4e90853178b9f" title=" " alt="" coords="326,313,479,341"/>
+<area shape="poly" id="edge9_Node000006_Node000011" title=" " alt="" coords="659,712,647,639,622,542,602,490,577,441,546,394,508,355,478,338,481,333,512,350,550,391,582,438,607,488,627,540,653,637,664,711"/>
+<area shape="rect" id="Node000014" href="$de/db5/classfl_1_1_twinkle_fox.html#a39614750a1a87e8a8be19c36f6c48677" title=" " alt="" coords="302,434,502,479"/>
+<area shape="poly" id="edge11_Node000006_Node000014" title=" " alt="" coords="651,713,631,665,601,606,560,545,535,518,508,493,490,482,493,477,512,489,539,514,564,542,605,603,636,663,656,711"/>
+<area shape="rect" id="Node000018" href="$d5/d9b/classfl_1_1_fire2012.html#a39d20a6dc4f3a771b8b12696db9c4a15" title=" " alt="" coords="336,987,469,1014"/>
+<area shape="poly" id="edge13_Node000006_Node000018" title=" " alt="" coords="585,753,560,769,542,794,535,819,534,844,537,870,539,897,539,923,531,950,512,976,493,990,471,998,469,993,490,985,508,972,526,947,533,922,534,897,531,871,529,845,529,818,537,791,556,765,582,748"/>
+<area shape="rect" id="Node000019" href="$d2/d73/group___palette_colors.html#gac3c3f6bd497b7916177d7cb95aa5a76c" title="Fill a range of LEDs with a sequence of entries from a palette." alt="" coords="357,1039,448,1066"/>
+<area shape="poly" id="edge14_Node000006_Node000019" title=" " alt="" coords="586,752,560,769,539,800,531,832,531,864,537,896,542,929,543,962,534,995,512,1028,498,1039,482,1047,449,1055,447,1049,480,1042,495,1034,508,1024,529,993,537,961,537,929,531,897,526,864,525,831,534,798,556,765,583,748"/>
+<area shape="rect" id="Node000020" href="$d2/d73/group___palette_colors.html#ga08fe42a864e3a7ee802d89a9b72d97c1" title="Fill a range of LEDs with a sequence of entries from a palette, so that the entire palette smoothly c..." alt="" coords="330,1091,475,1118"/>
+<area shape="poly" id="edge15_Node000006_Node000020" title=" " alt="" coords="585,752,560,769,545,788,535,807,527,845,529,883,537,922,544,961,547,1000,538,1040,527,1060,512,1080,495,1093,476,1101,474,1096,493,1088,508,1076,523,1057,533,1038,541,1000,539,962,531,923,524,884,521,845,530,805,541,785,556,765,582,747"/>
+<area shape="rect" id="Node000021" href="$d1/dc5/_color_palette_8ino.html#ae6b0ecfd96a40d5cec6d0dba0a3685fe" title=" " alt="" coords="307,1143,498,1170"/>
+<area shape="poly" id="edge16_Node000006_Node000021" title=" " alt="" coords="585,752,560,769,543,791,532,814,525,836,523,858,526,903,537,948,547,993,551,1039,548,1062,541,1085,529,1109,512,1132,497,1144,493,1140,508,1128,525,1106,536,1083,543,1061,545,1039,542,994,531,949,521,904,517,858,520,835,527,812,539,789,556,765,582,747"/>
+<area shape="rect" id="Node000023" href="$db/d92/_fire2012_with_palette_8ino.html#af5890ba18cb2066c5a24a358de991a89" title=" " alt="" coords="326,1195,478,1222"/>
+<area shape="poly" id="edge18_Node000006_Node000023" title=" " alt="" coords="586,751,560,769,541,795,528,820,521,846,519,871,524,922,537,974,549,1026,555,1078,552,1104,545,1131,532,1157,512,1184,497,1196,480,1204,478,1199,494,1192,508,1180,527,1154,540,1129,547,1103,549,1078,544,1027,531,975,519,923,513,871,516,845,523,818,536,792,556,765,582,747"/>
+<area shape="rect" id="Node000025" href="$d8/d2c/_fire2023_8ino.html#abe327b12b434120ecf20ae3f46800983" title=" " alt="" coords="364,1247,441,1274"/>
+<area shape="poly" id="edge20_Node000006_Node000025" title=" " alt="" coords="585,751,560,769,539,798,525,827,517,856,515,884,521,942,537,1000,552,1058,559,1117,556,1146,548,1176,534,1206,512,1236,497,1248,479,1257,442,1264,441,1259,477,1252,494,1244,508,1232,529,1203,543,1174,551,1145,553,1117,547,1059,531,1001,516,943,509,884,512,855,520,825,534,795,556,765,582,747"/>
+<area shape="rect" id="Node000027" href="$d2/d73/group___palette_colors.html#gaf34a692bbec05b697dc9c06d8bb0f74f" title="Maps an array of palette color indexes into an array of LED colors." alt="" coords="320,1298,484,1343"/>
+<area shape="poly" id="edge22_Node000006_Node000027" title=" " alt="" coords="585,751,560,769,548,788,540,812,532,873,531,946,536,1025,540,1105,540,1179,532,1242,524,1267,512,1288,487,1307,483,1303,508,1284,519,1265,527,1241,535,1179,534,1105,530,1026,526,946,526,872,535,810,543,785,556,765,582,747"/>
+<area shape="rect" id="Node000028" href="$d9/d41/classfl_1_1_noise_palette.html#a546f14f524f7a1b965c872ddad7be8a4" title=" " alt="" coords="306,365,499,410"/>
+<area shape="poly" id="edge23_Node000006_Node000028" title=" " alt="" coords="655,712,639,652,611,574,591,534,568,494,540,456,508,424,492,412,495,408,512,420,544,453,572,491,596,531,615,572,644,650,660,711"/>
+<area shape="rect" id="Node000029" href="$da/dda/_noise_plus_palette_8ino.html#a280e07fce1769d79d75e63ce6236a918" title=" " alt="" coords="295,503,510,530"/>
+<area shape="poly" id="edge24_Node000006_Node000029" title=" " alt="" coords="648,714,626,675,595,629,555,583,509,544,487,533,490,529,511,540,559,579,599,626,631,672,653,711"/>
+<area shape="rect" id="Node000033" href="$d2/db2/classfl_1_1_pacifica.html#ac949d5e9a88b724a060954658b892ebc" title=" " alt="" coords="330,554,474,599"/>
+<area shape="poly" id="edge27_Node000006_Node000033" title=" " alt="" coords="639,718,582,665,547,638,509,614,474,598,476,593,511,609,550,633,586,661,642,714"/>
+<area shape="rect" id="Node000036" href="$dc/d25/_pacifica_8ino.html#a74ff76f68b211ed517ba9110d1084302" title=" " alt="" coords="331,623,474,650"/>
+<area shape="poly" id="edge29_Node000006_Node000036" title=" " alt="" coords="625,721,571,693,509,666,470,653,472,648,511,661,573,688,628,716"/>
+<area shape="rect" id="Node000039" href="$d6/d0a/group___palette_upscale.html#gab25990089da4e6e2179c52bf84371ef6" title="Convert a 16&#45;entry palette to a 256&#45;entry palette." alt="" coords="343,675,462,702"/>
+<area shape="poly" id="edge31_Node000006_Node000039" title=" " alt="" coords="583,727,462,703,463,698,584,722"/>
+<area shape="rect" id="Node000040" href="$d6/d0a/group___palette_upscale.html#ga7ece2048e58a7d25a494d9856b2218bd" title="Convert a 32&#45;entry palette to a 256&#45;entry palette." alt="" coords="343,727,462,754"/>
+<area shape="poly" id="edge32_Node000006_Node000040" title=" " alt="" coords="583,743,462,743,462,738,583,738"/>
+<area shape="rect" id="Node000041" href="$d6/d0a/group___palette_upscale.html#gaa88523d1afb29cf3f75b9b2725ba55d3" title="Convert a 16&#45;entry palette to a 256&#45;entry palette." alt="" coords="343,935,462,962"/>
+<area shape="poly" id="edge33_Node000006_Node000041" title=" " alt="" coords="585,753,560,769,545,787,538,806,537,845,535,884,527,904,512,924,489,939,463,947,461,942,486,934,508,920,523,902,530,883,531,844,533,805,541,785,556,765,582,749"/>
+<area shape="rect" id="Node000048" href="$d6/d0a/group___palette_upscale.html#gacd78065e7fb5f0f0997610b67eab968c" title="Convert a 32&#45;entry palette to a 256&#45;entry palette." alt="" coords="343,883,462,910"/>
+<area shape="poly" id="edge38_Node000006_Node000048" title=" " alt="" coords="585,755,560,769,549,781,542,793,537,819,531,846,524,859,512,872,488,886,463,894,461,889,486,881,508,868,519,856,526,844,531,818,537,791,544,778,556,765,583,750"/>
+<area shape="rect" id="Node000008" href="$d1/d60/classfl_1_1_demo_reel100.html#aad4b41d93c1a9f7acecea8b49cda7078" title=" " alt="" coords="24,779,228,806"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="362,795,229,795,229,790,362,790"/>
+<area shape="poly" id="edge10_Node000011_Node000012" title=" " alt="" coords="310,313,181,289,182,284,311,308"/>
+<area shape="poly" id="edge12_Node000014_Node000015" title=" " alt="" coords="313,431,294,424,156,364,158,359,296,419,314,426"/>
+<area shape="rect" id="Node000022" href="$d1/dc5/_color_palette_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="101,1143,151,1170"/>
+<area shape="poly" id="edge17_Node000021_Node000022" title=" " alt="" coords="291,1159,151,1159,151,1154,291,1154"/>
+<area shape="rect" id="Node000024" href="$db/d92/_fire2012_with_palette_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="101,1195,151,1222"/>
+<area shape="poly" id="edge19_Node000023_Node000024" title=" " alt="" coords="311,1211,151,1211,151,1206,311,1206"/>
+<area shape="rect" id="Node000026" href="$d8/d2c/_fire2023_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="101,1247,151,1274"/>
+<area shape="poly" id="edge21_Node000025_Node000026" title=" " alt="" coords="348,1263,151,1263,151,1258,348,1258"/>
+<area shape="rect" id="Node000030" href="$d9/d41/classfl_1_1_noise_palette.html#afc6cd594830dfdd146c45e7ab1d1905d" title=" " alt="" coords="46,455,206,482"/>
+<area shape="poly" id="edge25_Node000029_Node000030" title=" " alt="" coords="303,502,205,485,206,480,304,497"/>
+<area shape="rect" id="Node000032" href="$da/dda/_noise_plus_palette_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="101,507,151,534"/>
+<area shape="poly" id="edge26_Node000029_Node000032" title=" " alt="" coords="279,521,151,523,151,517,279,516"/>
+<area shape="rect" id="Node000034" href="$d2/db2/classfl_1_1_pacifica.html#a264d0c1db5db60028b6fab87af13d700" title=" " alt="" coords="63,563,189,590"/>
+<area shape="poly" id="edge28_Node000033_Node000034" title=" " alt="" coords="315,579,190,579,190,574,315,574"/>
+<area shape="rect" id="Node000037" href="$dc/d25/_pacifica_8ino.html#a158d427a947ef0a715c7ffd916346acc" title=" " alt="" coords="73,623,179,650"/>
+<area shape="poly" id="edge30_Node000036_Node000037" title=" " alt="" coords="316,639,179,639,179,634,316,634"/>
+<area shape="rect" id="Node000042" href="$d6/d39/group___palette_classes.html#a93a00dbae141e2cf7355e31cd9922424" title="Create upscaled palette from 16&#45;entry palette." alt="" coords="6,961,246,989"/>
+<area shape="poly" id="edge34_Node000041_Node000042" title=" " alt="" coords="328,958,246,966,246,961,327,953"/>
+<area shape="rect" id="Node000043" href="$d6/d39/group___palette_classes.html#a01b7d7154a1c785e367d127940f9d180" title="Create upscaled palette from 16&#45;entry palette." alt="" coords="5,1013,247,1041"/>
+<area shape="poly" id="edge35_Node000041_Node000043" title=" " alt="" coords="329,967,296,978,272,990,248,1003,207,1015,205,1010,246,998,269,986,294,973,327,962"/>
+<area shape="rect" id="Node000044" href="$d6/d39/group___palette_classes.html#a885013cda7e8875b2c9894e0e88b0d7f" title="Create upscaled palette from 16&#45;entry palette." alt="" coords="13,857,239,885"/>
+<area shape="poly" id="edge36_Node000041_Node000044" title=" " alt="" coords="327,935,294,924,270,912,246,900,204,888,205,883,248,895,272,907,296,919,329,930"/>
+<area shape="rect" id="Node000045" href="$d6/d39/group___palette_classes.html#ae053719706e3276afabd1d3be6e8386c" title="Create upscaled palette from 16&#45;entry palette." alt="" coords="26,909,226,937"/>
+<area shape="poly" id="edge37_Node000041_Node000045" title=" " alt="" coords="327,944,226,935,227,930,328,939"/>
+<area shape="rect" id="Node000056" href="$d7/ddc/_noise_playground_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="378,1367,427,1394"/>
+<area shape="poly" id="edge48_Node000055_Node000056" title=" " alt="" coords="595,1113,576,1121,560,1133,541,1160,533,1187,533,1215,537,1243,540,1271,540,1300,532,1329,512,1357,493,1371,470,1379,428,1384,427,1379,469,1374,490,1366,508,1353,527,1326,535,1299,535,1272,532,1244,528,1215,528,1186,536,1158,556,1129,573,1116,593,1108"/>
+<area shape="rect" id="Node000059" href="$dd/d61/_fx_water_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="378,1419,427,1446"/>
+<area shape="poly" id="edge51_Node000058_Node000059" title=" " alt="" coords="631,1345,576,1378,511,1408,467,1422,428,1431,427,1426,466,1417,509,1403,573,1373,628,1341"/>
+</map>

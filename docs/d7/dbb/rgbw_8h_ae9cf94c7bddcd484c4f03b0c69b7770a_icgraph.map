@@ -1,0 +1,9 @@
+<map id="rgb_2_rgbw" name="rgb_2_rgbw">
+<area shape="rect" id="Node000001" title="Converts RGB to RGBW using one of the functions." alt="" coords="467,44,563,72"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#aa75c347910343e54b608faf4f4a002bd" title=" " alt="" coords="242,5,419,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="451,50,419,45,420,40,452,45"/>
+<area shape="rect" id="Node000004" href="$d7/dbb/rgbw_8h.html#a805fb8e51eafd6f8bd25ea28e0f0990c" title=" " alt="" coords="282,74,378,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="452,71,379,83,378,77,451,66"/>
+<area shape="rect" id="Node000003" href="$d4/d28/group___chipsets.html#aba9a2f023f2950dbcdf3c2482f765350" title="Send the LED data to the strip." alt="" coords="5,5,194,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,30,194,30,194,25,226,25"/>
+</map>

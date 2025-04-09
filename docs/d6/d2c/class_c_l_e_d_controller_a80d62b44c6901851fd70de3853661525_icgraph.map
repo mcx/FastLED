@@ -1,0 +1,5 @@
+<map id="CLEDController::setCorrection" name="CLEDController::setCorrection">
+<area shape="rect" id="Node000001" title="The color corrction to use for this controller, expressed as a CRGB object." alt="" coords="230,5,444,33"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#ad266c3e649cc12a6dc49a1e229acc282" title="Set a global color correction." alt="" coords="5,5,182,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,22,182,22,182,16,214,16"/>
+</map>

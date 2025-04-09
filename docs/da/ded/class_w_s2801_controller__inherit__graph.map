@@ -1,0 +1,14 @@
+<map id="WS2801Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" name="WS2801Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;">
+<area shape="rect" id="Node000001" title="WS2801 controller class." alt="" coords="5,303,230,365"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="24,447,211,508"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="120,380,120,446,115,446,115,380"/>
+<area shape="rect" id="Node000002" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="42,209,193,254"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,269,120,303,115,303,115,269"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html" title="Base definition for an LED controller." alt="" coords="52,5,172,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,49,120,208,114,209,110,49"/>
+<area shape="rect" id="Node000004" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="" coords="134,82,306,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="141,41,186,80,183,84,138,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="186,157,139,210,135,207,182,154"/>
+<area shape="rect" id="Node000006" href="$df/d0d/group___clocked_chipsets.html#dc/d28/class_w_s2803_controller" title="WS2803 controller class." alt="" coords="5,558,230,619"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="120,523,120,557,115,557,115,523"/>
+</map>

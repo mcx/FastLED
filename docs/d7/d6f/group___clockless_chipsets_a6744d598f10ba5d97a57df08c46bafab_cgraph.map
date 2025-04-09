@@ -1,0 +1,23 @@
+<map id="DMXSimpleController::showPixels" name="DMXSimpleController::showPixels">
+<area shape="rect" id="Node000001" title="Send the LED data to the strip." alt="" coords="5,144,167,188"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#ab44f62f166d162bd1e3b095b368feef2" title="Advance the data pointer forward, adjust position counter." alt="" coords="216,5,426,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,141,149,92,180,66,213,44,228,37,230,41,216,48,183,70,153,96,107,145"/>
+<area shape="rect" id="Node000003" href="$d0/dee/struct_pixel_controller.html#ac13f3e00855fcf6125ea27543c2fb48c" title="Do we have n pixels left to process?" alt="" coords="247,57,394,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,141,165,116,214,94,233,87,235,92,216,99,168,121,125,145"/>
+<area shape="rect" id="Node000004" href="$d0/dee/struct_pixel_controller.html#a4984f158bbc3b6c79ca16dd847fe67e1" title="non&#45;template alias of loadAndScale&lt;0&gt;()" alt="" coords="232,109,410,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,151,216,144,217,149,168,157"/>
+<area shape="rect" id="Node000009" href="$d0/dee/struct_pixel_controller.html#a11f9b50f738c6d57d08d6776b3d8eb43" title="non&#45;template alias of loadAndScale&lt;1&gt;()" alt="" coords="232,178,410,223"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="168,175,217,182,216,188,167,180"/>
+<area shape="rect" id="Node000010" href="$d0/dee/struct_pixel_controller.html#a33c22b408cbc9eb8b9d98993fe985264" title="non&#45;template alias of loadAndScale&lt;2&gt;()" alt="" coords="232,248,410,292"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="126,186,216,233,232,239,230,244,214,238,124,191"/>
+<area shape="rect" id="Node000011" href="$d0/dee/struct_pixel_controller.html#ac7cb7840989882cce60218ac43dbe8ef" title="Step the dithering forward." alt="" coords="215,316,427,344"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="104,187,149,245,181,276,216,302,226,307,223,312,213,307,177,280,145,249,100,190"/>
+<area shape="rect" id="Node000005" href="$d0/dee/struct_pixel_controller.html#a56fc5e5bf305e1760198c0a69ac85ff9" title="Loads, dithers, and scales a single byte for a given output slot, using class dither and scale values..." alt="" coords="475,178,652,223"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="403,152,469,171,468,176,401,157"/>
+<area shape="rect" id="Node000006" href="$d0/dee/struct_pixel_controller.html#aa2a1b38058a62a4337605425e482202f" title="Calculate a dither value using the per&#45;channel dither data." alt="" coords="710,160,873,188"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="652,187,694,182,695,188,653,193"/>
+<area shape="rect" id="Node000008" href="$d0/dee/struct_pixel_controller.html#a75ef76fbecdc9b39b01eeab216845d9d" title="Read a byte of LED data." alt="" coords="700,212,883,240"/>
+<area shape="poly" id="edge6_Node000005_Node000008" title=" " alt="" coords="653,208,685,211,684,217,652,213"/>
+<area shape="poly" id="edge8_Node000009_Node000005" title=" " alt="" coords="410,198,459,198,459,203,410,203"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="401,244,468,225,469,230,403,249"/>
+</map>

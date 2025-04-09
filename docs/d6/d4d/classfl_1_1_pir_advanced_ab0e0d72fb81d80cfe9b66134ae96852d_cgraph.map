@@ -1,0 +1,11 @@
+<map id="fl::PirAdvanced::transition" name="fl::PirAdvanced::transition">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,194,60"/>
+<area shape="rect" id="Node000002" href="$d6/d4d/classfl_1_1_pir_advanced.html#aef122ef37ba5707909cd04d06a1d5c11" title=" " alt="" coords="242,32,409,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,43,226,43,226,48,194,48"/>
+<area shape="rect" id="Node000003" href="$db/db1/classfl_1_1_pir.html#a51c2e10c600bc91e58b2ef2bf803b4a2" title=" " alt="" coords="457,32,560,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="410,43,441,43,441,48,410,48"/>
+<area shape="rect" id="Node000004" href="$d3/d1d/classfl_1_1_u_i_button.html#a744c411f78146946d0f72366605e781a" title=" " alt="" coords="608,5,756,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="560,35,592,30,593,36,561,41"/>
+<area shape="rect" id="Node000005" href="$d0/d32/classfl_1_1_digital_pin.html#a98c8722fe4b986f75ea9f8225c377168" title=" " alt="" coords="614,57,750,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="561,51,599,56,598,62,560,56"/>
+</map>

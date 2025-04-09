@@ -1,0 +1,9 @@
+<map id="PixelController::loadAndScale" name="PixelController::loadAndScale">
+<area shape="rect" id="Node000001" title="Loads, dithers, and scales a single byte for a given output slot and lane, using class dither and sca..." alt="" coords="5,24,183,68"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#aa2a1b38058a62a4337605425e482202f" title="Calculate a dither value using the per&#45;channel dither data." alt="" coords="241,5,403,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,33,225,28,225,33,183,38"/>
+<area shape="rect" id="Node000004" href="$d0/dee/struct_pixel_controller.html#a75ef76fbecdc9b39b01eeab216845d9d" title="Read a byte of LED data." alt="" coords="231,57,413,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,53,215,57,215,62,183,58"/>
+<area shape="rect" id="Node000003" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="461,5,522,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="403,16,446,16,446,22,403,22"/>
+</map>

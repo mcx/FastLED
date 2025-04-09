@@ -1,0 +1,5 @@
+<map id="Noise Functions" name="Noise Functions">
+<area shape="rect" id="Node000001" title="Functions to generate and fill arrays with noise." alt="" coords="5,32,130,60"/>
+<area shape="rect" id="Node000002" href="$de/da4/group___noise_fill.html" title="Functions to fill a buffer with noise data." alt="" coords="204,5,352,33"/>
+<area shape="rect" id="Node000003" href="$d8/df9/group___noise_generation.html" title="Functions to generate noise." alt="" coords="178,57,378,85"/>
+</map>

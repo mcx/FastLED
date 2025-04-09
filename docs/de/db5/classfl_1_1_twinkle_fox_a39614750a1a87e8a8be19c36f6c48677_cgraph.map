@@ -1,0 +1,27 @@
+<map id="fl::TwinkleFox::computeOneTwinkle" name="fl::TwinkleFox::computeOneTwinkle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,124,206,168"/>
+<area shape="rect" id="Node000002" href="$de/db5/classfl_1_1_twinkle_fox.html#a4fe4a588d8419d38c454e35b863a7672" title=" " alt="" coords="254,64,453,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,120,243,110,244,115,201,125"/>
+<area shape="rect" id="Node000003" href="$d2/d73/group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd" title="Get a color from a palette." alt="" coords="287,132,420,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,143,271,143,271,148,206,148"/>
+<area shape="rect" id="Node000012" href="$de/db5/classfl_1_1_twinkle_fox.html#aff3c7b29001c2e1f4f6516e14000b22a" title=" " alt="" coords="268,205,438,250"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="177,166,269,197,267,202,175,171"/>
+<area shape="rect" id="Node000004" href="$dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="502,107,560,134"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="420,134,487,124,488,129,421,139"/>
+<area shape="rect" id="Node000007" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="772,69,868,97"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="419,129,452,118,475,105,500,93,568,79,637,73,756,75,756,80,637,79,569,85,502,98,478,109,454,123,420,134"/>
+<area shape="rect" id="Node000008" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="723,133,918,161"/>
+<area shape="poly" id="edge11_Node000003_Node000008" title=" " alt="" coords="420,143,707,144,707,150,420,149"/>
+<area shape="rect" id="Node000009" href="$da/d2d/colorutils_8cpp.html#ab445fd8641e95a3bbd1417d9783f6170" title="Helper function to divide a number by 16, aka four logical shift right (LSR)&#39;s." alt="" coords="504,208,558,236"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="389,158,491,202,489,207,387,163"/>
+<area shape="rect" id="Node000010" href="$d6/d19/group___linear_interpolation.html#gaf65357c7aeca9778e5a2f80a6bac2b5d" title="Map from one full&#45;range 8&#45;bit value into a narrower range of 8&#45;bit values, possibly a range of hues." alt="" coords="502,5,560,33"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="419,133,452,118,468,103,477,88,486,70,499,50,505,43,509,46,503,53,490,73,482,90,472,106,454,123,422,138"/>
+<area shape="rect" id="Node000005" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="609,107,675,134"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="560,118,594,118,594,123,560,123"/>
+<area shape="poly" id="edge5_Node000005_Node000007" title=" " alt="" coords="675,111,756,94,757,99,676,116"/>
+<area shape="poly" id="edge6_Node000005_Node000008" title=" " alt="" coords="676,123,709,128,708,133,675,128"/>
+<area shape="rect" id="Node000011" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="610,5,674,33"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="561,16,595,16,595,22,561,22"/>
+<area shape="rect" id="Node000013" href="$d5/d98/group___math.html#gae261576a4c8155d6c0ba8615b2d2ecb3" title="Subtract one byte from another, saturating at 0x00." alt="" coords="501,260,561,288"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="439,247,487,260,485,265,438,252"/>
+</map>

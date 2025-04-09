@@ -1,0 +1,28 @@
+<map id="fl::Fire2012::draw" name="fl::Fire2012::draw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,299,139,326"/>
+<area shape="rect" id="Node000002" href="$d2/d73/group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd" title="Get a color from a palette." alt="" coords="187,120,320,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,297,225,157,229,161,89,301"/>
+<area shape="rect" id="Node000010" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="475,223,539,250"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="134,296,186,285,336,259,459,240,460,246,337,264,187,290,135,301"/>
+<area shape="rect" id="Node000011" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="223,299,284,326"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="139,310,208,310,208,315,139,315"/>
+<area shape="rect" id="Node000012" href="$d5/d98/group___math.html#gae261576a4c8155d6c0ba8615b2d2ecb3" title="Subtract one byte from another, saturating at 0x00." alt="" coords="223,351,284,378"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="124,325,209,349,207,354,122,330"/>
+<area shape="rect" id="Node000013" href="$d2/d0d/group___random.html#ga4e63c74426f6516f28470dc1b814aefe" title="Generate an 8&#45;bit random number." alt="" coords="214,403,293,430"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="93,325,136,355,188,388,200,394,198,399,185,392,133,360,90,329"/>
+<area shape="rect" id="Node000003" href="$dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="368,44,426,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="280,117,354,77,357,82,282,122"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="637,7,734,34"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="263,118,304,72,334,48,367,30,433,11,501,4,566,4,622,8,622,14,566,9,502,9,434,17,369,35,337,53,308,76,267,121"/>
+<area shape="rect" id="Node000007" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="588,71,783,98"/>
+<area shape="poly" id="edge10_Node000002_Node000007" title=" " alt="" coords="320,124,572,95,572,100,321,129"/>
+<area shape="rect" id="Node000008" href="$da/d2d/colorutils_8cpp.html#ab445fd8641e95a3bbd1417d9783f6170" title="Helper function to divide a number by 16, aka four logical shift right (LSR)&#39;s." alt="" coords="370,145,424,173"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="321,143,355,149,354,155,320,148"/>
+<area shape="rect" id="Node000009" href="$d6/d19/group___linear_interpolation.html#gaf65357c7aeca9778e5a2f80a6bac2b5d" title="Map from one full&#45;range 8&#45;bit value into a narrower range of 8&#45;bit values, possibly a range of hues." alt="" coords="368,197,426,225"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="282,146,357,187,355,192,279,150"/>
+<area shape="rect" id="Node000004" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="474,44,540,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="426,55,459,55,459,61,426,61"/>
+<area shape="poly" id="edge4_Node000004_Node000006" title=" " alt="" coords="540,49,621,31,622,36,541,54"/>
+<area shape="poly" id="edge5_Node000004_Node000007" title=" " alt="" coords="541,60,574,65,573,71,540,65"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="427,215,460,223,459,228,426,221"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="CMinWait::wait" name="CMinWait::wait">
+<area shape="rect" id="Node000001" title="Blocking delay until WAIT time since mark() has passed." alt="" coords="272,5,391,33"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html#a0bb02438ec0df1f3046131194a892576" title="Send the LED data to the strip." alt="" coords="5,5,224,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,22,224,22,224,16,256,16"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="fl::ScaleUp" name="fl::ScaleUp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="175,300,265,328"/>
+<area shape="rect" id="Node000002" href="$d7/d3e/classfl_1_1_fx2d.html" title=" " alt="" coords="109,208,179,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,245,211,298,207,302,162,249"/>
+<area shape="rect" id="Node000003" href="$da/d5d/classfl_1_1_fx.html" title=" " alt="" coords="25,106,79,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,144,134,206,130,209,72,147"/>
+<area shape="rect" id="Node000004" href="$d6/d16/classfl_1_1_referent.html" title=" " alt="" coords="5,5,99,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="55,48,55,106,49,106,49,48"/>
+<area shape="rect" id="Node000011" href="$d0/dce/classfl_1_1_x_y_map.html" title=" " alt="" coords="103,106,185,134"/>
+<area shape="poly" id="edge4_Node000002_Node000011" title=" " alt="" coords="147,150,147,208,141,208,141,150"/>
+<area shape="rect" id="Node000012" href="$d3/d92/classfl_1_1scoped__array.html" title=" " alt="" coords="224,208,416,235"/>
+<area shape="poly" id="edge5_Node000001_Node000012" title=" " alt="" coords="297,248,236,302,233,298,293,244"/>
+<area shape="rect" id="Node000013" href="$db/d87/group___pixel_types.html#d7/d82/struct_c_r_g_b" title="Representation of an RGB pixel (Red, Green, Blue)" alt="" coords="210,106,268,134"/>
+<area shape="poly" id="edge6_Node000012_Node000013" title=" " alt="" coords="261,144,312,206,308,209,257,148"/>
+<area shape="rect" id="Node000014" href="$df/db6/structfl_1_1_array_deleter.html" title=" " alt="" coords="292,106,479,134"/>
+<area shape="poly" id="edge7_Node000012_Node000014" title=" " alt="" coords="371,149,331,209,326,206,366,146"/>
+<area shape="rect" id="Node000015" href="$df/db6/structfl_1_1_array_deleter.html" title=" " alt="" coords="306,5,464,33"/>
+<area shape="poly" id="edge8_Node000014_Node000015" title=" " alt="" coords="388,48,388,106,383,106,383,48"/>
+<area shape="rect" id="Node000016" href="$d3/d92/classfl_1_1scoped__array.html" title=" " alt="" coords="503,98,654,143"/>
+<area shape="poly" id="edge9_Node000012_Node000016" title=" " alt="" coords="509,151,418,186,356,210,354,205,416,181,507,146"/>
+</map>

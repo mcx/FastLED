@@ -1,0 +1,27 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,221,63,249"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#afd7928d822589740af6e23b2d510cf3f" title="Add a CLEDController instance to the world." alt="" coords="128,117,272,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,219,71,187,109,156,122,149,124,154,112,160,75,191,47,223"/>
+<area shape="rect" id="Node000011" href="$d2/d0d/group___random.html#ga17034d936ef716efe820e11c1df043b0" title="Generate a 16&#45;bit random number." alt="" coords="156,169,244,197"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="62,223,110,207,140,198,142,203,111,212,64,228"/>
+<area shape="rect" id="Node000012" href="$d2/d0d/group___random.html#ga1078b2029a50e86c93ccf4e3e1d85e7d" title="Add entropy into the random number generator." alt="" coords="112,221,288,249"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="63,232,96,232,96,238,63,238"/>
+<area shape="rect" id="Node000013" href="$d2/d0d/group___random.html#ga95e371c2438843e0ed1ed83412b28c99" title="Set the 16&#45;bit seed used for the random number generator." alt="" coords="124,273,276,301"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="64,242,111,258,137,266,135,271,110,263,62,247"/>
+<area shape="rect" id="Node000014" href="$dd/dbb/class_c_fast_l_e_d.html#a730ba7d967e882b4b893689cf333b2eb" title="Set the global brightness scaling." alt="" coords="111,325,289,353"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="47,248,75,279,112,310,124,317,122,321,109,315,71,283,43,251"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a44d20f088426191c82919c9cdbc63a35" title="Gets the maximum possible refresh rate of the strip." alt="" coords="337,5,593,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,115,269,79,336,43,360,35,361,40,338,48,272,83,221,119"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html#af877a15a5ec452780fbd1d359b8a9913" title="Initialize the LED controller." alt="" coords="391,57,539,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="255,114,336,94,375,85,377,91,338,99,256,119"/>
+<area shape="rect" id="Node000005" href="$de/dca/classfl_1_1_engine_events.html#a8ec266f9f7b35b9174d331cb6c338d80" title=" " alt="" coords="376,109,555,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="272,128,360,128,360,134,272,134"/>
+<area shape="rect" id="Node000009" href="$d6/d2c/class_c_l_e_d_controller.html#a6c8e2157d244ce8b1b878947ca7695d9" title="Set the default array of LEDs to be used by this controller." alt="" coords="376,177,554,205"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="256,143,338,163,374,171,373,176,336,168,255,148"/>
+<area shape="rect" id="Node000010" href="$dd/dbb/class_c_fast_l_e_d.html#a1f39e8404db214bbd6a776f52a77d8b1" title="Set the maximum refresh rate." alt="" coords="356,229,574,257"/>
+<area shape="poly" id="edge8_Node000002_Node000010" title=" " alt="" coords="266,143,291,156,306,171,315,186,323,201,339,214,350,221,348,225,335,219,319,204,310,189,302,174,287,160,264,148"/>
+<area shape="rect" id="Node000006" href="$de/dca/classfl_1_1_engine_events.html#a006e1f01b766436e0eec2e406b4512d5" title=" " alt="" coords="679,80,813,124"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="555,119,663,108,664,113,556,124"/>
+<area shape="rect" id="Node000007" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="641,148,851,176"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="556,138,626,146,625,151,555,144"/>
+</map>

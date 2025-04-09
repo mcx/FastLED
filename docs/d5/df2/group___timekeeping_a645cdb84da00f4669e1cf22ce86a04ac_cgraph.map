@@ -1,0 +1,9 @@
+<map id="CEveryNTime::CEveryNTime" name="CEveryNTime::CEveryNTime">
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,32,213,60"/>
+<area shape="rect" id="Node000002" href="$d5/df2/group___timekeeping.html#ae8ae82d26045e38ca51fbf424ad58d86" title="Reset the timestamp to the current time." alt="" coords="275,5,426,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,32,259,27,259,32,214,37"/>
+<area shape="rect" id="Node000004" href="$d5/df2/group___timekeeping.html#ac2a286cd6e39c223c274633b19057fe5" title="Set the time interval between triggers." alt="" coords="261,57,440,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,54,245,57,245,63,213,59"/>
+<area shape="rect" id="Node000003" href="$d5/df2/group___timekeeping.html#a9e72ce7dcf1e5b321ec9fa61f6c4fbd5" title="Get the current time according to the class&#39; timekeeper." alt="" coords="488,5,660,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="427,16,472,16,472,22,427,22"/>
+</map>

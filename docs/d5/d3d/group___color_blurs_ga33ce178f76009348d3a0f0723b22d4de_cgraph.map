@@ -1,0 +1,17 @@
+<map id="blurColumns" name="blurColumns">
+<area shape="rect" id="Node000001" title="Perform a blur1d() on every column of a rectangular matrix." alt="" coords="5,84,109,112"/>
+<area shape="rect" id="Node000002" href="$d0/dce/classfl_1_1_x_y_map.html#aaeab9d4f2c66f6e681415479493578c2" title=" " alt="" coords="157,57,326,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,88,141,83,141,88,109,93"/>
+<area shape="rect" id="Node000005" href="$db/d87/group___pixel_types.html#a5a3c3370a7de840ac31c07f6dc9bdb63" title="Scale down a RGB to N/256ths of its current brightness, using &quot;plain math&quot; dimming rules." alt="" coords="183,109,300,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="109,102,168,110,167,116,109,108"/>
+<area shape="rect" id="Node000003" href="$d4/d36/namespacefl.html#aabd143143924c6bddbe62e4b21688e76" title=" " alt="" coords="374,5,512,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,54,371,35,372,40,299,59"/>
+<area shape="rect" id="Node000004" href="$d4/d36/namespacefl.html#a44d29156c0decceaf2ff1970ddbdde7c" title=" " alt="" coords="378,57,508,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="327,68,363,68,363,74,327,74"/>
+<area shape="rect" id="Node000006" href="$d0/da8/group___scaling.html#ga39bf87e5526120889086cab19ac749b1" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="400,109,487,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="300,120,384,120,384,126,300,126"/>
+<area shape="rect" id="Node000007" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="610,83,706,110"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="487,115,594,102,595,107,488,120"/>
+<area shape="rect" id="Node000008" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="560,135,756,162"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="488,126,545,133,545,138,487,131"/>
+</map>

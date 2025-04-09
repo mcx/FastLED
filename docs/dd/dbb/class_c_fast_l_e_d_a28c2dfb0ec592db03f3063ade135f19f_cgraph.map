@@ -1,0 +1,9 @@
+<map id="CFastLED::setTemperature" name="CFastLED::setTemperature">
+<area shape="rect" id="Node000001" title="Set a global color temperature." alt="" coords="5,57,197,85"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#a8b412ff1fd4833d0db63a175d40a2ee0" title="Get the first LED controller in the linked list of controllers." alt="" coords="280,5,439,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,54,271,34,272,39,174,59"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a21a4d2b3415dd7b24175ebdb51c9ced0" title="Get the next controller in the linked list after this one." alt="" coords="281,57,438,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,68,266,68,266,74,197,74"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html#aa400d68e05557c5e7d254b0d9080ab5f" title="Set the color temperature, aka white point, for this controller." alt="" coords="245,109,474,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,83,272,103,271,108,173,88"/>
+</map>

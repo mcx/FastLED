@@ -1,0 +1,7 @@
+<map id="CMinWait::mark" name="CMinWait::mark">
+<area shape="rect" id="Node000001" title="Reset the timestamp that marks the start of the wait period." alt="" coords="272,32,397,60"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html#ad6187b68bccb831cd5cab3cffbd6bdb4" title="Initialize the controller." alt="" coords="31,5,198,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,39,198,32,199,27,257,34"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html#a0bb02438ec0df1f3046131194a892576" title="Send the LED data to the strip." alt="" coords="5,57,224,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,57,224,61,224,56,256,52"/>
+</map>

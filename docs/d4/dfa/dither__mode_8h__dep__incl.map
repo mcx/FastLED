@@ -1,0 +1,15 @@
+<map id="/home/runner/work/FastLED/FastLED/src/dither_mode.h" name="/home/runner/work/FastLED/FastLED/src/dither_mode.h">
+<area shape="rect" id="Node000001" title="Declares dithering options and types." alt="" coords="204,5,403,50"/>
+<area shape="rect" id="Node000002" href="$db/d6d/cled__controller_8h.html" title="base definitions used by led controllers for writing out led data" alt="" coords="126,191,336,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="279,64,259,99,244,148,236,191,231,190,239,146,254,97,275,61"/>
+<area shape="rect" id="Node000109" href="$d5/d4d/pixel__controller_8h.html" title="Low level pixel data writing class." alt="" coords="268,98,482,143"/>
+<area shape="poly" id="edge5_Node000001_Node000109" title=" " alt="" coords="332,60,360,96,356,99,328,64"/>
+<area shape="rect" id="Node000003" href="$dd/dd8/cled__controller_8cpp.html" title="base definitions used by led controllers for writing out led data" alt="" coords="5,283,231,328"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="194,247,147,285,143,281,191,243"/>
+<area shape="rect" id="Node000004" href="$d9/d57/cpixel__ledcontroller_8h.html" title="defines the templated version of the CLEDController class" alt="" coords="255,283,496,328"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="280,242,343,281,340,285,277,246"/>
+<area shape="rect" id="Node000005" href="$d2/dd9/controller_8h.html" title="deprecated: base definitions used by led controllers for writing out led data" alt="" coords="276,376,475,421"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="378,344,378,376,373,376,373,344"/>
+<area shape="poly" id="edge6_Node000109_Node000002" title=" " alt="" coords="329,154,267,193,264,188,327,149"/>
+<area shape="poly" id="edge7_Node000109_Node000004" title=" " alt="" coords="378,158,378,283,373,283,373,158"/>
+</map>

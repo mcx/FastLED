@@ -1,0 +1,17 @@
+<map id="fl::bilinearExpandPowerOf2" name="fl::bilinearExpandPowerOf2">
+<area shape="rect" id="Node000001" title="Performs bilinear interpolation for upscaling an image." alt="" coords="5,109,203,137"/>
+<area shape="rect" id="Node000002" href="$d4/d36/namespacefl.html#a31d30c7ed12b05422e7aa7f03c25fb07" title=" " alt="" coords="251,5,471,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,106,182,75,250,43,275,35,276,40,252,48,184,80,129,111"/>
+<area shape="rect" id="Node000003" href="$d0/dce/classfl_1_1_x_y_map.html#abcc25dd0cecf6ebc8a7a97ddaf96e798" title=" " alt="" coords="284,57,438,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,106,273,86,274,91,177,111"/>
+<area shape="rect" id="Node000004" href="$d0/dce/classfl_1_1_x_y_map.html#af55d7352857170df1d30ac1dc1991e68" title=" " alt="" coords="290,109,432,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,120,275,120,275,126,203,126"/>
+<area shape="rect" id="Node000005" href="$d0/dce/classfl_1_1_x_y_map.html#a3a8ae645192828b625d3beb40672e9b8" title=" " alt="" coords="286,161,436,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="177,135,274,155,273,160,176,140"/>
+<area shape="rect" id="Node000006" href="$d0/dce/classfl_1_1_x_y_map.html#aaeab9d4f2c66f6e681415479493578c2" title=" " alt="" coords="276,213,446,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="129,135,184,167,252,198,276,206,275,211,250,203,182,171,127,140"/>
+<area shape="rect" id="Node000007" href="$d4/d36/namespacefl.html#aabd143143924c6bddbe62e4b21688e76" title=" " alt="" coords="519,187,657,214"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="446,215,503,208,504,213,446,220"/>
+<area shape="rect" id="Node000008" href="$d4/d36/namespacefl.html#a44d29156c0decceaf2ff1970ddbdde7c" title=" " alt="" coords="524,239,653,266"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="446,234,508,241,508,246,446,239"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="blur2d" name="blur2d">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,121,68,149"/>
+<area shape="rect" id="Node000002" href="$d5/d3d/group___color_blurs.html#gadfd6e9dc2b0c79922d8d4be9d94cf5f5" title="Two&#45;dimensional blur filter." alt="" coords="175,31,237,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,119,77,93,114,67,159,51,161,56,117,72,81,97,53,123"/>
+<area shape="rect" id="Node000012" href="$d0/dce/classfl_1_1_x_y_map.html#af2faeb1a8749912aa8af70d8570069c7" title=" " alt="" coords="116,82,296,127"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="68,127,100,121,101,126,68,132"/>
+<area shape="rect" id="Node000013" href="$d7/dfa/_p_j_r_c_spectrum_analyzer_8ino.html#a310eea447890e3471c6b27fd79dc94fc" title=" " alt="" coords="187,151,225,178"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="68,138,172,156,171,161,68,143"/>
+<area shape="rect" id="Node000014" href="$d0/d29/namespaceanonymous__namespace_02colorutils_8cpp_03.html#a2f04ebbf2cf87eda3f4aea9da8771da5" title=" " alt="" coords="116,203,296,265"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="58,147,117,188,126,193,124,198,114,192,55,152"/>
+<area shape="rect" id="Node000003" href="$d5/d3d/group___color_blurs.html#ga33ce178f76009348d3a0f0723b22d4de" title="Perform a blur1d() on every column of a rectangular matrix." alt="" coords="344,5,447,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="237,38,328,25,329,31,238,43"/>
+<area shape="rect" id="Node000011" href="$d5/d3d/group___color_blurs.html#ga3000f2662fe45e9424c02b0d35f40b21" title="Perform a blur1d() on every row of a rectangular matrix." alt="" coords="355,57,436,85"/>
+<area shape="poly" id="edge5_Node000002_Node000011" title=" " alt="" coords="238,46,340,61,339,66,237,51"/>
+<area shape="rect" id="Node000004" href="$d0/dce/classfl_1_1_x_y_map.html#aaeab9d4f2c66f6e681415479493578c2" title=" " alt="" coords="495,5,665,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="448,16,480,16,480,22,448,22"/>
+<area shape="rect" id="Node000007" href="$db/d87/group___pixel_types.html#a5a3c3370a7de840ac31c07f6dc9bdb63" title="Scale down a RGB to N/256ths of its current brightness, using &quot;plain math&quot; dimming rules." alt="" coords="522,57,638,85"/>
+<area shape="poly" id="edge4_Node000003_Node000007" title=" " alt="" coords="448,31,514,50,513,55,447,36"/>
+<area shape="poly" id="edge6_Node000011_Node000004" title=" " alt="" coords="436,57,513,35,514,40,438,62"/>
+<area shape="poly" id="edge7_Node000011_Node000007" title=" " alt="" coords="437,68,506,68,506,74,437,74"/>
+<area shape="rect" id="Node000015" href="$da/d2d/colorutils_8cpp.html#a7aa2d780d14ccc2f3ce3c493e01999eb" title=" " alt="" coords="376,220,415,248"/>
+<area shape="poly" id="edge11_Node000014_Node000015" title=" " alt="" coords="296,231,361,231,361,236,296,236"/>
+</map>

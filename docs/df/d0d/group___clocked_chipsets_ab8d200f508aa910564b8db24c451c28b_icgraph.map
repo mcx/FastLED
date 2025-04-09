@@ -1,0 +1,10 @@
+<map id="APA102Controller::startBoundary" name="APA102Controller::startBoundary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="530,48,764,76"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html#a632117bec47c6b4ba7e3ed1703478a42" title=" " alt="" coords="268,5,482,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="518,49,482,44,483,39,519,43"/>
+<area shape="rect" id="Node000004" href="$df/d0d/group___clocked_chipsets.html#a040f761b3d3bb30a9275f96548ec5ef7" title=" " alt="" coords="268,75,482,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,81,483,86,482,81,518,76"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html#a523f76b88c07e29cba6c40bd0cefe4b3" title="Send the LED data to the strip." alt="" coords="5,48,220,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="252,47,220,51,220,46,252,41"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="252,83,220,79,220,74,252,78"/>
+</map>

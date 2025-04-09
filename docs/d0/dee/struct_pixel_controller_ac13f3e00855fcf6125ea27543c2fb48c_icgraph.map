@@ -1,0 +1,24 @@
+<map id="PixelController::has" name="PixelController::has">
+<area shape="rect" id="Node000001" title="Do we have n pixels left to process?" alt="" coords="534,272,681,300"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html#a861d9beed51cce6441b50398f1eabebf" title="Send the LED data to the strip." alt="" coords="300,5,454,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="596,259,581,216,558,163,526,110,506,86,484,64,453,46,455,41,488,60,510,82,531,107,563,161,586,214,601,257"/>
+<area shape="rect" id="Node000003" href="$d7/d6f/group___clockless_chipsets.html#a6744d598f10ba5d97a57df08c46bafab" title="Send the LED data to the strip." alt="" coords="296,75,458,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="590,260,548,197,518,163,484,134,457,119,459,114,488,129,522,159,552,193,594,257"/>
+<area shape="rect" id="Node000004" href="$df/d0d/group___clocked_chipsets.html#a35f42384ada050146e6813f0fc766356" title="Send the LED data to the strip." alt="" coords="302,144,452,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="576,265,534,233,485,203,451,189,453,184,487,199,537,229,580,260"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html#ab7381f0a1850d006f3449d27838b19c5" title="Send the LED data to the strip." alt="" coords="274,212,480,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="543,270,485,254,442,243,443,238,487,249,545,265"/>
+<area shape="rect" id="Node000006" href="$d4/d28/group___chipsets.html#aba9a2f023f2950dbcdf3c2482f765350" title="Send the LED data to the strip." alt="" coords="283,264,471,309"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="518,289,472,289,472,284,518,284"/>
+<area shape="rect" id="Node000007" href="$d4/d28/group___chipsets.html#a7d9891631bb3b4e35dcbb93180ac8a55" title="Send the LED data to the strip." alt="" coords="268,332,486,360"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="545,307,487,324,443,334,442,329,485,318,543,302"/>
+<area shape="rect" id="Node000008" href="$df/d0d/group___clocked_chipsets.html#a632117bec47c6b4ba7e3ed1703478a42" title=" " alt="" coords="270,384,484,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="580,312,537,344,487,374,460,386,458,381,485,369,534,339,576,308"/>
+<area shape="rect" id="Node000010" href="$df/d0d/group___clocked_chipsets.html#a040f761b3d3bb30a9275f96548ec5ef7" title=" " alt="" coords="270,453,484,498"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="594,315,552,379,522,414,488,443,466,455,464,451,484,439,518,410,548,376,590,312"/>
+<area shape="rect" id="Node000011" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a20772a8fdfa75015731375c36ccb3515" title="Write LED pixel data to the SPI interface." alt="" coords="293,523,461,567"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="601,316,586,359,563,412,531,466,510,491,488,512,463,528,460,523,484,508,506,487,526,463,558,409,581,357,596,314"/>
+<area shape="rect" id="Node000009" href="$df/d0d/group___clocked_chipsets.html#a523f76b88c07e29cba6c40bd0cefe4b3" title="Send the LED data to the strip." alt="" coords="5,427,220,455"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="255,425,221,430,220,424,254,420"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="254,462,220,458,221,452,255,457"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="CEveryNMillisDynamic::getTime" name="CEveryNMillisDynamic::getTime">
+<area shape="rect" id="Node000001" title=" " alt="" coords="668,109,839,154"/>
+<area shape="rect" id="Node000002" href="$d5/df2/group___timekeeping.html#a753e6ba28827b47e9af63aca9a5b96d2" title=" " alt="" coords="450,40,620,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,107,607,88,609,83,667,102"/>
+<area shape="rect" id="Node000006" href="$d5/df2/group___timekeeping.html#a993759a29aef7b9356f2861e6cb4faeb" title=" " alt="" coords="450,109,620,154"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="653,134,621,134,621,129,653,129"/>
+<area shape="rect" id="Node000008" href="$d5/df2/group___timekeeping.html#aa7fd8de7dd186ee5d3b4370882fb1ec2" title=" " alt="" coords="450,179,620,223"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="667,162,609,181,607,175,666,157"/>
+<area shape="rect" id="Node000003" href="$d5/df2/group___timekeeping.html#a54e661ca75ee1894f21c9fe96e05cac6" title=" " alt="" coords="228,5,398,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="434,49,398,44,399,38,435,44"/>
+<area shape="rect" id="Node000004" href="$d5/df2/group___timekeeping.html#adf560409fae3890034cc952aad0a7412" title=" " alt="" coords="228,75,398,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="435,81,399,86,398,81,434,75"/>
+<area shape="rect" id="Node000005" href="$d5/df2/group___timekeeping.html#a708e65baedb0e502df282ca8c682522b" title=" " alt="" coords="5,75,176,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="212,100,176,100,176,94,212,94"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="434,119,398,113,399,108,435,113"/>
+<area shape="rect" id="Node000007" href="$d5/df2/group___timekeeping.html#a95ea23e4df044bec1fb0b8719dec5f5a" title=" " alt="" coords="224,144,402,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="435,150,403,155,402,150,434,145"/>
+</map>

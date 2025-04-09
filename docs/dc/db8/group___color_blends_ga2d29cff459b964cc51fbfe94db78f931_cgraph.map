@@ -1,0 +1,15 @@
+<map id="blend" name="blend">
+<area shape="rect" id="Node000001" title="Computes a new blended array of colors, each some fraction of the way between corresponding elements ..." alt="" coords="5,43,63,70"/>
+<area shape="rect" id="Node000002" href="$dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="111,43,168,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,54,95,54,95,59,63,59"/>
+<area shape="rect" id="Node000003" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="216,43,281,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,54,200,54,200,59,168,59"/>
+<area shape="rect" id="Node000004" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="329,43,395,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="281,54,313,54,313,59,281,59"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="492,5,588,33"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="281,42,329,29,405,19,476,16,476,21,406,24,330,34,283,47"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="443,69,638,97"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="283,67,330,79,378,84,427,86,427,91,378,90,329,84,281,72"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="395,47,476,30,477,35,396,52"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="396,59,429,64,428,69,395,64"/>
+</map>

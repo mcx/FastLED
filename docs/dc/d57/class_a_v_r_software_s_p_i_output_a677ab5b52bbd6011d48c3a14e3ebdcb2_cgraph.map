@@ -1,0 +1,5 @@
+<map id="AVRSoftwareSPIOutput::release" name="AVRSoftwareSPIOutput::release">
+<area shape="rect" id="Node000001" title="Release the SPI chip select line." alt="" coords="5,5,174,50"/>
+<area shape="rect" id="Node000002" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="222,14,367,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,25,206,25,206,30,174,30"/>
+</map>

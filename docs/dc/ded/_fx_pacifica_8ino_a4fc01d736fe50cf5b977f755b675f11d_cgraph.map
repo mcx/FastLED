@@ -1,0 +1,25 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,204,63,232"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#afd7928d822589740af6e23b2d510cf3f" title="Add a CLEDController instance to the world." alt="" coords="150,148,293,176"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,207,157,178,159,183,64,212"/>
+<area shape="rect" id="Node000011" href="$dd/dbb/class_c_fast_l_e_d.html#a996375a3f4a7b8c096f87d8a93c2b196" title="Set the maximum power to be used, given in volts and milliamps." alt="" coords="111,225,332,270"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="63,220,96,225,95,230,63,225"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a44d20f088426191c82919c9cdbc63a35" title="Gets the maximum possible refresh rate of the strip." alt="" coords="380,5,636,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="236,146,295,95,335,67,379,43,399,35,401,40,381,48,338,72,298,99,239,150"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html#af877a15a5ec452780fbd1d359b8a9913" title="Initialize the LED controller." alt="" coords="434,57,582,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="251,145,310,119,379,94,418,84,419,89,381,99,312,124,253,150"/>
+<area shape="rect" id="Node000005" href="$de/dca/classfl_1_1_engine_events.html#a8ec266f9f7b35b9174d331cb6c338d80" title=" " alt="" coords="418,109,598,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="293,152,403,140,403,145,294,157"/>
+<area shape="rect" id="Node000009" href="$d6/d2c/class_c_l_e_d_controller.html#a6c8e2157d244ce8b1b878947ca7695d9" title="Set the default array of LEDs to be used by this controller." alt="" coords="420,177,597,205"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="294,167,404,178,404,183,293,172"/>
+<area shape="rect" id="Node000010" href="$dd/dbb/class_c_fast_l_e_d.html#a1f39e8404db214bbd6a776f52a77d8b1" title="Set the maximum refresh rate." alt="" coords="400,229,617,257"/>
+<area shape="poly" id="edge8_Node000002_Node000010" title=" " alt="" coords="261,174,381,214,416,223,415,228,379,219,259,179"/>
+<area shape="rect" id="Node000006" href="$de/dca/classfl_1_1_engine_events.html#a006e1f01b766436e0eec2e406b4512d5" title=" " alt="" coords="722,80,856,124"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="598,119,706,108,707,113,599,124"/>
+<area shape="rect" id="Node000007" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="684,148,894,176"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="599,138,669,146,668,151,598,144"/>
+<area shape="rect" id="Node000012" href="$dd/dbb/class_c_fast_l_e_d.html#ab07d62cdec036af9ede70cbd06ece40f" title="Set the maximum power to be used, given in milliwatts." alt="" coords="400,281,617,326"/>
+<area shape="poly" id="edge10_Node000011_Node000012" title=" " alt="" coords="333,266,385,276,384,282,332,271"/>
+<area shape="rect" id="Node000013" href="$d3/d1d/group___power.html#gafff15ebb8adee6a6c76fd46eb980397c" title="Determines the highest brightness level you can use and still stay under the specified power budget f..." alt="" coords="693,281,885,326"/>
+<area shape="poly" id="edge11_Node000012_Node000013" title=" " alt="" coords="617,300,678,300,678,306,617,306"/>
+</map>

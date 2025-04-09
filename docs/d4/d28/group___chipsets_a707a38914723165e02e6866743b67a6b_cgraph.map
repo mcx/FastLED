@@ -1,0 +1,8 @@
+<map id="WS2816Controller::beginShowLeds" name="WS2816Controller::beginShowLeds">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,44,253,72"/>
+<area shape="rect" id="Node000002" href="$d4/d28/group___chipsets.html#a179bcd510371dfb0cc53823d2f201b37" title=" " alt="" coords="301,5,511,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,42,285,38,286,44,253,47"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a63f75cf7e55cf8da46db5fd27110bb3e" title="How many LEDs does this controller manage?" alt="" coords="559,44,712,72"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="253,59,301,60,511,60,543,59,543,64,511,65,301,65,253,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="512,39,544,43,543,49,511,44"/>
+</map>

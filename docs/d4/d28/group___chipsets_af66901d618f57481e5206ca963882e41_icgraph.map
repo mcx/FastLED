@@ -1,0 +1,5 @@
+<map id="WS2816Controller::ControllerT::callShow" name="WS2816Controller::ControllerT::callShow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="272,5,482,50"/>
+<area shape="rect" id="Node000002" href="$d4/d28/group___chipsets.html#a7d9891631bb3b4e35dcbb93180ac8a55" title="Send the LED data to the strip." alt="" coords="5,14,224,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,30,224,30,224,25,256,25"/>
+</map>

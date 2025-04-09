@@ -1,0 +1,13 @@
+<map id="LPD8806Controller::init" name="LPD8806Controller::init">
+<area shape="rect" id="Node000001" title="Initialize the LED controller." alt="" coords="5,44,177,72"/>
+<area shape="rect" id="Node000002" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ae321dbae3fceaa2d73a98f6aa08ea3c5" title="Set the clock/data pins to output and make sure the chip select is released." alt="" coords="225,36,393,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,56,209,56,209,61,177,61"/>
+<area shape="rect" id="Node000003" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="441,5,609,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="393,44,425,39,426,44,394,49"/>
+<area shape="rect" id="Node000005" href="$db/d3b/class_fast_pin.html#ab4b349c1763a7565c3ee7b2de52a50c8" title="Set the pin mode as OUTPUT" alt="" coords="456,74,595,102"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="394,67,440,74,440,79,393,72"/>
+<area shape="rect" id="Node000004" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="657,14,803,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="610,25,642,25,642,30,610,30"/>
+<area shape="rect" id="Node000006" href="$db/d3b/class_fast_pin.html#a60c6fb75993ac57d29b097bf8df013c2" title=" " alt="" coords="678,74,782,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="595,85,663,85,663,90,595,90"/>
+</map>

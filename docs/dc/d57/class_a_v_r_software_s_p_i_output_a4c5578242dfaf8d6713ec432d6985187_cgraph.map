@@ -1,0 +1,15 @@
+<map id="AVRSoftwareSPIOutput::writeBit" name="AVRSoftwareSPIOutput::writeBit">
+<area shape="rect" id="Node000001" title="The version of writeBit() to use when clock and data are on the same port with precomputed values for..." alt="" coords="5,50,174,95"/>
+<area shape="rect" id="Node000002" href="$db/d3b/class_fast_pin.html#ad560f1e8787dc9c555ec635c0b5c99fa" title="Set the state of a port." alt="" coords="246,17,366,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,54,230,43,231,48,175,59"/>
+<area shape="rect" id="Node000004" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497" title="Write the BIT&#39;th bit out via SPI, setting the data pin then strobing the clock." alt="" coords="222,80,390,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,81,206,86,206,91,174,87"/>
+<area shape="rect" id="Node000003" href="$db/d3b/class_fast_pin.html#ab005abe848eadb60051daccb4eb7dbe8" title="Get the output state of the port." alt="" coords="446,5,547,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,25,430,21,430,26,367,30"/>
+<area shape="rect" id="Node000005" href="$db/d3b/class_fast_pin.html#add52474362013eb37903fc832e2abdc2" title="Set the pin state to HIGH" alt="" coords="452,57,540,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="390,86,437,78,438,83,391,91"/>
+<area shape="rect" id="Node000006" href="$db/d3b/class_fast_pin.html#aa7420ec06218b5201f7f54cf6f4bfb86" title="Set the pin state to LOW" alt="" coords="452,109,540,137"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="391,109,438,114,437,119,390,114"/>
+<area shape="rect" id="Node000007" href="$db/d3b/class_fast_pin.html#a25b537b13a05155051cc663b4877f79f" title="Toggle the pin." alt="" coords="438,161,554,189"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="366,122,445,153,443,158,365,127"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="PL9823&lt; DATA_PIN, RGB_ORDER &gt;" name="PL9823&lt; DATA_PIN, RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="PL9823 controller class." alt="" coords="897,65,1079,110"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="666,65,848,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="863,85,897,85,897,90,863,90"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="251,5,432,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,53,666,75,666,81,447,58"/>
+<area shape="rect" id="Node000004" href="$d7/d6f/group___clockless_chipsets.html#dc/d0c/class_p_l9823_controller" title="PL9823 controller class." alt="" coords="251,108,432,152"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="447,117,666,94,666,99,448,122"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,99,202,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="217,127,250,127,250,133,217,133"/>
+</map>

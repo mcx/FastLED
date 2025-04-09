@@ -1,0 +1,5 @@
+<map id="CRGB::subtractFromRGB" name="CRGB::subtractFromRGB">
+<area shape="rect" id="Node000001" title="Subtract a constant from each channel, saturating at 0x00." alt="" coords="5,5,186,33"/>
+<area shape="rect" id="Node000002" href="$d5/d98/group___math.html#gae261576a4c8155d6c0ba8615b2d2ecb3" title="Subtract one byte from another, saturating at 0x00." alt="" coords="234,5,294,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,16,218,16,218,22,186,22"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="CLEDController::setDither" name="CLEDController::setDither">
+<area shape="rect" id="Node000001" title="Set the dithering mode for this controller to use." alt="" coords="779,409,967,437"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#a49b221af013bf196c2068e2cbd1c299d" title=" " alt="" coords="515,333,731,361"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="811,407,731,382,672,364,674,359,732,377,813,402"/>
+<area shape="rect" id="Node000003" href="$dd/dbb/class_c_fast_l_e_d.html#a83afdd1e2a21f33ac4f8d2610d6e331b" title="Update all our controllers with the current led colors, using the passed in brightness." alt="" coords="310,229,433,257"/>
+<area shape="poly" id="edge18_Node000001_Node000003" title=" " alt="" coords="844,401,793,361,730,324,653,296,572,275,497,260,433,251,434,246,497,255,573,269,654,290,732,319,796,357,847,397"/>
+<area shape="rect" id="Node000017" href="$dd/dbb/class_c_fast_l_e_d.html#a7315b060d295bad5fbd32e50eaaf02b0" title="Set all leds on all controllers to the given color/scale." alt="" coords="293,385,450,413"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="764,421,450,406,451,400,764,415"/>
+<area shape="rect" id="Node000021" href="$d3/dac/_fx_noise_ring_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="598,435,648,462"/>
+<area shape="poly" id="edge14_Node000001_Node000021" title=" " alt="" coords="764,437,649,449,648,443,764,432"/>
+<area shape="rect" id="Node000022" href="$dd/dbb/class_c_fast_l_e_d.html#a7ae5d3864df01101d82d242c123ffb36" title="Set the dithering mode." alt="" coords="548,487,698,514"/>
+<area shape="poly" id="edge15_Node000001_Node000022" title=" " alt="" coords="822,445,732,476,688,489,686,483,731,471,820,440"/>
+<area shape="rect" id="Node000024" href="$d2/db0/_fx_pride2015_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="594,539,652,566"/>
+<area shape="poly" id="edge17_Node000001_Node000024" title=" " alt="" coords="847,450,796,490,732,528,691,543,653,551,652,546,690,538,730,523,793,486,843,445"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="572,329,406,260,408,255,575,325"/>
+<area shape="poly" id="edge10_Node000002_Node000017" title=" " alt="" coords="538,367,443,387,442,382,537,362"/>
+<area shape="rect" id="Node000019" href="$d6/d2c/class_c_l_e_d_controller.html#a3b699c9cf0829d15fdc7ceb1d5166412" title=" " alt="" coords="276,333,467,361"/>
+<area shape="poly" id="edge12_Node000002_Node000019" title=" " alt="" coords="499,350,468,350,468,344,499,344"/>
+<area shape="rect" id="Node000004" href="$d5/d4d/_blink_parallel_8ino.html#a29584c4a240c144644e81dfab0090635" title=" " alt="" coords="90,125,143,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="334,223,284,195,227,168,183,155,143,146,144,141,184,150,229,163,286,190,336,218"/>
+<area shape="rect" id="Node000006" href="$d5/db2/_octo_w_s2811_8ino.html#a87dad6cde22368918813bc56504b0dee" title=" " alt="" coords="73,177,160,205"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="295,230,159,202,161,197,296,225"/>
+<area shape="rect" id="Node000008" href="$d1/d3a/_r_g_b_w_emulated_8ino.html#a7786953e7de2513a3589a490e1e3355a" title=" " alt="" coords="68,229,165,257"/>
+<area shape="poly" id="edge5_Node000003_Node000008" title=" " alt="" coords="295,246,166,246,166,240,295,240"/>
+<area shape="rect" id="Node000010" href="$dd/d0f/_apa102_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="92,281,141,309"/>
+<area shape="poly" id="edge6_Node000003_Node000010" title=" " alt="" coords="295,261,142,293,141,288,294,256"/>
+<area shape="rect" id="Node000011" href="$d4/df6/class_led_rope_t_c_l.html#a2c5c772faf24596d5be70d96581e7454" title=" " alt="" coords="5,333,228,361"/>
+<area shape="poly" id="edge7_Node000003_Node000011" title=" " alt="" coords="336,268,286,296,229,323,190,335,188,330,227,318,284,292,334,263"/>
+<area shape="rect" id="Node000015" href="$d1/ddb/_chromancer_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="88,5,145,33"/>
+<area shape="poly" id="edge8_Node000003_Node000015" title=" " alt="" coords="356,217,336,178,308,131,271,85,226,47,207,37,186,30,145,23,146,18,187,24,209,32,229,42,275,82,312,128,341,175,360,214"/>
+<area shape="rect" id="Node000016" href="$d3/d1d/group___power.html#ga510b6ca1ea6da7f0f89dcf353f19ffde" title="Similar to CFastLED::show(), but pre&#45;adjusts brightness to keep below the power threshold." alt="" coords="23,57,210,102"/>
+<area shape="poly" id="edge9_Node000003_Node000016" title=" " alt="" coords="346,220,295,167,262,140,226,116,202,104,205,100,229,112,265,136,298,163,350,216"/>
+<area shape="rect" id="Node000018" href="$dd/dbb/class_c_fast_l_e_d.html#aeb7bd3e8f2dbced6284a2182191d5fcb" title="Clear the leds, wiping the local array of data." alt="" coords="56,437,177,465"/>
+<area shape="poly" id="edge11_Node000017_Node000018" title=" " alt="" coords="285,419,178,441,177,436,284,414"/>
+<area shape="rect" id="Node000020" href="$d6/d2c/class_c_l_e_d_controller.html#a6cd8a28d7585fba96407c9678c00d588" title="Clear out/zero out the given number of LEDs." alt="" coords="22,385,211,413"/>
+<area shape="poly" id="edge13_Node000019_Node000020" title=" " alt="" coords="286,367,189,387,188,382,285,362"/>
+<area shape="rect" id="Node000023" href="$d8/d2c/_fire2023_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="343,487,400,514"/>
+<area shape="poly" id="edge16_Node000022_Node000023" title=" " alt="" coords="533,503,400,503,400,498,533,498"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="fl::NoisePalette::setPalettePreset" name="fl::NoisePalette::setPalettePreset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,75,198,119"/>
+<area shape="rect" id="Node000002" href="$d9/d41/classfl_1_1_noise_palette.html#a3edcb0dfbc5280fffcd9776bc59f6899" title=" " alt="" coords="255,5,455,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,71,256,52,257,57,187,77"/>
+<area shape="rect" id="Node000004" href="$d9/d41/classfl_1_1_noise_palette.html#a7b4bff9751e94b0ca2c4deaff12d485b" title=" " alt="" coords="252,75,458,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="198,94,237,94,237,100,198,100"/>
+<area shape="rect" id="Node000005" href="$d9/d41/classfl_1_1_noise_palette.html#ac7e866ba3586a6d8fcc916347ae8e83b" title=" " alt="" coords="246,144,464,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="187,117,257,137,256,142,185,123"/>
+<area shape="rect" id="Node000003" href="$da/de3/group___color_fills.html#gac0bcd5712f9f57a186f2c5f96911af1d" title="Fill a range of LEDs with a solid color." alt="" coords="514,14,589,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,25,498,25,498,30,456,30"/>
+<area shape="rect" id="Node000006" href="$d2/d0d/group___random.html#ga4e63c74426f6516f28470dc1b814aefe" title="Generate an 8&#45;bit random number." alt="" coords="512,152,591,180"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="465,164,497,164,497,169,465,169"/>
+</map>

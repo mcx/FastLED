@@ -1,0 +1,9 @@
+<map id="fl::Pir::operator bool" name="fl::Pir::operator bool">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,155,60"/>
+<area shape="rect" id="Node000002" href="$db/db1/classfl_1_1_pir.html#a51c2e10c600bc91e58b2ef2bf803b4a2" title=" " alt="" coords="203,32,306,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,43,187,43,187,48,155,48"/>
+<area shape="rect" id="Node000003" href="$d3/d1d/classfl_1_1_u_i_button.html#a744c411f78146946d0f72366605e781a" title=" " alt="" coords="354,5,501,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,35,338,30,339,36,307,41"/>
+<area shape="rect" id="Node000004" href="$d0/d32/classfl_1_1_digital_pin.html#a98c8722fe4b986f75ea9f8225c377168" title=" " alt="" coords="360,57,496,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="307,51,344,56,344,62,306,56"/>
+</map>

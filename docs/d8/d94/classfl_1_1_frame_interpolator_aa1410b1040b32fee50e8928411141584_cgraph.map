@@ -1,0 +1,9 @@
+<map id="fl::FrameInterpolator::needsFrame" name="fl::FrameInterpolator::needsFrame">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,36,160,81"/>
+<area shape="rect" id="Node000002" href="$d4/da0/classfl_1_1_frame_tracker.html#a5a51fc95e9fd4c8ac218fbd14b59bb50" title=" " alt="" coords="224,5,377,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,45,208,38,208,43,161,50"/>
+<area shape="rect" id="Node000003" href="$d8/d94/classfl_1_1_frame_interpolator.html#a61e39bebb1c92fea6f613e7f14a4d4af" title=" " alt="" coords="208,74,393,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,66,193,70,192,76,160,71"/>
+<area shape="rect" id="Node000004" href="$dc/d45/classfl_1_1_sorted_heap_map.html#a0d32564de9839a97d3e3792ba89cd6c1" title=" " alt="" coords="441,74,613,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="393,85,426,85,426,90,393,90"/>
+</map>

@@ -1,0 +1,63 @@
+<map id="CPixelView::end" name="CPixelView::end">
+<area shape="rect" id="Node000001" title="Makes an iterator instance for the end of the LED set." alt="" coords="486,724,610,752"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#a204a8e8cc2c99e6c172f8802d880a273" title="Add the passed in value to all channels for all of the pixels in this set." alt="" coords="261,5,427,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,709,538,569,522,371,508,269,489,176,466,99,452,70,436,48,421,36,425,32,440,44,456,67,471,97,495,175,513,268,527,370,543,569,549,708"/>
+<area shape="rect" id="Node000003" href="$de/d64/group___pixel_set.html#ae6f88c914bbead76c70b4eb6a1b11c3f" title="Destructively blend another set of LEDs into this one." alt="" coords="272,57,416,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="543,709,536,579,519,396,505,302,486,217,464,147,450,120,436,100,415,85,418,80,440,96,455,117,469,145,492,216,510,301,524,395,541,578,549,708"/>
+<area shape="rect" id="Node000004" href="$de/d64/group___pixel_set.html#a89e2018177b3e1db63ed24a083e314a4" title="Destructively modifies all LEDs, blending in a given fraction of an overlay color." alt="" coords="272,109,416,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="543,709,534,589,515,421,501,336,484,258,462,195,449,170,436,152,415,137,418,132,440,148,454,167,467,193,489,257,507,335,521,420,540,588,548,709"/>
+<area shape="rect" id="Node000005" href="$de/d64/group___pixel_set.html#ad5716b0d858f691ae8e6452b1dd8dfb4" title="Scale every LED in this set by every led in the other set." alt="" coords="269,161,419,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="542,708,532,597,512,446,498,369,480,299,460,242,436,204,418,190,421,186,440,200,465,240,486,298,503,368,517,445,537,597,547,708"/>
+<area shape="rect" id="Node000006" href="$de/d64/group___pixel_set.html#a0800d82771bc0a44f8ae24aa94a8065e" title="Scale every LED by the given scale." alt="" coords="269,213,419,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="541,709,530,608,509,472,494,403,477,341,458,290,436,256,418,242,421,238,440,252,463,288,483,339,500,402,514,471,535,607,547,708"/>
+<area shape="rect" id="Node000007" href="$de/d64/group___pixel_set.html#a96e9aee963f15b008d91ba1cbd9b6f6a" title="Scale every LED by the given scale." alt="" coords="269,265,419,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="541,709,528,617,505,496,475,381,456,336,436,306,418,293,421,289,440,303,461,334,480,379,511,495,533,616,546,708"/>
+<area shape="rect" id="Node000009" href="$de/d64/group___pixel_set.html#a21ad8bc733a86d742a18c1fc73f85bd0" title="Scale every LED by the given scale." alt="" coords="269,317,419,362"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="544,709,539,642,523,553,509,505,490,459,466,415,436,376,418,362,421,357,440,372,471,412,495,456,514,504,528,551,544,641,549,708"/>
+<area shape="rect" id="Node000011" href="$de/d64/group___pixel_set.html#a48b70c6f162cb898a38431bb63655f79" title="Returns whether or not any LEDs in this set are non&#45;zero." alt="" coords="250,385,438,413"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="543,709,535,650,518,574,504,534,486,495,464,459,436,428,419,416,422,411,440,424,468,456,491,493,509,532,523,573,541,649,548,708"/>
+<area shape="rect" id="Node000012" href="$de/d64/group___pixel_set.html#a8e1737d2bb2b56a7f8d4753150c42bb2" title="Scale down every LED by the given scale." alt="" coords="254,437,434,465"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="540,709,530,659,511,597,480,534,460,505,436,480,418,468,421,463,440,476,464,502,485,531,516,596,535,658,546,708"/>
+<area shape="rect" id="Node000013" href="$de/d64/group___pixel_set.html#a0cc739d4b533888af8576ac0dd4f05ba" title="Apply the PIXEL_TYPE &amp;= operator to every pixel in this set with every pixel in the passed in set." alt="" coords="256,489,432,517"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="537,710,524,670,504,622,475,573,436,532,416,520,419,515,440,528,479,570,508,619,529,668,542,708"/>
+<area shape="rect" id="Node000014" href="$de/d64/group___pixel_set.html#a89e81df9b22cc4ebba8977b89795026b" title="Apply the PIXEL_TYPE &amp;= operator to every pixel in this set with the given PIXEL_TYPE value." alt="" coords="256,541,432,569"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="532,711,495,647,468,613,436,584,414,572,416,567,440,580,472,609,500,644,537,709"/>
+<area shape="rect" id="Node000015" href="$de/d64/group___pixel_set.html#adaee934b6e8be8aeccfe0ba4194eee4c" title="Apply the PIXEL_TYPE &amp;= operator to every pixel in this set with the passed in value." alt="" coords="256,593,432,621"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="525,714,486,674,437,636,410,624,412,619,439,632,490,670,528,710"/>
+<area shape="rect" id="Node000016" href="$de/d64/group___pixel_set.html#aa2b10d01a183235fcf62e50049c49dd4" title="Access an inclusive subset of the LEDs in this set." alt="" coords="261,645,426,673"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="506,719,437,688,400,676,402,671,439,683,508,714"/>
+<area shape="rect" id="Node000017" href="$de/d64/group___pixel_set.html#a35d451dbf7c80bf2be4187c33d5441fa" title="Multiply every LED in this set by the given value." alt="" coords="257,697,430,725"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="470,730,431,725,431,720,471,725"/>
+<area shape="rect" id="Node000018" href="$de/d64/group___pixel_set.html#a757702588f2e592002031c58fc804112" title="Increment every pixel value in this set." alt="" coords="255,749,432,777"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="471,750,433,755,432,750,471,745"/>
+<area shape="rect" id="Node000019" href="$de/d64/group___pixel_set.html#a5070c88998d0358cacfa52f4f0a311eb" title="Increment every pixel value in this set." alt="" coords="255,801,432,829"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="507,761,439,791,401,803,400,798,437,786,504,757"/>
+<area shape="rect" id="Node000020" href="$de/d64/group___pixel_set.html#a556421e218dc5dcc091e3057cf039800" title="Add every pixel in the other set to this set." alt="" coords="255,853,432,881"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="528,766,489,805,439,843,411,855,409,850,437,838,486,801,524,762"/>
+<area shape="rect" id="Node000021" href="$de/d64/group___pixel_set.html#a26fc4457c0121330e0a9c6646ff10139" title="Decrement every pixel value in this set." alt="" coords="261,905,426,933"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="537,767,499,832,472,866,440,895,416,907,414,902,436,890,468,862,495,828,532,765"/>
+<area shape="rect" id="Node000022" href="$de/d64/group___pixel_set.html#a3bf748c46bc7441342b0d7ee3e1a06cd" title="Decrement every pixel value in this set." alt="" coords="261,957,426,985"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="542,767,529,807,508,856,479,905,440,947,419,959,416,955,436,942,474,901,503,853,524,805,537,765"/>
+<area shape="rect" id="Node000023" href="$de/d64/group___pixel_set.html#a19021d4ae7200eb1ea5c10449bdff2f4" title="Subtract every pixel in the other set from this set." alt="" coords="258,1009,430,1037"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="545,768,535,818,516,880,485,943,464,973,440,999,421,1011,418,1006,436,994,460,969,480,941,511,878,530,816,540,767"/>
+<area shape="rect" id="Node000024" href="$de/d64/group___pixel_set.html#a96dd8c37339dc0dc945e9d5aa3abb5ce" title="Divide every LED by the given value." alt="" coords="259,1061,429,1089"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="548,767,541,826,523,902,509,943,491,982,468,1018,440,1050,422,1063,419,1059,436,1047,464,1015,486,979,504,941,518,901,535,825,543,767"/>
+<area shape="rect" id="Node000025" href="$de/d64/group___pixel_set.html#a4f18d2253ae4da9dfe07ebdc1bd10756" title="Copy the contents of the passed&#45;in set to our set." alt="" coords="261,1113,427,1141"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="550,767,545,835,530,925,516,973,497,1020,472,1064,440,1102,422,1115,419,1111,436,1099,468,1061,492,1018,511,971,525,924,540,835,544,767"/>
+<area shape="rect" id="Node000026" href="$de/d64/group___pixel_set.html#a5994c3c0cd408a23e75d48169fdb1061" title="Assign the passed in color to all elements in this set." alt="" coords="261,1165,427,1193"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="546,768,532,856,509,971,478,1081,460,1125,440,1154,423,1167,420,1163,436,1151,455,1122,473,1080,504,970,527,855,540,767"/>
+<area shape="rect" id="Node000027" href="$de/d64/group___pixel_set.html#a9e6ccee7103ca8ee67767eb99f12e08c" title="Shift every LED in this set right by the given number of bits." alt="" coords="250,1217,438,1245"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="546,768,534,866,513,997,498,1063,481,1123,462,1172,440,1206,423,1219,420,1215,436,1203,457,1170,476,1121,493,1062,508,996,529,865,541,767"/>
+<area shape="rect" id="Node000028" href="$de/d64/group___pixel_set.html#ad33e8b3ba28012a811e4306c808636dc" title="Apply the PIXEL_TYPE |= operator to every pixel in this set with every pixel in the passed in set." alt="" coords="259,1269,429,1297"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="547,767,537,875,516,1022,502,1096,485,1164,464,1220,440,1258,424,1271,421,1267,436,1255,459,1218,479,1162,497,1095,511,1021,531,875,542,767"/>
+<area shape="rect" id="Node000029" href="$de/d64/group___pixel_set.html#a367dc7ea6199d6794dd827c5c92a19e0" title="Apply the PIXEL_TYPE |= operator to every pixel in this set with the given PIXEL_TYPE value." alt="" coords="259,1321,429,1349"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="548,768,539,885,520,1047,505,1130,488,1205,466,1267,440,1310,424,1323,421,1319,436,1307,461,1265,482,1204,500,1129,514,1047,533,885,543,767"/>
+<area shape="rect" id="Node000030" href="$de/d64/group___pixel_set.html#ab45dceca9e8e9c56a0f464093aca9b53" title="Apply the PIXEL_TYPE |= operator to every pixel in this set." alt="" coords="259,1373,429,1401"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="548,767,541,894,523,1072,509,1163,491,1246,468,1315,455,1342,440,1362,424,1375,421,1371,436,1359,450,1339,463,1313,486,1245,504,1162,518,1071,536,894,543,767"/>
+<area shape="rect" id="Node000031" href="$de/d64/group___pixel_set.html#ac9bc563c153ee6968df3d50648295a07" title="Subtract the passed in value from all channels for all of the pixels in this set." alt="" coords="252,1425,436,1453"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="549,767,543,903,526,1097,512,1196,494,1287,470,1362,456,1392,440,1414,425,1427,421,1423,436,1411,451,1389,465,1360,489,1286,507,1195,521,1096,537,903,543,767"/>
+<area shape="rect" id="Node000008" href="$de/d64/group___pixel_set.html#ab09b39f0098c45c1988d30de6c08bf88" title="Fade every LED down by the given scale." alt="" coords="5,265,202,293"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="254,282,202,282,202,276,254,276"/>
+<area shape="rect" id="Node000010" href="$de/d64/group___pixel_set.html#aca9c2da68cd161255f4c8a7f6cf0aab7" title="Fade every LED down by the given scale." alt="" coords="14,325,193,353"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="254,342,193,342,193,336,254,336"/>
+</map>

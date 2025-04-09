@@ -1,0 +1,19 @@
+<map id="blur2d" name="blur2d">
+<area shape="rect" id="Node000001" title="Two&#45;dimensional blur filter." alt="" coords="5,84,68,112"/>
+<area shape="rect" id="Node000002" href="$d5/d3d/group___color_blurs.html#ga33ce178f76009348d3a0f0723b22d4de" title="Perform a blur1d() on every column of a rectangular matrix." alt="" coords="116,57,219,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,89,100,82,101,87,69,94"/>
+<area shape="rect" id="Node000010" href="$d5/d3d/group___color_blurs.html#ga3000f2662fe45e9424c02b0d35f40b21" title="Perform a blur1d() on every row of a rectangular matrix." alt="" coords="127,109,208,137"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="69,101,112,110,111,115,68,106"/>
+<area shape="rect" id="Node000003" href="$d0/dce/classfl_1_1_x_y_map.html#aaeab9d4f2c66f6e681415479493578c2" title=" " alt="" coords="267,57,436,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,68,251,68,251,74,219,74"/>
+<area shape="rect" id="Node000006" href="$db/d87/group___pixel_types.html#a5a3c3370a7de840ac31c07f6dc9bdb63" title="Scale down a RGB to N/256ths of its current brightness, using &quot;plain math&quot; dimming rules." alt="" coords="294,109,410,137"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="220,83,286,102,285,107,219,88"/>
+<area shape="rect" id="Node000004" href="$d4/d36/namespacefl.html#aabd143143924c6bddbe62e4b21688e76" title=" " alt="" coords="484,57,623,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="437,68,469,68,469,74,437,74"/>
+<area shape="rect" id="Node000005" href="$d4/d36/namespacefl.html#a44d29156c0decceaf2ff1970ddbdde7c" title=" " alt="" coords="489,5,618,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="408,54,481,35,483,40,409,59"/>
+<area shape="rect" id="Node000007" href="$d0/da8/group___scaling.html#ga39bf87e5526120889086cab19ac749b1" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="510,109,597,137"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="410,120,495,120,495,126,410,126"/>
+<area shape="poly" id="edge8_Node000010_Node000003" title=" " alt="" coords="208,109,284,87,286,92,209,114"/>
+<area shape="poly" id="edge9_Node000010_Node000006" title=" " alt="" coords="209,120,278,120,278,126,209,126"/>
+</map>

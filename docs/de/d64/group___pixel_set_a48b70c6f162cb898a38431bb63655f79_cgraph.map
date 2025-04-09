@@ -1,0 +1,7 @@
+<map id="CPixelView::operator bool" name="CPixelView::operator bool">
+<area shape="rect" id="Node000001" title="Returns whether or not any LEDs in this set are non&#45;zero." alt="" coords="5,32,193,60"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#af3254e14aaccb1e8b38272ddeb6d8013" title="Makes an iterator instance for the start of the LED set." alt="" coords="241,5,377,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,31,225,27,225,32,193,37"/>
+<area shape="rect" id="Node000003" href="$de/d64/group___pixel_set.html#a5492e41e8b06dc599ab81b465c4236ed" title="Makes an iterator instance for the end of the LED set." alt="" coords="247,57,371,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,55,232,59,231,65,193,60"/>
+</map>

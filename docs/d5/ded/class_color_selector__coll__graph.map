@@ -1,0 +1,9 @@
+<map id="ColorSelector" name="ColorSelector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="85,191,194,218"/>
+<area shape="rect" id="Node000002" href="$d6/d58/class_counting_button.html" title=" " alt="" coords="78,98,201,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,141,142,190,137,190,137,141"/>
+<area shape="rect" id="Node000003" href="$d0/ddf/class_midi_shield_button.html" title=" " alt="" coords="5,5,138,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,44,132,96,128,99,88,47"/>
+<area shape="rect" id="Node000004" href="$d3/d1d/classfl_1_1_u_i_button.html" title=" " alt="" coords="162,5,256,33"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="193,47,172,76,153,99,149,96,168,72,189,44"/>
+</map>

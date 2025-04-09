@@ -1,0 +1,21 @@
+<map id="CRGB::CRGB" name="CRGB::CRGB">
+<area shape="rect" id="Node000001" title="Default constructor." alt="" coords="825,136,929,164"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#a6348cb098a0b27f443bd1af290dafa94" title=" " alt="" coords="627,57,729,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="838,130,776,100,729,85,731,80,778,95,840,126"/>
+<area shape="rect" id="Node000007" href="$db/d87/group___pixel_types.html#a65e166b90fb7b4aecd2b26a987e312e3" title="Calculates the combined color adjustment to the LEDs at a given scale, color correction,..." alt="" coords="579,109,777,137"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="810,144,778,139,778,134,810,138"/>
+<area shape="rect" id="Node000012" href="$db/d87/group___pixel_types.html#affe221c4c140e08cdc359d9651958bb2" title=" " alt="" coords="584,161,772,189"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="811,161,773,166,772,161,810,156"/>
+<area shape="rect" id="Node000013" href="$db/d87/group___pixel_types.html#a8cd926bb39573572babf2ff1ea152e78" title="Invert each channel." alt="" coords="615,213,741,241"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="839,174,778,203,741,215,739,210,776,198,837,169"/>
+<area shape="rect" id="Node000003" href="$d7/df1/classfl_1_1_fx_compositor.html#aade5cf1a5c03eb71c39f8ed58c981e96" title=" " alt="" coords="335,5,504,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="612,61,491,36,492,31,613,55"/>
+<area shape="rect" id="Node000006" href="$d1/de0/classfl_1_1_frame.html#a18b6f7181804a0392e40796f46352115" title=" " alt="" coords="341,57,498,85"/>
+<area shape="poly" id="edge4_Node000002_Node000006" title=" " alt="" coords="612,74,498,74,498,68,612,68"/>
+<area shape="rect" id="Node000004" href="$d4/d60/classfl_1_1_fx_engine.html#aa0b3b17d66712b3c2184d8c59c6b55f1" title="Renders the current effect or transition to the output buffer." alt="" coords="64,5,201,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="319,22,201,22,201,16,319,16"/>
+<area shape="rect" id="Node000008" href="$d6/d2c/class_c_l_e_d_controller.html#af6173cca91ee446766cc15102990d7bb" title="Get the combined brightness/color adjustment for this controller." alt="" coords="308,109,531,137"/>
+<area shape="poly" id="edge6_Node000007_Node000008" title=" " alt="" coords="563,126,532,126,532,120,563,120"/>
+<area shape="rect" id="Node000009" href="$d6/d2c/class_c_l_e_d_controller.html#a6f174d3b4ceacf75eb761c93e78ebff7" title=" " alt="" coords="5,109,260,137"/>
+<area shape="poly" id="edge7_Node000008_Node000009" title=" " alt="" coords="292,126,260,126,260,120,292,120"/>
+</map>

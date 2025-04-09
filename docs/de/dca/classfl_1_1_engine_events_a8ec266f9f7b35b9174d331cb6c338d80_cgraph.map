@@ -1,0 +1,10 @@
+<map id="fl::EngineEvents::onStripAdded" name="fl::EngineEvents::onStripAdded">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,36,185,81"/>
+<area shape="rect" id="Node000002" href="$de/dca/classfl_1_1_engine_events.html#a006e1f01b766436e0eec2e406b4512d5" title=" " alt="" coords="271,5,404,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,44,255,35,255,41,186,50"/>
+<area shape="rect" id="Node000003" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="233,74,442,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,67,217,70,217,76,185,72"/>
+<area shape="rect" id="Node000004" href="$d9/d5b/classfl_1_1_singleton.html#a7e65fe8dee6b2a23a8b6138fa2c274cb" title=" " alt="" coords="490,74,651,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="443,85,474,85,474,90,443,90"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="531,75,524,65,529,55,545,49,571,47,598,50,613,56,611,61,597,55,571,52,546,54,533,59,530,65,535,72"/>
+</map>

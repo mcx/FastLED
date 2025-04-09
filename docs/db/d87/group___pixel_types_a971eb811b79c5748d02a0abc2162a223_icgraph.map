@@ -1,0 +1,5 @@
+<map id="CRGB::addToRGB" name="CRGB::addToRGB">
+<area shape="rect" id="Node000001" title="Add a constant to each channel, saturating at 0xFF." alt="" coords="197,5,329,33"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#a42317847cecd51d3f70d8ca3e2f151c9" title="Add a constant of &#39;1&#39; from each channel, saturating at 0xFF." alt="" coords="5,5,149,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,22,149,22,149,16,181,16"/>
+</map>

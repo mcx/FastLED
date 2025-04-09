@@ -1,0 +1,11 @@
+<map id="PixelController::enable_dithering" name="PixelController::enable_dithering">
+<area shape="rect" id="Node000001" title="Toggle dithering enable If dithering is set to enabled, this will re&#45;init the dithering values (init_..." alt="" coords="5,28,174,72"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#aa2a1b38058a62a4337605425e482202f" title="Calculate a dither value using the per&#45;channel dither data." alt="" coords="222,5,384,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,35,206,30,207,36,174,40"/>
+<area shape="rect" id="Node000004" href="$d0/dee/struct_pixel_controller.html#a2a8441da873d3a094c15c337b34d3e43" title="Set up the values for binary dithering." alt="" coords="230,57,376,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,59,215,64,214,70,174,64"/>
+<area shape="rect" id="Node000003" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="433,5,494,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="385,16,417,16,417,22,385,22"/>
+<area shape="rect" id="Node000005" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="432,65,495,93"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="376,76,416,76,416,82,376,82"/>
+</map>

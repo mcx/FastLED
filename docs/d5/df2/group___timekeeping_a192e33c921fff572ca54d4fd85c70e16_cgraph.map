@@ -1,0 +1,5 @@
+<map id="CEveryNTime::trigger" name="CEveryNTime::trigger">
+<area shape="rect" id="Node000001" title="Reset the timestamp so it is ready() on next call." alt="" coords="5,5,167,33"/>
+<area shape="rect" id="Node000002" href="$d5/df2/group___timekeeping.html#a9e72ce7dcf1e5b321ec9fa61f6c4fbd5" title="Get the current time according to the class&#39; timekeeper." alt="" coords="215,5,387,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,16,199,16,199,22,167,22"/>
+</map>

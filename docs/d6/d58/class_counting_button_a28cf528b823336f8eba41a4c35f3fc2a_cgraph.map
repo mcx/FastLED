@@ -1,0 +1,9 @@
+<map id="CountingButton::Update" name="CountingButton::Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,183,60"/>
+<area shape="rect" id="Node000002" href="$d3/d1d/classfl_1_1_u_i_button.html#a744c411f78146946d0f72366605e781a" title=" " alt="" coords="239,5,386,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,32,223,27,223,33,183,38"/>
+<area shape="rect" id="Node000003" href="$d6/d58/class_counting_button.html#a22f6cee1dc58bf651da93fd5ee66f7a0" title=" " alt="" coords="231,57,394,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,53,216,57,215,63,183,59"/>
+<area shape="rect" id="Node000004" href="$d0/ddf/class_midi_shield_button.html#a364d02ef4b1cd8dfa97639c08a731dcf" title=" " alt="" coords="442,57,615,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="394,68,426,68,426,74,394,74"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="fl::CircularBuffer::empty" name="fl::CircularBuffer::empty">
+<area shape="rect" id="Node000001" title=" " alt="" coords="396,40,522,85"/>
+<area shape="rect" id="Node000002" href="$d2/d4f/classfl_1_1_circular_buffer.html#a978d724b10d42376ff3fb2fb8269e1db" title=" " alt="" coords="222,5,348,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="380,49,348,43,349,38,381,44"/>
+<area shape="rect" id="Node000003" href="$d2/d4f/classfl_1_1_circular_buffer.html#a38d9bc90fee7220eee20131d2b875f72" title=" " alt="" coords="222,75,348,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="381,81,349,87,348,82,380,75"/>
+<area shape="rect" id="Node000004" href="$d1/dc0/classfl_1_1_byte_stream_memory.html#a2f4d850dc320b0ab9ed88c1c5df14841" title=" " alt="" coords="5,75,174,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="206,100,174,100,174,94,206,94"/>
+</map>

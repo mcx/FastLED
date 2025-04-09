@@ -1,0 +1,9 @@
+<map id="fadeLightBy" name="fadeLightBy">
+<area shape="rect" id="Node000001" title="Reduce the brightness of an array of pixels all at once." alt="" coords="5,5,105,33"/>
+<area shape="rect" id="Node000002" href="$d3/d1c/group___color_fades.html#ga956be37436f2b9c06c99d24263ef8e83" title="Scale the brightness of an array of pixels all at once." alt="" coords="153,5,267,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,16,137,16,137,22,105,22"/>
+<area shape="rect" id="Node000003" href="$db/d87/group___pixel_types.html#a0441d6094ab8f98d800ec789c36b4461" title="Scale down a RGB to N/256ths of it&#39;s current brightness using &quot;video&quot; dimming rules." alt="" coords="315,5,474,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="267,16,300,16,300,22,267,22"/>
+<area shape="rect" id="Node000004" href="$d0/da8/group___scaling.html#ga700b7f510f32e8c91385093c436c27d9" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="522,5,653,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="475,16,507,16,507,22,475,22"/>
+</map>

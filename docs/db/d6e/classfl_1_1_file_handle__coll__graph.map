@@ -1,0 +1,14 @@
+<map id="fl::FileHandle" name="fl::FileHandle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,106,112,134"/>
+<area shape="rect" id="Node000002" href="$d6/d16/classfl_1_1_referent.html" title=" " alt="" coords="153,5,246,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,44,79,108,75,104,168,40"/>
+<area shape="rect" id="Node000006" href="$dd/da7/classfl_1_1_weak_referent.html" title=" " alt="" coords="135,106,264,134"/>
+<area shape="poly" id="edge5_Node000006_Node000002" title=" " alt="" coords="202,48,202,106,197,106,197,48"/>
+<area shape="rect" id="Node000003" href="$d1/d56/classfl_1_1_ptr.html" title=" " alt="" coords="295,208,488,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,198,323,144,309,120,302,99,293,79,277,59,259,46,239,36,242,31,262,41,280,55,298,76,307,97,314,117,327,141,371,194"/>
+<area shape="rect" id="Node000004" href="$da/d84/classfl_1_1_ptr_traits.html" title=" " alt="" coords="408,98,536,143"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="447,157,404,209,400,206,443,153"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="210,148,220,166,233,182,263,199,296,210,294,215,260,204,230,186,215,169,205,150"/>
+<area shape="rect" id="Node000007" href="$d1/d56/classfl_1_1_ptr.html" title=" " alt="" coords="560,106,653,134"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="566,143,422,209,419,205,563,139"/>
+</map>

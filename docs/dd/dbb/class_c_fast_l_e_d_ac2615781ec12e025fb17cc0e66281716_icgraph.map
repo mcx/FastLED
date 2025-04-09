@@ -1,0 +1,5 @@
+<map id="CFastLED::getBrightness" name="CFastLED::getBrightness">
+<area shape="rect" id="Node000001" title="Get the current global brightness setting." alt="" coords="171,5,350,33"/>
+<area shape="rect" id="Node000002" href="$d6/dda/_fast_l_e_d_8cpp.html#a8cd538ac10b316f4b05048a4fa912d75" title=" " alt="" coords="5,5,123,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,22,123,22,123,16,155,16"/>
+</map>

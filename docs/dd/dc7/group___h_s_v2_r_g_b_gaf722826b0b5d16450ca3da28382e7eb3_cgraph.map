@@ -1,0 +1,15 @@
+<map id="hsv2rgb_rainbow" name="hsv2rgb_rainbow">
+<area shape="rect" id="Node000001" title="Forward declaration of hsv2rgb_rainbow here, to avoid circular dependencies." alt="" coords="5,109,138,137"/>
+<area shape="rect" id="Node000002" href="$df/d9d/hsv2rgb_8cpp.html#a06ee0f21e1bf430ea547244f6ed4add8" title=" " alt="" coords="186,109,318,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,120,170,120,170,126,138,126"/>
+<area shape="rect" id="Node000003" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="416,5,512,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="268,107,311,75,365,43,400,30,401,35,367,48,314,80,272,111"/>
+<area shape="rect" id="Node000004" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="432,57,495,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="311,106,416,80,417,85,312,111"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="366,109,561,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="318,120,350,120,350,126,318,126"/>
+<area shape="rect" id="Node000006" href="$d0/da8/group___scaling.html#ga628b417ea1507e3447cdf5f308d9b6d5" title="The &quot;video&quot; version of scale8() guarantees that the output will be only be zero if one or both of the..." alt="" coords="410,161,517,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="312,135,396,156,395,161,311,140"/>
+<area shape="rect" id="Node000007" href="$d0/da5/group___scaling_dirty.html#gaf8e0821f34434cd6bfed4a16a895da23" title="This version of scale8_video() does not clean up the R1 register on AVR." alt="" coords="379,213,548,258"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="273,135,315,166,367,198,379,204,377,209,365,203,312,171,269,140"/>
+</map>

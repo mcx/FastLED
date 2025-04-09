@@ -1,0 +1,7 @@
+<map id="CFastLED::setMaxPowerInVoltsAndMilliamps" name="CFastLED::setMaxPowerInVoltsAndMilliamps">
+<area shape="rect" id="Node000001" title="Set the maximum power to be used, given in volts and milliamps." alt="" coords="236,36,457,81"/>
+<area shape="rect" id="Node000002" href="$d3/d1d/group___power.html#ga8db01f418cbff03a8d51caa528e44e0d" title="Set the maximum power used in milliamps for a given voltage." alt="" coords="5,5,188,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,45,188,42,188,36,220,40"/>
+<area shape="rect" id="Node000003" href="$dc/ded/_fx_pacifica_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="68,74,125,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,76,126,87,125,82,220,71"/>
+</map>

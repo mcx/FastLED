@@ -1,0 +1,5 @@
+<map id="fill_2dnoise16" name="fill_2dnoise16">
+<area shape="rect" id="Node000001" title="Fill an LED matrix with random colors, using 16&#45;bit noise." alt="" coords="103,5,214,33"/>
+<area shape="rect" id="Node000002" href="$d7/ddc/_noise_playground_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+</map>

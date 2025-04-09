@@ -1,0 +1,7 @@
+<map id="CFastLED::delay" name="CFastLED::delay">
+<area shape="rect" id="Node000001" title="Delay for the given number of milliseconds." alt="" coords="5,29,131,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="38,30,33,20,37,11,49,5,68,3,89,5,100,12,97,16,87,10,68,8,50,10,41,15,38,20,43,28"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#a3adb23ec5f919524928d576002cb45de" title="Update all our controllers with the current led colors." alt="" coords="179,29,302,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="131,40,163,40,163,46,131,46"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="210,30,205,20,209,11,221,5,240,3,261,5,272,12,269,16,259,10,240,8,223,10,213,15,211,20,215,28"/>
+</map>

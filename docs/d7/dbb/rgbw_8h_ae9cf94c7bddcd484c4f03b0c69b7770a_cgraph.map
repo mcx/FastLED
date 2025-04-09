@@ -1,0 +1,24 @@
+<map id="rgb_2_rgbw" name="rgb_2_rgbw">
+<area shape="rect" id="Node000001" title="Converts RGB to RGBW using one of the functions." alt="" coords="5,117,102,145"/>
+<area shape="rect" id="Node000002" href="$d1/d8d/rgbw_8cpp.html#ac22f7204d0501031d2431e7b2f67c25c" title="Converts RGB to RGBW using a color transfer method from saturated color channels to white." alt="" coords="184,57,323,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,114,149,94,173,87,175,92,150,99,92,119"/>
+<area shape="rect" id="Node000005" href="$d1/d8d/rgbw_8cpp.html#a07e94168baddf333cdc5673f28285aa9" title="The minimum brigthness of the RGB channels is used to set the W channel." alt="" coords="150,5,357,33"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="65,115,100,79,123,60,148,44,164,36,166,41,151,48,126,64,103,83,69,119"/>
+<area shape="rect" id="Node000006" href="$d1/d8d/rgbw_8cpp.html#a026bfd212bc23d24cf2e8cc5a9ab5b9e" title="Converts RGB to RGBW with the W channel set to black, always." alt="" coords="168,109,338,154"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="102,128,153,128,153,134,102,134"/>
+<area shape="rect" id="Node000007" href="$d1/d8d/rgbw_8cpp.html#a03a50e79b032a49c951919b9570d18f5" title=" " alt="" coords="158,229,349,257"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="69,144,103,179,126,198,151,214,166,221,164,226,148,219,123,202,100,183,65,147"/>
+<area shape="rect" id="Node000008" href="$d1/d8d/rgbw_8cpp.html#aa6e2b44325da0172a48b20940b6e5fdf" title="Converts RGB to RGBW with a boosted white channel." alt="" coords="154,177,352,205"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="92,143,150,163,175,170,173,175,149,168,91,148"/>
+<area shape="rect" id="Node000003" href="$d5/d9e/namespaceanonymous__namespace_02rgbw_8cpp_03.html#a81ced55db6e7d50e84ce729e6bf3223d" title=" " alt="" coords="408,49,587,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="323,68,392,68,392,74,323,74"/>
+<area shape="rect" id="Node000004" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="466,117,529,145"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="314,83,358,94,451,117,450,122,356,99,312,88"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="323,31,393,46,392,52,321,36"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="333,31,359,44,375,59,383,74,392,90,407,104,428,115,452,122,450,127,426,120,403,108,387,93,379,77,370,62,355,48,331,36"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="339,128,450,128,450,134,339,134"/>
+<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="334,174,355,164,371,150,379,135,388,120,403,104,410,99,413,104,407,108,392,123,384,138,375,153,359,168,336,179"/>
+<area shape="poly" id="edge13_Node000008_Node000004" title=" " alt="" coords="312,174,356,163,450,140,451,145,358,168,314,179"/>
+<area shape="rect" id="Node000009" href="$d5/d9e/namespaceanonymous__namespace_02rgbw_8cpp_03.html#aa548790ff732b63dd9564ca586f07015" title=" " alt="" coords="405,169,590,214"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="353,188,389,188,389,194,353,194"/>
+</map>

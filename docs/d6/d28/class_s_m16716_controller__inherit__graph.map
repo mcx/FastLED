@@ -1,0 +1,10 @@
+<map id="SM16716Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" name="SM16716Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;">
+<area shape="rect" id="Node000001" title="SM16716 controller class." alt="" coords="5,303,204,365"/>
+<area shape="rect" id="Node000002" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="29,209,180,254"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,269,107,303,102,303,102,269"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html" title="Base definition for an LED controller." alt="" coords="40,5,159,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,49,107,208,101,209,97,49"/>
+<area shape="rect" id="Node000004" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="" coords="121,82,293,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="128,41,173,80,170,84,125,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="173,157,126,210,122,207,169,154"/>
+</map>

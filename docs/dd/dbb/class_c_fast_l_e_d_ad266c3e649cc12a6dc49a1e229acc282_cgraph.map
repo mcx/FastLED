@@ -1,0 +1,9 @@
+<map id="CFastLED::setCorrection" name="CFastLED::setCorrection">
+<area shape="rect" id="Node000001" title="Set a global color correction." alt="" coords="5,57,182,85"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#a8b412ff1fd4833d0db63a175d40a2ee0" title="Get the first LED controller in the linked list of controllers." alt="" coords="257,5,416,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,54,253,34,254,39,162,59"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a21a4d2b3415dd7b24175ebdb51c9ced0" title="Get the next controller in the linked list after this one." alt="" coords="259,57,415,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,68,243,68,243,74,182,74"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html#a80d62b44c6901851fd70de3853661525" title="The color corrction to use for this controller, expressed as a CRGB object." alt="" coords="230,109,444,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,83,254,103,253,108,161,88"/>
+</map>

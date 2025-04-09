@@ -1,0 +1,17 @@
+<map id="sinelon" name="sinelon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,74,112"/>
+<area shape="rect" id="Node000002" href="$d6/d6c/group___beat_generators.html#gaa46e5de1c4c27833359e7a97a18c839b" title="Generates a 16&#45;bit sine wave at a given BPM that oscillates within a given range." alt="" coords="138,57,223,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,89,122,79,123,85,75,94"/>
+<area shape="rect" id="Node000006" href="$d3/d1c/group___color_fades.html#ga404d163d8a422cee2df2baac4151ca98" title="Reduce the brightness of an array of pixels all at once." alt="" coords="122,109,239,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="75,101,106,107,105,112,74,107"/>
+<area shape="rect" id="Node000003" href="$d6/d6c/group___beat_generators.html#gade6acbf6fd3c9d346148bccfcafb2fe2" title="Generates a 16&#45;bit &quot;sawtooth&quot; wave at a given BPM." alt="" coords="290,5,356,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,54,274,34,276,39,222,59"/>
+<area shape="rect" id="Node000005" href="$d0/da8/group___scaling.html#ga1ff8ac00ad78e22acc7bb7445bfdb145" title="Scale a 16&#45;bit unsigned value by an 16&#45;bit value, which is treated as the numerator of a fraction who..." alt="" coords="287,57,358,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="224,68,271,68,271,74,224,74"/>
+<area shape="rect" id="Node000004" href="$d6/d6c/group___beat_generators.html#ga1b48fc520db5f40910caf79974992395" title="Generates a 16&#45;bit &quot;sawtooth&quot; wave at a given BPM, with BPM specified in Q8.8 fixed&#45;point format." alt="" coords="431,5,498,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="356,16,416,16,416,22,356,22"/>
+<area shape="rect" id="Node000007" href="$d3/d1c/group___color_fades.html#gad0356fc313196732e7cd4e64f506f82b" title="Scale the brightness of an array of pixels all at once." alt="" coords="287,109,358,137"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="239,120,271,120,271,126,239,126"/>
+<area shape="rect" id="Node000008" href="$db/d87/group___pixel_types.html#a5a3c3370a7de840ac31c07f6dc9bdb63" title="Scale down a RGB to N/256ths of its current brightness, using &quot;plain math&quot; dimming rules." alt="" coords="406,109,523,137"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="359,120,391,120,391,126,359,126"/>
+</map>

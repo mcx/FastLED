@@ -1,0 +1,7 @@
+<map id="beatsin88" name="beatsin88">
+<area shape="rect" id="Node000001" title="Generates a 16&#45;bit sine wave at a given BPM that oscillates within a given range." alt="" coords="5,32,91,60"/>
+<area shape="rect" id="Node000002" href="$d6/d6c/group___beat_generators.html#ga1b48fc520db5f40910caf79974992395" title="Generates a 16&#45;bit &quot;sawtooth&quot; wave at a given BPM, with BPM specified in Q8.8 fixed&#45;point format." alt="" coords="141,5,208,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,34,125,27,126,32,92,39"/>
+<area shape="rect" id="Node000003" href="$d0/da8/group___scaling.html#ga1ff8ac00ad78e22acc7bb7445bfdb145" title="Scale a 16&#45;bit unsigned value by an 16&#45;bit value, which is treated as the numerator of a fraction who..." alt="" coords="139,57,210,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,52,124,58,123,64,91,57"/>
+</map>

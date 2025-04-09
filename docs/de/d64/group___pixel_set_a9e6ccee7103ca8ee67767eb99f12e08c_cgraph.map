@@ -1,0 +1,7 @@
+<map id="CPixelView::operator&gt;&gt;=" name="CPixelView::operator&gt;&gt;=">
+<area shape="rect" id="Node000001" title="Shift every LED in this set right by the given number of bits." alt="" coords="5,32,194,60"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#af3254e14aaccb1e8b38272ddeb6d8013" title="Makes an iterator instance for the start of the LED set." alt="" coords="242,5,378,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,31,226,27,227,32,194,37"/>
+<area shape="rect" id="Node000003" href="$de/d64/group___pixel_set.html#a5492e41e8b06dc599ab81b465c4236ed" title="Makes an iterator instance for the end of the LED set." alt="" coords="248,57,372,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,55,233,59,232,65,193,60"/>
+</map>

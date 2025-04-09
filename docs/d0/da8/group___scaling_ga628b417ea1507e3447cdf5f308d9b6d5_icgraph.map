@@ -1,0 +1,23 @@
+<map id="scale8_video" name="scale8_video">
+<area shape="rect" id="Node000001" title="The &quot;video&quot; version of scale8() guarantees that the output will be only be zero if one or both of the..." alt="" coords="464,161,571,189"/>
+<area shape="rect" id="Node000002" href="$dc/d3e/group___dimming.html#gad21876a676bcf26c47f957faed23f9bb" title="Brighten a value (inverse of dim8_video())" alt="" coords="286,5,413,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="499,149,464,98,441,71,415,48,394,36,397,31,418,44,445,68,468,95,503,146"/>
+<area shape="rect" id="Node000003" href="$d2/d73/group___palette_colors.html#gafdfc20fbf9b8e4b71e010a654ec27891" title="Get a color from a palette." alt="" coords="283,57,416,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="488,153,454,126,415,100,390,88,392,83,418,96,457,122,491,149"/>
+<area shape="rect" id="Node000004" href="$d2/d73/group___palette_colors.html#ga79c94ea554455e72eabab172cc15456f" title="Get a color from a palette." alt="" coords="283,109,416,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="455,159,396,140,398,135,456,154"/>
+<area shape="rect" id="Node000005" href="$d2/d73/group___palette_colors.html#ga1684ed7eb860c68a915d03e94250e58a" title="Get a color from a palette." alt="" coords="283,161,416,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="449,178,417,178,417,172,449,172"/>
+<area shape="rect" id="Node000006" href="$dc/d3e/group___dimming.html#ga40a13446a2022dc489be8b2a8f2fa494" title="Adjust a scaling value for dimming for video (value will never go below 1)" alt="" coords="301,213,398,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="456,197,398,215,396,210,455,192"/>
+<area shape="rect" id="Node000007" href="$da/de3/group___color_fills.html#gac5c6b83ec07d310385a430f9f0336530" title="Approximates a &quot;black body radiation&quot; spectrum for a given &quot;heat&quot; level." alt="" coords="306,265,393,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="491,201,457,228,418,255,392,267,390,262,415,250,454,224,488,197"/>
+<area shape="rect" id="Node000010" href="$df/d9d/hsv2rgb_8cpp.html#a06ee0f21e1bf430ea547244f6ed4add8" title=" " alt="" coords="284,317,416,345"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="503,204,468,256,445,283,418,307,397,319,394,314,415,302,441,279,464,252,499,201"/>
+<area shape="rect" id="Node000008" href="$d4/d26/_fire2012_8ino.html#a381ceb87530dc5fee1be3e77d33b3a53" title=" " alt="" coords="130,265,208,293"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="291,282,208,282,208,276,291,276"/>
+<area shape="rect" id="Node000009" href="$d4/d26/_fire2012_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,265,55,293"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="114,282,55,282,55,276,114,276"/>
+<area shape="rect" id="Node000011" href="$dd/dc7/group___h_s_v2_r_g_b.html#gaf722826b0b5d16450ca3da28382e7eb3" title="Forward declaration of hsv2rgb_rainbow here, to avoid circular dependencies." alt="" coords="103,317,235,345"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="268,334,235,334,235,328,268,328"/>
+</map>

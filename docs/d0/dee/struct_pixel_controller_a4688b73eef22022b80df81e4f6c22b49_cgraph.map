@@ -1,0 +1,11 @@
+<map id="PixelController::loadAndScale2" name="PixelController::loadAndScale2">
+<area shape="rect" id="Node000001" title="non&#45;template alias of loadAndScale&lt;2&gt;()" alt="" coords="5,24,183,68"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#a56fc5e5bf305e1760198c0a69ac85ff9" title="Loads, dithers, and scales a single byte for a given output slot, using class dither and scale values..." alt="" coords="231,24,408,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,43,215,43,215,48,183,48"/>
+<area shape="rect" id="Node000003" href="$d0/dee/struct_pixel_controller.html#aa2a1b38058a62a4337605425e482202f" title="Calculate a dither value using the per&#45;channel dither data." alt="" coords="466,5,628,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,33,450,28,451,33,409,38"/>
+<area shape="rect" id="Node000005" href="$d0/dee/struct_pixel_controller.html#a75ef76fbecdc9b39b01eeab216845d9d" title="Read a byte of LED data." alt="" coords="456,57,638,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="409,53,441,57,440,62,408,58"/>
+<area shape="rect" id="Node000004" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="686,5,748,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="629,16,671,16,671,22,629,22"/>
+</map>

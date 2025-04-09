@@ -1,0 +1,16 @@
+<map id="fill_rainbow" name="fill_rainbow">
+<area shape="rect" id="Node000001" title="Fill a range of LEDs with a rainbow of colors." alt="" coords="732,57,829,85"/>
+<area shape="rect" id="Node000002" href="$d7/d22/_color_temperature_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="565,5,614,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="716,57,614,28,616,23,718,51"/>
+<area shape="rect" id="Node000003" href="$d1/d60/classfl_1_1_demo_reel100.html#a909b94480bd56733de8cd1df1ffbd5fd" title=" " alt="" coords="495,57,684,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="717,74,685,74,685,68,717,68"/>
+<area shape="rect" id="Node000004" href="$d5/d25/_demo_reel100_8ino.html#a6784b2bb794bd47a615b7a9be2ebf7db" title=" " alt="" coords="553,109,626,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="718,91,627,116,626,111,716,86"/>
+<area shape="rect" id="Node000005" href="$d1/d60/classfl_1_1_demo_reel100.html#adf8658f14d7667653b75247c06e7f8b6" title=" " alt="" coords="258,41,447,86"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="537,113,443,89,444,84,538,108"/>
+<area shape="rect" id="Node000006" href="$d5/d25/_demo_reel100_8ino.html#a1cecfe941bd75c57cea1a4f26c8ccb24" title=" " alt="" coords="280,109,424,137"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="537,126,425,126,425,120,537,120"/>
+<area shape="rect" id="Node000007" href="$d1/d60/classfl_1_1_demo_reel100.html#aad4b41d93c1a9f7acecea8b49cda7078" title=" " alt="" coords="5,135,210,162"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="538,137,447,151,324,157,210,156,210,151,324,152,447,146,537,132"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="265,135,210,141,210,135,264,130"/>
+</map>

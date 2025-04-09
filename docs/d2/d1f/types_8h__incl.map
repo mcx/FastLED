@@ -1,0 +1,16 @@
+<map id="/home/runner/work/FastLED/FastLED/src/types.h" name="/home/runner/work/FastLED/FastLED/src/types.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="73,5,272,50"/>
+<area shape="rect" id="Node000002" href="$d7/da1/fl_2types_8h.html" title=" " alt="" coords="132,98,214,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,50,176,82,170,82,170,50"/>
+<area shape="rect" id="Node000003" href="$d9/d3e/led__sysdefs_8h.html" title="Determines which platform system definitions to include." alt="" coords="72,174,183,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,128,146,162,141,159,162,125"/>
+<area shape="rect" id="Node000020" href="$df/d2a/namespace_8h.html" title="Implements the FastLED namespace macros." alt="" coords="165,249,285,277"/>
+<area shape="poly" id="edge8_Node000002_Node000020" title=" " alt="" coords="180,125,197,173,218,234,213,235,192,175,175,127"/>
+<area shape="rect" id="Node000004" href="$db/d97/_fast_l_e_d_8h.html" title="central include file for FastLED, defines the CFastLED class/object" alt="" coords="5,249,90,277"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="108,204,67,240,63,236,104,200"/>
+<area shape="rect" id="Node000011" href="$d5/d11/fastled__config_8h.html" title="Contains definitions that can be used to configure FastLED at compile time." alt="" coords="25,325,150,353"/>
+<area shape="poly" id="edge6_Node000003_Node000011" title=" " alt="" coords="127,202,97,311,92,309,122,201"/>
+<area shape="poly" id="edge7_Node000003_Node000020" title=" " alt="" coords="147,200,197,238,194,242,143,204"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="67,247,108,211,112,215,71,251"/>
+<area shape="poly" id="edge4_Node000004_Node000011" title=" " alt="" coords="57,276,75,310,71,313,52,279"/>
+</map>

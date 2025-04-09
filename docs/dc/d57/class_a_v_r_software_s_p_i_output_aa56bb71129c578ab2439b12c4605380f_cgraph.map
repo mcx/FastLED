@@ -1,0 +1,7 @@
+<map id="AVRSoftwareSPIOutput::writeBit" name="AVRSoftwareSPIOutput::writeBit">
+<area shape="rect" id="Node000001" title="The version of writeBit() to use when clock and data are on separate pins with precomputed values for..." alt="" coords="5,5,174,50"/>
+<area shape="rect" id="Node000002" href="$db/d3b/class_fast_pin.html#ad560f1e8787dc9c555ec635c0b5c99fa" title="Set the state of a port." alt="" coords="222,14,342,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,25,206,25,206,30,174,30"/>
+<area shape="rect" id="Node000003" href="$db/d3b/class_fast_pin.html#ab005abe848eadb60051daccb4eb7dbe8" title="Get the output state of the port." alt="" coords="390,14,491,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="343,25,375,25,375,30,343,30"/>
+</map>

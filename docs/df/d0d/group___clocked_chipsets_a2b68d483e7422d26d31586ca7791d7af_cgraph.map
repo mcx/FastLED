@@ -1,0 +1,21 @@
+<map id="SM16716Controller::showPixels" name="SM16716Controller::showPixels">
+<area shape="rect" id="Node000001" title="Send the LED data to the strip." alt="" coords="5,109,159,154"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html#a3e9e62e92d3f9e175b43e28dbb2254e9" title=" " alt="" coords="207,109,360,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,129,191,129,191,134,159,134"/>
+<area shape="rect" id="Node000003" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="408,5,576,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="321,107,407,60,419,54,421,59,409,65,324,111"/>
+<area shape="rect" id="Node000005" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a15872bb6ae69fd5a5c04b246fe73740e" title="Select the SPI output (chip select)" alt="" coords="408,75,576,119"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="360,116,392,111,393,116,361,122"/>
+<area shape="rect" id="Node000007" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#abc475d3c1bd94b5d61e699f7f77af905" title="Wait until the SPI subsystem is ready for more data to write." alt="" coords="408,144,576,189"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="361,142,393,147,392,152,360,147"/>
+<area shape="rect" id="Node000009" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a58393081ec8c54bd6968642b89e8bd43" title="Write a single byte over SPI." alt="" coords="408,213,576,258"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="324,152,409,199,421,204,419,209,407,203,321,157"/>
+<area shape="rect" id="Node000004" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="636,14,781,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="577,25,620,25,620,30,577,30"/>
+<area shape="rect" id="Node000006" href="$dd/da1/class_selectable.html#a5536adac637a1c55c3778158c7f38840" title="Select this object." alt="" coords="640,83,777,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="577,94,624,94,624,100,577,100"/>
+<area shape="rect" id="Node000008" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a15951c5c76cc43be5b8812d29da716dc" title="Wait until the SPI subsystem is ready for more data to write." alt="" coords="624,144,793,189"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="577,164,609,164,609,169,577,169"/>
+<area shape="rect" id="Node000010" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497" title="Write the BIT&#39;th bit out via SPI, setting the data pin then strobing the clock." alt="" coords="624,213,793,258"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="577,233,609,233,609,238,577,238"/>
+</map>

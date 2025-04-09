@@ -1,0 +1,61 @@
+<map id="loop" name="loop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,55,161"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#a6819ff831058a710d4582dfc09817202" title="Delay for the given number of milliseconds." alt="" coords="136,29,261,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="39,131,64,99,101,68,120,58,122,63,104,72,68,103,43,135"/>
+<area shape="rect" id="Node000004" href="$da/de3/group___color_fills.html#ga0fef54ded2e4748869f1796603433b6b" title="Fill a range of LEDs with a rainbow of colors." alt="" coords="150,81,246,109"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="54,136,102,119,134,109,136,115,103,124,56,141"/>
+<area shape="rect" id="Node000005" href="$d6/de6/group___fast_memory.html#ga78fd4f882354956108ebaf92f74abd42" title="Faster alternative to memset() on AVR." alt="" coords="157,133,240,161"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="55,144,141,144,141,150,55,150"/>
+<area shape="rect" id="Node000006" href="$dd/dbb/class_c_fast_l_e_d.html#a28c2dfb0ec592db03f3063ade135f19f" title="Set a global color temperature." alt="" coords="103,185,294,213"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="56,153,103,170,130,178,128,183,102,175,54,159"/>
+<area shape="rect" id="Node000010" href="$dd/dbb/class_c_fast_l_e_d.html#a83afdd1e2a21f33ac4f8d2610d6e331b" title="Update all our controllers with the current led colors, using the passed in brightness." alt="" coords="137,416,260,444"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="42,160,183,401,179,404,37,163"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="169,30,164,20,168,11,180,5,198,3,218,5,229,12,227,16,217,10,198,8,181,10,172,15,169,20,174,28"/>
+<area shape="rect" id="Node000003" href="$dd/dbb/class_c_fast_l_e_d.html#a3adb23ec5f919524928d576002cb45de" title="Update all our controllers with the current led colors." alt="" coords="400,29,523,57"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="261,40,384,40,384,46,261,46"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="417,30,409,20,415,11,433,5,461,3,492,5,508,12,506,17,491,10,461,8,434,10,418,15,415,20,421,27"/>
+<area shape="rect" id="Node000007" href="$d6/d2c/class_c_l_e_d_controller.html#a8b412ff1fd4833d0db63a175d40a2ee0" title="Get the first LED controller in the linked list of controllers." alt="" coords="382,159,541,186"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="294,187,366,179,366,185,295,192"/>
+<area shape="rect" id="Node000008" href="$d6/d2c/class_c_l_e_d_controller.html#a21a4d2b3415dd7b24175ebdb51c9ced0" title="Get the next controller in the linked list after this one." alt="" coords="383,211,539,238"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="295,206,368,213,368,218,294,211"/>
+<area shape="rect" id="Node000009" href="$d6/d2c/class_c_l_e_d_controller.html#aa400d68e05557c5e7d254b0d9080ab5f" title="Set the color temperature, aka white point, for this controller." alt="" coords="346,107,576,134"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="257,182,293,170,317,157,341,145,367,136,368,141,343,150,319,162,295,175,259,187"/>
+<area shape="poly" id="edge19_Node000010_Node000007" title=" " alt="" coords="202,415,217,372,246,312,286,250,312,221,341,197,366,184,368,188,343,201,315,225,291,253,250,315,222,374,207,417"/>
+<area shape="poly" id="edge20_Node000010_Node000008" title=" " alt="" coords="204,414,223,380,253,335,293,288,341,249,367,236,369,241,343,253,296,292,257,338,228,383,209,417"/>
+<area shape="rect" id="Node000011" href="$d6/d2c/class_c_l_e_d_controller.html#af9962ef739bdb3b590ee66f3780765d6" title=" " alt="" coords="347,708,575,736"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="205,443,219,492,245,561,264,598,286,633,313,666,344,694,349,698,346,703,340,699,309,670,282,637,259,600,241,563,214,494,200,445"/>
+<area shape="rect" id="Node000013" href="$d6/d2c/class_c_l_e_d_controller.html#a63f75cf7e55cf8da46db5fd27110bb3e" title="How many LEDs does this controller manage?" alt="" coords="656,759,810,786"/>
+<area shape="poly" id="edge33_Node000010_Node000013" title=" " alt="" coords="204,444,213,502,236,586,254,631,278,674,307,713,344,745,379,765,418,780,459,789,500,795,582,795,653,787,653,792,582,800,500,800,458,795,417,785,377,770,340,749,303,717,273,677,249,633,231,588,208,503,198,445"/>
+<area shape="rect" id="Node000014" href="$dd/dbb/class_c_fast_l_e_d.html#a61d27e179c9b68bde89d220aebc0de32" title="For debugging, this will keep track of time between calls to countFPS()." alt="" coords="386,263,536,290"/>
+<area shape="poly" id="edge15_Node000010_Node000014" title=" " alt="" coords="210,414,264,361,300,332,341,306,371,293,374,298,343,311,304,336,267,365,214,417"/>
+<area shape="rect" id="Node000015" href="$d6/d2c/class_c_l_e_d_controller.html#a49b221af013bf196c2068e2cbd1c299d" title=" " alt="" coords="353,364,569,392"/>
+<area shape="poly" id="edge16_Node000010_Node000015" title=" " alt="" coords="260,415,372,393,373,398,261,420"/>
+<area shape="rect" id="Node000016" href="$d6/d2c/class_c_l_e_d_controller.html#a2a231accbeb00e6a6080a7e55274a279" title="Set the dithering mode for this controller to use." alt="" coords="639,329,827,357"/>
+<area shape="poly" id="edge30_Node000010_Node000016" title=" " alt="" coords="217,413,271,380,305,363,341,350,414,336,488,329,560,327,624,330,624,335,560,333,488,334,414,341,343,355,307,368,274,384,220,418"/>
+<area shape="rect" id="Node000017" href="$d6/d2c/class_c_l_e_d_controller.html#a6bd253f670640ea4d1bd0d71b8029f2a" title=" " alt="" coords="361,416,561,444"/>
+<area shape="poly" id="edge18_Node000010_Node000017" title=" " alt="" coords="261,427,345,427,345,432,261,432"/>
+<area shape="rect" id="Node000018" href="$de/dca/classfl_1_1_engine_events.html#a7147debfba714b8ab0925af1a7c935c0" title=" " alt="" coords="368,468,554,512"/>
+<area shape="poly" id="edge21_Node000010_Node000018" title=" " alt="" coords="261,441,353,463,352,468,260,446"/>
+<area shape="rect" id="Node000022" href="$de/dca/classfl_1_1_engine_events.html#ab7d24c4783214392de84947cd7df5570" title=" " alt="" coords="354,536,568,564"/>
+<area shape="poly" id="edge24_Node000010_Node000022" title=" " alt="" coords="218,442,272,482,306,504,343,522,361,529,359,534,341,527,304,508,269,486,215,446"/>
+<area shape="rect" id="Node000024" href="$de/dca/classfl_1_1_engine_events.html#af1bb9a46fdc6694a1b5c87a49c516ae8" title=" " alt="" coords="342,588,580,616"/>
+<area shape="poly" id="edge27_Node000010_Node000024" title=" " alt="" coords="211,442,262,506,300,542,343,573,357,580,355,584,341,577,297,547,259,510,207,446"/>
+<area shape="rect" id="Node000026" href="$d6/d2c/class_c_l_e_d_controller.html#ac5355e980ac13d9ae97561f183f73990" title="Write the data to the LEDs managed by this controller." alt="" coords="366,640,557,684"/>
+<area shape="poly" id="edge31_Node000010_Node000026" title=" " alt="" coords="208,443,227,480,256,529,295,581,318,604,344,625,353,631,350,636,340,629,315,608,291,584,251,532,222,482,204,445"/>
+<area shape="rect" id="Node000012" href="$d6/d2c/class_c_l_e_d_controller.html#a676f705adf93898739a405b85150a3e7" title="Get the dithering option currently set for this controller." alt="" coords="639,707,827,734"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="576,719,623,718,623,724,576,724"/>
+<area shape="poly" id="edge14_Node000011_Node000013" title=" " alt="" coords="540,734,641,753,640,758,539,739"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="569,361,624,354,624,360,570,367"/>
+<area shape="rect" id="Node000019" href="$de/dca/classfl_1_1_engine_events.html#a9dfab83407c4cb0c15065e242d49de62" title=" " alt="" coords="666,397,800,442"/>
+<area shape="poly" id="edge22_Node000018_Node000019" title=" " alt="" coords="549,464,651,438,652,443,551,469"/>
+<area shape="rect" id="Node000020" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="628,535,838,562"/>
+<area shape="poly" id="edge23_Node000018_Node000020" title=" " alt="" coords="555,507,651,528,650,533,554,513"/>
+<area shape="poly" id="edge26_Node000022_Node000020" title=" " alt="" coords="569,547,613,546,613,552,569,552"/>
+<area shape="rect" id="Node000023" href="$de/dca/classfl_1_1_engine_events.html#a643d9a8597b79d76daed94c29845e886" title=" " alt="" coords="666,466,800,511"/>
+<area shape="poly" id="edge25_Node000022_Node000023" title=" " alt="" coords="531,533,580,522,651,505,652,511,581,527,532,538"/>
+<area shape="poly" id="edge29_Node000024_Node000020" title=" " alt="" coords="535,585,644,563,645,568,536,590"/>
+<area shape="rect" id="Node000025" href="$de/dca/classfl_1_1_engine_events.html#ae6b4037ab7b73bf0d69e07c4956f9450" title=" " alt="" coords="666,586,800,631"/>
+<area shape="poly" id="edge28_Node000024_Node000025" title=" " alt="" coords="581,602,651,604,651,609,581,607"/>
+<area shape="rect" id="Node000027" href="$d6/d2c/class_c_l_e_d_controller.html#afc8fb063666d03527aabc86d8531e007" title="Write the passed in RGB data out to the LEDs managed by this controller." alt="" coords="652,655,814,682"/>
+<area shape="poly" id="edge32_Node000026_Node000027" title=" " alt="" coords="557,662,637,663,637,669,557,667"/>
+</map>

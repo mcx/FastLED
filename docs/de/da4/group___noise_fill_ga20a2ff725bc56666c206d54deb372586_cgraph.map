@@ -1,0 +1,14 @@
+<map id="fill_raw_2dnoise16into8" name="fill_raw_2dnoise16into8">
+<area shape="rect" id="Node000001" title="Fill a 2D 8&#45;bit buffer with noise, using inoise16()" alt="" coords="5,57,181,85"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="63,58,58,48,62,39,74,33,93,31,114,33,125,40,122,44,112,38,93,36,75,38,66,43,63,48,67,56"/>
+<area shape="rect" id="Node000002" href="$d8/df9/group___noise_generation.html#ga94be5ce8402e6147209f94d6006e8f00" title="16&#45;bit, fixed point implementation of Perlin&#39;s noise." alt="" coords="229,5,305,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="141,54,213,32,215,37,143,59"/>
+<area shape="rect" id="Node000005" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="236,57,298,85"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="181,68,221,68,221,74,181,74"/>
+<area shape="rect" id="Node000006" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="235,109,298,137"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="143,83,221,107,219,112,141,88"/>
+<area shape="rect" id="Node000003" href="$d8/df9/group___noise_generation.html#ga810bdc406dcf8fd5b7add9041aa18abd" title="16&#45;bit, fixed point implementation of Perlin&#39;s noise without scaling." alt="" coords="353,5,460,33"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="306,16,337,16,337,22,306,22"/>
+<area shape="rect" id="Node000004" href="$d6/de8/noise_8cpp.html#a24cd7f7232e48b10b8bba34614a168b5" title=" " alt="" coords="508,5,575,33"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="461,16,492,16,492,22,461,22"/>
+</map>

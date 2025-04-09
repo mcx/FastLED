@@ -1,0 +1,9 @@
+<map id="fl::five_bit_hd_gamma_bitshift" name="fl::five_bit_hd_gamma_bitshift">
+<area shape="rect" id="Node000001" title=" " alt="" coords="755,5,921,50"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#a07853a147d535144f71b3f2640f4b0d5" title=" " alt="" coords="530,5,707,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="739,30,708,30,708,25,739,25"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html#a040f761b3d3bb30a9275f96548ec5ef7" title=" " alt="" coords="268,5,482,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="514,30,482,30,482,25,514,25"/>
+<area shape="rect" id="Node000004" href="$df/d0d/group___clocked_chipsets.html#a523f76b88c07e29cba6c40bd0cefe4b3" title="Send the LED data to the strip." alt="" coords="5,14,220,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="252,30,220,30,220,25,252,25"/>
+</map>

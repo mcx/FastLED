@@ -1,0 +1,41 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,400,63,428"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#afd7928d822589740af6e23b2d510cf3f" title="Add a CLEDController instance to the world." alt="" coords="128,148,272,176"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,398,179,187,183,190,47,401"/>
+<area shape="rect" id="Node000011" href="$d8/d2c/_fire2023_8ino.html#a51736e5cacd97906844354b613c686f6" title=" " alt="" coords="135,373,264,401"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="63,407,120,397,120,403,63,412"/>
+<area shape="rect" id="Node000018" href="$dd/dbb/class_c_fast_l_e_d.html#a730ba7d967e882b4b893689cf333b2eb" title="Set the global brightness scaling." alt="" coords="111,425,289,453"/>
+<area shape="poly" id="edge15_Node000001_Node000018" title=" " alt="" coords="63,415,95,420,95,426,63,421"/>
+<area shape="rect" id="Node000019" href="$dd/dbb/class_c_fast_l_e_d.html#a7ae5d3864df01101d82d242c123ffb36" title="Set the dithering mode." alt="" coords="125,503,274,530"/>
+<area shape="poly" id="edge16_Node000001_Node000019" title=" " alt="" coords="57,426,112,462,162,492,159,497,109,467,54,430"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a44d20f088426191c82919c9cdbc63a35" title="Gets the maximum possible refresh rate of the strip." alt="" coords="337,5,593,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,146,262,95,297,67,336,43,354,36,356,41,338,48,300,71,266,99,215,149"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html#af877a15a5ec452780fbd1d359b8a9913" title="Initialize the LED controller." alt="" coords="391,57,539,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="225,145,275,119,336,94,375,83,377,88,338,99,277,124,227,150"/>
+<area shape="rect" id="Node000005" href="$de/dca/classfl_1_1_engine_events.html#a8ec266f9f7b35b9174d331cb6c338d80" title=" " alt="" coords="376,109,555,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="272,151,360,141,360,146,272,156"/>
+<area shape="rect" id="Node000009" href="$d6/d2c/class_c_l_e_d_controller.html#a6c8e2157d244ce8b1b878947ca7695d9" title="Set the default array of LEDs to be used by this controller." alt="" coords="376,177,554,205"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="272,167,361,177,361,182,272,172"/>
+<area shape="rect" id="Node000010" href="$dd/dbb/class_c_fast_l_e_d.html#a1f39e8404db214bbd6a776f52a77d8b1" title="Set the maximum refresh rate." alt="" coords="356,229,574,257"/>
+<area shape="poly" id="edge8_Node000002_Node000010" title=" " alt="" coords="233,174,282,194,338,214,371,223,369,228,336,219,280,199,231,179"/>
+<area shape="rect" id="Node000006" href="$de/dca/classfl_1_1_engine_events.html#a006e1f01b766436e0eec2e406b4512d5" title=" " alt="" coords="679,80,813,124"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="555,119,663,108,664,113,556,124"/>
+<area shape="rect" id="Node000007" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="641,148,851,176"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="556,138,626,146,625,151,555,144"/>
+<area shape="rect" id="Node000012" href="$db/ddd/classfl_1_1_heap_vector.html#af55b7debe54f11e76ecf7dc6e7b50984" title=" " alt="" coords="390,281,540,309"/>
+<area shape="poly" id="edge10_Node000011_Node000012" title=" " alt="" coords="225,370,276,344,336,319,375,308,376,313,338,324,278,349,228,375"/>
+<area shape="rect" id="Node000013" href="$db/ddd/classfl_1_1_heap_vector.html#a701c6f44506bee8254a5c66a6f132487" title=" " alt="" coords="370,333,560,361"/>
+<area shape="poly" id="edge11_Node000011_Node000013" title=" " alt="" coords="265,375,355,361,356,366,265,380"/>
+<area shape="rect" id="Node000016" href="$db/ddd/classfl_1_1_heap_vector.html#a37e5c0526e1be1bdc4c17139ac026939" title=" " alt="" coords="392,385,538,413"/>
+<area shape="poly" id="edge13_Node000011_Node000016" title=" " alt="" coords="265,387,377,393,376,398,265,393"/>
+<area shape="rect" id="Node000017" href="$d7/dfa/_p_j_r_c_spectrum_analyzer_8ino.html#a310eea447890e3471c6b27fd79dc94fc" title=" " alt="" coords="446,437,484,465"/>
+<area shape="poly" id="edge14_Node000011_Node000017" title=" " alt="" coords="251,399,338,422,431,442,430,447,336,427,250,404"/>
+<area shape="rect" id="Node000014" href="$db/ddd/classfl_1_1_heap_vector.html#a9654c1f85b2219f36fcf1a6e146d660e" title=" " alt="" coords="647,333,845,361"/>
+<area shape="poly" id="edge12_Node000013_Node000014" title=" " alt="" coords="560,344,632,344,632,350,560,350"/>
+<area shape="rect" id="Node000020" href="$d6/d2c/class_c_l_e_d_controller.html#a8b412ff1fd4833d0db63a175d40a2ee0" title="Get the first LED controller in the linked list of controllers." alt="" coords="386,489,545,517"/>
+<area shape="poly" id="edge17_Node000019_Node000020" title=" " alt="" coords="275,510,370,505,370,511,275,515"/>
+<area shape="rect" id="Node000021" href="$d6/d2c/class_c_l_e_d_controller.html#a21a4d2b3415dd7b24175ebdb51c9ced0" title="Get the next controller in the linked list after this one." alt="" coords="387,541,543,569"/>
+<area shape="poly" id="edge18_Node000019_Node000021" title=" " alt="" coords="275,525,372,539,371,544,275,530"/>
+<area shape="rect" id="Node000022" href="$d6/d2c/class_c_l_e_d_controller.html#a2a231accbeb00e6a6080a7e55274a279" title="Set the dithering mode for this controller to use." alt="" coords="372,593,559,621"/>
+<area shape="poly" id="edge19_Node000019_Node000022" title=" " alt="" coords="228,529,278,554,338,578,367,587,366,592,336,583,276,559,226,533"/>
+</map>

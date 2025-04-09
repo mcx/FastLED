@@ -1,0 +1,11 @@
+<map id="UCS1903&lt; DATA_PIN, RGB_ORDER &gt;" name="UCS1903&lt; DATA_PIN, RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="UCS1903 controller class." alt="" coords="949,65,1111,110"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="696,65,900,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="916,85,948,85,948,90,916,90"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="266,5,455,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="471,53,696,75,696,80,470,58"/>
+<area shape="rect" id="Node000004" href="$d7/d6f/group___clockless_chipsets.html#d9/d23/class_u_c_s1903_controller400_khz" title="UCS1903 controller class @ 400 KHz." alt="" coords="259,108,462,152"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="478,116,696,95,696,100,478,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,99,210,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="225,127,259,127,259,133,225,133"/>
+</map>

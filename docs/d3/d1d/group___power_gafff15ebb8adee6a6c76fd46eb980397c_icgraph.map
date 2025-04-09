@@ -1,0 +1,15 @@
+<map id="calculate_max_brightness_for_power_mW" name="calculate_max_brightness_for_power_mW">
+<area shape="rect" id="Node000001" title="Determines the highest brightness level you can use and still stay under the specified power budget f..." alt="" coords="770,40,962,85"/>
+<area shape="rect" id="Node000002" href="$d3/d1d/group___power.html#gab519e78baab1cfbaf62663c48c1c2f35" title="Determines the highest brightness level you can use and still stay under the specified power budget f..." alt="" coords="518,5,709,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="755,50,709,43,710,38,755,44"/>
+<area shape="rect" id="Node000003" href="$dd/dbb/class_c_fast_l_e_d.html#ab07d62cdec036af9ede70cbd06ece40f" title="Set the maximum power to be used, given in milliwatts." alt="" coords="505,75,722,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="755,80,723,85,722,79,755,75"/>
+<area shape="rect" id="Node000004" href="$d3/d1d/group___power.html#ga07198890442df25532c1beaafb093648" title="Set the maximum power used in watts." alt="" coords="239,52,454,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="489,85,454,81,455,76,490,80"/>
+<area shape="rect" id="Node000005" href="$dd/dbb/class_c_fast_l_e_d.html#a996375a3f4a7b8c096f87d8a93c2b196" title="Set the maximum power to be used, given in volts and milliamps." alt="" coords="236,104,457,149"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="490,113,458,117,457,112,489,108"/>
+<area shape="rect" id="Node000006" href="$d3/d1d/group___power.html#ga8db01f418cbff03a8d51caa528e44e0d" title="Set the maximum power used in milliamps for a given voltage." alt="" coords="5,73,188,118"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="220,113,188,110,188,104,220,108"/>
+<area shape="rect" id="Node000007" href="$dc/ded/_fx_pacifica_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="68,142,125,170"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="220,144,126,155,125,150,220,139"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="animartrix_detail::ANIMartRIX::Parametric_Water" name="animartrix_detail::ANIMartRIX::Parametric_Water">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,248,225,293"/>
+<area shape="rect" id="Node000002" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a8f1a3ef6f9688953f30b62ee5a3842e0" title=" " alt="" coords="311,58,474,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,246,193,189,231,157,271,129,295,117,298,122,274,134,234,161,196,193,138,250"/>
+<area shape="rect" id="Node000008" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a087a9473459c121592e78b11d617820b" title=" " alt="" coords="308,213,477,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="225,254,292,245,293,251,226,259"/>
+<area shape="rect" id="Node000010" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a867d92fbbe56d9cdbd02638db2795324" title=" " alt="" coords="298,144,487,189"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="163,245,272,199,292,191,294,196,274,203,165,250"/>
+<area shape="rect" id="Node000012" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a67a30ae022755db342ddaafdeb1b7d9f" title=" " alt="" coords="284,283,501,327"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="226,281,269,287,268,292,225,287"/>
+<area shape="rect" id="Node000013" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#afa21f4025e5086d591b75af4884e2cf8" title=" " alt="" coords="319,352,466,397"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="165,291,274,337,305,348,303,353,272,342,163,296"/>
+<area shape="rect" id="Node000014" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#abeda45d77e8e41b81cd1e24a004e7f0c" title=" " alt="" coords="273,421,512,466"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="138,291,195,349,233,380,274,407,286,413,283,417,271,411,230,384,192,353,134,295"/>
+<area shape="rect" id="Node000003" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#aca68cf41172ac73c388dad51b3ab40ab" title=" " alt="" coords="566,5,724,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="474,67,550,48,551,53,475,72"/>
+<area shape="rect" id="Node000004" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a4e599e324fb4f9bec1a113f1843f6058" title=" " alt="" coords="571,75,718,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="474,89,555,92,555,97,474,94"/>
+<area shape="rect" id="Node000005" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#af3fb7d297afe35dea7078be3836aa994" title=" " alt="" coords="777,5,919,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="711,72,765,53,767,58,713,77"/>
+<area shape="rect" id="Node000006" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#acb625b48d9c1beec3067e0c38b7a0b22" title=" " alt="" coords="777,75,919,119"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="718,94,761,94,761,100,718,100"/>
+<area shape="rect" id="Node000007" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a7ce0a9b9405217a5b8bf71c88bcb571b" title=" " alt="" coords="777,144,919,189"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="713,117,767,136,765,141,711,122"/>
+<area shape="rect" id="Node000009" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#ac384f7991b6c2a4906b1783b7aa59638" title=" " alt="" coords="560,213,729,258"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="477,233,545,233,545,238,477,238"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="476,141,555,119,557,124,477,146"/>
+<area shape="rect" id="Node000011" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a2006d9bb43b5840274de66a93529a29f" title=" " alt="" coords="560,144,729,189"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="487,164,545,164,545,169,487,169"/>
+</map>

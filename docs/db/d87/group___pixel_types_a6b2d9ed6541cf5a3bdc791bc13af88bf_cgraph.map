@@ -1,0 +1,7 @@
+<map id="CRGB::operator&#45;&#45;" name="CRGB::operator&#45;&#45;">
+<area shape="rect" id="Node000001" title="Subtract a constant of &#39;1&#39; from each channel, saturating at 0x00." alt="" coords="5,5,137,33"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#a986ac62988523a4371f8f90cf844924d" title="Subtract a constant from each channel, saturating at 0x00." alt="" coords="185,5,365,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,16,169,16,169,22,137,22"/>
+<area shape="rect" id="Node000003" href="$d5/d98/group___math.html#gae261576a4c8155d6c0ba8615b2d2ecb3" title="Subtract one byte from another, saturating at 0x00." alt="" coords="413,5,473,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,16,397,16,397,22,365,22"/>
+</map>

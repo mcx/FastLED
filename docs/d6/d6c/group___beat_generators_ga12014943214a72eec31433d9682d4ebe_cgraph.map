@@ -1,0 +1,7 @@
+<map id="beat8" name="beat8">
+<area shape="rect" id="Node000001" title="Generates an 8&#45;bit &quot;sawtooth&quot; wave at a given BPM." alt="" coords="5,5,64,33"/>
+<area shape="rect" id="Node000002" href="$d6/d6c/group___beat_generators.html#gade6acbf6fd3c9d346148bccfcafb2fe2" title="Generates a 16&#45;bit &quot;sawtooth&quot; wave at a given BPM." alt="" coords="112,5,178,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,16,96,16,96,22,64,22"/>
+<area shape="rect" id="Node000003" href="$d6/d6c/group___beat_generators.html#ga1b48fc520db5f40910caf79974992395" title="Generates a 16&#45;bit &quot;sawtooth&quot; wave at a given BPM, with BPM specified in Q8.8 fixed&#45;point format." alt="" coords="226,5,292,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="178,16,210,16,210,22,178,22"/>
+</map>

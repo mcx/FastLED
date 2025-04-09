@@ -1,0 +1,23 @@
+<map id="fl::Fire2012" name="fl::Fire2012">
+<area shape="rect" id="Node000001" title=" " alt="" coords="323,300,416,328"/>
+<area shape="rect" id="Node000002" href="$d4/d1c/classfl_1_1_fx1d.html" title=" " alt="" coords="105,208,175,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,239,337,297,335,302,187,244"/>
+<area shape="rect" id="Node000003" href="$da/d5d/classfl_1_1_fx.html" title=" " alt="" coords="25,106,79,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,144,131,206,127,209,71,147"/>
+<area shape="rect" id="Node000004" href="$d6/d16/classfl_1_1_referent.html" title=" " alt="" coords="5,5,99,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="55,48,55,106,49,106,49,48"/>
+<area shape="rect" id="Node000011" href="$d7/d6c/classfl_1_1_x_map.html" title=" " alt="" coords="103,106,177,134"/>
+<area shape="poly" id="edge4_Node000002_Node000011" title=" " alt="" coords="143,150,143,208,137,208,137,150"/>
+<area shape="rect" id="Node000012" href="$d3/d92/classfl_1_1scoped__array.html" title=" " alt="" coords="270,208,469,235"/>
+<area shape="poly" id="edge5_Node000001_Node000012" title=" " alt="" coords="372,251,372,300,367,300,367,251"/>
+<area shape="rect" id="Node000013" href="$df/db6/structfl_1_1_array_deleter.html" title=" " alt="" coords="201,106,396,134"/>
+<area shape="poly" id="edge6_Node000012_Node000013" title=" " alt="" coords="319,145,362,206,358,209,314,148"/>
+<area shape="rect" id="Node000014" href="$df/db6/structfl_1_1_array_deleter.html" title=" " alt="" coords="220,5,378,33"/>
+<area shape="poly" id="edge7_Node000013_Node000014" title=" " alt="" coords="301,48,301,106,296,106,296,48"/>
+<area shape="rect" id="Node000015" href="$d3/d92/classfl_1_1scoped__array.html" title=" " alt="" coords="420,98,572,143"/>
+<area shape="poly" id="edge8_Node000012_Node000015" title=" " alt="" coords="458,154,388,209,384,205,455,150"/>
+<area shape="rect" id="Node000016" href="$d6/d39/group___palette_classes.html#d2/dc4/class_c_r_g_b_palette16" title="RGB color palette with 16 discrete values." alt="" coords="530,208,649,235"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="544,244,402,302,400,297,542,239"/>
+<area shape="rect" id="Node000017" href="$db/d87/group___pixel_types.html#d7/d82/struct_c_r_g_b" title="Representation of an RGB pixel (Red, Green, Blue)" alt="" coords="596,106,654,134"/>
+<area shape="poly" id="edge10_Node000016_Node000017" title=" " alt="" coords="618,149,596,209,591,207,613,148"/>
+</map>

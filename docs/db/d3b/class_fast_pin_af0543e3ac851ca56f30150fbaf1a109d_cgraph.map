@@ -1,0 +1,5 @@
+<map id="FastPin::setInput" name="FastPin::setInput">
+<area shape="rect" id="Node000001" title="Set the pin mode as INPUT" alt="" coords="5,5,134,33"/>
+<area shape="rect" id="Node000002" href="$db/d3b/class_fast_pin.html#a60c6fb75993ac57d29b097bf8df013c2" title=" " alt="" coords="182,5,285,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,16,166,16,166,22,134,22"/>
+</map>

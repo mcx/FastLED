@@ -1,0 +1,7 @@
+<map id="fl::FxEngine::setNextFx" name="fl::FxEngine::setNextFx">
+<area shape="rect" id="Node000001" title="Sets the next effect to transition to." alt="" coords="301,5,473,33"/>
+<area shape="rect" id="Node000002" href="$d4/d60/classfl_1_1_fx_engine.html#a478ed2a69d36050013ef81ffb59799a0" title="Transitions to the next effect in the sequence." alt="" coords="103,5,253,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,22,254,22,254,16,285,16"/>
+<area shape="rect" id="Node000003" href="$d6/d35/_fx_engine_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+</map>

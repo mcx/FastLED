@@ -1,0 +1,11 @@
+<map id="fl::Cylon::draw" name="fl::Cylon::draw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,120,60"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#a5a3c3370a7de840ac31c07f6dc9bdb63" title="Scale down a RGB to N/256ths of its current brightness, using &quot;plain math&quot; dimming rules." alt="" coords="168,32,284,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,43,152,43,152,48,120,48"/>
+<area shape="rect" id="Node000003" href="$d0/da8/group___scaling.html#ga39bf87e5526120889086cab19ac749b1" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="332,32,419,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,43,317,43,317,48,284,48"/>
+<area shape="rect" id="Node000004" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="517,5,613,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="419,37,501,25,502,31,420,42"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="467,57,663,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="420,49,452,53,451,59,419,54"/>
+</map>

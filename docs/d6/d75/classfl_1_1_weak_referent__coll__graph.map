@@ -1,0 +1,12 @@
+<map id="fl::WeakReferent" name="fl::WeakReferent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,14,135,42"/>
+<area shape="rect" id="Node000003" href="$d1/d56/classfl_1_1_ptr.html" title=" " alt="" coords="147,115,340,143"/>
+<area shape="poly" id="edge4_Node000003_Node000001" title=" " alt="" coords="104,48,171,89,217,112,214,117,168,93,101,53"/>
+<area shape="rect" id="Node000002" href="$d6/d16/classfl_1_1_referent.html" title=" " alt="" coords="25,208,118,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,193,58,143,60,86,65,42,70,42,65,87,64,143,69,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,153,98,209,95,205,204,148"/>
+<area shape="rect" id="Node000004" href="$da/d84/classfl_1_1_ptr_traits.html" title=" " alt="" coords="168,5,297,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="239,65,245,115,239,115,234,66"/>
+<area shape="rect" id="Node000006" href="$d1/d56/classfl_1_1_ptr.html" title=" " alt="" coords="321,14,414,42"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="341,53,261,117,258,113,338,49"/>
+</map>

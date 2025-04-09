@@ -1,0 +1,5 @@
+<map id="CRGBPalette16::loadDynamicGradientPalette" name="CRGBPalette16::loadDynamicGradientPalette">
+<area shape="rect" id="Node000001" title="Creates a palette from a gradient palette in dynamic (heap) memory." alt="" coords="5,5,219,50"/>
+<area shape="rect" id="Node000002" href="$da/de3/group___color_fills.html#ga6afaa1f712186a4b67445f69871cad88" title="Fill a range of LEDs with a smooth RGB gradient between two RGB colors." alt="" coords="267,14,400,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,25,251,25,251,30,219,30"/>
+</map>

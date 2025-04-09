@@ -1,0 +1,11 @@
+<map id="CRGB::computeAdjustment" name="CRGB::computeAdjustment">
+<area shape="rect" id="Node000001" title="Calculates the combined color adjustment to the LEDs at a given scale, color correction,..." alt="" coords="777,48,976,76"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#af6173cca91ee446766cc15102990d7bb" title="Get the combined brightness/color adjustment for this controller." alt="" coords="506,48,729,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="762,65,730,65,730,60,762,60"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a6f174d3b4ceacf75eb761c93e78ebff7" title=" " alt="" coords="204,48,458,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="490,65,459,65,459,60,490,60"/>
+<area shape="rect" id="Node000004" href="$d0/dc9/class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c" title="Write the passed in RGB data out to the LEDs managed by this controller." alt="" coords="5,5,156,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,48,156,41,157,35,212,43"/>
+<area shape="rect" id="Node000005" href="$d0/dc9/class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15" title="Set all the LEDs on the controller to a given color." alt="" coords="5,75,156,119"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="212,82,157,89,156,84,211,76"/>
+</map>

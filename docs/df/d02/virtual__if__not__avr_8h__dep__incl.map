@@ -1,0 +1,11 @@
+<map id="/home/runner/work/FastLED/FastLED/src/fl/virtual_if_not_avr.h" name="/home/runner/work/FastLED/FastLED/src/fl/virtual_if_not_avr.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="146,5,346,67"/>
+<area shape="rect" id="Node000002" href="$db/d6d/cled__controller_8h.html" title="base definitions used by led controllers for writing out led data" alt="" coords="141,115,351,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,83,249,115,243,115,243,83"/>
+<area shape="rect" id="Node000003" href="$dd/dd8/cled__controller_8cpp.html" title="base definitions used by led controllers for writing out led data" alt="" coords="5,208,231,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="205,171,150,209,147,205,202,167"/>
+<area shape="rect" id="Node000004" href="$d9/d57/cpixel__ledcontroller_8h.html" title="defines the templated version of the CLEDController class" alt="" coords="255,208,496,252"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="290,166,346,205,343,209,287,171"/>
+<area shape="rect" id="Node000005" href="$d2/dd9/controller_8h.html" title="deprecated: base definitions used by led controllers for writing out led data" alt="" coords="276,300,475,345"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="378,268,378,300,373,300,373,268"/>
+</map>

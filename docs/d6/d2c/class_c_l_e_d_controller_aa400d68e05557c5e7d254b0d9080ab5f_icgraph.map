@@ -1,0 +1,7 @@
+<map id="CLEDController::setTemperature" name="CLEDController::setTemperature">
+<area shape="rect" id="Node000001" title="Set the color temperature, aka white point, for this controller." alt="" coords="342,5,571,33"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#a28c2dfb0ec592db03f3063ade135f19f" title="Set a global color temperature." alt="" coords="103,5,294,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="327,22,295,22,295,16,327,16"/>
+<area shape="rect" id="Node000003" href="$d7/d22/_color_temperature_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+</map>

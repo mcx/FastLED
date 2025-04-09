@@ -1,0 +1,9 @@
+<map id="CEveryNTime::getElapsed" name="CEveryNTime::getElapsed">
+<area shape="rect" id="Node000001" title="Get the time elapsed since the last trigger event." alt="" coords="516,32,706,60"/>
+<area shape="rect" id="Node000002" href="$d5/df2/group___timekeeping.html#af9baddee5f65500d9b1488e4264c8ff1" title="Get the time until the next trigger event." alt="" coords="259,5,468,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="500,37,468,33,469,28,501,31"/>
+<area shape="rect" id="Node000003" href="$d5/df2/group___timekeeping.html#ad248eee37ab69d2f0d27f6cb5a909b32" title="Check if the time interval has elapsed." alt="" coords="286,57,441,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="501,60,442,66,441,61,500,54"/>
+<area shape="rect" id="Node000004" href="$d5/df2/group___timekeeping.html#a6895b6156f44263f53a386c2f83e3a02" title="Check if the time interval has elapsed." alt="" coords="5,57,211,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="270,74,211,74,211,68,270,68"/>
+</map>

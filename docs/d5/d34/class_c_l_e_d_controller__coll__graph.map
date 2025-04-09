@@ -1,0 +1,8 @@
+<map id="CLEDController" name="CLEDController">
+<area shape="rect" id="Node000001" title="Base definition for an LED controller." alt="" coords="58,144,177,171"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="194,145,201,150,203,158,196,169,178,174,177,169,193,165,198,157,196,153,191,149"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#d7/d82/struct_c_r_g_b" title="Representation of an RGB pixel (Red, Green, Blue)" alt="" coords="5,5,64,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="31,48,30,78,38,107,56,127,80,141,77,145,53,131,34,109,25,79,26,48"/>
+<area shape="rect" id="Node000003" href="$db/d74/struct_rgbw.html" title=" " alt="" coords="172,5,230,33"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="198,49,189,79,174,109,157,129,138,145,135,141,153,126,170,107,184,77,193,47"/>
+</map>

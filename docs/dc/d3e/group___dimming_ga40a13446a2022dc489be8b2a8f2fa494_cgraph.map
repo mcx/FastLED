@@ -1,0 +1,5 @@
+<map id="dim8_video" name="dim8_video">
+<area shape="rect" id="Node000001" title="Adjust a scaling value for dimming for video (value will never go below 1)" alt="" coords="5,5,103,33"/>
+<area shape="rect" id="Node000002" href="$d0/da8/group___scaling.html#ga628b417ea1507e3447cdf5f308d9b6d5" title="The &quot;video&quot; version of scale8() guarantees that the output will be only be zero if one or both of the..." alt="" coords="151,5,257,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,16,135,16,135,22,103,22"/>
+</map>

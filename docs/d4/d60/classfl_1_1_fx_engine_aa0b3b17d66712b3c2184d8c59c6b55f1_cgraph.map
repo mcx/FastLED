@@ -1,0 +1,46 @@
+<map id="fl::FxEngine::draw" name="fl::FxEngine::draw">
+<area shape="rect" id="Node000001" title="Renders the current effect or transition to the output buffer." alt="" coords="5,256,143,284"/>
+<area shape="rect" id="Node000002" href="$d7/df1/classfl_1_1_fx_compositor.html#aade5cf1a5c03eb71c39f8ed58c981e96" title=" " alt="" coords="221,88,390,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,254,131,212,189,164,260,121,262,126,192,168,135,216,91,258"/>
+<area shape="rect" id="Node000012" href="$d2/df3/classfl_1_1_fixed_map.html#aaa4e5e58299a89ab5a6784b011b2b2a7" title=" " alt="" coords="231,229,380,257"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="143,259,215,251,216,256,144,265"/>
+<area shape="rect" id="Node000014" href="$d2/df3/classfl_1_1_fixed_map.html#ac2c703c3d250cdb2c30101766c1810d6" title=" " alt="" coords="241,281,370,309"/>
+<area shape="poly" id="edge11_Node000001_Node000014" title=" " alt="" coords="144,275,226,284,225,289,143,280"/>
+<area shape="rect" id="Node000020" href="$d7/df1/classfl_1_1_fx_compositor.html#a623a0970c4c8b2cec73db92a8008c752" title=" " alt="" coords="191,177,420,205"/>
+<area shape="poly" id="edge17_Node000001_Node000020" title=" " alt="" coords="102,253,190,215,218,207,219,212,192,220,104,258"/>
+<area shape="rect" id="Node000022" href="$d4/d54/classfl_1_1_time_scale.html#a5cd0e2c2db8d7fc2d0e9b6fc055f6860" title=" " alt="" coords="495,383,638,410"/>
+<area shape="poly" id="edge20_Node000001_Node000022" title=" " alt="" coords="105,282,145,301,191,318,320,348,480,379,479,384,319,353,190,323,143,305,102,287"/>
+<area shape="rect" id="Node000023" href="$d4/d54/classfl_1_1_time_scale.html#aaf4402f6d611d4fc50bdf22eccc26556" title=" " alt="" coords="226,383,384,410"/>
+<area shape="poly" id="edge21_Node000001_Node000023" title=" " alt="" coords="91,282,134,322,162,344,192,362,222,375,220,380,189,367,159,348,130,326,87,286"/>
+<area shape="rect" id="Node000003" href="$db/d87/group___pixel_types.html#a6348cb098a0b27f443bd1af290dafa94" title=" " alt="" coords="516,57,618,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,89,499,76,500,82,390,95"/>
+<area shape="rect" id="Node000008" href="$d7/df1/classfl_1_1_fx_compositor.html#a709e5926d9918a9dcdbebf79e3a12fc0" title=" " alt="" coords="468,109,665,154"/>
+<area shape="poly" id="edge5_Node000002_Node000008" title=" " alt="" coords="390,109,453,116,452,121,390,114"/>
+<area shape="rect" id="Node000011" href="$d7/dde/classfl_1_1_transition.html#aa5fdddfa483b9cbe579972dc5bba9546" title=" " alt="" coords="474,5,659,33"/>
+<area shape="poly" id="edge8_Node000002_Node000011" title=" " alt="" coords="345,85,467,43,495,35,496,40,469,48,346,90"/>
+<area shape="rect" id="Node000004" href="$db/d87/group___pixel_types.html#a08d8e05a3fcdb88dedb886cad9cbd3fa" title="Default constructor." alt="" coords="768,8,872,36"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="618,59,752,32,753,37,619,64"/>
+<area shape="rect" id="Node000005" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="787,60,853,88"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="618,69,772,71,772,76,618,74"/>
+<area shape="rect" id="Node000009" href="$d7/dde/classfl_1_1_transition.html#a5ad9300c474f35b98872eed688244372" title=" " alt="" coords="754,116,886,144"/>
+<area shape="poly" id="edge6_Node000008_Node000009" title=" " alt="" coords="666,128,738,128,738,133,666,133"/>
+<area shape="rect" id="Node000010" href="$d7/df1/classfl_1_1_fx_compositor.html#a0ed0685b3caac53687f4d75402cd105d" title=" " alt="" coords="713,168,927,196"/>
+<area shape="poly" id="edge7_Node000008_Node000010" title=" " alt="" coords="667,148,733,162,732,167,665,154"/>
+<area shape="rect" id="Node000013" href="$d3/d73/classfl_1_1_fixed_vector.html#aa9b4bb53ec2f9d7ed6c2d237b22489b5" title=" " alt="" coords="486,229,648,257"/>
+<area shape="poly" id="edge10_Node000012_Node000013" title=" " alt="" coords="380,240,470,240,470,246,380,246"/>
+<area shape="rect" id="Node000015" href="$d2/df3/classfl_1_1_fixed_map.html#a25851b559aa5ae81d52c0c5792d10bf5" title=" " alt="" coords="754,332,886,360"/>
+<area shape="poly" id="edge12_Node000014_Node000015" title=" " alt="" coords="370,304,468,318,612,331,739,339,739,345,611,336,468,323,370,309"/>
+<area shape="rect" id="Node000017" href="$d2/df3/classfl_1_1_fixed_map.html#a85134d13ee9474e0ac60284e965ccbb3" title=" " alt="" coords="501,281,632,309"/>
+<area shape="poly" id="edge14_Node000014_Node000017" title=" " alt="" coords="370,292,486,292,486,298,370,298"/>
+<area shape="rect" id="Node000016" href="$d3/d73/classfl_1_1_fixed_vector.html#af8f3eb485dff77110efec26993f206c4" title=" " alt="" coords="975,332,1119,360"/>
+<area shape="poly" id="edge13_Node000015_Node000016" title=" " alt="" coords="886,343,959,343,959,348,886,348"/>
+<area shape="poly" id="edge16_Node000017_Node000015" title=" " alt="" coords="633,306,740,327,739,332,632,311"/>
+<area shape="rect" id="Node000018" href="$d2/df3/classfl_1_1_fixed_map.html#a5bcfb52c7949403994eed767316e237b" title=" " alt="" coords="748,280,892,308"/>
+<area shape="poly" id="edge15_Node000017_Node000018" title=" " alt="" coords="633,292,732,292,733,297,633,297"/>
+<area shape="poly" id="edge18_Node000020_Node000008" title=" " alt="" coords="368,174,452,155,453,160,369,179"/>
+<area shape="rect" id="Node000021" href="$d7/dde/classfl_1_1_transition.html#ac43edc15263acfe1b5d1afc03d544b34" title=" " alt="" coords="498,177,636,205"/>
+<area shape="poly" id="edge19_Node000020_Node000021" title=" " alt="" coords="420,188,482,188,482,194,420,194"/>
+<area shape="poly" id="edge23_Node000023_Node000022" title=" " alt="" coords="385,394,479,394,479,399,385,399"/>
+<area shape="rect" id="Node000024" href="$d4/d54/classfl_1_1_time_scale.html#ac47ed86f6de9028059f4abd091a3eaa6" title=" " alt="" coords="474,435,659,462"/>
+<area shape="poly" id="edge22_Node000023_Node000024" title=" " alt="" coords="379,408,479,428,478,434,378,414"/>
+</map>

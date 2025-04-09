@@ -1,0 +1,21 @@
+<map id="fl::FxCompositor::draw" name="fl::FxCompositor::draw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,115,174,142"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#a6348cb098a0b27f443bd1af290dafa94" title=" " alt="" coords="269,55,372,82"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,112,221,91,254,83,255,88,222,96,146,117"/>
+<area shape="rect" id="Node000007" href="$d7/df1/classfl_1_1_fx_compositor.html#a709e5926d9918a9dcdbebf79e3a12fc0" title=" " alt="" coords="222,106,419,151"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="174,126,206,126,206,131,174,131"/>
+<area shape="rect" id="Node000010" href="$d7/dde/classfl_1_1_transition.html#aa5fdddfa483b9cbe579972dc5bba9546" title=" " alt="" coords="228,175,413,202"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="146,140,222,161,250,168,248,173,221,166,144,145"/>
+<area shape="rect" id="Node000003" href="$db/d87/group___pixel_types.html#a08d8e05a3fcdb88dedb886cad9cbd3fa" title="Default constructor." alt="" coords="522,5,625,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,56,506,30,507,35,372,61"/>
+<area shape="rect" id="Node000004" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="541,57,606,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="372,66,526,68,525,73,372,72"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="778,32,874,60"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="606,65,763,49,763,55,607,71"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="728,84,924,112"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="607,72,713,83,713,89,606,77"/>
+<area shape="rect" id="Node000008" href="$d7/dde/classfl_1_1_transition.html#a5ad9300c474f35b98872eed688244372" title=" " alt="" coords="508,113,640,141"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="420,125,492,125,492,130,420,131"/>
+<area shape="rect" id="Node000009" href="$d7/df1/classfl_1_1_fx_compositor.html#a0ed0685b3caac53687f4d75402cd105d" title=" " alt="" coords="467,165,680,193"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="420,146,487,159,486,164,419,151"/>
+</map>

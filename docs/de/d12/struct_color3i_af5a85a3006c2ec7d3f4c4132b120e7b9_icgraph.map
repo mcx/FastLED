@@ -1,0 +1,16 @@
+<map id="Color3i::Black" name="Color3i::Black">
+<area shape="rect" id="Node000001" title=" " alt="" coords="425,84,536,112"/>
+<area shape="rect" id="Node000002" href="$dd/d45/struct_painter.html#aac192da55e15dd79b498933180c06725" title=" " alt="" coords="161,5,376,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="441,79,376,48,337,36,339,31,378,43,443,74"/>
+<area shape="rect" id="Node000004" href="$dd/d45/struct_painter.html#a3b521f31ff7f7249ce1c88ca56f5ad80" title=" " alt="" coords="188,57,348,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="409,92,348,84,349,79,410,86"/>
+<area shape="rect" id="Node000005" href="$dd/d45/struct_painter.html#a405cd2b8e31b1ad6e8d6abe9ba03c074" title=" " alt="" coords="160,109,377,137"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="410,109,378,113,377,107,409,104"/>
+<area shape="rect" id="Node000006" href="$dd/d45/struct_painter.html#ab6318a63a778550cd78f3eae183cb8dc" title=" " alt="" coords="180,161,357,189"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="442,122,378,151,338,163,337,158,376,146,440,117"/>
+<area shape="rect" id="Node000003" href="$dd/d45/struct_painter.html#a99ab92bb8d2baae96c7b4b4aacda4de3" title=" " alt="" coords="5,84,112,112"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="185,40,161,48,120,67,85,86,82,81,118,62,159,43,184,35"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="173,86,113,94,112,88,173,81"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="144,111,112,107,113,102,144,105"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="184,159,159,151,83,115,85,110,161,146,185,154"/>
+</map>

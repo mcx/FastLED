@@ -1,0 +1,5 @@
+<map id="MidiInterface::sendActiveSensing" name="MidiInterface::sendActiveSensing">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,193,50"/>
+<area shape="rect" id="Node000002" href="$d7/db2/group__output.html#gac23eb04a4dc0d764d6db6f71c43fda12" title="Send a Real Time (one byte) message." alt="" coords="241,14,449,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,25,225,25,225,30,193,30"/>
+</map>

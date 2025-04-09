@@ -1,0 +1,19 @@
+<map id="fl::Frame::interpolate" name="fl::Frame::interpolate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,163,137"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#a6348cb098a0b27f443bd1af290dafa94" title=" " alt="" coords="216,57,318,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,106,200,87,202,92,136,111"/>
+<area shape="rect" id="Node000007" href="$d1/de0/classfl_1_1_frame.html#af87085697e2f19076fa6cd89d995501b" title=" " alt="" coords="213,109,320,137"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="163,120,198,120,198,126,163,126"/>
+<area shape="rect" id="Node000009" href="$d1/de0/classfl_1_1_frame.html#a33cf60e696151e0d5777d89ed299c2f2" title=" " alt="" coords="211,161,323,189"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="136,135,202,154,200,159,135,140"/>
+<area shape="rect" id="Node000003" href="$db/d87/group___pixel_types.html#a08d8e05a3fcdb88dedb886cad9cbd3fa" title="Default constructor." alt="" coords="396,5,499,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="317,54,382,35,383,40,318,59"/>
+<area shape="rect" id="Node000004" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="414,57,480,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="319,68,399,68,399,74,319,74"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="621,32,717,60"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="480,65,605,50,606,56,481,70"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="571,84,767,112"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="481,72,556,82,555,87,480,78"/>
+<area shape="rect" id="Node000008" href="$d3/d92/classfl_1_1scoped__array.html#ac726846a84175cb31ff545082729900c" title=" " alt="" coords="371,109,523,137"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="321,120,355,120,355,126,321,126"/>
+</map>

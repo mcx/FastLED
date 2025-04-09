@@ -1,0 +1,28 @@
+<map id="animartrix_detail::ANIMartRIX::Water" name="animartrix_detail::ANIMartRIX::Water">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,213,148,258"/>
+<area shape="rect" id="Node000002" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a8f1a3ef6f9688953f30b62ee5a3842e0" title=" " alt="" coords="234,58,397,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,211,139,170,194,129,218,117,221,122,197,134,143,174,100,215"/>
+<area shape="rect" id="Node000008" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a087a9473459c121592e78b11d617820b" title=" " alt="" coords="231,213,400,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="148,233,216,233,216,238,148,238"/>
+<area shape="rect" id="Node000010" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a867d92fbbe56d9cdbd02638db2795324" title=" " alt="" coords="221,144,410,189"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="147,212,195,198,220,191,222,196,196,204,149,217"/>
+<area shape="rect" id="Node000012" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a67a30ae022755db342ddaafdeb1b7d9f" title=" " alt="" coords="207,283,424,327"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="149,254,196,268,222,275,220,280,195,273,147,259"/>
+<area shape="rect" id="Node000013" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#abeda45d77e8e41b81cd1e24a004e7f0c" title=" " alt="" coords="196,352,435,397"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="100,256,142,298,197,337,209,343,206,348,194,342,139,302,96,260"/>
+<area shape="rect" id="Node000003" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#aca68cf41172ac73c388dad51b3ab40ab" title=" " alt="" coords="488,5,647,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="397,67,473,48,474,53,398,72"/>
+<area shape="rect" id="Node000004" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a4e599e324fb4f9bec1a113f1843f6058" title=" " alt="" coords="494,75,641,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="397,89,478,92,478,97,397,94"/>
+<area shape="rect" id="Node000005" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#af3fb7d297afe35dea7078be3836aa994" title=" " alt="" coords="700,5,842,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="634,72,688,53,690,58,636,77"/>
+<area shape="rect" id="Node000006" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#acb625b48d9c1beec3067e0c38b7a0b22" title=" " alt="" coords="700,75,842,119"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="641,94,684,94,684,100,641,100"/>
+<area shape="rect" id="Node000007" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a7ce0a9b9405217a5b8bf71c88bcb571b" title=" " alt="" coords="700,144,842,189"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="636,117,690,136,688,141,634,122"/>
+<area shape="rect" id="Node000009" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#ac384f7991b6c2a4906b1783b7aa59638" title=" " alt="" coords="484,213,652,258"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="400,233,468,233,468,238,400,238"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="399,141,478,119,480,124,400,146"/>
+<area shape="rect" id="Node000011" href="$df/d5e/classanimartrix__detail_1_1_a_n_i_mart_r_i_x.html#a2006d9bb43b5840274de66a93529a29f" title=" " alt="" coords="483,144,652,189"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="410,164,468,164,468,169,410,169"/>
+</map>

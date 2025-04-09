@@ -1,0 +1,7 @@
+<map id="CPixelView::nblend" name="CPixelView::nblend">
+<area shape="rect" id="Node000001" title="Destructively blend another set of LEDs into this one." alt="" coords="5,32,150,60"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#af3254e14aaccb1e8b38272ddeb6d8013" title="Makes an iterator instance for the start of the LED set." alt="" coords="198,5,334,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,33,182,28,183,34,150,38"/>
+<area shape="rect" id="Node000003" href="$de/d64/group___pixel_set.html#a5492e41e8b06dc599ab81b465c4236ed" title="Makes an iterator instance for the end of the LED set." alt="" coords="204,57,328,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,53,189,58,188,63,150,58"/>
+</map>

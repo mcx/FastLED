@@ -1,0 +1,15 @@
+<map id="WS2801Controller::init" name="WS2801Controller::init">
+<area shape="rect" id="Node000001" title="Initialize the controller." alt="" coords="5,74,173,102"/>
+<area shape="rect" id="Node000002" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ae321dbae3fceaa2d73a98f6aa08ea3c5" title="Set the clock/data pins to output and make sure the chip select is released." alt="" coords="221,35,389,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,73,205,69,205,74,173,78"/>
+<area shape="rect" id="Node000007" href="$d1/d6d/class_c_min_wait.html#a9e1941c949810958262ff98f7b591b96" title="Reset the timestamp that marks the start of the wait period." alt="" coords="242,103,368,131"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="173,96,227,104,226,109,172,102"/>
+<area shape="rect" id="Node000003" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="437,5,605,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,43,421,39,422,44,390,48"/>
+<area shape="rect" id="Node000005" href="$db/d3b/class_fast_pin.html#ab4b349c1763a7565c3ee7b2de52a50c8" title="Set the pin mode as OUTPUT" alt="" coords="452,74,591,102"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="390,66,436,73,436,78,389,72"/>
+<area shape="rect" id="Node000004" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="653,14,799,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="606,25,638,25,638,30,606,30"/>
+<area shape="rect" id="Node000006" href="$db/d3b/class_fast_pin.html#a60c6fb75993ac57d29b097bf8df013c2" title=" " alt="" coords="674,74,778,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="591,85,659,85,659,90,591,90"/>
+</map>

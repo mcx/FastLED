@@ -1,0 +1,33 @@
+<map id="fl::FxEngine::addFx" name="fl::FxEngine::addFx">
+<area shape="rect" id="Node000001" title="Adds a new effect to the engine." alt="" coords="5,161,151,189"/>
+<area shape="rect" id="Node000002" href="$d2/df3/classfl_1_1_fixed_map.html#aaa4e5e58299a89ab5a6784b011b2b2a7" title=" " alt="" coords="239,57,388,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,158,265,89,267,94,113,163"/>
+<area shape="rect" id="Node000004" href="$d2/df3/classfl_1_1_fixed_map.html#a0c2f74febc0761d26128a3a63d225cf2" title=" " alt="" coords="241,161,386,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,172,225,172,225,178,151,178"/>
+<area shape="rect" id="Node000012" href="$d7/df1/classfl_1_1_fx_compositor.html#a623a0970c4c8b2cec73db92a8008c752" title=" " alt="" coords="199,323,428,350"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="102,187,281,312,278,316,98,192"/>
+<area shape="rect" id="Node000003" href="$d3/d73/classfl_1_1_fixed_vector.html#aa9b4bb53ec2f9d7ed6c2d237b22489b5" title=" " alt="" coords="494,5,656,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,54,486,34,487,39,387,59"/>
+<area shape="rect" id="Node000005" href="$d2/df3/classfl_1_1_fixed_map.html#a25851b559aa5ae81d52c0c5792d10bf5" title=" " alt="" coords="762,212,894,240"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="386,185,476,198,620,211,747,219,747,225,619,216,476,203,386,190"/>
+<area shape="rect" id="Node000006" href="$d3/d73/classfl_1_1_fixed_vector.html#af8f3eb485dff77110efec26993f206c4" title=" " alt="" coords="983,237,1127,265"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="358,187,414,204,477,219,609,239,744,250,867,253,967,252,967,257,867,258,743,255,609,245,475,224,413,209,357,192"/>
+<area shape="rect" id="Node000007" href="$d2/df3/classfl_1_1_fixed_map.html#a85134d13ee9474e0ac60284e965ccbb3" title=" " alt="" coords="509,57,640,85"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="340,158,401,127,475,95,499,87,501,92,477,100,403,132,342,163"/>
+<area shape="rect" id="Node000010" href="$d3/d73/classfl_1_1_fixed_vector.html#ad54b97a02650df09aee087d758e0352a" title=" " alt="" coords="480,109,669,137"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="386,158,486,138,487,143,387,163"/>
+<area shape="rect" id="Node000011" href="$d3/d73/classfl_1_1_fixed_vector.html#a1481ce4fe3255eceeefc7f876743a929" title=" " alt="" coords="502,161,648,189"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="386,172,486,172,486,178,386,178"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="894,231,967,239,967,244,894,236"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="642,82,675,95,713,119,749,147,805,199,802,203,746,151,710,123,672,100,640,87"/>
+<area shape="rect" id="Node000008" href="$d2/df3/classfl_1_1_fixed_map.html#a5bcfb52c7949403994eed767316e237b" title=" " alt="" coords="756,57,900,85"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="641,68,740,68,740,74,641,74"/>
+<area shape="rect" id="Node000013" href="$d7/df1/classfl_1_1_fx_compositor.html#a709e5926d9918a9dcdbebf79e3a12fc0" title=" " alt="" coords="476,314,673,359"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="428,334,460,334,460,339,428,339"/>
+<area shape="rect" id="Node000016" href="$d7/dde/classfl_1_1_transition.html#ac43edc15263acfe1b5d1afc03d544b34" title=" " alt="" coords="506,383,644,410"/>
+<area shape="poly" id="edge16_Node000012_Node000016" title=" " alt="" coords="377,348,497,376,496,381,376,353"/>
+<area shape="rect" id="Node000014" href="$d7/dde/classfl_1_1_transition.html#a5ad9300c474f35b98872eed688244372" title=" " alt="" coords="762,371,894,398"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="674,353,747,367,746,372,673,358"/>
+<area shape="rect" id="Node000015" href="$d7/df1/classfl_1_1_fx_compositor.html#a0ed0685b3caac53687f4d75402cd105d" title=" " alt="" coords="721,319,935,346"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="674,332,706,332,706,337,674,338"/>
+</map>

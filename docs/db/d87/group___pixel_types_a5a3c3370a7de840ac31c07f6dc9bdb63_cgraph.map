@@ -1,0 +1,9 @@
+<map id="CRGB::nscale8" name="CRGB::nscale8">
+<area shape="rect" id="Node000001" title="Scale down a RGB to N/256ths of its current brightness, using &quot;plain math&quot; dimming rules." alt="" coords="5,32,122,60"/>
+<area shape="rect" id="Node000002" href="$d0/da8/group___scaling.html#ga39bf87e5526120889086cab19ac749b1" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="170,32,257,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,43,154,43,154,48,122,48"/>
+<area shape="rect" id="Node000003" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="354,5,451,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,37,339,25,340,31,258,42"/>
+<area shape="rect" id="Node000004" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="305,57,500,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="258,49,290,53,289,59,257,54"/>
+</map>

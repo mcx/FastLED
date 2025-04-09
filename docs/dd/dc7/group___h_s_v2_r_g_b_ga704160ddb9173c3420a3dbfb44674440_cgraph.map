@@ -1,0 +1,9 @@
+<map id="hsv2rgb_spectrum" name="hsv2rgb_spectrum">
+<area shape="rect" id="Node000001" title="Convert an HSV value to RGB using a mathematically straight spectrum." alt="" coords="5,32,147,60"/>
+<area shape="rect" id="Node000002" href="$dd/dc7/group___h_s_v2_r_g_b.html#ga66f61978949a6830b138d1bf08257019" title="Convert an HSV value to RGB using a mathematically straight spectrum." alt="" coords="195,5,299,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,32,179,27,179,32,148,37"/>
+<area shape="rect" id="Node000004" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="215,57,278,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,54,200,62,199,67,147,59"/>
+<area shape="rect" id="Node000003" href="$df/d9d/hsv2rgb_8cpp.html#ae692746db35d0cdcd304d01497f92233" title="HSV to RGB implementation in raw C, platform independent." alt="" coords="347,5,467,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="299,16,331,16,331,22,299,22"/>
+</map>

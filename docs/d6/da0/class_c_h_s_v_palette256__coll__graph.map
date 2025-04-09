@@ -1,0 +1,5 @@
+<map id="CHSVPalette256" name="CHSVPalette256">
+<area shape="rect" id="Node000001" title="HSV color palette with 256 discrete values." alt="" coords="5,98,132,126"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#dc/d53/struct_c_h_s_v" title="Representation of an HSV pixel (hue, saturation, value (aka brightness))." alt="" coords="40,5,97,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,48,71,98,66,98,66,48"/>
+</map>

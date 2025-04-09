@@ -1,0 +1,5 @@
+<map id="Pin::select" name="Pin::select">
+<area shape="rect" id="Node000001" title="Set the pin state to HIGH" alt="" coords="5,5,94,33"/>
+<area shape="rect" id="Node000002" href="$d7/d68/class_pin.html#a5a2884f01bb407fd628f57553eaaa9f4" title="Set the pin state to HIGH" alt="" coords="142,5,203,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,16,126,16,126,22,94,22"/>
+</map>

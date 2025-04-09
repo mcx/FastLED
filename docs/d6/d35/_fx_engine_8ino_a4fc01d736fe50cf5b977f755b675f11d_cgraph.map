@@ -1,0 +1,66 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,607,63,634"/>
+<area shape="rect" id="Node000002" href="$d4/d60/classfl_1_1_fx_engine.html#a1e840a27e09686190e44844b3f062642" title="Adds a new effect to the engine." alt="" coords="148,228,293,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="40,605,203,269,208,271,45,607"/>
+<area shape="rect" id="Node000018" href="$dd/dbb/class_c_fast_l_e_d.html#afd7928d822589740af6e23b2d510cf3f" title="Add a CLEDController instance to the world." alt="" coords="149,493,292,521"/>
+<area shape="poly" id="edge15_Node000001_Node000018" title=" " alt="" coords="57,604,182,527,185,531,60,608"/>
+<area shape="rect" id="Node000027" href="$dd/dbb/class_c_fast_l_e_d.html#a730ba7d967e882b4b893689cf333b2eb" title="Set the global brightness scaling." alt="" coords="131,659,310,686"/>
+<area shape="poly" id="edge23_Node000001_Node000027" title=" " alt="" coords="64,628,111,643,142,652,141,657,110,648,62,633"/>
+<area shape="rect" id="Node000028" href="$d9/d41/classfl_1_1_noise_palette.html#ae6488d109988a70f949dba4dd8f3d2ed" title=" " alt="" coords="124,724,316,768"/>
+<area shape="poly" id="edge24_Node000001_Node000028" title=" " alt="" coords="48,633,76,664,112,696,144,714,142,719,109,700,72,668,44,636"/>
+<area shape="rect" id="Node000034" href="$d6/d2c/class_c_l_e_d_controller.html#a34a490a6be2f618ffe6ed7d60be5590a" title=" " alt="" coords="111,607,330,634"/>
+<area shape="poly" id="edge30_Node000001_Node000034" title=" " alt="" coords="63,618,95,618,95,623,63,623"/>
+<area shape="rect" id="Node000003" href="$d2/df3/classfl_1_1_fixed_map.html#aaa4e5e58299a89ab5a6784b011b2b2a7" title=" " alt="" coords="432,81,581,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="248,225,462,114,465,119,251,230"/>
+<area shape="rect" id="Node000005" href="$d2/df3/classfl_1_1_fixed_map.html#a0c2f74febc0761d26128a3a63d225cf2" title=" " alt="" coords="434,183,578,210"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="293,228,418,208,419,213,294,233"/>
+<area shape="rect" id="Node000013" href="$d7/df1/classfl_1_1_fx_compositor.html#a623a0970c4c8b2cec73db92a8008c752" title=" " alt="" coords="392,299,621,326"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="280,254,433,292,431,297,279,259"/>
+<area shape="rect" id="Node000004" href="$d3/d73/classfl_1_1_fixed_vector.html#aa9b4bb53ec2f9d7ed6c2d237b22489b5" title=" " alt="" coords="706,5,868,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="560,78,718,35,719,40,561,83"/>
+<area shape="rect" id="Node000006" href="$d2/df3/classfl_1_1_fixed_map.html#a25851b559aa5ae81d52c0c5792d10bf5" title=" " alt="" coords="940,107,1071,134"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="548,179,610,160,682,143,809,127,924,120,924,125,810,132,683,148,612,165,549,185"/>
+<area shape="rect" id="Node000007" href="$d3/d73/classfl_1_1_fixed_vector.html#af8f3eb485dff77110efec26993f206c4" title=" " alt="" coords="1119,81,1263,109"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="530,180,597,146,638,128,682,114,794,93,908,83,1015,82,1104,85,1103,90,1015,87,909,88,795,98,683,119,640,133,599,150,533,185"/>
+<area shape="rect" id="Node000008" href="$d2/df3/classfl_1_1_fixed_map.html#a85134d13ee9474e0ac60284e965ccbb3" title=" " alt="" coords="721,157,853,185"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="579,187,706,176,706,181,579,193"/>
+<area shape="rect" id="Node000011" href="$d3/d73/classfl_1_1_fixed_vector.html#ad54b97a02650df09aee087d758e0352a" title=" " alt="" coords="692,209,882,237"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="579,201,677,210,677,215,579,206"/>
+<area shape="rect" id="Node000012" href="$d3/d73/classfl_1_1_fixed_vector.html#a1481ce4fe3255eceeefc7f876743a929" title=" " alt="" coords="714,261,860,289"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="555,208,683,246,714,254,713,259,682,251,554,214"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1071,109,1103,105,1104,110,1072,114"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="849,154,927,136,928,141,850,159"/>
+<area shape="rect" id="Node000014" href="$d7/df1/classfl_1_1_fx_compositor.html#a709e5926d9918a9dcdbebf79e3a12fc0" title=" " alt="" coords="688,313,886,358"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="622,319,673,323,673,329,621,324"/>
+<area shape="rect" id="Node000017" href="$d7/dde/classfl_1_1_transition.html#ac43edc15263acfe1b5d1afc03d544b34" title=" " alt="" coords="718,381,856,409"/>
+<area shape="poly" id="edge14_Node000013_Node000017" title=" " alt="" coords="598,324,635,337,660,352,684,367,704,375,702,380,681,372,657,357,633,342,596,330"/>
+<area shape="rect" id="Node000019" href="$d6/d2c/class_c_l_e_d_controller.html#a44d20f088426191c82919c9cdbc63a35" title="Gets the maximum possible refresh rate of the strip." alt="" coords="378,351,634,378"/>
+<area shape="poly" id="edge16_Node000018_Node000019" title=" " alt="" coords="234,491,293,440,334,412,377,389,397,381,399,386,379,394,336,417,297,445,238,495"/>
+<area shape="rect" id="Node000020" href="$d6/d2c/class_c_l_e_d_controller.html#af877a15a5ec452780fbd1d359b8a9913" title="Initialize the LED controller." alt="" coords="432,403,580,430"/>
+<area shape="poly" id="edge17_Node000018_Node000020" title=" " alt="" coords="250,490,308,465,377,439,416,429,417,434,379,444,310,470,252,495"/>
+<area shape="rect" id="Node000021" href="$de/dca/classfl_1_1_engine_events.html#a8ec266f9f7b35b9174d331cb6c338d80" title=" " alt="" coords="416,454,596,499"/>
+<area shape="poly" id="edge18_Node000018_Node000021" title=" " alt="" coords="292,497,401,485,401,490,293,502"/>
+<area shape="rect" id="Node000025" href="$d6/d2c/class_c_l_e_d_controller.html#a6c8e2157d244ce8b1b878947ca7695d9" title="Set the default array of LEDs to be used by this controller." alt="" coords="418,523,595,550"/>
+<area shape="poly" id="edge21_Node000018_Node000025" title=" " alt="" coords="293,512,403,523,402,529,292,517"/>
+<area shape="rect" id="Node000026" href="$dd/dbb/class_c_fast_l_e_d.html#a1f39e8404db214bbd6a776f52a77d8b1" title="Set the maximum refresh rate." alt="" coords="398,575,615,602"/>
+<area shape="poly" id="edge22_Node000018_Node000026" title=" " alt="" coords="259,519,379,559,414,568,412,573,377,564,258,524"/>
+<area shape="rect" id="Node000022" href="$de/dca/classfl_1_1_engine_events.html#a006e1f01b766436e0eec2e406b4512d5" title=" " alt="" coords="720,454,854,499"/>
+<area shape="poly" id="edge19_Node000021_Node000022" title=" " alt="" coords="596,474,705,474,705,479,596,479"/>
+<area shape="rect" id="Node000023" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="682,548,892,576"/>
+<area shape="poly" id="edge20_Node000021_Node000023" title=" " alt="" coords="595,497,635,509,731,540,730,545,634,514,593,502"/>
+<area shape="rect" id="Node000029" href="$d9/d41/classfl_1_1_noise_palette.html#a3edcb0dfbc5280fffcd9776bc59f6899" title=" " alt="" coords="406,696,606,740"/>
+<area shape="poly" id="edge25_Node000028_Node000029" title=" " alt="" coords="317,734,390,726,391,732,317,739"/>
+<area shape="rect" id="Node000031" href="$d9/d41/classfl_1_1_noise_palette.html#a7b4bff9751e94b0ca2c4deaff12d485b" title=" " alt="" coords="404,765,609,810"/>
+<area shape="poly" id="edge27_Node000028_Node000031" title=" " alt="" coords="318,757,388,767,388,773,317,762"/>
+<area shape="rect" id="Node000032" href="$d9/d41/classfl_1_1_noise_palette.html#ac7e866ba3586a6d8fcc916347ae8e83b" title=" " alt="" coords="397,834,615,879"/>
+<area shape="poly" id="edge28_Node000028_Node000032" title=" " alt="" coords="264,766,318,793,379,819,399,826,398,831,377,824,316,798,262,771"/>
+<area shape="rect" id="Node000030" href="$da/de3/group___color_fills.html#gac0bcd5712f9f57a186f2c5f96911af1d" title="Fill a range of LEDs with a solid color." alt="" coords="749,704,825,732"/>
+<area shape="poly" id="edge26_Node000029_Node000030" title=" " alt="" coords="607,715,734,715,734,720,607,720"/>
+<area shape="rect" id="Node000033" href="$d2/d0d/group___random.html#ga4e63c74426f6516f28470dc1b814aefe" title="Generate an 8&#45;bit random number." alt="" coords="747,843,827,870"/>
+<area shape="poly" id="edge29_Node000032_Node000033" title=" " alt="" coords="616,854,732,854,732,859,616,859"/>
+<area shape="rect" id="Node000035" href="$de/dca/classfl_1_1_engine_events.html#aeb85848268614982b022006bd41a2726" title=" " alt="" coords="408,626,605,671"/>
+<area shape="poly" id="edge31_Node000034_Node000035" title=" " alt="" coords="331,629,393,635,392,640,330,634"/>
+<area shape="poly" id="edge33_Node000035_Node000023" title=" " alt="" coords="594,623,634,611,731,579,733,584,635,616,595,628"/>
+<area shape="rect" id="Node000036" href="$de/dca/classfl_1_1_engine_events.html#a7eb765a882db21850019e4ee59f0cce1" title=" " alt="" coords="720,626,854,671"/>
+<area shape="poly" id="edge32_Node000035_Node000036" title=" " alt="" coords="605,646,705,646,705,651,605,651"/>
+</map>

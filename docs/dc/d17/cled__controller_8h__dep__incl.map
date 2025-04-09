@@ -1,0 +1,18 @@
+<map id="/home/runner/work/FastLED/FastLED/src/cled_controller.h" name="/home/runner/work/FastLED/FastLED/src/cled_controller.h">
+<area shape="rect" id="Node000001" title="base definitions used by led controllers for writing out led data" alt="" coords="82,5,292,50"/>
+<area shape="rect" id="Node000002" href="$dd/dd8/cled__controller_8cpp.html" title="base definitions used by led controllers for writing out led data" alt="" coords="5,376,231,421"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,66,125,376,119,375,178,65"/>
+<area shape="rect" id="Node000003" href="$d9/d57/cpixel__ledcontroller_8h.html" title="defines the templated version of the CLEDController class" alt="" coords="225,98,467,143"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,56,310,95,307,100,237,60"/>
+<area shape="rect" id="Node000004" href="$d2/dd9/controller_8h.html" title="deprecated: base definitions used by led controllers for writing out led data" alt="" coords="293,191,492,235"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="366,155,384,189,379,192,362,158"/>
+<area shape="rect" id="Node000005" href="$db/d97/_fast_l_e_d_8h.html" title="central include file for FastLED, defines the CFastLED class/object" alt="" coords="156,283,355,328"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="349,246,289,285,286,281,346,242"/>
+<area shape="rect" id="Node000077" href="$d6/ddc/fastspi_8h.html" title="Serial peripheral interface (SPI) definitions per platform." alt="" coords="254,376,454,421"/>
+<area shape="poly" id="edge10_Node000004_Node000077" title=" " alt="" coords="388,251,361,376,356,375,382,250"/>
+<area shape="poly" id="edge6_Node000005_Node000001" title=" " alt="" coords="243,269,211,143,190,51,195,50,217,142,248,268"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="212,339,152,378,149,373,209,334"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="256,267,263,229,278,189,297,163,318,141,322,145,301,166,283,192,269,230,261,268"/>
+<area shape="poly" id="edge8_Node000005_Node000077" title=" " alt="" coords="283,337,324,374,321,378,280,341"/>
+<area shape="poly" id="edge9_Node000077_Node000005" title=" " alt="" coords="326,367,285,330,288,326,329,363"/>
+</map>

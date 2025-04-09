@@ -1,0 +1,7 @@
+<map id="PixelController::loadAndScale" name="PixelController::loadAndScale">
+<area shape="rect" id="Node000001" title="Loads and scales a single byte for a given output slot and lane." alt="" coords="5,24,183,68"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#a75ef76fbecdc9b39b01eeab216845d9d" title="Read a byte of LED data." alt="" coords="231,5,413,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,33,215,29,215,34,183,38"/>
+<area shape="rect" id="Node000003" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="290,57,354,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,53,275,63,275,69,183,58"/>
+</map>

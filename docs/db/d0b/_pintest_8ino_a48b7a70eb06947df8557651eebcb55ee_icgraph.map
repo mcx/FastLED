@@ -1,0 +1,6 @@
+<map id="PrintPins" name="PrintPins">
+<area shape="rect" id="Node000001" title=" " alt="" coords="103,29,181,57"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="160,16,153,10,142,8,131,10,125,14,124,20,126,28,121,30,118,20,121,11,129,5,142,3,156,5,163,12"/>
+<area shape="rect" id="Node000002" href="$db/d0b/_pintest_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,29,55,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,46,55,46,55,40,87,40"/>
+</map>

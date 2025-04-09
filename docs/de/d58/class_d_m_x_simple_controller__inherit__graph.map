@@ -1,0 +1,12 @@
+<map id="DMXSimpleController&lt; DATA_PIN, RGB_ORDER &gt;" name="DMXSimpleController&lt; DATA_PIN, RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="DMX512 based LED controller class, using the DmxSimple library." alt="" coords="5,303,209,348"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="225,320,235,326,210,332,209,327,230,325,223,325"/>
+<area shape="poly" id="edge6_Node000001_Node000001" title=" " alt="" coords="224,314,355,315,401,318,421,325,399,333,349,336,209,336,209,330,348,331,399,328,416,325,400,323,355,320,224,320"/>
+<area shape="rect" id="Node000002" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="32,209,182,254"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,269,110,303,104,303,104,269"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html" title="Base definition for an LED controller." alt="" coords="42,5,161,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,49,109,208,104,209,100,49"/>
+<area shape="rect" id="Node000004" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="" coords="124,82,296,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="130,41,176,80,172,84,127,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="175,157,128,210,124,207,171,154"/>
+</map>

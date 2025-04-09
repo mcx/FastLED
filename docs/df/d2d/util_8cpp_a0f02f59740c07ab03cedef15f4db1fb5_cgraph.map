@@ -1,0 +1,13 @@
+<map id="CalcDecayFactor" name="CalcDecayFactor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,59,135,86"/>
+<area shape="rect" id="Node000002" href="$df/d2d/util_8cpp.html#aee747f0ac88c4cf7788a0c9d9b80268d" title=" " alt="" coords="183,32,306,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,60,167,55,168,60,136,65"/>
+<area shape="rect" id="Node000006" href="$df/d2d/util_8cpp.html#a06d59f8f94c4693a77270d804881f468" title=" " alt="" coords="217,84,272,112"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="136,79,202,89,201,94,135,85"/>
+<area shape="rect" id="Node000003" href="$d7/dd8/_approximating_function_8h.html#a5b61be736266623d9b4da9a66be9fa8e" title=" " alt="" coords="354,32,413,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,43,338,43,338,48,306,48"/>
+<area shape="rect" id="Node000004" href="$d7/dd8/_approximating_function_8h.html#adaa033a0d7d5d25b9de906dff963d6d3" title=" " alt="" coords="502,5,560,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="413,38,486,24,487,30,414,43"/>
+<area shape="rect" id="Node000005" href="$d7/dd8/_approximating_function_8h.html#ad602af28198426d21f684f254c890fa1" title=" " alt="" coords="461,57,601,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="414,48,446,54,445,59,413,54"/>
+</map>

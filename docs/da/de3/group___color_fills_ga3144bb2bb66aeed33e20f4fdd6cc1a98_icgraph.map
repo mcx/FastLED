@@ -1,0 +1,45 @@
+<map id="fill_gradient" name="fill_gradient">
+<area shape="rect" id="Node000001" title="Fill a range of LEDs with a smooth HSV gradient between two HSV colors." alt="" coords="295,525,393,553"/>
+<area shape="rect" id="Node000002" href="$d6/d39/group___palette_classes.html#a4fada768a11557b0d7208559a29a6574" title="Create palette with a gradient from one color to another." alt="" coords="14,5,238,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,510,330,407,313,268,301,197,286,134,267,82,245,48,229,36,232,31,249,44,272,80,291,132,306,196,319,267,336,406,344,510"/>
+<area shape="rect" id="Node000003" href="$d6/d39/group___palette_classes.html#a9b703bdc978a2744a8c53a1eda144527" title="Create palette with three&#45;color gradient." alt="" coords="14,57,238,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="338,510,328,417,310,293,297,231,282,176,265,130,245,100,229,88,232,83,249,96,270,128,288,174,303,230,315,292,333,416,343,510"/>
+<area shape="rect" id="Node000004" href="$d6/d39/group___palette_classes.html#a3bb9f808013ee2a38391ff7bcb5e5768" title="Create palette with four&#45;color gradient." alt="" coords="14,109,238,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="337,510,325,427,306,319,279,217,263,178,245,152,228,140,231,135,249,148,268,175,284,215,311,318,331,426,342,510"/>
+<area shape="rect" id="Node000005" href="$d6/d39/group___palette_classes.html#ad808860cad6f933512656816ab2f413a" title="Create palette with a gradient from one color to another." alt="" coords="6,161,246,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="341,510,338,446,326,363,314,319,297,277,274,238,245,204,228,192,231,187,248,200,278,235,302,275,319,318,331,362,344,445,346,509"/>
+<area shape="rect" id="Node000006" href="$d6/d39/group___palette_classes.html#aae49aa99bec2e9fb4c9f40793b78c058" title="Create palette with three&#45;color gradient." alt="" coords="6,213,246,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="339,510,333,455,319,386,307,350,291,316,270,284,245,256,227,244,230,239,248,252,274,280,295,313,312,348,324,385,339,454,344,509"/>
+<area shape="rect" id="Node000007" href="$d6/d39/group___palette_classes.html#a334a05c5a377c734ee9f5566ca8e067e" title="Create palette with four&#45;color gradient." alt="" coords="6,265,246,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="337,511,328,465,311,410,284,355,266,330,245,308,226,296,229,291,248,304,271,326,289,352,316,408,333,464,342,510"/>
+<area shape="rect" id="Node000008" href="$d6/d39/group___palette_classes.html#a8191b89cecfbda5562cdfcf911fe234a" title="Create palette with a gradient from one color to another." alt="" coords="14,317,238,345"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="333,511,321,475,303,434,278,394,245,360,224,348,227,343,248,356,282,391,308,432,326,473,338,509"/>
+<area shape="rect" id="Node000009" href="$d6/d39/group___palette_classes.html#abf88a954775700c432a1e1fbfaa5dec7" title="Create palette with three&#45;color gradient." alt="" coords="14,369,238,397"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="327,513,295,460,272,434,245,412,221,400,223,395,248,408,276,430,299,457,332,510"/>
+<area shape="rect" id="Node000010" href="$d6/d39/group___palette_classes.html#aca812404b1b407150305352722fd5769" title="Create palette with four&#45;color gradient." alt="" coords="14,421,238,449"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="317,516,284,489,245,464,213,452,215,447,248,459,287,484,320,512"/>
+<area shape="rect" id="Node000011" href="$d6/d39/group___palette_classes.html#aafce34411cc96d598a7ed754cfca15b7" title="Create palette with a gradient from one color to another." alt="" coords="13,473,239,501"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="279,525,246,516,194,504,195,499,247,511,280,520"/>
+<area shape="rect" id="Node000012" href="$d6/d39/group___palette_classes.html#a686509f57ddd29457c4ad60c838e7b44" title="Create palette with three&#45;color gradient." alt="" coords="13,525,239,553"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="279,542,239,542,239,536,279,536"/>
+<area shape="rect" id="Node000013" href="$d6/d39/group___palette_classes.html#a341bf249fdb557428918e6c95a5b7d0a" title="Create palette with four&#45;color gradient." alt="" coords="13,577,239,605"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="280,559,247,567,195,579,194,574,246,562,279,554"/>
+<area shape="rect" id="Node000014" href="$d6/d39/group___palette_classes.html#a83c4f1a69456d3e661e8ec7306b55d9c" title="Create palette with a gradient from one color to another." alt="" coords="5,629,247,657"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="320,566,287,594,248,619,215,631,213,626,245,614,284,590,317,562"/>
+<area shape="rect" id="Node000015" href="$d6/d39/group___palette_classes.html#ae60868ac8de4582f0fb19fb839088dc2" title="Create palette with three&#45;color gradient." alt="" coords="5,681,247,709"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="332,568,299,621,276,648,248,671,223,683,221,678,245,666,272,644,295,618,327,566"/>
+<area shape="rect" id="Node000016" href="$d6/d39/group___palette_classes.html#a0f4c57932827fca3431bd7d0e12626e0" title="Create palette with four&#45;color gradient." alt="" coords="5,733,247,761"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="338,569,326,605,308,646,282,688,248,723,227,735,224,730,245,718,278,685,303,644,321,603,333,568"/>
+<area shape="rect" id="Node000017" href="$d6/d39/group___palette_classes.html#a353c4bb3c4b46e24b60f3967e252c547" title="Create palette with a gradient from one color to another." alt="" coords="13,785,239,813"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="342,569,333,614,316,670,289,726,271,752,248,775,229,787,226,783,245,770,266,749,284,724,311,668,328,613,337,568"/>
+<area shape="rect" id="Node000018" href="$d6/d39/group___palette_classes.html#a13ccbc9afe1fb1a6585bd9c9d77dd92a" title="Create palette with three&#45;color gradient." alt="" coords="13,837,239,865"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="344,569,339,624,324,694,312,730,295,765,274,798,248,827,230,839,227,834,245,822,270,795,291,763,307,728,319,692,333,623,339,568"/>
+<area shape="rect" id="Node000019" href="$d6/d39/group___palette_classes.html#a818f680a01314c116273ab57e55ec035" title="Create palette with four&#45;color gradient." alt="" coords="13,889,239,917"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="346,569,344,633,331,717,319,761,302,804,278,844,248,878,231,891,228,887,245,875,274,840,297,801,314,759,326,715,338,633,341,569"/>
+<area shape="rect" id="Node000020" href="$da/de3/group___color_fills.html#ga396996c5e505e459b418330f4386f779" title="Fill a range of LEDs with a smooth HSV gradient between four HSV colors." alt="" coords="77,941,175,969"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="342,569,331,652,311,761,284,863,268,903,249,930,232,942,214,951,176,958,175,953,212,946,230,938,245,927,263,900,279,861,306,759,325,652,337,568"/>
+<area shape="rect" id="Node000021" href="$da/de3/group___color_fills.html#ga3a46ed6b7043382df172d7501785033c" title="Fill a range of LEDs with a smooth HSV gradient between three HSV colors." alt="" coords="77,993,175,1021"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="343,568,333,662,315,786,303,848,288,904,270,951,249,982,233,995,214,1003,176,1011,175,1005,213,998,230,990,245,979,265,948,282,903,297,847,310,785,328,661,338,568"/>
+<area shape="rect" id="Node000022" href="$da/de3/group___color_fills.html#gace693b077794f9b6aa80875fdd550a68" title="Fill a range of LEDs with a smooth HSV gradient between two HSV colors." alt="" coords="77,1045,175,1073"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="344,569,336,672,319,812,306,882,291,946,272,998,249,1034,233,1047,214,1055,176,1063,175,1058,213,1050,230,1042,245,1031,267,996,286,944,301,881,313,811,330,672,338,568"/>
+</map>

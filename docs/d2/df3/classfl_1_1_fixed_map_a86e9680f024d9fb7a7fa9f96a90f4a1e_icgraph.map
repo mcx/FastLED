@@ -1,0 +1,9 @@
+<map id="fl::FixedMap::next" name="fl::FixedMap::next">
+<area shape="rect" id="Node000001" title=" " alt="" coords="322,32,458,60"/>
+<area shape="rect" id="Node000002" href="$d4/d60/classfl_1_1_fx_engine.html#a478ed2a69d36050013ef81ffb59799a0" title="Transitions to the next effect in the sequence." alt="" coords="113,5,264,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,37,264,32,264,26,307,32"/>
+<area shape="rect" id="Node000004" href="$d4/d60/classfl_1_1_fx_engine.html#acb1a08ee3735bf9269d8a60370b02315" title="Requests removal of an effect from the engine, which might not happen immediately (for example the Fx..." alt="" coords="103,57,274,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="307,59,275,63,274,58,306,54"/>
+<area shape="rect" id="Node000003" href="$d6/d35/_fx_engine_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,22,55,22,55,16,98,16"/>
+</map>

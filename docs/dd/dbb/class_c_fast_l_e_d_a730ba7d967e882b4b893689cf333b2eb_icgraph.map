@@ -1,0 +1,11 @@
+<map id="CFastLED::setBrightness" name="CFastLED::setBrightness">
+<area shape="rect" id="Node000001" title="Set the global brightness scaling." alt="" coords="363,57,541,85"/>
+<area shape="rect" id="Node000002" href="$dd/d96/_fx_animartrix_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="188,5,238,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="370,56,237,27,238,22,371,51"/>
+<area shape="rect" id="Node000003" href="$d4/d0c/_blur_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="184,57,242,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="347,74,242,74,242,68,347,68"/>
+<area shape="rect" id="Node000004" href="$db/de9/_esp32_s3_i2_s_demo_8ino.html#aac2669026fdd52035013cac9b23d95ba" title=" " alt="" coords="111,109,315,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="371,92,281,111,280,106,369,86"/>
+<area shape="rect" id="Node000005" href="$db/de9/_esp32_s3_i2_s_demo_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,109,63,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="95,126,63,126,63,120,95,120"/>
+</map>

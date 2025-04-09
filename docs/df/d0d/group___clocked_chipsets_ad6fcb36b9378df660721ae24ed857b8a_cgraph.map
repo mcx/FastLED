@@ -1,0 +1,13 @@
+<map id="P9813Controller::init" name="P9813Controller::init">
+<area shape="rect" id="Node000001" title="Initialize the LED controller." alt="" coords="5,44,160,72"/>
+<area shape="rect" id="Node000002" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ae321dbae3fceaa2d73a98f6aa08ea3c5" title="Set the clock/data pins to output and make sure the chip select is released." alt="" coords="208,36,376,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,56,192,56,192,61,160,61"/>
+<area shape="rect" id="Node000003" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="424,5,592,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="376,44,408,39,409,44,377,49"/>
+<area shape="rect" id="Node000005" href="$db/d3b/class_fast_pin.html#ab4b349c1763a7565c3ee7b2de52a50c8" title="Set the pin mode as OUTPUT" alt="" coords="438,74,578,102"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="377,67,423,74,423,79,376,72"/>
+<area shape="rect" id="Node000004" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="640,14,786,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="593,25,625,25,625,30,593,30"/>
+<area shape="rect" id="Node000006" href="$db/d3b/class_fast_pin.html#a60c6fb75993ac57d29b097bf8df013c2" title=" " alt="" coords="661,74,765,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="578,85,646,85,646,90,578,90"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Pin::fastset" name="Pin::fastset">
+<area shape="rect" id="Node000001" title="Set the state of a port." alt="" coords="5,5,100,33"/>
+<area shape="rect" id="Node000002" href="$d7/d68/class_pin.html#aba2b626e233b5e2f498de7dbdd113684" title="Get the output state of the port." alt="" coords="148,5,223,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,16,132,16,132,22,100,22"/>
+</map>

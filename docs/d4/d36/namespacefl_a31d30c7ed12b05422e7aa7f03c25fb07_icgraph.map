@@ -1,0 +1,10 @@
+<map id="fl::bilinearInterpolatePowerOf2" name="fl::bilinearInterpolatePowerOf2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="627,31,848,58"/>
+<area shape="rect" id="Node000002" href="$d4/d36/namespacefl.html#af0b8ea13c33c033aa6bf8ede489a5c2a" title="Performs bilinear interpolation for upscaling an image." alt="" coords="382,31,579,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="612,47,580,47,580,42,612,42"/>
+<area shape="rect" id="Node000003" href="$d4/d36/namespacefl.html#a521b1a75c2204adfdd48e82bec341de6" title=" " alt="" coords="200,5,334,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,34,334,30,335,24,367,28"/>
+<area shape="rect" id="Node000004" href="$d5/d79/classfl_1_1_scale_up.html#a04b53ac5f5bbe9d2477fc08e8ab77066" title=" " alt="" coords="5,31,152,58"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="366,47,152,47,152,42,366,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="185,33,152,37,152,32,184,28"/>
+</map>

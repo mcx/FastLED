@@ -1,0 +1,17 @@
+<map id="Painter::PaintVuSpaceInvaders" name="Painter::PaintVuSpaceInvaders">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,223,137"/>
+<area shape="rect" id="Node000002" href="$de/d12/struct_color3i.html#af5a85a3006c2ec7d3f4c4132b120e7b9" title=" " alt="" coords="344,5,455,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,106,197,75,270,43,328,28,329,33,272,48,199,80,141,111"/>
+<area shape="rect" id="Node000005" href="$d2/d84/class_led_rope_interface.html#ac9c28ef970a520f1c117201ea40fee25" title=" " alt="" coords="292,57,506,85"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="194,106,304,86,305,91,195,111"/>
+<area shape="rect" id="Node000006" href="$d2/d84/class_led_rope_interface.html#aabd7b16e96dfbbcf2dac2b21f389d0ac" title=" " alt="" coords="278,109,520,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="223,120,263,120,263,126,223,126"/>
+<area shape="rect" id="Node000007" href="$d2/d84/class_led_rope_interface.html#a4655ae1b8e1b02b5604bf2303a367e4a" title=" " alt="" coords="271,161,528,189"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="195,135,305,155,304,161,194,140"/>
+<area shape="rect" id="Node000008" href="$d2/d84/class_led_rope_interface.html#a0a54c27f180840a5713c0a20f14a8123" title=" " alt="" coords="297,213,502,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="142,135,200,166,272,198,292,205,290,210,270,203,198,171,139,140"/>
+<area shape="rect" id="Node000003" href="$de/d12/struct_color3i.html#a61889348324aefa14c28164d41e98e2a" title=" " alt="" coords="576,5,697,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="455,16,560,16,560,22,455,22"/>
+<area shape="rect" id="Node000004" href="$de/d12/struct_color3i.html#a83d27d6442838f43816b4bd5f937b33d" title=" " alt="" coords="745,5,842,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="698,16,730,16,730,22,698,22"/>
+</map>

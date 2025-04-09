@@ -1,0 +1,26 @@
+<map id="beatsin16" name="beatsin16">
+<area shape="rect" id="Node000001" title="Generates a 16&#45;bit sine wave at a given BPM that oscillates within a given range." alt="" coords="707,161,793,189"/>
+<area shape="rect" id="Node000002" href="$d2/db2/classfl_1_1_pacifica.html#a264d0c1db5db60028b6fab87af13d700" title=" " alt="" coords="504,5,630,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="734,148,704,97,683,70,658,48,630,34,632,29,661,44,687,67,708,94,739,146"/>
+<area shape="rect" id="Node000004" href="$d1/d60/classfl_1_1_demo_reel100.html#ad98699eb2a5f15302d2b95e07f2f69d2" title=" " alt="" coords="478,57,656,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="724,152,694,125,658,100,630,88,632,83,661,95,697,121,727,148"/>
+<area shape="rect" id="Node000005" href="$d5/d25/_demo_reel100_8ino.html#a4cf4b428065fac16dc28a16e2f9004e1" title=" " alt="" coords="536,213,598,241"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="693,194,599,221,598,216,691,189"/>
+<area shape="rect" id="Node000008" href="$dd/d61/_fx_water_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="542,161,592,189"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="692,178,592,178,592,172,692,172"/>
+<area shape="rect" id="Node000009" href="$dc/d25/_pacifica_8ino.html#a158d427a947ef0a715c7ffd916346acc" title=" " alt="" coords="514,109,620,137"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="692,161,618,140,619,135,693,156"/>
+<area shape="rect" id="Node000011" href="$d1/d60/classfl_1_1_demo_reel100.html#a3ff4d3fc05b6e3a158d49d65cd954e1d" title=" " alt="" coords="475,265,659,293"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="727,202,697,230,661,255,632,267,630,262,658,250,694,225,724,198"/>
+<area shape="rect" id="Node000012" href="$d5/d25/_demo_reel100_8ino.html#ae67f05643df1798b39ca5b88496dcebf" title=" " alt="" coords="533,317,601,345"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="739,205,708,257,687,284,661,307,632,321,603,329,601,324,630,316,658,302,683,280,704,254,734,202"/>
+<area shape="rect" id="Node000003" href="$dc/ded/_fx_pacifica_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="300,5,350,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="488,22,350,22,350,16,488,16"/>
+<area shape="rect" id="Node000006" href="$d1/d60/classfl_1_1_demo_reel100.html#aad4b41d93c1a9f7acecea8b49cda7078" title=" " alt="" coords="223,265,427,293"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="522,239,393,267,392,262,520,234"/>
+<area shape="rect" id="Node000007" href="$d1/d60/classfl_1_1_demo_reel100.html#a5f66b8a2f16f89f0180bd6e27f1563c6" title=" " alt="" coords="5,265,175,293"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="207,282,175,282,175,276,207,276"/>
+<area shape="rect" id="Node000010" href="$dc/d25/_pacifica_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="300,109,350,137"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="499,126,350,126,350,120,499,120"/>
+<area shape="poly" id="edge12_Node000012_Node000006" title=" " alt="" coords="517,323,392,296,393,291,518,318"/>
+</map>

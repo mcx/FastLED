@@ -1,0 +1,16 @@
+<map id="/home/runner/work/FastLED/FastLED/examples/LuminescentGrand/arduino/midi_Defs.h" name="/home/runner/work/FastLED/FastLED/examples/LuminescentGrand/arduino/midi_Defs.h">
+<area shape="rect" id="Node000001" title="MIDI Library for the Arduino &#45; Definitions." alt="" coords="177,5,448,67"/>
+<area shape="rect" id="Node000002" href="$d6/d27/_m_i_d_i_8h.html" title="MIDI Library for the Arduino." alt="" coords="177,225,448,286"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,63,75,86,42,100,21,117,10,139,11,159,22,176,43,192,71,205,104,217,177,234,176,239,102,222,69,210,40,196,18,180,6,161,4,138,17,113,39,96,73,81,161,57"/>
+<area shape="rect" id="Node000004" href="$d0/d7c/midi___message_8h.html" title="MIDI Library for the Arduino &#45; Message struct definition." alt="" coords="31,115,301,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,79,208,117,205,112,258,74"/>
+<area shape="rect" id="Node000005" href="$d0/dc7/midi___platform_8h.html" title="MIDI Library for the Arduino &#45; Platform @license MIT &#45; Copyright (c) 2015 Francois Best." alt="" coords="325,115,596,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="368,74,421,112,418,117,365,79"/>
+<area shape="rect" id="Node000006" href="$df/d80/midi___settings_8h.html" title="MIDI Library for the Arduino &#45; Settings." alt="" coords="620,115,890,177"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="452,69,631,112,630,117,451,74"/>
+<area shape="rect" id="Node000003" href="$dc/d60/_m_i_d_i_8cpp.html" title="MIDI Library for the Arduino." alt="" coords="177,334,448,396"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="315,302,315,334,310,334,310,302"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="221,184,273,222,270,226,218,188"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="408,188,355,226,352,222,405,184"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="617,183,438,227,437,221,615,178"/>
+</map>

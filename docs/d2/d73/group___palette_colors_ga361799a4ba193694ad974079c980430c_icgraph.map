@@ -1,0 +1,9 @@
+<map id="nblendPaletteTowardPalette" name="nblendPaletteTowardPalette">
+<area shape="rect" id="Node000001" title="Alter one palette by making it slightly more like a &quot;target palette&quot;." alt="" coords="300,32,501,60"/>
+<area shape="rect" id="Node000002" href="$de/db5/classfl_1_1_twinkle_fox.html#ab5d3d43b11bed65afbd407071ee85eb8" title=" " alt="" coords="103,5,252,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,35,252,31,253,25,285,29"/>
+<area shape="rect" id="Node000004" href="$d4/dd0/_twinkle_fox_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="153,57,202,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="285,62,203,71,202,66,285,56"/>
+<area shape="rect" id="Node000003" href="$dd/d4d/_fx_twinkle_fox_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+</map>

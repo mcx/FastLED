@@ -1,0 +1,11 @@
+<map id="AVRSoftwareSPIOutput::init" name="AVRSoftwareSPIOutput::init">
+<area shape="rect" id="Node000001" title="Set the clock/data pins to output and make sure the chip select is released." alt="" coords="5,36,174,81"/>
+<area shape="rect" id="Node000002" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="222,5,390,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,44,206,39,206,44,174,49"/>
+<area shape="rect" id="Node000004" href="$db/d3b/class_fast_pin.html#ab4b349c1763a7565c3ee7b2de52a50c8" title="Set the pin mode as OUTPUT" alt="" coords="236,74,376,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,67,221,74,220,79,174,72"/>
+<area shape="rect" id="Node000003" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="438,14,583,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,25,422,25,422,30,391,30"/>
+<area shape="rect" id="Node000005" href="$db/d3b/class_fast_pin.html#a60c6fb75993ac57d29b097bf8df013c2" title=" " alt="" coords="459,74,562,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="376,85,444,85,444,90,376,90"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="CLEDController::beginShowLeds" name="CLEDController::beginShowLeds">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,234,60"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#a676f705adf93898739a405b85150a3e7" title="Get the dithering option currently set for this controller." alt="" coords="282,5,470,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,31,266,28,266,33,235,37"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a63f75cf7e55cf8da46db5fd27110bb3e" title="How many LEDs does this controller manage?" alt="" coords="299,57,452,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,55,284,59,283,65,234,60"/>
+</map>

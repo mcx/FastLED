@@ -1,0 +1,23 @@
+<map id="CRGB::nscale8_video" name="CRGB::nscale8_video">
+<area shape="rect" id="Node000001" title="Scale down a RGB to N/256ths of it&#39;s current brightness using &quot;video&quot; dimming rules." alt="" coords="569,117,729,145"/>
+<area shape="rect" id="Node000002" href="$de/db5/classfl_1_1_twinkle_fox.html#a67375829d0da55e17d3f74ac9817914d" title=" " alt="" coords="300,5,521,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="617,110,573,78,520,48,486,36,488,31,522,43,576,73,620,105"/>
+<area shape="rect" id="Node000005" href="$d4/dd0/_twinkle_fox_8ino.html#a6d0a3407d4b43c23c7bdd4aac9fc76fd" title=" " alt="" coords="356,57,465,85"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="582,115,521,99,465,86,466,81,522,94,583,110"/>
+<area shape="rect" id="Node000007" href="$d2/d73/group___palette_colors.html#gaf34a692bbec05b697dc9c06d8bb0f74f" title="Maps an array of palette color indexes into an array of LED colors." alt="" coords="328,109,493,154"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="554,134,493,134,493,128,554,128"/>
+<area shape="rect" id="Node000008" href="$d3/d1c/group___color_fades.html#ga956be37436f2b9c06c99d24263ef8e83" title="Scale the brightness of an array of pixels all at once." alt="" coords="354,177,468,205"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="583,152,522,168,469,181,468,176,521,163,582,147"/>
+<area shape="rect" id="Node000011" href="$db/d87/group___pixel_types.html#ga3dab64b7dfff8c31e3ec8c3c20eec465" title="Scale using CRGB::nscale8_video()" alt="" coords="366,229,455,257"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="620,157,576,189,522,219,489,231,456,239,455,234,488,226,520,214,573,185,617,153"/>
+<area shape="rect" id="Node000003" href="$de/db5/classfl_1_1_twinkle_fox.html#ab5d3d43b11bed65afbd407071ee85eb8" title=" " alt="" coords="103,5,252,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,22,252,22,252,16,284,16"/>
+<area shape="rect" id="Node000004" href="$dd/d4d/_fx_twinkle_fox_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+<area shape="rect" id="Node000006" href="$d4/dd0/_twinkle_fox_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="153,57,202,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="340,74,202,74,202,68,340,68"/>
+<area shape="rect" id="Node000009" href="$d3/d1c/group___color_fades.html#gaff656b0046fac0d40b8eb02941ce1755" title="Reduce the brightness of an array of pixels all at once." alt="" coords="131,152,224,180"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="338,186,224,174,225,168,338,181"/>
+<area shape="rect" id="Node000010" href="$d3/d1c/group___color_fades.html#gac1e25878d16efa6112d907738f525773" title="Reduce the brightness of an array of pixels all at once." alt="" coords="128,204,227,232"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="338,202,228,215,227,210,338,197"/>
+</map>

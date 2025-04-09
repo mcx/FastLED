@@ -1,0 +1,15 @@
+<map id="PixelController::loadAndScale2" name="PixelController::loadAndScale2">
+<area shape="rect" id="Node000001" title="non&#45;template alias of loadAndScale&lt;2&gt;()" alt="" coords="259,175,436,219"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html#a861d9beed51cce6441b50398f1eabebf" title="Send the LED data to the strip." alt="" coords="31,5,185,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="317,164,270,113,241,87,209,65,184,52,186,47,212,60,244,83,274,109,321,161"/>
+<area shape="rect" id="Node000003" href="$d7/d6f/group___clockless_chipsets.html#a6744d598f10ba5d97a57df08c46bafab" title="Send the LED data to the strip." alt="" coords="27,75,189,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="288,170,210,134,179,122,181,117,212,129,290,165"/>
+<area shape="rect" id="Node000004" href="$df/d0d/group___clocked_chipsets.html#a35f42384ada050146e6813f0fc766356" title="Send the LED data to the strip." alt="" coords="33,144,183,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,186,183,179,184,173,243,181"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html#ab7381f0a1850d006f3449d27838b19c5" title="Send the LED data to the strip." alt="" coords="5,212,211,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="244,212,211,216,211,211,243,207"/>
+<area shape="rect" id="Node000006" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a20772a8fdfa75015731375c36ccb3515" title="Write LED pixel data to the SPI interface." alt="" coords="24,264,192,309"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="279,228,212,254,179,266,177,261,210,249,277,223"/>
+<area shape="rect" id="Node000007" href="$d6/dd4/class_r_e_f_hardware_s_p_i_output.html#a17c12dc926c86fc42b2f857149c699a1" title="write a block of uint8_ts out in groups of three." alt="" coords="21,333,195,378"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="318,233,271,279,212,323,188,335,186,330,209,319,268,275,315,229"/>
+</map>

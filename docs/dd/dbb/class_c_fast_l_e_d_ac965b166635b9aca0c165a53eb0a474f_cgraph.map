@@ -1,0 +1,12 @@
+<map id="CFastLED::addListener" name="CFastLED::addListener">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,44,171,72"/>
+<area shape="rect" id="Node000002" href="$de/dca/classfl_1_1_engine_events.html#a0ec4bb952e2d965c309f69af153ce8d3" title=" " alt="" coords="219,44,428,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,56,203,56,203,61,171,61"/>
+<area shape="rect" id="Node000003" href="$de/dca/classfl_1_1_engine_events.html#a1703ede66433efb4353d7501db9b5844" title=" " alt="" coords="514,5,647,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="428,43,498,35,499,40,429,48"/>
+<area shape="rect" id="Node000004" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="476,74,685,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="429,68,461,71,460,77,428,73"/>
+<area shape="rect" id="Node000005" href="$d9/d5b/classfl_1_1_singleton.html#a7e65fe8dee6b2a23a8b6138fa2c274cb" title=" " alt="" coords="733,74,895,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="686,85,718,85,718,90,686,90"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="774,75,768,65,773,55,789,49,814,47,841,50,856,56,854,61,840,55,814,52,790,54,776,59,773,65,779,72"/>
+</map>

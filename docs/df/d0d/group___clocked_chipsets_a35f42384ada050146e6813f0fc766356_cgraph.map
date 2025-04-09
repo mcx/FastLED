@@ -1,0 +1,47 @@
+<map id="LPD6803Controller::showPixels" name="LPD6803Controller::showPixels">
+<area shape="rect" id="Node000001" title="Send the LED data to the strip." alt="" coords="5,366,156,411"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#ab44f62f166d162bd1e3b095b368feef2" title="Advance the data pointer forward, adjust position counter." alt="" coords="205,5,415,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,365,87,301,105,214,121,168,142,122,168,79,202,43,205,40,209,44,206,46,173,83,146,124,126,169,111,216,92,302,85,366"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html#ab927434d5ab7d27132e4b6832a50a29e" title=" " alt="" coords="235,126,385,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="87,365,102,325,126,276,160,225,202,181,219,170,222,174,205,185,164,228,131,279,107,328,92,367"/>
+<area shape="rect" id="Node000004" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a58393081ec8c54bd6968642b89e8bd43" title="Write a single byte over SPI." alt="" coords="468,126,637,171"/>
+<area shape="poly" id="edge24_Node000001_Node000004" title=" " alt="" coords="100,364,144,322,172,300,202,282,233,269,260,261,308,254,357,249,415,231,464,206,508,178,511,182,467,211,417,236,358,254,309,259,261,266,235,274,205,287,175,305,148,326,104,368"/>
+<area shape="rect" id="Node000009" href="$d0/dee/struct_pixel_controller.html#ac13f3e00855fcf6125ea27543c2fb48c" title="Do we have n pixels left to process?" alt="" coords="236,195,384,222"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="92,364,136,302,166,268,202,238,225,226,228,231,205,243,170,272,140,305,97,367"/>
+<area shape="rect" id="Node000010" href="$d0/dee/struct_pixel_controller.html#a4984f158bbc3b6c79ca16dd847fe67e1" title="non&#45;template alias of loadAndScale&lt;0&gt;()" alt="" coords="221,297,398,342"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="155,363,218,344,220,349,157,368"/>
+<area shape="rect" id="Node000015" href="$d0/dee/struct_pixel_controller.html#a11f9b50f738c6d57d08d6776b3d8eb43" title="non&#45;template alias of loadAndScale&lt;1&gt;()" alt="" coords="221,366,398,411"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="156,386,206,386,206,391,156,391"/>
+<area shape="rect" id="Node000016" href="$d0/dee/struct_pixel_controller.html#a33c22b408cbc9eb8b9d98993fe985264" title="non&#45;template alias of loadAndScale&lt;2&gt;()" alt="" coords="221,436,398,480"/>
+<area shape="poly" id="edge12_Node000001_Node000016" title=" " alt="" coords="157,409,220,428,218,433,155,414"/>
+<area shape="rect" id="Node000017" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="226,505,394,550"/>
+<area shape="poly" id="edge14_Node000001_Node000017" title=" " alt="" coords="105,409,149,450,205,490,216,496,213,500,202,495,146,454,101,413"/>
+<area shape="rect" id="Node000019" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a15872bb6ae69fd5a5c04b246fe73740e" title="Select the SPI output (chip select)" alt="" coords="226,625,394,670"/>
+<area shape="poly" id="edge16_Node000001_Node000019" title=" " alt="" coords="91,410,105,453,128,507,162,562,182,588,205,610,214,617,210,621,202,615,178,592,157,566,124,509,100,455,85,412"/>
+<area shape="rect" id="Node000021" href="$d0/dee/struct_pixel_controller.html#a85305135ad8ad18edcd32dfc7431c660" title="Get the length of the LED strip." alt="" coords="235,573,385,601"/>
+<area shape="poly" id="edge18_Node000001_Node000021" title=" " alt="" coords="94,410,110,444,135,484,166,525,205,560,221,569,219,573,202,564,163,529,130,487,106,446,89,412"/>
+<area shape="rect" id="Node000022" href="$df/d0d/group___clocked_chipsets.html#a60fc5e3173df1c494951fbdd852969aa" title=" " alt="" coords="235,57,385,102"/>
+<area shape="poly" id="edge19_Node000001_Node000022" title=" " alt="" coords="83,365,95,313,117,246,151,174,175,141,202,112,219,100,222,104,205,116,179,144,156,177,122,248,100,315,88,366"/>
+<area shape="rect" id="Node000023" href="$d0/dee/struct_pixel_controller.html#ac7cb7840989882cce60218ac43dbe8ef" title="Step the dithering forward." alt="" coords="204,693,416,721"/>
+<area shape="poly" id="edge21_Node000001_Node000023" title=" " alt="" coords="87,411,97,466,117,539,133,578,152,615,176,650,205,680,209,683,206,687,202,684,172,653,148,618,128,580,112,541,91,467,82,412"/>
+<area shape="rect" id="Node000024" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#abc475d3c1bd94b5d61e699f7f77af905" title="Wait until the SPI subsystem is ready for more data to write." alt="" coords="226,745,394,790"/>
+<area shape="poly" id="edge22_Node000001_Node000024" title=" " alt="" coords="86,411,94,474,113,560,128,606,148,651,174,693,206,731,214,738,211,742,202,734,170,696,144,653,123,608,108,561,88,475,81,412"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="385,146,453,146,453,151,385,151"/>
+<area shape="rect" id="Node000005" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497" title="Write the BIT&#39;th bit out via SPI, setting the data pin then strobing the clock." alt="" coords="696,126,865,171"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="637,146,681,146,681,151,637,151"/>
+<area shape="rect" id="Node000011" href="$d0/dee/struct_pixel_controller.html#a56fc5e5bf305e1760198c0a69ac85ff9" title="Loads, dithers, and scales a single byte for a given output slot, using class dither and scale values..." alt="" coords="464,366,641,411"/>
+<area shape="poly" id="edge7_Node000010_Node000011" title=" " alt="" coords="392,340,458,359,457,364,390,345"/>
+<area shape="rect" id="Node000012" href="$d0/dee/struct_pixel_controller.html#aa2a1b38058a62a4337605425e482202f" title="Calculate a dither value using the per&#45;channel dither data." alt="" coords="699,401,862,429"/>
+<area shape="poly" id="edge8_Node000011_Node000012" title=" " alt="" coords="642,396,684,401,683,407,641,402"/>
+<area shape="rect" id="Node000014" href="$d0/dee/struct_pixel_controller.html#a75ef76fbecdc9b39b01eeab216845d9d" title="Read a byte of LED data." alt="" coords="689,349,872,377"/>
+<area shape="poly" id="edge9_Node000011_Node000014" title=" " alt="" coords="641,376,673,372,674,378,642,381"/>
+<area shape="poly" id="edge11_Node000015_Node000011" title=" " alt="" coords="399,386,448,386,448,391,399,391"/>
+<area shape="poly" id="edge13_Node000016_Node000011" title=" " alt="" coords="390,432,457,413,458,418,392,437"/>
+<area shape="rect" id="Node000018" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="480,513,625,541"/>
+<area shape="poly" id="edge15_Node000017_Node000018" title=" " alt="" coords="394,524,465,524,465,530,394,530"/>
+<area shape="rect" id="Node000020" href="$dd/da1/class_selectable.html#a5536adac637a1c55c3778158c7f38840" title="Select this object." alt="" coords="484,633,621,661"/>
+<area shape="poly" id="edge17_Node000019_Node000020" title=" " alt="" coords="394,644,469,644,469,650,394,650"/>
+<area shape="poly" id="edge20_Node000022_Node000004" title=" " alt="" coords="386,98,458,119,456,124,384,103"/>
+<area shape="rect" id="Node000025" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a15951c5c76cc43be5b8812d29da716dc" title="Wait until the SPI subsystem is ready for more data to write." alt="" coords="468,745,637,790"/>
+<area shape="poly" id="edge23_Node000024_Node000025" title=" " alt="" coords="394,764,453,764,453,770,394,770"/>
+</map>

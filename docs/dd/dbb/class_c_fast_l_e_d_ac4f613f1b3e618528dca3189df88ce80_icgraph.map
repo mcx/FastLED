@@ -1,0 +1,5 @@
+<map id="CFastLED::clearData" name="CFastLED::clearData">
+<area shape="rect" id="Node000001" title="Clear out the local data array." alt="" coords="175,5,327,33"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#aeb7bd3e8f2dbced6284a2182191d5fcb" title="Clear the leds, wiping the local array of data." alt="" coords="5,5,127,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,22,127,22,127,16,159,16"/>
+</map>

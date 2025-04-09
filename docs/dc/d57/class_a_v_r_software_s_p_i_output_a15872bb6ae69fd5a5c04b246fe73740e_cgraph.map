@@ -1,0 +1,5 @@
+<map id="AVRSoftwareSPIOutput::select" name="AVRSoftwareSPIOutput::select">
+<area shape="rect" id="Node000001" title="Select the SPI output (chip select)" alt="" coords="5,5,174,50"/>
+<area shape="rect" id="Node000002" href="$dd/da1/class_selectable.html#a5536adac637a1c55c3778158c7f38840" title="Select this object." alt="" coords="222,14,358,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,25,206,25,206,30,174,30"/>
+</map>

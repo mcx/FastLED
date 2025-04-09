@@ -1,0 +1,22 @@
+<map id="ColorFromPaletteExtended" name="ColorFromPaletteExtended">
+<area shape="rect" id="Node000001" title="Same as ColorFromPalette, but higher precision." alt="" coords="5,96,200,124"/>
+<area shape="rect" id="Node000002" href="$dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="284,125,342,153"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,121,269,130,268,136,199,126"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="814,35,910,62"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="138,93,247,55,376,22,480,6,584,4,717,15,800,30,799,35,716,20,584,10,480,11,377,28,248,60,140,98"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="765,161,960,189"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="134,122,186,144,248,162,382,180,517,188,643,187,749,182,749,187,643,192,517,193,381,186,247,167,184,149,132,127"/>
+<area shape="rect" id="Node000007" href="$d0/da8/group___scaling.html#ga700b7f510f32e8c91385093c436c27d9" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="248,69,378,97"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="199,95,232,91,233,96,200,100"/>
+<area shape="rect" id="Node000003" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="482,129,547,157"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,137,467,139,466,145,342,142"/>
+<area shape="rect" id="Node000004" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="651,111,717,138"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="547,137,636,127,636,132,548,142"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="547,132,602,115,650,97,727,75,798,59,800,64,728,80,652,102,604,120,549,137"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="548,143,749,162,749,167,548,149"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="716,108,813,66,815,71,718,113"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="718,131,797,154,795,159,716,136"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="350,66,386,55,426,46,528,36,630,33,799,40,799,45,630,38,528,41,426,51,388,60,352,71"/>
+<area shape="rect" id="Node000008" href="$d0/da5/group___scaling_dirty.html#gadfd26d9b154f5ec79dbffe612dafd146" title="In place modifying version of scale8_video() that does not clean up the R1 register on AVR." alt="" coords="426,61,603,105"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="378,80,410,80,410,86,378,86"/>
+</map>

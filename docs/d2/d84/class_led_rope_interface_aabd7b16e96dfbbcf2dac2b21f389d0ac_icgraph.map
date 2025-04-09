@@ -1,0 +1,19 @@
+<map id="LedRopeInterface::RawBeginDraw" name="LedRopeInterface::RawBeginDraw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="425,109,667,137"/>
+<area shape="rect" id="Node000002" href="$dd/d45/struct_painter.html#a023fedf9449a5964c0c576805a22d049" title=" " alt="" coords="169,5,368,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="504,105,444,76,376,48,335,36,337,31,378,43,446,71,506,100"/>
+<area shape="rect" id="Node000004" href="$dd/d45/struct_painter.html#aac192da55e15dd79b498933180c06725" title=" " alt="" coords="161,57,376,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="453,108,346,88,347,83,454,103"/>
+<area shape="rect" id="Node000005" href="$dd/d45/struct_painter.html#a3b521f31ff7f7249ce1c88ca56f5ad80" title=" " alt="" coords="188,109,348,137"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="409,126,349,126,349,120,409,120"/>
+<area shape="rect" id="Node000006" href="$dd/d45/struct_painter.html#a405cd2b8e31b1ad6e8d6abe9ba03c074" title=" " alt="" coords="160,161,377,189"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="454,143,347,163,346,158,453,138"/>
+<area shape="rect" id="Node000007" href="$dd/d45/struct_painter.html#ab6318a63a778550cd78f3eae183cb8dc" title=" " alt="" coords="180,213,357,241"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="506,147,446,175,378,203,337,215,335,210,376,198,444,170,504,142"/>
+<area shape="rect" id="Node000003" href="$dd/d45/struct_painter.html#a99ab92bb8d2baae96c7b4b4aacda4de3" title=" " alt="" coords="5,109,112,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="178,41,161,48,113,79,76,111,72,107,109,75,158,43,176,36"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="194,92,160,100,113,112,111,107,159,95,193,87"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="173,126,112,126,112,120,173,120"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="193,160,159,151,111,139,113,134,160,146,194,154"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="176,210,158,203,109,171,72,139,76,135,113,167,161,198,178,205"/>
+</map>

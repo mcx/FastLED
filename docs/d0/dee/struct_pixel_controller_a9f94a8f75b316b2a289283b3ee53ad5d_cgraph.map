@@ -1,0 +1,5 @@
+<map id="PixelController::dither" name="PixelController::dither">
+<area shape="rect" id="Node000001" title="Calculate a dither value." alt="" coords="5,5,168,33"/>
+<area shape="rect" id="Node000002" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="216,5,277,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,16,200,16,200,22,168,22"/>
+</map>

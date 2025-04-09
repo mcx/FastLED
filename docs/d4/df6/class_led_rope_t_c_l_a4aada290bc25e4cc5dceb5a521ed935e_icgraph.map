@@ -1,0 +1,11 @@
+<map id="LedRopeTCL::PreDrawSetup" name="LedRopeTCL::PreDrawSetup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="520,57,720,85"/>
+<area shape="rect" id="Node000002" href="$d4/df6/class_led_rope_t_c_l.html#ae60663b8c9b70e2dd58ebbfe14c22111" title=" " alt="" coords="265,57,472,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="505,74,473,74,473,68,505,68"/>
+<area shape="rect" id="Node000003" href="$d4/df6/class_led_rope_t_c_l.html#a842cac2350fad4c68d21d232f6a8a4c0" title=" " alt="" coords="40,5,182,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,56,182,36,183,31,282,51"/>
+<area shape="rect" id="Node000004" href="$d4/df6/class_led_rope_t_c_l.html#af19abbbe43110da5fd09c169d9ab9307" title=" " alt="" coords="17,57,205,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="249,74,206,74,206,68,249,68"/>
+<area shape="rect" id="Node000005" href="$d4/df6/class_led_rope_t_c_l.html#a90f6e3d74b585d37be799107d77421c8" title=" " alt="" coords="5,109,217,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="292,92,210,111,209,106,291,86"/>
+</map>

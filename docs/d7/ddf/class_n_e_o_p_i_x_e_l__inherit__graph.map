@@ -1,0 +1,11 @@
+<map id="NEOPIXEL&lt; DATA_PIN &gt;" name="NEOPIXEL&lt; DATA_PIN &gt;">
+<area shape="rect" id="Node000001" title="LED controller for WS2812 LEDs with GRB color order." alt="" coords="871,74,1049,101"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="635,65,822,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="837,85,870,85,870,90,837,90"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="262,5,443,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="459,54,635,74,635,79,458,59"/>
+<area shape="rect" id="Node000004" href="$d7/d6f/group___clockless_chipsets.html#de/d9d/class_w_s2812_controller800_khz" title="WS2812 controller class @ 800 KHz." alt="" coords="251,108,454,152"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="470,114,635,95,635,101,470,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,99,202,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="217,127,251,127,251,133,217,133"/>
+</map>

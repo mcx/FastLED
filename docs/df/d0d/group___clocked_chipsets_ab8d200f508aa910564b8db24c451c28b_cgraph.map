@@ -1,0 +1,9 @@
+<map id="APA102Controller::startBoundary" name="APA102Controller::startBoundary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,14,240,42"/>
+<area shape="rect" id="Node000002" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a34421832d232a692d08d39d87733acd8" title="Write a word (two bytes) over SPI." alt="" coords="288,5,456,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,25,272,25,272,30,240,30"/>
+<area shape="rect" id="Node000003" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a58393081ec8c54bd6968642b89e8bd43" title="Write a single byte over SPI." alt="" coords="504,5,672,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,25,488,25,488,30,456,30"/>
+<area shape="rect" id="Node000004" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497" title="Write the BIT&#39;th bit out via SPI, setting the data pin then strobing the clock." alt="" coords="720,5,889,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="673,25,705,25,705,30,673,30"/>
+</map>

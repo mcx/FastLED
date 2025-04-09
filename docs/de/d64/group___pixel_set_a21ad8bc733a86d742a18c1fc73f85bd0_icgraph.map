@@ -1,0 +1,5 @@
+<map id="CPixelView::nscale8_video" name="CPixelView::nscale8_video">
+<area shape="rect" id="Node000001" title="Scale every LED by the given scale." alt="" coords="232,5,382,50"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#aca9c2da68cd161255f4c8a7f6cf0aab7" title="Fade every LED down by the given scale." alt="" coords="5,14,184,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,30,184,30,184,25,216,25"/>
+</map>

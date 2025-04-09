@@ -1,0 +1,5 @@
+<map id="CFastLED::size" name="CFastLED::size">
+<area shape="rect" id="Node000001" title="Get the number of leds in the first controller." alt="" coords="5,5,121,33"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#a63f75cf7e55cf8da46db5fd27110bb3e" title="How many LEDs does this controller manage?" alt="" coords="169,5,322,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,16,153,16,153,22,121,22"/>
+</map>

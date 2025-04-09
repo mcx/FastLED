@@ -1,0 +1,10 @@
+<map id="CRGBArray&lt; SIZE &gt;" name="CRGBArray&lt; SIZE &gt;">
+<area shape="rect" id="Node000001" title="A version of CPixelView&lt;CRGB&gt; with an included array of CRGB LEDs." alt="" coords="5,192,158,220"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html" title=" " alt="" coords="112,115,272,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,154,102,194,99,189,159,149"/>
+<area shape="rect" id="Node000003" href="$db/d87/group___pixel_types.html#d7/d82/struct_c_r_g_b" title="Representation of an RGB pixel (Red, Green, Blue)" alt="" coords="8,5,67,33"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="38,48,39,93,48,142,60,168,74,190,69,193,55,171,43,143,34,94,33,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,41,130,89,169,112,166,117,127,93,63,45"/>
+<area shape="rect" id="Node000004" href="$de/d64/group___pixel_set.html#db/df7/class_c_pixel_view" title="Represents a set of LED objects." alt="" coords="93,5,291,33"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="195,48,195,115,190,115,190,48"/>
+</map>

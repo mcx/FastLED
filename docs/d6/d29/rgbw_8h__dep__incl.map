@@ -1,0 +1,22 @@
+<map id="/home/runner/work/FastLED/FastLED/src/rgbw.h" name="/home/runner/work/FastLED/FastLED/src/rgbw.h">
+<area shape="rect" id="Node000001" title="Functions for red, green, blue, white (RGBW) output." alt="" coords="211,5,410,50"/>
+<area shape="rect" id="Node000002" href="$d3/d8d/rectangular__draw__buffer_8cpp.html" title=" " alt="" coords="5,98,205,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,60,169,100,167,95,251,55"/>
+<area shape="rect" id="Node000003" href="$d5/d4d/pixel__controller_8h.html" title="Low level pixel data writing class." alt="" coords="88,208,303,252"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,65,270,99,209,209,205,206,265,97,286,62"/>
+<area shape="rect" id="Node000116" href="$d8/d6c/pixel__iterator_8h.html" title="Non&#45;templated low level pixel data writing class." alt="" coords="280,106,480,151"/>
+<area shape="poly" id="edge7_Node000001_Node000116" title=" " alt="" coords="336,61,367,105,362,108,332,64"/>
+<area shape="rect" id="Node000113" href="$d1/d8d/rgbw_8cpp.html" title="Functions for red, green, blue, white (RGBW) output." alt="" coords="504,106,703,151"/>
+<area shape="poly" id="edge11_Node000001_Node000113" title=" " alt="" coords="390,53,540,103,539,108,388,58"/>
+<area shape="rect" id="Node000004" href="$db/d6d/cled__controller_8h.html" title="base definitions used by led controllers for writing out led data" alt="" coords="290,300,501,345"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="258,257,349,297,347,302,256,262"/>
+<area shape="rect" id="Node000006" href="$d9/d57/cpixel__ledcontroller_8h.html" title="defines the templated version of the CLEDController class" alt="" coords="75,393,316,438"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="198,268,198,393,193,393,193,268"/>
+<area shape="rect" id="Node000005" href="$dd/dd8/cled__controller_8cpp.html" title="base definitions used by led controllers for writing out led data" alt="" coords="340,393,566,438"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="420,356,442,391,437,394,415,359"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="335,354,245,395,242,390,333,349"/>
+<area shape="poly" id="edge10_Node000116_Node000003" title=" " alt="" coords="327,161,237,209,235,205,325,156"/>
+<area shape="poly" id="edge9_Node000116_Node000004" title=" " alt="" coords="480,156,514,177,541,206,549,230,541,254,514,282,480,302,477,297,510,278,536,251,544,230,536,209,510,181,477,160"/>
+<area shape="rect" id="Node000107" href="$db/d66/chipsets_8h.html" title="Contains the bulk of the definitions for the various LED chipsets supported." alt="" coords="327,208,526,252"/>
+<area shape="poly" id="edge8_Node000116_Node000107" title=" " alt="" coords="399,164,419,206,414,208,394,166"/>
+</map>

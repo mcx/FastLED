@@ -1,0 +1,5 @@
+<map id="fill_gradient" name="fill_gradient">
+<area shape="rect" id="Node000001" title="Fill a range of LEDs with a smooth HSV gradient between four HSV colors." alt="" coords="5,5,104,33"/>
+<area shape="rect" id="Node000002" href="$da/de3/group___color_fills.html#ga3144bb2bb66aeed33e20f4fdd6cc1a98" title="Fill a range of LEDs with a smooth HSV gradient between two HSV colors." alt="" coords="152,5,250,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,16,136,16,136,22,104,22"/>
+</map>

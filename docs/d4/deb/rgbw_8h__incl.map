@@ -1,0 +1,12 @@
+<map id="/home/runner/work/FastLED/FastLED/src/rgbw.h" name="/home/runner/work/FastLED/FastLED/src/rgbw.h">
+<area shape="rect" id="Node000001" title="Functions for red, green, blue, white (RGBW) output." alt="" coords="110,5,310,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,98,76,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,53,82,93,80,89,164,48"/>
+<area shape="rect" id="Node000003" href="$d8/d2d/fl_2force__inline_8h.html" title=" " alt="" coords="100,98,221,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,52,178,86,174,83,195,49"/>
+<area shape="rect" id="Node000004" href="$df/d2a/namespace_8h.html" title="Implements the FastLED namespace macros." alt="" coords="236,174,357,201"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="224,49,284,158,280,161,219,51"/>
+<area shape="rect" id="Node000005" href="$db/d07/eorder_8h.html" title="Defines color channel ordering enumerations." alt="" coords="297,98,371,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="244,48,303,87,300,91,241,53"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="330,127,312,161,308,159,325,125"/>
+</map>

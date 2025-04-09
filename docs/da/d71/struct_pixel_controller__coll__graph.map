@@ -1,0 +1,7 @@
+<map id="PixelController&lt; RGB_ORDER, LANES, MASK &gt;" name="PixelController&lt; RGB_ORDER, LANES, MASK &gt;">
+<area shape="rect" id="Node000001" title="Pixel controller class." alt="" coords="5,191,192,235"/>
+<area shape="rect" id="Node000002" href="$d5/d4d/pixel__controller_8h.html#d4/d7d/struct_color_adjustment" title=" " alt="" coords="33,98,164,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,141,101,190,96,190,96,141"/>
+<area shape="rect" id="Node000003" href="$db/d87/group___pixel_types.html#d7/d82/struct_c_r_g_b" title="Representation of an RGB pixel (Red, Green, Blue)" alt="" coords="69,5,128,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,48,101,98,96,98,96,48"/>
+</map>

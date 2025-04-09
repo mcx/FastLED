@@ -1,0 +1,15 @@
+<map id="fmap" name="fmap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="459,53,515,80"/>
+<area shape="rect" id="Node000002" href="$d1/d85/class_ripple.html#a8e381b2bdc3568c72a4a674b63a353ee" title=" " alt="" coords="103,27,228,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="458,45,435,30,411,18,358,9,303,10,253,18,210,29,209,24,252,13,303,5,358,4,412,13,438,25,461,40"/>
+<area shape="rect" id="Node000003" href="$d1/ddb/_chromancer_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,53,55,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="444,69,55,69,55,64,444,64"/>
+<area shape="rect" id="Node000004" href="$d7/d97/net_8h.html#aaba0f484aeb003c1f1ceca8956c720cd" title=" " alt="" coords="308,129,379,156"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="451,91,413,113,378,130,375,126,410,108,448,86"/>
+<area shape="rect" id="Node000006" href="$d1/d85/class_ripple.html#a241c31312a2b5491e220567f551bfe02" title=" " alt="" coords="276,27,411,55"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="444,62,411,56,412,50,445,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,58,56,64,55,59,87,53"/>
+<area shape="rect" id="Node000005" href="$d1/ddb/_chromancer_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="137,129,194,156"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="293,145,195,145,195,140,293,140"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="260,44,228,44,228,38,260,38"/>
+</map>

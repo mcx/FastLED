@@ -1,0 +1,13 @@
+<map id="hsv2rgb_rainbow" name="hsv2rgb_rainbow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,138,137"/>
+<area shape="rect" id="Node000002" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="235,5,332,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,107,130,75,185,43,219,30,221,35,187,48,133,80,91,111"/>
+<area shape="rect" id="Node000003" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="252,57,315,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,106,236,80,237,85,132,111"/>
+<area shape="rect" id="Node000004" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="186,109,381,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,120,170,120,170,126,138,126"/>
+<area shape="rect" id="Node000005" href="$d0/da8/group___scaling.html#ga628b417ea1507e3447cdf5f308d9b6d5" title="The &quot;video&quot; version of scale8() guarantees that the output will be only be zero if one or both of the..." alt="" coords="230,161,336,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="132,135,216,156,215,161,130,140"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#gaf8e0821f34434cd6bfed4a16a895da23" title="This version of scale8_video() does not clean up the R1 register on AVR." alt="" coords="199,213,368,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="92,135,134,166,187,198,199,204,196,209,184,203,131,171,89,140"/>
+</map>

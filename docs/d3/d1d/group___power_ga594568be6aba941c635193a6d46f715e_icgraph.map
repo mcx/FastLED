@@ -1,0 +1,15 @@
+<map id="calculate_unscaled_power_mW" name="calculate_unscaled_power_mW">
+<area shape="rect" id="Node000001" title="Determines how many milliwatts the current LED data would draw at max brightness (255)" alt="" coords="779,75,925,119"/>
+<area shape="rect" id="Node000002" href="$d3/d1d/group___power.html#gafff15ebb8adee6a6c76fd46eb980397c" title="Determines the highest brightness level you can use and still stay under the specified power budget f..." alt="" coords="540,40,731,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="764,86,731,80,732,75,765,80"/>
+<area shape="rect" id="Node000009" href="$d3/d1d/group___power.html#gaeb674bb1095873cfaab1bc2796541020" title="Determines the highest brightness level you can use and still stay under the specified power budget f..." alt="" coords="540,109,731,154"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="765,114,732,119,731,114,764,108"/>
+<area shape="rect" id="Node000003" href="$d3/d1d/group___power.html#gab519e78baab1cfbaf62663c48c1c2f35" title="Determines the highest brightness level you can use and still stay under the specified power budget f..." alt="" coords="288,5,479,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="524,50,479,43,480,38,525,44"/>
+<area shape="rect" id="Node000004" href="$dd/dbb/class_c_fast_l_e_d.html#ab07d62cdec036af9ede70cbd06ece40f" title="Set the maximum power to be used, given in milliwatts." alt="" coords="275,75,492,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="525,80,493,85,492,79,524,75"/>
+<area shape="rect" id="Node000005" href="$d3/d1d/group___power.html#ga07198890442df25532c1beaafb093648" title="Set the maximum power used in watts." alt="" coords="8,52,224,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="259,85,224,81,224,76,260,80"/>
+<area shape="rect" id="Node000006" href="$dd/dbb/class_c_fast_l_e_d.html#a996375a3f4a7b8c096f87d8a93c2b196" title="Set the maximum power to be used, given in volts and milliamps." alt="" coords="5,104,227,149"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="260,113,227,117,227,112,259,108"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="REFHardwareSPIOutput::release" name="REFHardwareSPIOutput::release">
+<area shape="rect" id="Node000001" title="release the CS select" alt="" coords="5,5,179,50"/>
+<area shape="rect" id="Node000002" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="227,14,372,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,25,211,25,211,30,179,30"/>
+</map>

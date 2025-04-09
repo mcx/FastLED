@@ -1,0 +1,13 @@
+<map id="fl::Transition::start" name="fl::Transition::start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="581,32,720,60"/>
+<area shape="rect" id="Node000002" href="$d7/df1/classfl_1_1_fx_compositor.html#a623a0970c4c8b2cec73db92a8008c752" title=" " alt="" coords="304,32,533,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="566,48,534,48,534,43,566,43"/>
+<area shape="rect" id="Node000003" href="$d4/d60/classfl_1_1_fx_engine.html#a1e840a27e09686190e44844b3f062642" title="Adds a new effect to the engine." alt="" coords="111,5,256,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,34,256,30,256,25,289,28"/>
+<area shape="rect" id="Node000005" href="$d4/d60/classfl_1_1_fx_engine.html#aa0b3b17d66712b3c2184d8c59c6b55f1" title="Renders the current effect or transition to the output buffer." alt="" coords="115,57,252,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="289,63,253,66,252,61,288,57"/>
+<area shape="rect" id="Node000004" href="$d6/d35/_fx_engine_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,63,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,22,63,22,63,16,95,16"/>
+<area shape="rect" id="Node000006" href="$d6/d35/_fx_engine_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,57,59,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="99,74,59,74,59,68,99,68"/>
+</map>

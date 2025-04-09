@@ -1,0 +1,11 @@
+<map id="ColorSelector::Update" name="ColorSelector::Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,169,60"/>
+<area shape="rect" id="Node000002" href="$d6/d58/class_counting_button.html#a28cf528b823336f8eba41a4c35f3fc2a" title=" " alt="" coords="217,32,394,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,43,201,43,201,48,169,48"/>
+<area shape="rect" id="Node000003" href="$d3/d1d/classfl_1_1_u_i_button.html#a744c411f78146946d0f72366605e781a" title=" " alt="" coords="450,5,597,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="394,32,434,27,435,33,395,38"/>
+<area shape="rect" id="Node000004" href="$d6/d58/class_counting_button.html#a22f6cee1dc58bf651da93fd5ee66f7a0" title=" " alt="" coords="442,57,605,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="395,53,427,57,426,63,394,59"/>
+<area shape="rect" id="Node000005" href="$d0/ddf/class_midi_shield_button.html#a364d02ef4b1cd8dfa97639c08a731dcf" title=" " alt="" coords="653,57,827,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="606,68,638,68,638,74,606,74"/>
+</map>

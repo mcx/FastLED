@@ -1,0 +1,17 @@
+<map id="fl::ByteStreamMemory::writeCRGB" name="fl::ByteStreamMemory::writeCRGB">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,96,174,141"/>
+<area shape="rect" id="Node000002" href="$d1/dc0/classfl_1_1_byte_stream_memory.html#a74090719c21547ad265facf05f275dd4" title=" " alt="" coords="222,96,390,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,116,206,116,206,121,174,121"/>
+<area shape="rect" id="Node000003" href="$d2/d4f/classfl_1_1_circular_buffer.html#a61c5530adcc76b18b8ce74180511b934" title=" " alt="" coords="438,5,564,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,93,436,55,439,59,357,98"/>
+<area shape="rect" id="Node000004" href="$d2/d4f/classfl_1_1_circular_buffer.html#a62c12de0a321ce050f6c94f4f4eb6c28" title=" " alt="" coords="612,65,739,110"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="390,109,596,91,597,97,391,114"/>
+<area shape="rect" id="Node000006" href="$d2/d4f/classfl_1_1_circular_buffer.html#adbeb1dee7527ceca6098ce36eaae6604" title=" " alt="" coords="438,125,564,170"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="391,128,423,133,422,139,390,134"/>
+<area shape="rect" id="Node000007" href="$d2/d4f/classfl_1_1_circular_buffer.html#ab96bc31a3fce1bb648ca702ddbed96b2" title=" " alt="" coords="438,195,564,239"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="353,139,443,185,440,189,351,144"/>
+<area shape="rect" id="Node000005" href="$d2/d4f/classfl_1_1_circular_buffer.html#af384b522248f5ed355b3f72aafe3249a" title=" " alt="" coords="787,96,913,141"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="740,96,772,102,771,107,739,101"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="564,123,597,112,599,117,566,128"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="565,140,771,122,771,128,565,145"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Rgbw::size_as_rgb" name="Rgbw::size_as_rgb">
+<area shape="rect" id="Node000001" title=" " alt="" coords="478,100,618,128"/>
+<area shape="rect" id="Node000002" href="$da/d9d/structfl_1_1_draw_item.html#a0adc06939bcddde0d6d6cef8e8a18d60" title=" " alt="" coords="249,5,422,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="513,94,474,69,429,47,398,36,400,31,431,42,476,65,516,89"/>
+<area shape="rect" id="Node000003" href="$d4/d28/group___chipsets.html#a460b948159965c26b3d6eabb58311c36" title=" " alt="" coords="242,57,430,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="462,103,430,97,431,92,463,97"/>
+<area shape="rect" id="Node000004" href="$d4/d28/group___chipsets.html#ac75fed11a6434fa6d70451850a158636" title=" " alt="" coords="242,126,430,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="463,130,431,136,430,130,462,125"/>
+<area shape="rect" id="Node000005" href="$d4/d28/group___chipsets.html#aba9a2f023f2950dbcdf3c2482f765350" title="Send the LED data to the strip." alt="" coords="5,157,194,202"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="519,139,479,165,431,186,370,197,308,202,248,201,194,197,194,191,248,196,308,197,370,192,429,181,476,161,516,135"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="226,165,194,170,194,164,226,160"/>
+</map>

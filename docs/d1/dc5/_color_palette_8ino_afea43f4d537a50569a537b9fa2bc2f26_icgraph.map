@@ -1,0 +1,11 @@
+<map id="SetupBlackAndWhiteStripedPalette" name="SetupBlackAndWhiteStripedPalette">
+<area shape="rect" id="Node000001" title=" " alt="" coords="344,36,547,81"/>
+<area shape="rect" id="Node000002" href="$da/dda/_noise_plus_palette_8ino.html#a2985d4b1841f40d48227c9b68cdfd2e6" title=" " alt="" coords="103,5,296,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="328,46,296,42,297,37,329,41"/>
+<area shape="rect" id="Node000004" href="$d1/dc5/_color_palette_8ino.html#a50c2e0f8c7120112ab44db6f47400021" title=" " alt="" coords="104,74,295,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="329,75,296,79,295,74,328,70"/>
+<area shape="rect" id="Node000003" href="$da/dda/_noise_plus_palette_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,14,55,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,30,55,30,55,25,87,25"/>
+<area shape="rect" id="Node000005" href="$d1/dc5/_color_palette_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,74,55,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="88,90,55,90,55,85,88,85"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="REFHardwareSPIOutput::writeBytes" name="REFHardwareSPIOutput::writeBytes">
+<area shape="rect" id="Node000001" title="A full cycle of writing a value for len bytes, including select, release, and waiting." alt="" coords="5,109,179,154"/>
+<area shape="rect" id="Node000002" href="$d6/dd4/class_r_e_f_hardware_s_p_i_output.html#a7c39a37f4a8d759bfb59623fa95b09ce" title="release the CS select" alt="" coords="227,5,400,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,106,226,60,238,54,241,59,228,65,136,111"/>
+<area shape="rect" id="Node000004" href="$d6/dd4/class_r_e_f_hardware_s_p_i_output.html#a9f51d6a4a6ab66c709ff1d677815946b" title="latch the CS select" alt="" coords="227,75,400,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="179,115,211,110,212,116,180,121"/>
+<area shape="rect" id="Node000006" href="$d6/dd4/class_r_e_f_hardware_s_p_i_output.html#acca3a544ce9f832fab85a471432b12bd" title="wait until all queued up data has been written" alt="" coords="227,144,400,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="180,143,212,148,211,153,179,148"/>
+<area shape="rect" id="Node000007" href="$d6/dd4/class_r_e_f_hardware_s_p_i_output.html#a077457b7a802ee946db4b2f8117d5ad4" title="write a byte out via SPI (returns immediately on writing register)" alt="" coords="227,213,400,258"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="136,152,228,199,241,204,238,209,226,203,134,157"/>
+<area shape="rect" id="Node000003" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="448,14,593,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,25,432,25,432,30,400,30"/>
+<area shape="rect" id="Node000005" href="$dd/da1/class_selectable.html#a5536adac637a1c55c3778158c7f38840" title="Select this object." alt="" coords="452,83,589,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="400,94,437,94,437,100,400,100"/>
+</map>

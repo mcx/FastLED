@@ -1,0 +1,35 @@
+<map id="fl::TwinkleFox::draw" name="fl::TwinkleFox::draw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,155,253"/>
+<area shape="rect" id="Node000002" href="$de/db5/classfl_1_1_twinkle_fox.html#a67375829d0da55e17d3f74ac9817914d" title=" " alt="" coords="203,199,424,226"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,228,187,224,187,230,155,233"/>
+<area shape="rect" id="Node000020" href="$d2/d73/group___palette_colors.html#ga361799a4ba193694ad974079c980430c" title="Alter one palette by making it slightly more like a &quot;target palette&quot;." alt="" coords="213,251,414,278"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="155,245,198,249,197,255,155,250"/>
+<area shape="rect" id="Node000003" href="$dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="1004,157,1062,185"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,224,486,242,621,255,695,257,771,254,846,246,919,231,962,214,999,192,1002,196,964,219,920,236,847,251,771,260,695,262,621,260,485,247,380,230"/>
+<area shape="rect" id="Node000008" href="$de/db5/classfl_1_1_twinkle_fox.html#a39614750a1a87e8a8be19c36f6c48677" title=" " alt="" coords="472,142,672,187"/>
+<area shape="poly" id="edge6_Node000002_Node000008" title=" " alt="" coords="391,195,456,183,457,189,392,201"/>
+<area shape="rect" id="Node000016" href="$db/d87/group___pixel_types.html#a940908cc69606bdabe3b2d32a9097356" title="Get the average of the R, G, and B values." alt="" coords="1146,5,1318,33"/>
+<area shape="poly" id="edge13_Node000002_Node000016" title=" " alt="" coords="338,196,398,163,471,127,592,76,648,58,720,42,829,26,939,17,1131,13,1131,19,939,22,829,31,721,47,649,63,594,81,473,132,400,168,340,200"/>
+<area shape="rect" id="Node000017" href="$db/d87/group___pixel_types.html#a0441d6094ab8f98d800ec789c36b4461" title="Scale down a RGB to N/256ths of it&#39;s current brightness using &quot;video&quot; dimming rules." alt="" coords="492,296,652,324"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="393,224,425,237,440,246,450,256,473,276,501,288,499,293,471,280,446,260,437,251,423,242,391,229"/>
+<area shape="rect" id="Node000004" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="1200,157,1265,185"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1062,168,1184,168,1184,174,1062,174"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="1416,132,1512,160"/>
+<area shape="poly" id="edge4_Node000004_Node000006" title=" " alt="" coords="1265,165,1400,150,1401,155,1266,170"/>
+<area shape="rect" id="Node000007" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="1366,56,1562,84"/>
+<area shape="poly" id="edge5_Node000004_Node000007" title=" " alt="" coords="1264,155,1415,88,1417,93,1266,160"/>
+<area shape="rect" id="Node000009" href="$de/db5/classfl_1_1_twinkle_fox.html#a4fe4a588d8419d38c454e35b863a7672" title=" " alt="" coords="720,177,920,222"/>
+<area shape="poly" id="edge7_Node000008_Node000009" title=" " alt="" coords="673,176,705,180,705,186,672,181"/>
+<area shape="rect" id="Node000010" href="$d2/d73/group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd" title="Get a color from a palette." alt="" coords="753,56,887,84"/>
+<area shape="poly" id="edge8_Node000008_Node000010" title=" " alt="" coords="615,139,664,115,719,93,740,86,742,91,721,98,667,120,617,144"/>
+<area shape="rect" id="Node000014" href="$de/db5/classfl_1_1_twinkle_fox.html#aff3c7b29001c2e1f4f6516e14000b22a" title=" " alt="" coords="735,108,905,152"/>
+<area shape="poly" id="edge12_Node000008_Node000014" title=" " alt="" coords="672,148,719,141,720,147,673,153"/>
+<area shape="poly" id="edge9_Node000010_Node000003" title=" " alt="" coords="888,79,921,93,936,104,946,114,969,137,992,150,989,155,966,141,942,118,933,108,918,98,886,84"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="887,75,1401,136,1400,141,887,80"/>
+<area shape="poly" id="edge11_Node000010_Node000007" title=" " alt="" coords="887,67,1351,67,1351,72,887,72"/>
+<area shape="poly" id="edge14_Node000016_Node000006" title=" " alt="" coords="1259,31,1368,93,1422,122,1420,127,1365,98,1257,36"/>
+<area shape="poly" id="edge15_Node000016_Node000007" title=" " alt="" coords="1299,31,1383,50,1382,55,1298,36"/>
+<area shape="rect" id="Node000018" href="$d0/da8/group___scaling.html#ga700b7f510f32e8c91385093c436c27d9" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="968,252,1098,280"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="652,300,919,275,952,272,952,277,920,280,652,306"/>
+<area shape="poly" id="edge18_Node000018_Node000006" title=" " alt="" coords="1098,249,1201,225,1318,194,1410,163,1411,168,1319,199,1203,230,1099,255"/>
+</map>

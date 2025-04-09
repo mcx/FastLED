@@ -1,0 +1,5 @@
+<map id="REFHardwareSPIOutput::select" name="REFHardwareSPIOutput::select">
+<area shape="rect" id="Node000001" title="latch the CS select" alt="" coords="5,5,179,50"/>
+<area shape="rect" id="Node000002" href="$dd/da1/class_selectable.html#a5536adac637a1c55c3778158c7f38840" title="Select this object." alt="" coords="227,14,363,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,25,211,25,211,30,179,30"/>
+</map>

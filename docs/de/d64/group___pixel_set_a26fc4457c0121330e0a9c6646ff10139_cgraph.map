@@ -1,0 +1,7 @@
+<map id="CPixelView::operator&#45;&#45;" name="CPixelView::operator&#45;&#45;">
+<area shape="rect" id="Node000001" title="Decrement every pixel value in this set." alt="" coords="5,32,171,60"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#af3254e14aaccb1e8b38272ddeb6d8013" title="Makes an iterator instance for the start of the LED set." alt="" coords="219,5,355,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,32,203,28,204,33,171,37"/>
+<area shape="rect" id="Node000003" href="$de/d64/group___pixel_set.html#a5492e41e8b06dc599ab81b465c4236ed" title="Makes an iterator instance for the end of the LED set." alt="" coords="225,57,349,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,54,210,59,209,64,170,59"/>
+</map>

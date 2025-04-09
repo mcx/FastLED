@@ -1,0 +1,7 @@
+<map id="fl::DigitalPinImpl::setPinMode" name="fl::DigitalPinImpl::setPinMode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,24,135,68"/>
+<area shape="rect" id="Node000002" href="$d7/d68/class_pin.html#a3b1c3fa3480cd4a57c065f2e8811543a" title="Set the pin mode as INPUT" alt="" coords="188,5,290,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,33,173,27,174,32,136,38"/>
+<area shape="rect" id="Node000003" href="$d7/d68/class_pin.html#a2309200ff683097b1aa8679ae3dc1e30" title="Set the pin mode as OUTPUT" alt="" coords="183,57,296,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,53,167,58,167,63,135,58"/>
+</map>

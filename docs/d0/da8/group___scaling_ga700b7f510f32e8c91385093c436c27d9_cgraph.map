@@ -1,0 +1,7 @@
+<map id="nscale8x3_video" name="nscale8x3_video">
+<area shape="rect" id="Node000001" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="5,36,136,64"/>
+<area shape="rect" id="Node000002" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="224,5,320,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,37,209,26,210,31,136,43"/>
+<area shape="rect" id="Node000003" href="$d0/da5/group___scaling_dirty.html#gadfd26d9b154f5ec79dbffe612dafd146" title="In place modifying version of scale8_video() that does not clean up the R1 register on AVR." alt="" coords="184,57,361,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,57,169,61,168,67,136,62"/>
+</map>

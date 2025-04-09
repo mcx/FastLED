@@ -1,0 +1,7 @@
+<map id="PixelController::loadAndScale_WS2816_HD" name="PixelController::loadAndScale_WS2816_HD">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,24,183,68"/>
+<area shape="rect" id="Node000002" href="$d1/d12/group__intmap.html#gab217a118917847ecb8148cdc41fa6e07" title=" " alt="" coords="231,5,332,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,31,215,26,216,31,183,36"/>
+<area shape="rect" id="Node000003" href="$d0/da8/group___scaling.html#gaa51d5b048c2a4a20a00bddcdc257daaf" title="Scale a 16&#45;bit unsigned value by an 8&#45;bit value, which is treated as the numerator of a fraction whos..." alt="" coords="234,57,329,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,55,218,60,218,65,182,60"/>
+</map>

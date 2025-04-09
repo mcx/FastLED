@@ -1,0 +1,26 @@
+<map id="ColorFromPalette" name="ColorFromPalette">
+<area shape="rect" id="Node000001" title="Get a color from a palette." alt="" coords="5,208,139,236"/>
+<area shape="rect" id="Node000002" href="$dc/db8/group___color_blends.html#ga4f06b4423f71f77346aaf5dabe7dd05c" title="Computes a new color blended some fraction of the way between two other colors." alt="" coords="211,93,268,121"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,205,204,128,207,132,95,210"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="617,107,714,134"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="134,205,186,194,415,154,601,127,602,132,416,160,187,199,135,210"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="568,5,763,33"/>
+<area shape="poly" id="edge13_Node000001_Node000006" title=" " alt="" coords="78,206,118,145,148,109,185,80,229,56,275,38,323,25,372,15,468,6,553,6,553,11,468,11,373,20,324,30,277,43,231,61,188,84,152,113,122,148,83,209"/>
+<area shape="rect" id="Node000007" href="$da/d2d/colorutils_8cpp.html#ab445fd8641e95a3bbd1417d9783f6170" title="Helper function to divide a number by 16, aka four logical shift right (LSR)&#39;s." alt="" coords="213,208,267,236"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="139,219,197,219,197,224,139,224"/>
+<area shape="rect" id="Node000008" href="$d6/d19/group___linear_interpolation.html#gaf65357c7aeca9778e5a2f80a6bac2b5d" title="Map from one full&#45;range 8&#45;bit value into a narrower range of 8&#45;bit values, possibly a range of hues." alt="" coords="211,309,269,337"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="98,234,204,299,201,303,95,238"/>
+<area shape="rect" id="Node000009" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="342,284,405,312"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="131,234,327,284,326,289,130,239"/>
+<area shape="rect" id="Node000010" href="$d0/da8/group___scaling.html#ga628b417ea1507e3447cdf5f308d9b6d5" title="The &quot;video&quot; version of scale8() guarantees that the output will be only be zero if one or both of the..." alt="" coords="187,361,293,389"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="86,235,127,287,156,318,188,346,195,351,192,355,185,351,153,322,123,291,81,238"/>
+<area shape="rect" id="Node000003" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="341,68,406,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="268,99,325,88,326,93,269,104"/>
+<area shape="rect" id="Node000004" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="454,56,520,84"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="406,76,439,72,439,78,407,81"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="407,85,455,93,602,111,601,116,454,98,407,90"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="399,65,454,42,502,31,552,23,553,29,503,36,455,47,401,70"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="521,76,603,100,601,105,519,82"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="519,58,598,35,600,40,521,63"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="269,315,327,304,328,309,270,320"/>
+</map>

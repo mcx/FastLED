@@ -1,0 +1,9 @@
+<map id="rgb_2_rgbw_white_boosted" name="rgb_2_rgbw_white_boosted">
+<area shape="rect" id="Node000001" title="Converts RGB to RGBW with a boosted white channel." alt="" coords="5,83,204,111"/>
+<area shape="rect" id="Node000002" href="$d5/d9e/namespaceanonymous__namespace_02rgbw_8cpp_03.html#aa548790ff732b63dd9564ca586f07015" title=" " alt="" coords="252,5,437,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,80,249,52,251,57,156,85"/>
+<area shape="rect" id="Node000003" href="$d5/d9e/namespaceanonymous__namespace_02rgbw_8cpp_03.html#a81ced55db6e7d50e84ce729e6bf3223d" title=" " alt="" coords="255,75,434,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,94,239,94,239,100,204,100"/>
+<area shape="rect" id="Node000004" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="313,143,376,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,109,298,143,297,148,162,114"/>
+</map>

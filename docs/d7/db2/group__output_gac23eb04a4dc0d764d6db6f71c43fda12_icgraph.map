@@ -1,0 +1,17 @@
+<map id="MidiInterface::sendRealTime" name="MidiInterface::sendRealTime">
+<area shape="rect" id="Node000001" title="Send a Real Time (one byte) message." alt="" coords="258,178,466,206"/>
+<area shape="rect" id="Node000002" href="$df/d6a/class_midi_interface.html#aca0268305122b38298c5e3f4992f923e" title=" " alt="" coords="14,5,201,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="335,168,280,116,245,89,208,65,184,53,187,48,211,60,248,85,283,112,339,165"/>
+<area shape="rect" id="Node000003" href="$df/d6a/class_midi_interface.html#a6294215995f743679b4d15536cb9b0cf" title=" " alt="" coords="16,74,199,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="322,172,269,144,209,117,171,105,173,100,211,112,272,139,325,168"/>
+<area shape="rect" id="Node000004" href="$df/d6a/class_midi_interface.html#a7cb85663c319568f24dab2fa9e00bb51" title=" " alt="" coords="5,126,210,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="275,177,178,157,180,152,276,172"/>
+<area shape="rect" id="Node000005" href="$df/d6a/class_midi_interface.html#a21bc543581b50f0af2cab15c83192c8d" title=" " alt="" coords="19,178,196,206"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="242,194,197,194,197,189,242,189"/>
+<area shape="rect" id="Node000006" href="$df/d6a/class_midi_interface.html#a00fc8da28083fc9dc7814965f2dee700" title=" " alt="" coords="20,230,195,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="276,212,180,232,178,227,275,207"/>
+<area shape="rect" id="Node000007" href="$df/d6a/class_midi_interface.html#a4b2302bf337a4b59ceb2aaa54c6365d4" title=" " alt="" coords="10,281,205,326"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="323,216,211,271,181,283,179,278,209,267,321,211"/>
+<area shape="rect" id="Node000008" href="$df/d6a/class_midi_interface.html#a048fe4d5ef9c51b00649f17cbf885ff7" title=" " alt="" coords="21,350,194,378"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="343,219,288,281,252,313,211,341,186,352,184,347,208,336,248,309,284,277,339,216"/>
+</map>

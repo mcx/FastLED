@@ -1,0 +1,9 @@
+<map id="Color3i::Mul" name="Color3i::Mul">
+<area shape="rect" id="Node000001" title=" " alt="" coords="269,74,368,102"/>
+<area shape="rect" id="Node000002" href="$dd/dc5/class_frame_buffer_base.html#a7a15156a0f9992f7b7a4ad266bbcef1a" title=" " alt="" coords="5,5,221,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,72,191,53,193,48,255,66"/>
+<area shape="rect" id="Node000003" href="$de/d12/struct_color3i.html#a6922d9706496f50eae0ff94281457e2f" title=" " alt="" coords="40,74,186,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,90,187,90,187,85,254,85"/>
+<area shape="rect" id="Node000004" href="$de/d12/struct_color3i.html#ace8773746358b0a1681b8ab2274d9b07" title=" " alt="" coords="63,126,163,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="254,107,221,116,164,130,162,125,220,110,253,102"/>
+</map>

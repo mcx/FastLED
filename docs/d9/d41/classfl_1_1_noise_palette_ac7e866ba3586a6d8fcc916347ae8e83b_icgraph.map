@@ -1,0 +1,13 @@
+<map id="fl::NoisePalette::SetupRandomPalette" name="fl::NoisePalette::SetupRandomPalette">
+<area shape="rect" id="Node000001" title=" " alt="" coords="600,57,819,102"/>
+<area shape="rect" id="Node000002" href="$d9/d41/classfl_1_1_noise_palette.html#ae6488d109988a70f949dba4dd8f3d2ed" title=" " alt="" coords="360,57,552,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="585,82,553,82,553,76,585,76"/>
+<area shape="rect" id="Node000003" href="$d9/d41/classfl_1_1_noise_palette.html#ace0d9f2e7767ae3fb89dc47434024244" title=" " alt="" coords="103,5,312,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,55,267,36,268,31,347,50"/>
+<area shape="rect" id="Node000004" href="$d9/d41/classfl_1_1_noise_palette.html#a42d01b57f572eeb194742aef96d9c755" title=" " alt="" coords="120,57,294,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="345,82,295,82,295,76,345,76"/>
+<area shape="rect" id="Node000006" href="$d6/d35/_fx_engine_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="179,125,236,153"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="347,108,237,135,236,130,345,103"/>
+<area shape="rect" id="Node000005" href="$df/d43/_overclock_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,65,55,93"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="105,82,55,82,55,76,105,76"/>
+</map>

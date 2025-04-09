@@ -1,0 +1,13 @@
+<map id="nblend" name="nblend">
+<area shape="rect" id="Node000001" title="Destructively blends a given fraction of a color array into an existing color array." alt="" coords="5,43,71,70"/>
+<area shape="rect" id="Node000002" href="$dc/db8/group___color_blends.html#ga325120664a9c9b41abceee65303b0c4e" title="Destructively modifies one color, blending in a given fraction of an overlay color." alt="" coords="119,43,184,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,54,103,54,103,59,71,59"/>
+<area shape="rect" id="Node000003" href="$d5/d98/group___math.html#ga9a604de042246d6c87fdbfdd5578f377" title="Blend a variable proportion (0&#45;255) of one byte to another." alt="" coords="232,43,297,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="184,54,216,54,216,59,184,59"/>
+<area shape="rect" id="Node000004" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="395,5,491,33"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="184,42,231,29,308,19,379,16,379,21,308,24,233,34,185,47"/>
+<area shape="rect" id="Node000005" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="345,69,541,97"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="185,67,232,79,281,84,330,86,330,91,281,90,232,84,184,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="297,47,379,30,380,35,298,52"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="298,59,332,64,331,69,297,64"/>
+</map>

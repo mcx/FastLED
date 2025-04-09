@@ -1,0 +1,7 @@
+<map id="Pin::setInput" name="Pin::setInput">
+<area shape="rect" id="Node000001" title="Set the pin mode as INPUT" alt="" coords="189,36,291,64"/>
+<area shape="rect" id="Node000002" href="$d8/dd7/class_input_pin.html#acf74eef6677cb410c9f6534f8ec34005" title="Constructor." alt="" coords="5,5,141,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,40,141,34,142,29,174,35"/>
+<area shape="rect" id="Node000003" href="$d3/d25/classfl_1_1_digital_pin_impl.html#a52b7c62cb136adbb22283fc1345d6918" title=" " alt="" coords="8,57,138,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,64,139,70,138,65,173,59"/>
+</map>

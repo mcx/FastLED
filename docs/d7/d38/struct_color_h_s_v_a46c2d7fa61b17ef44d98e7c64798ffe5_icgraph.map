@@ -1,0 +1,17 @@
+<map id="ColorHSV::ToRGB" name="ColorHSV::ToRGB">
+<area shape="rect" id="Node000001" title=" " alt="" coords="422,91,553,119"/>
+<area shape="rect" id="Node000002" href="$dd/d45/struct_painter.html#a99ab92bb8d2baae96c7b4b4aacda4de3" title=" " alt="" coords="5,91,112,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="459,83,420,53,373,30,314,14,267,8,219,13,161,30,134,42,110,59,74,93,70,89,107,55,132,38,159,25,218,8,267,3,315,9,375,25,423,49,462,78"/>
+<area shape="rect" id="Node000003" href="$dd/d45/struct_painter.html#a023fedf9449a5964c0c576805a22d049" title=" " alt="" coords="168,39,366,67"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="410,90,328,70,330,65,411,84"/>
+<area shape="rect" id="Node000004" href="$dd/d45/struct_painter.html#aac192da55e15dd79b498933180c06725" title=" " alt="" coords="160,91,374,119"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="406,108,374,108,374,102,406,102"/>
+<area shape="rect" id="Node000005" href="$dd/d45/struct_painter.html#a3b521f31ff7f7249ce1c88ca56f5ad80" title=" " alt="" coords="187,143,347,171"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="411,126,330,145,328,140,410,120"/>
+<area shape="rect" id="Node000006" href="$dd/d45/struct_painter.html#ab6318a63a778550cd78f3eae183cb8dc" title=" " alt="" coords="178,195,356,223"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="460,131,421,159,375,185,341,197,339,192,373,180,418,154,456,127"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="194,74,160,82,113,94,112,89,159,77,193,68"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="144,108,112,108,112,102,144,102"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="193,141,159,133,112,121,113,116,160,128,194,136"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="176,192,158,185,109,153,72,121,76,117,113,149,161,180,178,187"/>
+</map>

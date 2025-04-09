@@ -1,0 +1,20 @@
+<map id="fl::FixedMap::empty" name="fl::FixedMap::empty">
+<area shape="rect" id="Node000001" title=" " alt="" coords="515,84,665,112"/>
+<area shape="rect" id="Node000002" href="$d4/d60/classfl_1_1_fx_engine.html#a1e840a27e09686190e44844b3f062642" title="Adds a new effect to the engine." alt="" coords="322,7,467,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="538,80,431,37,433,32,540,75"/>
+<area shape="rect" id="Node000004" href="$d4/d60/classfl_1_1_fx_engine.html#aa0b3b17d66712b3c2184d8c59c6b55f1" title="Renders the current effect or transition to the output buffer." alt="" coords="120,57,257,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="500,95,257,78,258,73,500,89"/>
+<area shape="rect" id="Node000006" href="$d2/df3/classfl_1_1_fixed_map.html#a86e9680f024d9fb7a7fa9f96a90f4a1e" title=" " alt="" coords="326,109,463,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="500,112,463,117,463,112,499,107"/>
+<area shape="rect" id="Node000009" href="$d2/df3/classfl_1_1_fixed_map.html#a35706a466e8c68cf3c5e9b8c94f8e17d" title=" " alt="" coords="326,161,463,189"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="542,121,468,151,436,163,434,158,466,146,540,116"/>
+<area shape="rect" id="Node000003" href="$d6/d35/_fx_engine_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="160,5,217,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,23,217,22,217,17,307,17"/>
+<area shape="rect" id="Node000005" href="$d6/d35/_fx_engine_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,84,55,112"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="105,88,55,96,55,91,104,83"/>
+<area shape="rect" id="Node000007" href="$d4/d60/classfl_1_1_fx_engine.html#a478ed2a69d36050013ef81ffb59799a0" title="Transitions to the next effect in the sequence." alt="" coords="113,109,264,137"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="311,126,264,126,264,120,311,120"/>
+<area shape="rect" id="Node000008" href="$d4/d60/classfl_1_1_fx_engine.html#acb1a08ee3735bf9269d8a60370b02315" title="Requests removal of an effect from the engine, which might not happen immediately (for example the Fx..." alt="" coords="103,161,274,189"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="323,144,247,163,246,158,321,139"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="97,111,55,104,56,99,98,106"/>
+</map>

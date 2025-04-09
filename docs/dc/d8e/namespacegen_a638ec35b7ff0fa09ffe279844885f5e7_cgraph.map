@@ -1,0 +1,9 @@
+<map id="gen.two_angle_test2" name="gen.two_angle_test2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,162,33"/>
+<area shape="rect" id="Node000002" href="$dc/d8e/namespacegen.html#abcd6c0f8a022a7f642eabd9c662e5ad9" title=" " alt="" coords="210,5,330,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,16,194,16,194,22,162,22"/>
+<area shape="rect" id="Node000003" href="$dc/d8e/namespacegen.html#a4fc5b1da59ed64885db8585feea6794a" title=" " alt="" coords="378,5,496,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="331,16,362,16,362,22,331,22"/>
+<area shape="rect" id="Node000004" href="$dc/d8e/namespacegen.html#abe8bcb9c211028969da2d65b3f1d42fd" title=" " alt="" coords="544,5,639,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="497,16,529,16,529,22,497,22"/>
+</map>

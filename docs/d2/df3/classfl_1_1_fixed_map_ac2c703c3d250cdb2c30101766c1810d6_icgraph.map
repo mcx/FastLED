@@ -1,0 +1,13 @@
+<map id="fl::FixedMap::get" name="fl::FixedMap::get">
+<area shape="rect" id="Node000001" title=" " alt="" coords="322,84,450,112"/>
+<area shape="rect" id="Node000002" href="$d4/d60/classfl_1_1_fx_engine.html#aa0b3b17d66712b3c2184d8c59c6b55f1" title="Renders the current effect or transition to the output buffer." alt="" coords="120,5,257,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,79,273,48,238,36,240,31,275,43,345,74"/>
+<area shape="rect" id="Node000004" href="$d4/d60/classfl_1_1_fx_engine.html#ad7719f0e21da65b52ba415978a2a9f41" title="Retrieves an effect from the engine without removing it." alt="" coords="117,57,260,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="306,90,260,83,261,78,307,84"/>
+<area shape="rect" id="Node000005" href="$d4/d60/classfl_1_1_fx_engine.html#acb1a08ee3735bf9269d8a60370b02315" title="Requests removal of an effect from the engine, which might not happen immediately (for example the Fx..." alt="" coords="103,109,274,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="307,111,275,115,274,110,306,105"/>
+<area shape="rect" id="Node000006" href="$d1/ddb/_chromancer_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="160,161,217,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="344,121,275,151,218,170,216,165,273,146,342,116"/>
+<area shape="rect" id="Node000003" href="$d6/d35/_fx_engine_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,22,55,22,55,16,104,16"/>
+</map>

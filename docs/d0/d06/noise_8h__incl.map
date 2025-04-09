@@ -1,0 +1,32 @@
+<map id="/home/runner/work/FastLED/FastLED/src/noise.h" name="/home/runner/work/FastLED/FastLED/src/noise.h">
+<area shape="rect" id="Node000001" title="Functions to generate and fill arrays with noise." alt="" coords="251,5,450,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="191,249,262,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,45,188,61,123,86,92,104,63,124,37,148,16,175,8,195,13,211,29,224,52,235,113,250,176,257,175,262,113,255,50,240,26,229,9,214,3,195,11,172,33,144,59,120,89,99,120,82,187,56,250,39"/>
+<area shape="rect" id="Node000003" href="$db/dd1/crgb_8h.html" title="Defines the red, green, and blue (RGB) pixel struct." alt="" coords="484,98,545,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="395,48,476,88,474,93,393,53"/>
+<area shape="rect" id="Node000005" href="$df/d2a/namespace_8h.html" title="Implements the FastLED namespace macros." alt="" coords="644,249,764,277"/>
+<area shape="poly" id="edge17_Node000001_Node000005" title=" " alt="" coords="451,41,564,61,687,89,744,107,794,126,834,148,861,172,868,186,868,199,861,211,850,221,818,238,780,250,778,245,816,233,847,217,857,208,862,198,863,187,856,175,831,152,792,131,742,112,686,95,563,66,450,46"/>
+<area shape="rect" id="Node000010" href="$d2/d19/qfx_8h.html" title=" " alt="" coords="25,174,132,201"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="315,53,115,168,112,164,312,48"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="483,117,413,121,326,131,246,149,216,161,197,175,191,189,192,204,208,236,203,238,187,206,185,188,192,172,213,156,244,144,325,126,412,116,483,112"/>
+<area shape="rect" id="Node000004" href="$d8/dd0/chsv_8h.html" title="Defines the hue, saturation, and value (HSV) pixel struct." alt="" coords="673,174,735,201"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="547,123,659,166,658,171,545,128"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="546,112,617,116,705,126,786,144,817,156,838,172,845,184,845,196,840,207,831,217,804,234,771,247,769,242,802,229,828,213,836,204,840,195,840,186,834,175,815,161,784,149,704,131,616,121,545,117"/>
+<area shape="rect" id="Node000006" href="$d2/d6b/src_2color_8h.html" title="Contains definitions for color correction and temperature." alt="" coords="760,174,824,201"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="546,119,746,171,744,176,545,124"/>
+<area shape="rect" id="Node000007" href="$d9/ddf/lib8tion_2types_8h.html" title="Defines fractional types used for lib8tion functions." alt="" coords="527,174,649,201"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="530,124,566,161,562,164,526,128"/>
+<area shape="rect" id="Node000008" href="$d8/d2d/fl_2force__inline_8h.html" title=" " alt="" coords="382,174,503,201"/>
+<area shape="poly" id="edge13_Node000003_Node000008" title=" " alt="" coords="504,128,468,164,464,161,500,124"/>
+<area shape="rect" id="Node000009" href="$d8/d0c/template__magic_8h.html" title=" " alt="" coords="207,174,358,201"/>
+<area shape="poly" id="edge14_Node000003_Node000009" title=" " alt="" coords="484,126,339,171,338,166,482,120"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="673,201,662,204,555,224,449,240,278,260,277,255,448,235,554,219,661,199,672,196"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="707,202,707,234,701,234,701,202"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="778,204,733,241,729,237,774,200"/>
+<area shape="poly" id="edge11_Node000007_Node000002" title=" " alt="" coords="527,204,277,254,276,249,526,199"/>
+<area shape="poly" id="edge12_Node000007_Node000005" title=" " alt="" coords="610,200,672,239,669,243,607,204"/>
+<area shape="poly" id="edge15_Node000009_Node000002" title=" " alt="" coords="275,204,248,239,243,235,270,200"/>
+<area shape="poly" id="edge16_Node000009_Node000005" title=" " alt="" coords="359,199,629,246,629,251,358,205"/>
+<area shape="poly" id="edge19_Node000010_Node000002" title=" " alt="" coords="106,199,188,240,186,245,104,204"/>
+<area shape="poly" id="edge20_Node000010_Node000005" title=" " alt="" coords="133,192,628,250,628,256,132,198"/>
+</map>

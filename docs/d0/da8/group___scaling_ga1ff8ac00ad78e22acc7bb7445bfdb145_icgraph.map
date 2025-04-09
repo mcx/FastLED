@@ -1,0 +1,53 @@
+<map id="scale16" name="scale16">
+<area shape="rect" id="Node000001" title="Scale a 16&#45;bit unsigned value by an 16&#45;bit value, which is treated as the numerator of a fraction who..." alt="" coords="682,260,754,288"/>
+<area shape="rect" id="Node000002" href="$d6/d6c/group___beat_generators.html#gaa46e5de1c4c27833359e7a97a18c839b" title="Generates a 16&#45;bit sine wave at a given BPM that oscillates within a given range." alt="" coords="520,233,605,261"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="667,268,605,257,606,252,668,263"/>
+<area shape="rect" id="Node000014" href="$d6/d6c/group___beat_generators.html#gaf917825ff26c8e1174c5b674a2f3c631" title="Generates a 16&#45;bit sine wave at a given BPM that oscillates within a given range." alt="" coords="520,61,605,89"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="708,246,698,213,682,174,661,136,633,103,604,86,607,82,636,98,665,133,687,172,703,211,713,244"/>
+<area shape="rect" id="Node000018" href="$d4/dfe/group___easing.html#ga095436838e41397fad4dd50bb81f7ae8" title="16&#45;bit quadratic ease&#45;in / ease&#45;out function." alt="" coords="494,285,631,313"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="667,285,632,291,631,285,667,279"/>
+<area shape="rect" id="Node000019" href="$de/da4/group___noise_fill.html#ga8fdd92f7a3a96d6f131300cc79c933f6" title="Fill a 2D 16&#45;bit buffer with noise, using inoise16()" alt="" coords="491,361,633,389"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="684,299,587,363,584,359,681,294"/>
+<area shape="rect" id="Node000020" href="$d6/d19/group___linear_interpolation.html#gad4b09aba4e188e14d3e71d1c9f77f1a5" title="Linear interpolation between two signed 15&#45;bit values, with 8&#45;bit fraction." alt="" coords="515,413,609,441"/>
+<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="707,303,679,353,659,380,636,403,611,417,609,412,633,398,655,376,675,350,703,301"/>
+<area shape="rect" id="Node000021" href="$d6/d19/group___linear_interpolation.html#ga7c02960d0f26e90054c7312e5f9a55b3" title="Linear interpolation between two unsigned 16&#45;bit values, with 16&#45;bit fraction." alt="" coords="515,468,609,496"/>
+<area shape="poly" id="edge23_Node000001_Node000021" title=" " alt="" coords="713,303,703,337,687,378,665,418,636,454,611,471,609,466,633,451,661,415,683,375,698,336,708,302"/>
+<area shape="rect" id="Node000023" href="$d2/db2/classfl_1_1_pacifica.html#ac949d5e9a88b724a060954658b892ebc" title=" " alt="" coords="490,113,634,158"/>
+<area shape="poly" id="edge25_Node000001_Node000023" title=" " alt="" coords="698,248,670,210,633,172,615,160,618,156,636,168,674,206,702,245"/>
+<area shape="rect" id="Node000024" href="$dc/d25/_pacifica_8ino.html#a74ff76f68b211ed517ba9110d1084302" title=" " alt="" coords="491,181,633,209"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="682,253,633,224,605,212,607,207,636,219,685,249"/>
+<area shape="rect" id="Node000003" href="$d2/db2/classfl_1_1_pacifica.html#a264d0c1db5db60028b6fab87af13d700" title=" " alt="" coords="287,109,413,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="504,232,488,223,472,204,464,186,456,168,440,152,412,138,415,133,444,148,460,166,469,184,476,201,492,218,507,228"/>
+<area shape="rect" id="Node000005" href="$d1/d60/classfl_1_1_demo_reel100.html#ad98699eb2a5f15302d2b95e07f2f69d2" title=" " alt="" coords="261,213,438,241"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="504,244,439,238,439,233,504,239"/>
+<area shape="rect" id="Node000006" href="$d5/d25/_demo_reel100_8ino.html#a4cf4b428065fac16dc28a16e2f9004e1" title=" " alt="" coords="319,265,380,293"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="504,259,381,277,380,272,503,253"/>
+<area shape="rect" id="Node000009" href="$dd/d61/_fx_water_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="325,369,374,397"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="507,266,492,276,476,296,469,317,461,338,444,359,410,376,376,384,374,378,408,371,440,354,457,335,464,315,471,293,488,272,504,262"/>
+<area shape="rect" id="Node000010" href="$dc/d25/_pacifica_8ino.html#a158d427a947ef0a715c7ffd916346acc" title=" " alt="" coords="297,161,403,189"/>
+<area shape="poly" id="edge8_Node000002_Node000010" title=" " alt="" coords="507,230,489,223,441,204,402,192,404,187,443,199,491,218,509,225"/>
+<area shape="rect" id="Node000012" href="$d1/d60/classfl_1_1_demo_reel100.html#a3ff4d3fc05b6e3a158d49d65cd954e1d" title=" " alt="" coords="258,421,442,449"/>
+<area shape="poly" id="edge10_Node000002_Node000012" title=" " alt="" coords="507,265,492,276,479,292,473,309,469,342,465,376,458,393,444,410,426,423,423,419,440,407,453,391,460,375,464,342,468,307,475,290,488,272,504,260"/>
+<area shape="rect" id="Node000013" href="$d5/d25/_demo_reel100_8ino.html#ae67f05643df1798b39ca5b88496dcebf" title=" " alt="" coords="316,317,384,345"/>
+<area shape="poly" id="edge11_Node000002_Node000013" title=" " alt="" coords="506,269,491,276,468,292,443,307,385,326,383,321,441,302,465,287,489,272,504,264"/>
+<area shape="rect" id="Node000004" href="$dc/ded/_fx_pacifica_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="83,109,132,137"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="271,126,133,126,133,120,271,120"/>
+<area shape="rect" id="Node000007" href="$d1/d60/classfl_1_1_demo_reel100.html#aad4b41d93c1a9f7acecea8b49cda7078" title=" " alt="" coords="5,291,210,318"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="304,287,210,296,210,291,303,281"/>
+<area shape="rect" id="Node000011" href="$dc/d25/_pacifica_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="83,161,132,189"/>
+<area shape="poly" id="edge9_Node000010_Node000011" title=" " alt="" coords="282,178,132,178,132,172,282,172"/>
+<area shape="poly" id="edge12_Node000013_Node000007" title=" " alt="" coords="300,328,210,318,211,313,300,323"/>
+<area shape="poly" id="edge14_Node000014_Node000003" title=" " alt="" coords="505,91,414,112,413,106,503,86"/>
+<area shape="poly" id="edge17_Node000014_Node000010" title=" " alt="" coords="506,95,491,103,477,114,468,126,459,139,443,151,405,167,402,162,441,146,455,135,464,123,473,111,489,98,504,90"/>
+<area shape="rect" id="Node000015" href="$df/d11/classfl_1_1_pride2015.html#a331b131b082d622bbd9208bf05308d0d" title=" " alt="" coords="279,5,421,33"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="504,63,405,36,406,31,505,58"/>
+<area shape="rect" id="Node000017" href="$d0/dce/_pride2015_8ino.html#a6e24bc1de16730062b4d4be6ad4f8e3b" title=" " alt="" coords="323,57,377,85"/>
+<area shape="poly" id="edge18_Node000014_Node000017" title=" " alt="" coords="504,77,377,74,377,69,504,71"/>
+<area shape="rect" id="Node000016" href="$d2/db0/_fx_pride2015_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="83,5,132,33"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="264,22,133,22,133,16,264,16"/>
+<area shape="poly" id="edge21_Node000019_Node000019" title=" " alt="" coords="588,348,579,342,562,340,546,342,538,346,536,352,539,360,535,362,530,352,534,343,545,337,562,335,581,337,591,343"/>
+<area shape="rect" id="Node000022" href="$db/d87/group___pixel_types.html#a50b3dca085a99aa549c19ef0aabe3c5c" title="Return a new CRGB object after performing a linear interpolation between this object and the passed i..." alt="" coords="296,473,404,501"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="500,486,404,488,404,483,500,481"/>
+<area shape="poly" id="edge26_Node000023_Node000003" title=" " alt="" coords="475,133,413,129,414,124,475,128"/>
+<area shape="poly" id="edge28_Node000024_Node000010" title=" " alt="" coords="475,190,403,183,403,177,476,184"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ColorFromPalette" name="ColorFromPalette">
+<area shape="rect" id="Node000001" title="Get a color from a palette." alt="" coords="5,5,139,33"/>
+<area shape="rect" id="Node000002" href="$d0/da8/group___scaling.html#ga628b417ea1507e3447cdf5f308d9b6d5" title="The &quot;video&quot; version of scale8() guarantees that the output will be only be zero if one or both of the..." alt="" coords="187,5,293,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,16,171,16,171,22,139,22"/>
+</map>

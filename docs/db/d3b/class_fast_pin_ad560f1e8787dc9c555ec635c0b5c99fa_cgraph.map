@@ -1,0 +1,5 @@
+<map id="FastPin::fastset" name="FastPin::fastset">
+<area shape="rect" id="Node000001" title="Set the state of a port." alt="" coords="5,5,126,33"/>
+<area shape="rect" id="Node000002" href="$db/d3b/class_fast_pin.html#ab005abe848eadb60051daccb4eb7dbe8" title="Get the output state of the port." alt="" coords="174,5,275,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,16,158,16,158,22,126,22"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ease16InOutQuad" name="ease16InOutQuad">
+<area shape="rect" id="Node000001" title="16&#45;bit quadratic ease&#45;in / ease&#45;out function." alt="" coords="5,5,143,33"/>
+<area shape="rect" id="Node000002" href="$d0/da8/group___scaling.html#ga1ff8ac00ad78e22acc7bb7445bfdb145" title="Scale a 16&#45;bit unsigned value by an 16&#45;bit value, which is treated as the numerator of a fraction who..." alt="" coords="191,5,262,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,16,175,16,175,22,143,22"/>
+</map>

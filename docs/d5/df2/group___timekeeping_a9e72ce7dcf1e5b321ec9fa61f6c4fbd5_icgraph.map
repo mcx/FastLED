@@ -1,0 +1,20 @@
+<map id="CEveryNTime::getTime" name="CEveryNTime::getTime">
+<area shape="rect" id="Node000001" title="Get the current time according to the class&#39; timekeeper." alt="" coords="754,109,927,137"/>
+<area shape="rect" id="Node000002" href="$d5/df2/group___timekeeping.html#abf8af3755a0c9c8ac5d1f70eabef5c3b" title="Get the time elapsed since the last trigger event." alt="" coords="516,57,706,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="761,108,675,88,676,83,762,103"/>
+<area shape="rect" id="Node000006" href="$d5/df2/group___timekeeping.html#ae8ae82d26045e38ca51fbf424ad58d86" title="Reset the timestamp to the current time." alt="" coords="536,109,687,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="739,126,687,126,687,120,739,120"/>
+<area shape="rect" id="Node000009" href="$d5/df2/group___timekeeping.html#a192e33c921fff572ca54d4fd85c70e16" title="Reset the timestamp so it is ready() on next call." alt="" coords="530,161,692,189"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="762,144,676,163,675,158,761,138"/>
+<area shape="rect" id="Node000003" href="$d5/df2/group___timekeeping.html#af9baddee5f65500d9b1488e4264c8ff1" title="Get the time until the next trigger event." alt="" coords="259,5,468,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="526,56,432,36,434,31,527,51"/>
+<area shape="rect" id="Node000004" href="$d5/df2/group___timekeeping.html#ad248eee37ab69d2f0d27f6cb5a909b32" title="Check if the time interval has elapsed." alt="" coords="286,57,441,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="500,74,442,74,442,68,500,68"/>
+<area shape="rect" id="Node000005" href="$d5/df2/group___timekeeping.html#a6895b6156f44263f53a386c2f83e3a02" title="Check if the time interval has elapsed." alt="" coords="5,57,211,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="270,74,211,74,211,68,270,68"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="526,108,432,88,434,83,527,103"/>
+<area shape="rect" id="Node000007" href="$d5/df2/group___timekeeping.html#a8842463241cb9579949cb34c724e6d65" title="Default constructor." alt="" coords="260,109,467,137"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="520,126,468,126,468,120,520,120"/>
+<area shape="rect" id="Node000008" href="$d5/df2/group___timekeeping.html#a645cdb84da00f4669e1cf22ce86a04ac" title="Constructor." alt="" coords="260,161,467,189"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="527,143,434,163,432,158,526,138"/>
+</map>

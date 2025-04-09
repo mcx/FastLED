@@ -1,0 +1,5 @@
+<map id="CRGB::setHSV" name="CRGB::setHSV">
+<area shape="rect" id="Node000001" title="Allow assignment from hue, saturation, and value." alt="" coords="5,5,119,33"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#gab316cfeb8bd5f37d8faaf761ad3c834b" title="Forward declaration of hsv2rgb_rainbow here, to avoid circular dependencies." alt="" coords="167,5,299,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,16,151,16,151,22,119,22"/>
+</map>

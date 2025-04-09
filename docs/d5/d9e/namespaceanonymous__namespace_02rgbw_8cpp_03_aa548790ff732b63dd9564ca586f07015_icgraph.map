@@ -1,0 +1,11 @@
+<map id="anonymous_namespace{rgbw::cpp}::divide_by_3" name="anonymous_namespace{rgbw::cpp}::divide_by_3">
+<area shape="rect" id="Node000001" title=" " alt="" coords="621,36,807,81"/>
+<area shape="rect" id="Node000002" href="$d1/d8d/rgbw_8cpp.html#aa6e2b44325da0172a48b20940b6e5fdf" title="Converts RGB to RGBW with a boosted white channel." alt="" coords="375,44,573,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="606,61,574,61,574,56,606,56"/>
+<area shape="rect" id="Node000003" href="$d7/dbb/rgbw_8h.html#ae9cf94c7bddcd484c4f03b0c69b7770a" title="Converts RGB to RGBW using one of the functions." alt="" coords="231,44,327,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,61,327,61,327,56,360,56"/>
+<area shape="rect" id="Node000004" href="$d0/dee/struct_pixel_controller.html#aa75c347910343e54b608faf4f4a002bd" title=" " alt="" coords="5,5,183,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,50,183,45,184,40,215,45"/>
+<area shape="rect" id="Node000006" href="$d7/dbb/rgbw_8h.html#a805fb8e51eafd6f8bd25ea28e0f0990c" title=" " alt="" coords="46,74,142,102"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="215,71,143,83,142,77,215,66"/>
+</map>

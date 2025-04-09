@@ -1,0 +1,16 @@
+<map id="PixelController::PixelController" name="PixelController::PixelController">
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,65,225,93"/>
+<area shape="rect" id="Node000002" href="$d0/dee/struct_pixel_controller.html#aa2a1b38058a62a4337605425e482202f" title="Calculate a dither value using the per&#45;channel dither data." alt="" coords="512,5,674,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,62,272,42,388,28,496,21,496,26,389,34,273,47,173,67"/>
+<area shape="rect" id="Node000004" href="$d0/dee/struct_pixel_controller.html#aa86847022436988b28343a76bab0db4c" title="Toggle dithering enable If dithering is set to enabled, this will re&#45;init the dithering values (init_..." alt="" coords="284,57,452,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="225,76,268,76,268,82,225,82"/>
+<area shape="rect" id="Node000007" href="$d0/dee/struct_pixel_controller.html#a358944f031ee8b8536d2f48ca670de77" title="Initialize the PixelController::mOffsets array based on the length of the strip." alt="" coords="273,125,464,153"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="177,91,292,119,291,124,176,96"/>
+<area shape="rect" id="Node000003" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="723,5,785,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="675,16,708,16,708,22,675,22"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="452,54,523,35,525,40,454,59"/>
+<area shape="rect" id="Node000005" href="$d0/dee/struct_pixel_controller.html#a2a8441da873d3a094c15c337b34d3e43" title="Set up the values for binary dithering." alt="" coords="520,57,666,102"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="453,76,505,76,505,82,453,82"/>
+<area shape="rect" id="Node000006" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="722,65,786,93"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="666,76,707,76,707,82,666,82"/>
+</map>

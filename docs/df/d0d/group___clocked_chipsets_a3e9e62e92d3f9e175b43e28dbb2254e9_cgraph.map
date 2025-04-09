@@ -1,0 +1,25 @@
+<map id="SM16716Controller::writeHeader" name="SM16716Controller::writeHeader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,159,154"/>
+<area shape="rect" id="Node000002" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2" title="Release the SPI chip select line." alt="" coords="207,5,375,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,107,205,60,217,54,220,59,208,65,122,111"/>
+<area shape="rect" id="Node000004" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a15872bb6ae69fd5a5c04b246fe73740e" title="Select the SPI output (chip select)" alt="" coords="207,75,375,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,116,191,111,192,116,159,122"/>
+<area shape="rect" id="Node000006" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#abc475d3c1bd94b5d61e699f7f77af905" title="Wait until the SPI subsystem is ready for more data to write." alt="" coords="207,144,375,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="159,142,192,147,191,152,158,147"/>
+<area shape="rect" id="Node000008" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a58393081ec8c54bd6968642b89e8bd43" title="Write a single byte over SPI." alt="" coords="207,213,375,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="122,152,208,199,220,204,217,209,205,203,120,157"/>
+<area shape="rect" id="Node000003" href="$dd/da1/class_selectable.html#a190c264a07995c20d72ea5d52eb60e47" title="Release this object." alt="" coords="434,14,580,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="375,25,419,25,419,30,375,30"/>
+<area shape="rect" id="Node000005" href="$dd/da1/class_selectable.html#a5536adac637a1c55c3778158c7f38840" title="Select this object." alt="" coords="439,83,575,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="375,94,423,94,423,100,375,100"/>
+<area shape="rect" id="Node000007" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a15951c5c76cc43be5b8812d29da716dc" title="Wait until the SPI subsystem is ready for more data to write." alt="" coords="423,144,591,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="375,164,407,164,407,169,375,169"/>
+<area shape="rect" id="Node000009" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497" title="Write the BIT&#39;th bit out via SPI, setting the data pin then strobing the clock." alt="" coords="423,213,591,258"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="375,233,407,233,407,238,375,238"/>
+<area shape="rect" id="Node000010" href="$db/d3b/class_fast_pin.html#add52474362013eb37903fc832e2abdc2" title="Set the pin state to HIGH" alt="" coords="654,170,741,198"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="591,210,638,197,640,202,592,215"/>
+<area shape="rect" id="Node000011" href="$db/d3b/class_fast_pin.html#aa7420ec06218b5201f7f54cf6f4bfb86" title="Set the pin state to LOW" alt="" coords="654,222,741,250"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="592,233,638,233,638,238,592,238"/>
+<area shape="rect" id="Node000012" href="$db/d3b/class_fast_pin.html#a25b537b13a05155051cc663b4877f79f" title="Toggle the pin." alt="" coords="639,274,756,302"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="592,256,630,267,629,272,591,261"/>
+</map>

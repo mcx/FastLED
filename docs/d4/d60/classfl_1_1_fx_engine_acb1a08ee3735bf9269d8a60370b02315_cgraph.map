@@ -1,0 +1,27 @@
+<map id="fl::FxEngine::removeFx" name="fl::FxEngine::removeFx">
+<area shape="rect" id="Node000001" title="Requests removal of an effect from the engine, which might not happen immediately (for example the Fx..." alt="" coords="5,57,177,85"/>
+<area shape="rect" id="Node000002" href="$d2/df3/classfl_1_1_fixed_map.html#ac2c703c3d250cdb2c30101766c1810d6" title=" " alt="" coords="229,5,357,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,54,221,35,222,40,148,59"/>
+<area shape="rect" id="Node000008" href="$d2/df3/classfl_1_1_fixed_map.html#a460e3d43563610531faa13038b8f3682" title=" " alt="" coords="228,57,358,85"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="177,68,212,68,212,74,177,74"/>
+<area shape="rect" id="Node000009" href="$d2/df3/classfl_1_1_fixed_map.html#a86e9680f024d9fb7a7fa9f96a90f4a1e" title=" " alt="" coords="225,109,361,137"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="148,83,222,102,221,107,147,88"/>
+<area shape="rect" id="Node000003" href="$d2/df3/classfl_1_1_fixed_map.html#a25851b559aa5ae81d52c0c5792d10bf5" title=" " alt="" coords="622,32,753,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="357,15,452,16,559,22,607,28,606,33,558,27,452,21,357,21"/>
+<area shape="rect" id="Node000005" href="$d2/df3/classfl_1_1_fixed_map.html#a85134d13ee9474e0ac60284e965ccbb3" title=" " alt="" coords="418,57,549,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="347,31,416,50,415,55,346,36"/>
+<area shape="rect" id="Node000004" href="$d3/d73/classfl_1_1_fixed_vector.html#af8f3eb485dff77110efec26993f206c4" title=" " alt="" coords="817,32,961,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="753,43,801,43,801,48,753,48"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="549,60,606,53,607,59,550,66"/>
+<area shape="rect" id="Node000006" href="$d2/df3/classfl_1_1_fixed_map.html#a5bcfb52c7949403994eed767316e237b" title=" " alt="" coords="616,108,759,136"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="543,83,615,101,613,106,541,88"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="348,54,409,43,512,37,606,39,606,44,512,43,409,48,349,59"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="358,68,403,68,403,74,358,74"/>
+<area shape="poly" id="edge14_Node000009_Node000003" title=" " alt="" coords="361,119,455,111,558,94,602,80,642,64,644,69,603,85,559,99,456,117,361,124"/>
+<area shape="poly" id="edge15_Node000009_Node000005" title=" " alt="" coords="346,106,415,87,416,92,347,111"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="362,132,409,138,484,141,558,138,600,133,601,139,559,143,484,147,409,143,361,138"/>
+<area shape="rect" id="Node000010" href="$d2/df3/classfl_1_1_fixed_map.html#aaa4e5e58299a89ab5a6784b011b2b2a7" title=" " alt="" coords="409,209,558,237"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="318,135,410,189,434,200,432,205,408,194,315,140"/>
+<area shape="rect" id="Node000011" href="$d3/d73/classfl_1_1_fixed_vector.html#aa9b4bb53ec2f9d7ed6c2d237b22489b5" title=" " alt="" coords="606,209,769,237"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="559,220,591,220,591,226,559,226"/>
+</map>

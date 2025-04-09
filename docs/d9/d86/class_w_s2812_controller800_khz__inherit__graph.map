@@ -1,0 +1,13 @@
+<map id="WS2812Controller800Khz&lt; DATA_PIN, RGB_ORDER &gt;" name="WS2812Controller800Khz&lt; DATA_PIN, RGB_ORDER &gt;">
+<area shape="rect" id="Node000001" title="WS2812 controller class @ 800 KHz." alt="" coords="251,87,454,132"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="340,70,345,64,353,61,360,63,365,70,367,87,361,87,360,71,357,67,353,66,348,68,344,73"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="327,73,327,59,331,48,340,40,353,37,368,41,377,54,379,70,374,88,369,86,373,70,372,56,365,46,353,42,342,44,335,51,332,60,332,73"/>
+<area shape="rect" id="Node000003" href="$d4/d28/group___chipsets.html#d5/db3/class_w_s2816_controller_1_1_controller_t" title=" " alt="" coords="635,53,870,97"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="470,97,634,83,635,88,470,102"/>
+<area shape="rect" id="Node000004" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="659,122,846,167"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="470,118,479,119,659,134,659,139,478,124,470,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,202,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,107,251,107,251,112,217,112"/>
+<area shape="rect" id="Node000005" href="$d7/d6f/group___clockless_chipsets.html#d5/d5c/class_n_e_o_p_i_x_e_l" title="LED controller for WS2812 LEDs with GRB color order." alt="" coords="919,130,1097,158"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="861,142,918,142,918,147,861,147"/>
+</map>

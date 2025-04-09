@@ -1,0 +1,14 @@
+<map id="/home/runner/work/FastLED/FastLED/src/third_party/espressif/led_strip/src/led_strip_rmt.h" name="/home/runner/work/FastLED/FastLED/src/third_party/espressif/led_strip/src/led_strip_rmt.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,5,293,84"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="54,208,124,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,72,49,97,29,113,13,133,9,151,16,168,32,184,51,197,48,202,28,188,12,171,3,151,8,131,25,110,46,92,92,68"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,132,103,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,87,93,125,90,120,140,83"/>
+<area shape="rect" id="Node000004" href="$d4/d88/led__strip__types_8h.html" title=" " alt="" coords="127,132,259,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,84,196,116,191,116,191,84"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="283,132,418,160"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="256,82,318,121,316,126,254,87"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="443,132,584,160"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="294,74,457,124,455,129,292,79"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="176,162,121,201,118,197,173,158"/>
+</map>

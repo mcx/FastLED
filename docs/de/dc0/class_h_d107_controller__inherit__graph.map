@@ -1,0 +1,14 @@
+<map id="HD107Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" name="HD107Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;">
+<area shape="rect" id="Node000001" title="HD107 is just the APA102 with a default 40Mhz clock rate." alt="" coords="1393,45,1571,107"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1098,28,1343,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1359,74,1392,74,1392,79,1359,79"/>
+<area shape="rect" id="Node000003" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="" coords="348,5,521,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="536,31,782,32,928,37,1074,48,1098,51,1097,56,1074,53,928,43,781,37,536,37"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html" title="Base definition for an LED controller." alt="" coords="5,57,125,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,61,347,42,348,47,141,66"/>
+<area shape="rect" id="Node000006" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="174,80,324,125"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="141,81,174,87,173,92,140,86"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html#d4/d96/class_a_p_a102_controller" title="APA102 controller class." alt="" coords="545,76,818,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="834,124,952,126,1074,116,1097,112,1098,117,1074,121,952,131,834,130"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="340,103,544,108,544,114,340,108"/>
+</map>

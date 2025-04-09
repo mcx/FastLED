@@ -1,0 +1,13 @@
+<map id="APA102Controller::endBoundary" name="APA102Controller::endBoundary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,57,234,85"/>
+<area shape="rect" id="Node000002" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a58393081ec8c54bd6968642b89e8bd43" title="Write a single byte over SPI." alt="" coords="282,49,450,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,68,266,68,266,74,234,74"/>
+<area shape="rect" id="Node000003" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad13d8cd559302413e8c885aab5ad7497" title="Write the BIT&#39;th bit out via SPI, setting the data pin then strobing the clock." alt="" coords="498,49,666,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="450,68,482,68,482,74,450,74"/>
+<area shape="rect" id="Node000004" href="$db/d3b/class_fast_pin.html#add52474362013eb37903fc832e2abdc2" title="Set the pin state to HIGH" alt="" coords="729,5,816,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="666,46,713,32,715,38,667,51"/>
+<area shape="rect" id="Node000005" href="$db/d3b/class_fast_pin.html#aa7420ec06218b5201f7f54cf6f4bfb86" title="Set the pin state to LOW" alt="" coords="729,57,816,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="667,68,713,68,713,74,667,74"/>
+<area shape="rect" id="Node000006" href="$db/d3b/class_fast_pin.html#a25b537b13a05155051cc663b4877f79f" title="Toggle the pin." alt="" coords="714,109,831,137"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="667,92,705,102,704,107,666,97"/>
+</map>

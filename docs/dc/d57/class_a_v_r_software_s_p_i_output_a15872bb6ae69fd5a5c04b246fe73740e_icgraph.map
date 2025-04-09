@@ -1,0 +1,26 @@
+<map id="AVRSoftwareSPIOutput::select" name="AVRSoftwareSPIOutput::select">
+<area shape="rect" id="Node000001" title="Select the SPI output (chip select)" alt="" coords="530,229,698,274"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html#a35f42384ada050146e6813f0fc766356" title="Send the LED data to the strip." alt="" coords="300,5,450,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="594,216,575,180,550,139,518,99,480,64,449,47,452,43,484,60,522,95,554,136,580,177,599,214"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html#ab7381f0a1850d006f3449d27838b19c5" title="Send the LED data to the strip." alt="" coords="272,74,478,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="587,219,542,165,513,138,481,115,457,104,459,100,483,111,516,134,546,161,591,215"/>
+<area shape="rect" id="Node000004" href="$df/d0d/group___clocked_chipsets.html#a632117bec47c6b4ba7e3ed1703478a42" title=" " alt="" coords="268,125,482,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="560,224,481,185,450,173,452,168,483,180,562,219"/>
+<area shape="rect" id="Node000006" href="$df/d0d/group___clocked_chipsets.html#a040f761b3d3bb30a9275f96548ec5ef7" title=" " alt="" coords="268,195,482,239"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="514,240,482,235,483,230,515,235"/>
+<area shape="rect" id="Node000007" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#af543930d08c9ce5c8229e45be97980e9" title="Write an array of data to the SPI interface." alt="" coords="291,264,459,309"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="515,269,460,277,459,271,514,263"/>
+<area shape="rect" id="Node000009" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ac4ffa7160697ac63bbd7734b480308bc" title="Write multiple bytes of the given value over SPI." alt="" coords="291,333,459,378"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="562,284,483,323,452,335,450,330,481,319,560,279"/>
+<area shape="rect" id="Node000010" href="$df/d0d/group___clocked_chipsets.html#a3e9e62e92d3f9e175b43e28dbb2254e9" title=" " alt="" coords="298,403,452,447"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="590,288,544,341,515,369,483,393,453,408,451,403,481,388,512,365,541,338,586,284"/>
+<area shape="rect" id="Node000012" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a20772a8fdfa75015731375c36ccb3515" title="Write LED pixel data to the SPI interface." alt="" coords="291,472,459,517"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="602,289,583,329,558,375,524,422,484,462,461,476,458,471,480,458,520,418,553,373,579,327,597,287"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html#a523f76b88c07e29cba6c40bd0cefe4b3" title="Send the LED data to the strip." alt="" coords="5,168,220,196"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="252,167,220,171,220,166,252,161"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="252,203,220,199,220,194,252,198"/>
+<area shape="rect" id="Node000008" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a8e0f5d9fd6f2c1e1eab4436c1b5cb23a" title="Write an array of data to the SPI interface." alt="" coords="28,264,197,309"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="275,289,197,289,197,284,275,284"/>
+<area shape="rect" id="Node000011" href="$df/d0d/group___clocked_chipsets.html#a2b68d483e7422d26d31586ca7791d7af" title="Send the LED data to the strip." alt="" coords="36,403,189,447"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="283,428,190,428,190,422,283,422"/>
+</map>

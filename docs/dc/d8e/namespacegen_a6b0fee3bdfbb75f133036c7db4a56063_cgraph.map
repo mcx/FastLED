@@ -1,0 +1,9 @@
+<map id="gen.generate_black_points" name="gen.generate_black_points">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,155,50"/>
+<area shape="rect" id="Node000002" href="$dc/d8e/namespacegen.html#abcd6c0f8a022a7f642eabd9c662e5ad9" title=" " alt="" coords="203,14,323,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,25,187,25,187,30,155,30"/>
+<area shape="rect" id="Node000003" href="$dc/d8e/namespacegen.html#a4fc5b1da59ed64885db8585feea6794a" title=" " alt="" coords="371,14,489,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="324,25,355,25,355,30,324,30"/>
+<area shape="rect" id="Node000004" href="$dc/d8e/namespacegen.html#abe8bcb9c211028969da2d65b3f1d42fd" title=" " alt="" coords="537,14,632,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="490,25,522,25,522,30,490,30"/>
+</map>

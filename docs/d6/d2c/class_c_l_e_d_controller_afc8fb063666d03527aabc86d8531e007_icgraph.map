@@ -1,0 +1,27 @@
+<map id="CLEDController::show" name="CLEDController::show">
+<area shape="rect" id="Node000001" title="Write the passed in RGB data out to the LEDs managed by this controller." alt="" coords="774,245,936,273"/>
+<area shape="rect" id="Node000002" href="$d6/d2c/class_c_l_e_d_controller.html#abc7283545360463878e52698e58d4af4" title=" " alt="" coords="515,215,726,242"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="758,249,726,245,727,240,759,244"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#ac5355e980ac13d9ae97561f183f73990" title="Write the data to the LEDs managed by this controller." alt="" coords="525,266,716,311"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="759,274,717,279,716,274,759,269"/>
+<area shape="rect" id="Node000004" href="$dd/dbb/class_c_fast_l_e_d.html#a83afdd1e2a21f33ac4f8d2610d6e331b" title="Update all our controllers with the current led colors, using the passed in brightness." alt="" coords="310,188,433,216"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="535,263,514,256,410,219,412,214,516,251,536,258"/>
+<area shape="rect" id="Node000018" href="$d6/d2c/class_c_l_e_d_controller.html#a3b699c9cf0829d15fdc7ceb1d5166412" title=" " alt="" coords="276,300,467,328"/>
+<area shape="poly" id="edge11_Node000003_Node000018" title=" " alt="" coords="510,302,468,307,467,301,509,297"/>
+<area shape="rect" id="Node000005" href="$d5/d4d/_blink_parallel_8ino.html#a29584c4a240c144644e81dfab0090635" title=" " alt="" coords="90,5,143,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="351,177,300,111,266,77,226,48,184,31,143,24,144,18,185,26,229,44,269,73,304,108,355,173"/>
+<area shape="rect" id="Node000007" href="$d5/db2/_octo_w_s2811_8ino.html#a87dad6cde22368918813bc56504b0dee" title=" " alt="" coords="73,57,160,85"/>
+<area shape="poly" id="edge5_Node000004_Node000007" title=" " alt="" coords="342,180,290,139,227,100,193,88,159,80,160,75,194,83,229,95,294,134,345,175"/>
+<area shape="rect" id="Node000009" href="$d1/d3a/_r_g_b_w_emulated_8ino.html#a7786953e7de2513a3589a490e1e3355a" title=" " alt="" coords="68,109,165,137"/>
+<area shape="poly" id="edge6_Node000004_Node000009" title=" " alt="" coords="319,184,227,152,165,136,166,131,228,147,321,179"/>
+<area shape="rect" id="Node000011" href="$dd/d0f/_apa102_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="92,161,141,189"/>
+<area shape="poly" id="edge7_Node000004_Node000011" title=" " alt="" coords="294,197,141,180,142,175,295,191"/>
+<area shape="rect" id="Node000012" href="$d4/df6/class_led_rope_t_c_l.html#a2c5c772faf24596d5be70d96581e7454" title=" " alt="" coords="5,213,228,241"/>
+<area shape="poly" id="edge8_Node000004_Node000012" title=" " alt="" coords="295,212,228,219,228,213,295,207"/>
+<area shape="rect" id="Node000016" href="$d1/ddb/_chromancer_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="88,265,145,293"/>
+<area shape="poly" id="edge9_Node000004_Node000016" title=" " alt="" coords="320,224,228,255,146,276,145,271,227,250,318,219"/>
+<area shape="rect" id="Node000017" href="$d3/d1d/group___power.html#ga510b6ca1ea6da7f0f89dcf353f19ffde" title="Similar to CFastLED::show(), but pre&#45;adjusts brightness to keep below the power threshold." alt="" coords="23,317,210,362"/>
+<area shape="poly" id="edge10_Node000004_Node000017" title=" " alt="" coords="344,228,293,268,229,307,202,319,199,314,226,302,290,263,341,224"/>
+<area shape="rect" id="Node000019" href="$d6/d2c/class_c_l_e_d_controller.html#a6cd8a28d7585fba96407c9678c00d588" title="Clear out/zero out the given number of LEDs." alt="" coords="22,385,211,413"/>
+<area shape="poly" id="edge12_Node000018_Node000019" title=" " alt="" coords="327,337,229,376,189,387,188,382,227,371,325,332"/>
+</map>

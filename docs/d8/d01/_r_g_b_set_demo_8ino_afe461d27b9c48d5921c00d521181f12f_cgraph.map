@@ -1,0 +1,17 @@
+<map id="loop" name="loop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,55,84"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#a6819ff831058a710d4582dfc09817202" title="Delay for the given number of milliseconds." alt="" coords="121,29,246,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,63,106,54,107,59,56,68"/>
+<area shape="rect" id="Node000004" href="$db/d87/group___pixel_types.html#aec2425ad20ac3c5191ac2b47eec4dca0" title="fadeToBlackBy is a synonym for nscale8(), as a fade instead of a scale" alt="" coords="103,81,265,109"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="56,71,88,77,87,82,55,76"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="157,30,152,20,156,11,167,5,184,3,202,5,212,11,209,16,200,10,184,8,168,10,160,14,158,20,161,28"/>
+<area shape="rect" id="Node000003" href="$dd/dbb/class_c_fast_l_e_d.html#a3adb23ec5f919524928d576002cb45de" title="Update all our controllers with the current led colors." alt="" coords="313,29,436,57"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="247,40,298,40,298,46,247,46"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="342,30,336,20,341,11,354,5,375,3,397,5,410,12,407,16,396,10,375,8,355,10,344,15,342,20,346,27"/>
+<area shape="rect" id="Node000005" href="$d0/da8/group___scaling.html#ga39bf87e5526120889086cab19ac749b1" title="Scale three one&#45;byte values by a fourth one, which is treated as the numerator of a fraction whose de..." alt="" coords="331,81,418,109"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="266,92,315,92,315,98,266,98"/>
+<area shape="rect" id="Node000006" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="534,55,630,82"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="419,87,518,74,518,79,419,92"/>
+<area shape="rect" id="Node000007" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="484,107,680,134"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="419,98,469,104,469,109,419,103"/>
+</map>

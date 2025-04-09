@@ -1,0 +1,5 @@
+<map id="FastPin::strobe" name="FastPin::strobe">
+<area shape="rect" id="Node000001" title="Toggle the pin twice to create a short pulse." alt="" coords="5,5,122,33"/>
+<area shape="rect" id="Node000002" href="$db/d3b/class_fast_pin.html#a25b537b13a05155051cc663b4877f79f" title="Toggle the pin." alt="" coords="170,5,286,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,16,154,16,154,22,122,22"/>
+</map>

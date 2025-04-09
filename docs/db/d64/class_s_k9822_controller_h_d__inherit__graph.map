@@ -1,0 +1,14 @@
+<map id="SK9822ControllerHD&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" name="SK9822ControllerHD&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;">
+<area shape="rect" id="Node000001" title="SK9822 controller class." alt="" coords="1427,45,1625,107"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html" title=" " alt="" coords="1111,28,1377,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1393,74,1426,74,1426,79,1393,79"/>
+<area shape="rect" id="Node000003" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="" coords="348,5,521,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="536,31,787,32,937,38,1087,48,1111,51,1110,56,1087,53,937,43,787,38,536,37"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html" title="Base definition for an LED controller." alt="" coords="5,57,125,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,61,347,42,348,47,141,66"/>
+<area shape="rect" id="Node000006" href="$d0/dc9/class_c_pixel_l_e_d_controller.html" title=" " alt="" coords="174,80,324,125"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="141,81,174,87,173,92,140,86"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html#d4/d96/class_a_p_a102_controller" title="APA102 controller class." alt="" coords="545,76,818,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="834,124,958,125,1087,116,1110,112,1111,118,1087,121,958,131,833,129"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="340,103,544,108,544,114,340,108"/>
+</map>

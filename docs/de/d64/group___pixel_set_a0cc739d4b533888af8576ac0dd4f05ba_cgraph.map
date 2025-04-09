@@ -1,0 +1,7 @@
+<map id="CPixelView::operator&amp;=" name="CPixelView::operator&amp;=">
+<area shape="rect" id="Node000001" title="Apply the PIXEL_TYPE &amp;= operator to every pixel in this set with every pixel in the passed in set." alt="" coords="5,32,182,60"/>
+<area shape="rect" id="Node000002" href="$de/d64/group___pixel_set.html#af3254e14aaccb1e8b38272ddeb6d8013" title="Makes an iterator instance for the start of the LED set." alt="" coords="230,5,366,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,32,214,27,214,33,182,37"/>
+<area shape="rect" id="Node000003" href="$de/d64/group___pixel_set.html#a5492e41e8b06dc599ab81b465c4236ed" title="Makes an iterator instance for the end of the LED set." alt="" coords="236,57,360,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,54,221,59,220,64,182,59"/>
+</map>

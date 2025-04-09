@@ -208,10 +208,10 @@ var hierarchy =
     ] ],
     [ "CRGB", "db/d87/group___pixel_types.html#d7/d82/struct_c_r_g_b", null ],
     [ "CRGB.__unnamed15__", "db/d87/group___pixel_types.html#db/d24/union_c_r_g_b_8____unnamed15____", null ],
-    [ "CRGB.__unnamed15__.__unnamed17__", "db/d87/group___pixel_types.html#da/db3/struct_c_r_g_b_8____unnamed15_____8____unnamed17____", null ],
-    [ "CRGB.__unnamed15__.__unnamed17__.__unnamed19__", "db/d87/group___pixel_types.html#d6/df0/union_c_r_g_b_8____unnamed15_____8____unnamed17_____8____unnamed19____", null ],
-    [ "CRGB.__unnamed15__.__unnamed17__.__unnamed21__", "db/d87/group___pixel_types.html#db/df9/union_c_r_g_b_8____unnamed15_____8____unnamed17_____8____unnamed21____", null ],
-    [ "CRGB.__unnamed15__.__unnamed17__.__unnamed23__", "db/d87/group___pixel_types.html#d2/d59/union_c_r_g_b_8____unnamed15_____8____unnamed17_____8____unnamed23____", null ],
+    [ "CRGB.__unnamed15__.__unnamed19__", "db/d87/group___pixel_types.html#df/d79/struct_c_r_g_b_8____unnamed15_____8____unnamed19____", null ],
+    [ "CRGB.__unnamed15__.__unnamed19__.__unnamed21__", "db/d87/group___pixel_types.html#df/dba/union_c_r_g_b_8____unnamed15_____8____unnamed19_____8____unnamed21____", null ],
+    [ "CRGB.__unnamed15__.__unnamed19__.__unnamed23__", "db/d87/group___pixel_types.html#db/d74/union_c_r_g_b_8____unnamed15_____8____unnamed19_____8____unnamed23____", null ],
+    [ "CRGB.__unnamed15__.__unnamed19__.__unnamed25__", "db/d87/group___pixel_types.html#de/ded/union_c_r_g_b_8____unnamed15_____8____unnamed19_____8____unnamed25____", null ],
     [ "CRGBPalette16", "d6/d39/group___palette_classes.html#d2/dc4/class_c_r_g_b_palette16", null ],
     [ "CRGBPalette256", "d6/d39/group___palette_classes.html#de/d34/class_c_r_g_b_palette256", null ],
     [ "CRGBPalette32", "d6/d39/group___palette_classes.html#df/d3d/class_c_r_g_b_palette32", null ],
@@ -451,7 +451,7 @@ var hierarchy =
     [ "Timer", "d8/d08/class_timer.html", null ],
     [ "ToggleButton", "d8/ddd/class_toggle_button.html", null ],
     [ "TRGBGradientPaletteEntryUnion", "d6/d39/group___palette_classes.html#db/d74/union_t_r_g_b_gradient_palette_entry_union", null ],
-    [ "TRGBGradientPaletteEntryUnion.__unnamed25__", "d6/d39/group___palette_classes.html#d5/d58/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed25____", null ],
+    [ "TRGBGradientPaletteEntryUnion.__unnamed17__", "d6/d39/group___palette_classes.html#d9/d76/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed17____", null ],
     [ "ui_state", "da/db7/structui__state.html", null ],
     [ "Enum", null, [
       [ "gen.HexagonAngle", "d4/dee/classgen_1_1_hexagon_angle.html", null ]

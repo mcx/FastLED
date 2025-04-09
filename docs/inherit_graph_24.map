@@ -1,0 +1,161 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,1816,153,1844"/>
+<area shape="rect" id="Node000001" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,5,420,50"/>
+<area shape="poly" id="edge44_Node000000_Node000001" title=" " alt="" coords="78,1800,81,1456,86,1191,96,902,110,616,132,362,145,256,160,168,178,102,199,61,215,46,218,50,203,64,183,104,166,169,150,257,137,363,116,616,101,902,91,1191,86,1456,83,1801"/>
+<area shape="rect" id="Node000003" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,75,420,119"/>
+<area shape="poly" id="edge46_Node000000_Node000003" title=" " alt="" coords="78,1801,82,1469,97,937,112,663,133,419,147,317,162,233,179,169,199,130,215,115,218,119,203,133,184,171,167,234,152,318,139,420,118,663,103,937,87,1469,83,1801"/>
+<area shape="rect" id="Node000005" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,144,420,189"/>
+<area shape="poly" id="edge48_Node000000_Node000005" title=" " alt="" coords="78,1801,83,1481,99,971,115,709,135,476,148,378,163,298,180,237,199,199,215,185,218,189,203,203,185,239,168,299,154,379,141,477,120,709,105,971,88,1481,83,1801"/>
+<area shape="rect" id="Node000007" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,213,420,258"/>
+<area shape="poly" id="edge50_Node000000_Node000007" title=" " alt="" coords="78,1800,85,1494,103,1010,119,761,139,540,152,448,166,371,181,313,199,277,221,256,225,260,203,280,186,315,171,372,157,448,145,541,124,762,109,1010,90,1494,83,1801"/>
+<area shape="rect" id="Node000009" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="201,291,436,335"/>
+<area shape="poly" id="edge52_Node000000_Node000009" title=" " alt="" coords="78,1801,87,1511,108,1055,123,821,144,613,168,453,183,398,198,364,215,346,234,334,237,338,218,350,203,366,188,400,174,454,149,613,129,821,113,1055,92,1511,84,1801"/>
+<area shape="rect" id="Node000011" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="228,377,409,422"/>
+<area shape="poly" id="edge54_Node000000_Node000011" title=" " alt="" coords="79,1801,90,1530,113,1108,130,892,149,700,172,552,185,500,198,468,224,440,254,420,257,425,227,444,203,470,190,502,177,553,155,700,135,893,119,1109,95,1530,84,1801"/>
+<area shape="rect" id="Node000013" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="227,481,410,526"/>
+<area shape="poly" id="edge56_Node000000_Node000013" title=" " alt="" coords="79,1801,89,1542,111,1144,127,941,147,761,171,623,184,576,199,546,224,524,228,528,203,549,189,578,176,624,152,762,133,942,116,1145,94,1543,84,1801"/>
+<area shape="rect" id="Node000015" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="227,560,410,605"/>
+<area shape="poly" id="edge58_Node000000_Node000015" title=" " alt="" coords="79,1801,91,1559,115,1189,131,1000,151,833,173,705,185,661,198,633,215,616,234,603,237,607,218,620,203,636,190,663,178,706,156,834,137,1001,120,1190,96,1560,84,1801"/>
+<area shape="rect" id="Node000018" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="222,647,414,691"/>
+<area shape="poly" id="edge61_Node000000_Node000018" title=" " alt="" coords="77,1801,79,1595,84,1445,93,1280,108,1114,129,959,143,890,159,829,177,778,198,737,224,710,255,690,257,694,227,714,203,740,182,780,164,831,148,892,135,960,113,1114,99,1280,90,1445,85,1595,83,1801"/>
+<area shape="rect" id="Node000020" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,751,420,795"/>
+<area shape="poly" id="edge63_Node000000_Node000020" title=" " alt="" coords="78,1801,85,1616,103,1338,119,1192,139,1056,165,941,181,895,198,858,213,838,231,821,269,794,272,798,234,825,217,842,203,861,186,897,170,943,144,1057,124,1193,108,1339,90,1616,84,1801"/>
+<area shape="rect" id="Node000022" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,872,420,917"/>
+<area shape="poly" id="edge65_Node000000_Node000022" title=" " alt="" coords="78,1801,85,1633,104,1385,120,1255,140,1135,166,1034,181,994,199,962,224,935,256,915,258,919,228,939,203,965,186,996,171,1036,145,1136,125,1256,110,1385,91,1633,84,1801"/>
+<area shape="rect" id="Node000026" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,976,420,1021"/>
+<area shape="poly" id="edge69_Node000000_Node000026" title=" " alt="" coords="78,1801,83,1643,100,1413,116,1293,136,1184,164,1094,180,1058,199,1031,215,1017,218,1021,203,1035,185,1061,169,1096,141,1185,121,1294,106,1413,89,1643,83,1801"/>
+<area shape="rect" id="Node000028" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,1045,420,1090"/>
+<area shape="poly" id="edge71_Node000000_Node000028" title=" " alt="" coords="79,1800,86,1654,105,1445,120,1337,140,1238,166,1157,182,1125,199,1101,215,1087,218,1091,203,1104,186,1128,171,1159,146,1240,125,1338,110,1446,91,1655,84,1801"/>
+<area shape="rect" id="Node000030" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,1115,420,1159"/>
+<area shape="poly" id="edge73_Node000000_Node000030" title=" " alt="" coords="79,1801,88,1667,109,1478,124,1382,144,1293,169,1220,183,1192,199,1170,214,1157,218,1161,203,1173,188,1195,174,1222,149,1295,130,1383,114,1479,93,1668,84,1801"/>
+<area shape="rect" id="Node000032" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,1184,420,1229"/>
+<area shape="poly" id="edge75_Node000000_Node000032" title=" " alt="" coords="80,1801,91,1680,113,1512,129,1426,148,1348,171,1284,184,1259,199,1239,214,1226,218,1230,203,1243,189,1261,176,1286,153,1350,134,1428,118,1513,96,1681,85,1801"/>
+<area shape="rect" id="Node000034" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="222,1253,414,1298"/>
+<area shape="poly" id="edge77_Node000000_Node000034" title=" " alt="" coords="81,1801,94,1693,118,1546,134,1471,152,1403,174,1347,199,1309,220,1292,223,1296,203,1312,179,1350,157,1405,139,1473,123,1547,99,1694,86,1802"/>
+<area shape="rect" id="Node000036" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="222,1323,414,1367"/>
+<area shape="poly" id="edge79_Node000000_Node000036" title=" " alt="" coords="82,1800,97,1705,122,1579,157,1458,177,1410,199,1378,220,1362,224,1366,203,1382,181,1413,162,1460,128,1580,102,1706,87,1801"/>
+<area shape="rect" id="Node000038" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,1392,420,1437"/>
+<area shape="poly" id="edge81_Node000000_Node000038" title=" " alt="" coords="78,1801,84,1730,101,1635,117,1584,137,1535,165,1488,199,1447,215,1435,218,1439,203,1451,169,1491,142,1537,122,1586,107,1636,89,1730,83,1801"/>
+<area shape="rect" id="Node000040" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,1461,420,1506"/>
+<area shape="poly" id="edge83_Node000000_Node000040" title=" " alt="" coords="80,1801,90,1741,111,1665,126,1625,146,1585,170,1549,199,1516,215,1505,218,1509,202,1520,174,1552,150,1588,131,1627,116,1667,95,1742,86,1801"/>
+<area shape="rect" id="Node000043" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="217,1531,420,1575"/>
+<area shape="poly" id="edge86_Node000000_Node000043" title=" " alt="" coords="84,1801,97,1754,120,1696,153,1637,175,1610,199,1586,217,1574,220,1578,202,1590,179,1613,158,1640,125,1699,103,1756,89,1803"/>
+<area shape="rect" id="Node000049" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="225,1600,412,1645"/>
+<area shape="poly" id="edge92_Node000000_Node000049" title=" " alt="" coords="90,1802,107,1768,131,1728,162,1689,199,1655,223,1641,226,1646,202,1659,166,1692,136,1731,112,1770,95,1804"/>
+<area shape="rect" id="Node000051" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="225,1669,412,1714"/>
+<area shape="poly" id="edge94_Node000000_Node000051" title=" " alt="" coords="102,1803,145,1763,199,1724,225,1712,228,1717,202,1729,148,1767,105,1807"/>
+<area shape="rect" id="Node000053" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="225,1739,412,1783"/>
+<area shape="poly" id="edge96_Node000000_Node000053" title=" " alt="" coords="143,1809,238,1781,239,1787,145,1814"/>
+<area shape="rect" id="Node000055" href="$d7/d6f/group___clockless_chipsets.html#d1/dcf/class_d_p1903_controller400_khz" title="DP1903 controller class @ 400 KHz." alt="" coords="217,1808,420,1853"/>
+<area shape="poly" id="edge98_Node000000_Node000055" title=" " alt="" coords="168,1828,216,1828,216,1833,168,1833"/>
+<area shape="rect" id="Node000056" href="$d7/d6f/group___clockless_chipsets.html#dd/dec/class_d_p1903_controller800_khz" title="DP1903 controller class @ 800 KHz." alt="" coords="217,1877,420,1922"/>
+<area shape="poly" id="edge99_Node000000_Node000056" title=" " alt="" coords="145,1846,239,1874,238,1879,143,1852"/>
+<area shape="rect" id="Node000057" href="$d7/d6f/group___clockless_chipsets.html#d0/def/class_g_e8822_controller800_khz" title="GE8822 controller class." alt="" coords="217,1947,420,1991"/>
+<area shape="poly" id="edge100_Node000000_Node000057" title=" " alt="" coords="105,1854,148,1894,202,1932,228,1944,225,1949,199,1937,145,1898,102,1858"/>
+<area shape="rect" id="Node000058" href="$d7/d6f/group___clockless_chipsets.html#dd/dfa/class_g_w6205_controller400_khz" title="GW6205 controller class @ 400 KHz." alt="" coords="217,2016,420,2061"/>
+<area shape="poly" id="edge101_Node000000_Node000058" title=" " alt="" coords="95,1857,112,1890,136,1929,166,1968,202,2002,222,2013,219,2018,199,2006,162,1972,131,1932,107,1893,90,1859"/>
+<area shape="rect" id="Node000059" href="$d7/d6f/group___clockless_chipsets.html#da/d20/class_g_w6205_controller800_khz" title="UCS1904 controller class @ 800 KHz." alt="" coords="217,2085,420,2130"/>
+<area shape="poly" id="edge102_Node000000_Node000059" title=" " alt="" coords="89,1858,103,1904,125,1962,158,2021,179,2048,202,2071,220,2083,217,2087,199,2075,175,2051,153,2024,120,1964,97,1906,84,1859"/>
+<area shape="rect" id="Node000060" href="$d7/d6f/group___clockless_chipsets.html#d9/da6/class_l_p_d1886_controller1250_khz" title="LPD1886 controller class." alt="" coords="217,2155,420,2199"/>
+<area shape="poly" id="edge103_Node000000_Node000060" title=" " alt="" coords="86,1859,95,1918,116,1994,131,2034,150,2073,174,2109,202,2140,218,2152,215,2156,199,2144,170,2112,146,2075,126,2036,111,1996,90,1919,80,1860"/>
+<area shape="rect" id="Node000061" href="$d7/d6f/group___clockless_chipsets.html#db/df7/class_l_p_d1886_controller1250_khz__8bit" title="LPD1886 controller class." alt="" coords="201,2224,436,2269"/>
+<area shape="poly" id="edge104_Node000000_Node000061" title=" " alt="" coords="83,1859,89,1930,107,2024,122,2075,142,2124,169,2170,203,2210,217,2221,214,2225,199,2214,165,2173,137,2126,117,2076,101,2026,84,1931,78,1860"/>
+<area shape="rect" id="Node000062" href="$d7/d6f/group___clockless_chipsets.html#dc/d0c/class_p_l9823_controller" title="PL9823 controller class." alt="" coords="228,2293,409,2338"/>
+<area shape="poly" id="edge105_Node000000_Node000062" title=" " alt="" coords="87,1859,102,1955,128,2080,162,2201,181,2248,203,2279,229,2297,226,2302,199,2283,177,2250,157,2203,122,2082,97,1955,82,1860"/>
+<area shape="rect" id="Node000063" href="$d7/d6f/group___clockless_chipsets.html#d9/d05/class_s_k6812_controller" title="SK6812 controller class." alt="" coords="227,2363,410,2407"/>
+<area shape="poly" id="edge106_Node000000_Node000063" title=" " alt="" coords="86,1859,99,1967,123,2114,139,2188,157,2256,179,2311,203,2348,228,2367,225,2371,199,2352,174,2314,152,2257,134,2189,118,2115,94,1967,81,1859"/>
+<area shape="rect" id="Node000064" href="$d7/d6f/group___clockless_chipsets.html#db/dc8/class_s_k6822_controller" title="SK6822 controller class." alt="" coords="227,2432,410,2477"/>
+<area shape="poly" id="edge107_Node000000_Node000064" title=" " alt="" coords="85,1859,96,1980,118,2148,134,2233,153,2311,176,2375,189,2399,203,2418,228,2436,224,2440,199,2422,184,2402,171,2377,148,2312,129,2234,113,2149,91,1981,80,1860"/>
+<area shape="rect" id="Node000065" href="$d7/d6f/group___clockless_chipsets.html#de/d77/class_s_m16703_controller" title="SM16703 controller class." alt="" coords="222,2501,414,2546"/>
+<area shape="poly" id="edge108_Node000000_Node000065" title=" " alt="" coords="84,1860,93,1993,114,2182,130,2278,149,2366,174,2438,188,2466,203,2487,224,2504,220,2508,199,2491,183,2469,169,2440,144,2367,124,2279,109,2182,88,1994,79,1860"/>
+<area shape="rect" id="Node000066" href="$d7/d6f/group___clockless_chipsets.html#d0/da8/class_t_m1803_controller400_khz" title="TM1803 controller class." alt="" coords="217,2571,420,2615"/>
+<area shape="poly" id="edge109_Node000000_Node000066" title=" " alt="" coords="84,1860,91,2006,110,2215,125,2323,146,2421,171,2502,186,2533,203,2557,218,2570,215,2574,199,2560,182,2536,166,2504,140,2422,120,2323,105,2216,86,2006,79,1860"/>
+<area shape="rect" id="Node000067" href="$d7/d6f/group___clockless_chipsets.html#d7/d07/class_t_m1809_controller800_khz" title="TM1809 controller class." alt="" coords="217,2640,420,2685"/>
+<area shape="poly" id="edge110_Node000000_Node000067" title=" " alt="" coords="83,1859,89,2017,106,2248,121,2366,141,2475,169,2565,185,2600,203,2626,218,2639,215,2643,199,2629,180,2602,164,2567,136,2477,116,2367,100,2248,83,2018,78,1860"/>
+<area shape="rect" id="Node000068" href="$d7/d6f/group___clockless_chipsets.html#d0/ddf/class_t_m1829_controller800_khz" title="TM1829 controller class." alt="" coords="217,2709,420,2754"/>
+<area shape="poly" id="edge111_Node000000_Node000068" title=" " alt="" coords="83,1860,86,2030,92,2151,102,2281,116,2411,138,2530,166,2629,183,2666,203,2695,218,2709,215,2713,199,2699,179,2669,161,2630,132,2531,111,2412,96,2281,87,2151,81,2030,78,1860"/>
+<area shape="rect" id="Node000069" href="$d7/d6f/group___clockless_chipsets.html#d1/d29/class_u_c_s1903_b_controller800_khz" title="UCS1903B controller class." alt="" coords="217,2779,420,2823"/>
+<area shape="poly" id="edge112_Node000000_Node000069" title=" " alt="" coords="83,1859,84,2041,89,2172,98,2313,112,2455,134,2585,147,2642,163,2692,182,2733,203,2765,218,2778,214,2782,199,2768,177,2736,158,2694,142,2643,128,2586,107,2455,92,2314,83,2172,79,2042,77,1860"/>
+<area shape="rect" id="Node000070" href="$d7/d6f/group___clockless_chipsets.html#d9/d23/class_u_c_s1903_controller400_khz" title="UCS1903 controller class @ 400 KHz." alt="" coords="217,2848,420,2893"/>
+<area shape="poly" id="edge113_Node000000_Node000070" title=" " alt="" coords="85,1860,98,2068,123,2378,140,2535,159,2673,180,2778,191,2813,203,2834,218,2847,214,2851,199,2837,186,2815,175,2779,153,2674,134,2535,118,2379,93,2069,79,1860"/>
+<area shape="rect" id="Node000071" href="$d7/d6f/group___clockless_chipsets.html#d3/d29/class_u_c_s1904_controller800_khz" title="UCS1904 controller class." alt="" coords="217,2917,420,2962"/>
+<area shape="poly" id="edge114_Node000000_Node000071" title=" " alt="" coords="84,1859,97,2080,121,2412,137,2581,157,2729,179,2842,190,2880,203,2903,218,2917,214,2921,199,2907,186,2882,173,2844,151,2730,132,2581,116,2413,91,2081,79,1860"/>
+<area shape="rect" id="Node000072" href="$d7/d6f/group___clockless_chipsets.html#df/d1e/class_u_c_s1912_controller" title=" " alt="" coords="222,2987,414,3031"/>
+<area shape="poly" id="edge115_Node000000_Node000072" title=" " alt="" coords="84,1860,95,2093,119,2448,135,2628,155,2786,177,2907,190,2948,203,2973,224,2990,220,2994,199,2976,185,2950,172,2909,149,2787,130,2628,114,2448,90,2094,79,1860"/>
+<area shape="rect" id="Node000073" href="$d7/d6f/group___clockless_chipsets.html#d6/d05/class_u_c_s2903_controller" title="UCS2903 controller class." alt="" coords="222,3056,414,3101"/>
+<area shape="poly" id="edge116_Node000000_Node000073" title=" " alt="" coords="84,1860,94,2106,117,2483,133,2674,153,2843,176,2972,189,3016,203,3042,224,3059,220,3063,199,3045,184,3018,171,2974,147,2844,128,2675,111,2483,89,2106,79,1860"/>
+<area shape="rect" id="Node000074" href="$d7/d6f/group___clockless_chipsets.html#da/d69/class_w_s2811_controller400_khz" title="WS2811 controller class @ 400 KHz." alt="" coords="217,3125,420,3170"/>
+<area shape="poly" id="edge117_Node000000_Node000074" title=" " alt="" coords="84,1860,93,2119,115,2517,131,2720,151,2900,175,3037,188,3083,203,3111,218,3125,214,3129,199,3115,183,3085,170,3039,145,2901,125,2721,109,2518,88,2119,78,1860"/>
+<area shape="rect" id="Node000075" href="$d7/d6f/group___clockless_chipsets.html#dc/db6/class_w_s2811_controller800_khz" title="WS2811 controller class @ 800 KHz." alt="" coords="217,3195,420,3239"/>
+<area shape="poly" id="edge118_Node000000_Node000075" title=" " alt="" coords="84,1860,92,2131,113,2552,129,2767,149,2957,173,3102,188,3151,203,3181,218,3195,215,3199,199,3184,183,3153,168,3103,143,2958,123,2767,107,2552,87,2131,78,1860"/>
+<area shape="rect" id="Node000076" href="$d7/d6f/group___clockless_chipsets.html#de/d9d/class_w_s2812_controller800_khz" title="WS2812 controller class @ 800 KHz." alt="" coords="217,3264,420,3309"/>
+<area shape="poly" id="edge119_Node000000_Node000076" title=" " alt="" coords="84,1859,91,2142,111,2586,126,2813,147,3014,172,3167,187,3219,203,3250,218,3264,215,3268,199,3253,182,3221,167,3168,141,3014,121,2813,105,2586,86,2143,78,1860"/>
+<area shape="rect" id="Node000078" href="$d7/d6f/group___clockless_chipsets.html#dc/d78/class_w_s2813_controller" title="WS2813 controller class." alt="" coords="225,3333,412,3378"/>
+<area shape="poly" id="edge121_Node000000_Node000078" title=" " alt="" coords="83,1860,90,2155,109,2620,124,2859,145,3071,157,3159,171,3232,186,3286,203,3319,226,3338,222,3342,199,3323,181,3288,166,3233,152,3160,139,3071,119,2859,103,2621,85,2155,78,1860"/>
+<area shape="rect" id="Node000079" href="$d7/d6f/group___clockless_chipsets.html#de/d5f/class_w_s2815_controller" title="WS2815 controller class @ 400 KHz." alt="" coords="225,3403,412,3447"/>
+<area shape="poly" id="edge122_Node000000_Node000079" title=" " alt="" coords="83,1860,89,2168,107,2655,122,2905,143,3127,155,3220,170,3297,185,3354,203,3389,226,3407,223,3412,199,3392,180,3356,164,3298,150,3221,137,3128,117,2906,101,2655,84,2168,78,1860"/>
+<area shape="rect" id="Node000002" href="$d7/d6f/group___clockless_chipsets.html#dc/dc9/class_g_e8822" title="GE8822 controller class." alt="" coords="508,5,694,50"/>
+<area shape="poly" id="edge45_Node000001_Node000002" title=" " alt="" coords="436,25,508,25,508,30,436,30"/>
+<area shape="rect" id="Node000004" href="$d7/d6f/group___clockless_chipsets.html#d7/d84/class_g_w6205__400" title="GW6205_400 controller class." alt="" coords="506,75,696,119"/>
+<area shape="poly" id="edge47_Node000003_Node000004" title=" " alt="" coords="436,94,506,94,506,100,436,100"/>
+<area shape="rect" id="Node000006" href="$d7/d6f/group___clockless_chipsets.html#d9/de6/class_g_w6205" title="GW6205 controller class." alt="" coords="506,144,696,189"/>
+<area shape="poly" id="edge49_Node000005_Node000006" title=" " alt="" coords="436,164,506,164,506,169,436,169"/>
+<area shape="rect" id="Node000008" href="$d7/d6f/group___clockless_chipsets.html#dc/d97/class_l_p_d1886" title="LPD1886 controller class." alt="" coords="521,213,681,258"/>
+<area shape="poly" id="edge51_Node000007_Node000008" title=" " alt="" coords="436,233,521,233,521,238,436,238"/>
+<area shape="rect" id="Node000010" href="$d7/d6f/group___clockless_chipsets.html#d2/dbc/class_l_p_d1886__8_b_i_t" title="LPD1886_8BIT controller class." alt="" coords="520,283,683,327"/>
+<area shape="poly" id="edge53_Node000009_Node000010" title=" " alt="" coords="451,307,519,305,519,310,452,312"/>
+<area shape="rect" id="Node000012" href="$d7/d6f/group___clockless_chipsets.html#d6/d94/class_p_l9823" title="PL9823 controller class." alt="" coords="510,352,692,397"/>
+<area shape="poly" id="edge55_Node000011_Node000012" title=" " alt="" coords="424,388,509,380,510,385,425,393"/>
+<area shape="rect" id="Node000014" href="$d7/d6f/group___clockless_chipsets.html#db/d91/class_s_k6812" title="SK6812 controller class." alt="" coords="509,421,693,466"/>
+<area shape="poly" id="edge57_Node000013_Node000014" title=" " alt="" coords="425,478,508,461,509,466,426,484"/>
+<area shape="rect" id="Node000016" href="$d7/d6f/group___clockless_chipsets.html#d6/d3f/class_a_p_a106" title="APA106 controller class." alt="" coords="509,491,693,535"/>
+<area shape="poly" id="edge59_Node000015_Node000016" title=" " alt="" coords="425,554,508,533,509,538,426,559"/>
+<area shape="rect" id="Node000017" href="$d7/d6f/group___clockless_chipsets.html#d3/d5c/class_s_k6822" title="SK6822 controller class." alt="" coords="509,560,693,605"/>
+<area shape="poly" id="edge60_Node000015_Node000017" title=" " alt="" coords="426,580,508,580,508,585,426,585"/>
+<area shape="rect" id="Node000019" href="$d7/d6f/group___clockless_chipsets.html#dd/d92/class_s_m16703" title="SM16703 controller class." alt="" coords="520,629,683,674"/>
+<area shape="poly" id="edge62_Node000018_Node000019" title=" " alt="" coords="430,660,519,654,519,659,430,665"/>
+<area shape="rect" id="Node000021" href="$d7/d6f/group___clockless_chipsets.html#d5/d26/class_t_m1803" title="TM1803 controller class." alt="" coords="508,699,695,743"/>
+<area shape="poly" id="edge64_Node000020_Node000021" title=" " alt="" coords="435,749,506,736,507,741,436,754"/>
+<area shape="rect" id="Node000023" href="$d7/d6f/group___clockless_chipsets.html#d6/d8a/class_t_m1804" title="TM1804 controller class." alt="" coords="508,768,695,813"/>
+<area shape="poly" id="edge66_Node000022_Node000023" title=" " alt="" coords="383,863,483,822,518,811,520,816,485,828,385,868"/>
+<area shape="rect" id="Node000024" href="$d7/d6f/group___clockless_chipsets.html#d5/d32/class_t_m1809" title="TM1809 controller class." alt="" coords="508,837,695,882"/>
+<area shape="poly" id="edge67_Node000022_Node000024" title=" " alt="" coords="435,877,507,869,507,874,436,883"/>
+<area shape="rect" id="Node000025" href="$d7/d6f/group___clockless_chipsets.html#d8/d51/class_t_m1812" title="TM1812 controller class." alt="" coords="508,907,695,951"/>
+<area shape="poly" id="edge68_Node000022_Node000025" title=" " alt="" coords="436,906,507,915,507,920,435,911"/>
+<area shape="rect" id="Node000027" href="$d7/d6f/group___clockless_chipsets.html#d6/d1c/class_t_m1829" title="TM1829 controller class." alt="" coords="508,976,695,1021"/>
+<area shape="poly" id="edge70_Node000026_Node000027" title=" " alt="" coords="435,996,507,996,507,1001,435,1001"/>
+<area shape="rect" id="Node000029" href="$d7/d6f/group___clockless_chipsets.html#df/d4c/class_u_c_s1903_b" title="UCS1903B controller class." alt="" coords="516,1045,687,1090"/>
+<area shape="poly" id="edge72_Node000028_Node000029" title=" " alt="" coords="436,1065,515,1065,515,1070,436,1070"/>
+<area shape="rect" id="Node000031" href="$d7/d6f/group___clockless_chipsets.html#d0/db7/class_u_c_s1903" title="UCS1903 controller class." alt="" coords="520,1115,682,1159"/>
+<area shape="poly" id="edge74_Node000030_Node000031" title=" " alt="" coords="436,1134,520,1134,520,1140,436,1140"/>
+<area shape="rect" id="Node000033" href="$d7/d6f/group___clockless_chipsets.html#d3/dc0/class_u_c_s1904" title="UCS1904 controller class." alt="" coords="520,1184,682,1229"/>
+<area shape="poly" id="edge76_Node000032_Node000033" title=" " alt="" coords="436,1204,520,1204,520,1209,436,1209"/>
+<area shape="rect" id="Node000035" href="$d7/d6f/group___clockless_chipsets.html#d4/dad/class_u_c_s1912" title="UCS1912 controller class." alt="" coords="520,1253,682,1298"/>
+<area shape="poly" id="edge78_Node000034_Node000035" title=" " alt="" coords="430,1273,520,1273,520,1278,430,1278"/>
+<area shape="rect" id="Node000037" href="$d7/d6f/group___clockless_chipsets.html#d7/d84/class_u_c_s2903" title="UCS2903 controller class." alt="" coords="520,1323,682,1367"/>
+<area shape="poly" id="edge80_Node000036_Node000037" title=" " alt="" coords="430,1342,520,1342,520,1348,430,1348"/>
+<area shape="rect" id="Node000039" href="$d7/d6f/group___clockless_chipsets.html#d9/d7c/class_w_s2811__400" title="WS2811_400 controller class." alt="" coords="508,1392,695,1437"/>
+<area shape="poly" id="edge82_Node000038_Node000039" title=" " alt="" coords="435,1412,507,1412,507,1417,435,1417"/>
+<area shape="rect" id="Node000041" href="$d7/d6f/group___clockless_chipsets.html#da/dbf/class_a_p_a104" title="APA104 controller class." alt="" coords="509,1461,693,1506"/>
+<area shape="poly" id="edge84_Node000040_Node000041" title=" " alt="" coords="436,1481,508,1481,508,1486,436,1486"/>
+<area shape="rect" id="Node000042" href="$d7/d6f/group___clockless_chipsets.html#d4/de9/class_w_s2811" title="WS2811 controller class." alt="" coords="507,1531,695,1575"/>
+<area shape="poly" id="edge85_Node000040_Node000042" title=" " alt="" coords="428,1508,508,1527,507,1533,427,1513"/>
+<area shape="rect" id="Node000044" href="$d7/d6f/group___clockless_chipsets.html" title=" " alt="" coords="500,1599,703,1627"/>
+<area shape="poly" id="edge87_Node000043_Node000044" title=" " alt="" coords="436,1575,533,1596,532,1601,435,1580"/>
+<area shape="rect" id="Node000045" href="$d7/d6f/group___clockless_chipsets.html#d2/dfb/class_g_s1903" title="GS1903 controller class." alt="" coords="508,1651,694,1695"/>
+<area shape="poly" id="edge88_Node000043_Node000045" title=" " alt="" coords="428,1580,438,1585,453,1598,462,1611,471,1624,485,1636,509,1648,507,1653,483,1641,467,1628,458,1615,449,1602,434,1590,425,1585"/>
+<area shape="rect" id="Node000046" href="$d7/d6f/group___clockless_chipsets.html#d6/d04/class_w_s2812" title="WS2812 controller class." alt="" coords="507,1720,695,1765"/>
+<area shape="poly" id="edge89_Node000043_Node000046" title=" " alt="" coords="434,1582,438,1586,451,1601,458,1617,463,1647,467,1677,474,1692,486,1706,508,1721,505,1725,482,1710,469,1694,462,1679,457,1648,453,1618,446,1604,434,1590,430,1586"/>
+<area shape="rect" id="Node000047" href="$d7/d6f/group___clockless_chipsets.html#d5/dd0/class_w_s2812_b" title="WS2812B controller class." alt="" coords="518,1789,684,1834"/>
+<area shape="poly" id="edge90_Node000043_Node000047" title=" " alt="" coords="434,1582,438,1586,455,1610,463,1634,464,1659,463,1683,461,1706,462,1729,470,1752,486,1775,501,1788,520,1797,517,1801,498,1792,482,1779,465,1755,457,1730,456,1706,457,1682,459,1659,458,1635,450,1612,434,1589,431,1586"/>
+<area shape="rect" id="Node000048" href="$d7/d6f/group___clockless_chipsets.html#df/d10/class_w_s2852" title="WS2852 controller class." alt="" coords="507,1859,695,1903"/>
+<area shape="poly" id="edge91_Node000043_Node000048" title=" " alt="" coords="434,1582,438,1586,460,1619,468,1652,468,1685,463,1717,458,1749,457,1781,465,1813,486,1845,508,1861,505,1866,482,1848,460,1815,452,1782,452,1749,457,1717,462,1685,463,1653,455,1621,434,1589,431,1586"/>
+<area shape="rect" id="Node000050" href="$d7/d6f/group___clockless_chipsets.html#d5/d5c/class_n_e_o_p_i_x_e_l" title="LED controller for WS2812 LEDs with GRB color order." alt="" coords="512,1927,690,1955"/>
+<area shape="poly" id="edge93_Node000049_Node000050" title=" " alt="" coords="427,1645,438,1655,460,1689,468,1722,467,1755,461,1788,456,1820,456,1852,464,1883,486,1914,513,1931,510,1936,482,1918,459,1885,451,1852,451,1820,456,1787,461,1755,462,1723,455,1691,434,1659,423,1649"/>
+<area shape="rect" id="Node000052" href="$d7/d6f/group___clockless_chipsets.html#d3/d7d/class_w_s2813" title="WS2813 controller class." alt="" coords="507,1979,695,2023"/>
+<area shape="poly" id="edge95_Node000051_Node000052" title=" " alt="" coords="427,1715,438,1725,459,1755,467,1786,467,1817,463,1847,459,1876,459,1906,466,1935,486,1965,508,1981,505,1986,482,1968,461,1937,453,1907,453,1876,457,1846,461,1816,461,1787,454,1758,434,1728,424,1719"/>
+<area shape="rect" id="Node000054" href="$d7/d6f/group___clockless_chipsets.html#d1/de1/class_w_s2815" title="WS2815 controller class." alt="" coords="507,2048,695,2093"/>
+<area shape="poly" id="edge97_Node000053_Node000054" title=" " alt="" coords="427,1784,438,1794,459,1825,467,1855,467,1886,463,1916,459,1946,459,1975,466,2004,486,2034,508,2051,505,2055,482,2037,461,2007,453,1976,453,1945,457,1915,461,1886,461,1856,454,1827,434,1797,424,1788"/>
+<area shape="rect" id="Node000077" href="$d4/d28/group___chipsets.html#d5/db3/class_w_s2816_controller_1_1_controller_t" title=" " alt="" coords="484,3264,718,3309"/>
+<area shape="poly" id="edge120_Node000076_Node000077" title=" " alt="" coords="436,3284,484,3284,484,3289,436,3289"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="CRGB::getLuma" name="CRGB::getLuma">
+<area shape="rect" id="Node000001" title="Get the &quot;luma&quot; of a CRGB object." alt="" coords="5,32,129,60"/>
+<area shape="rect" id="Node000002" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="226,5,322,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,35,210,25,211,30,130,41"/>
+<area shape="rect" id="Node000003" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="177,57,372,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,51,162,55,161,60,129,56"/>
+</map>

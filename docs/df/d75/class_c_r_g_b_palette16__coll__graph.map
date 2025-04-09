@@ -1,0 +1,5 @@
+<map id="CRGBPalette16" name="CRGBPalette16">
+<area shape="rect" id="Node000001" title="RGB color palette with 16 discrete values." alt="" coords="5,98,125,126"/>
+<area shape="rect" id="Node000002" href="$db/d87/group___pixel_types.html#d7/d82/struct_c_r_g_b" title="Representation of an RGB pixel (Red, Green, Blue)" alt="" coords="36,5,94,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,48,68,98,62,98,62,48"/>
+</map>

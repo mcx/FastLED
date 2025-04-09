@@ -1,0 +1,23 @@
+<map id="fl::Pacifica::pacifica_add_whitecaps" name="fl::Pacifica::pacifica_add_whitecaps">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,92,150,136"/>
+<area shape="rect" id="Node000002" href="$d6/d6c/group___beat_generators.html#ga12014943214a72eec31433d9682d4ebe" title="Generates an 8&#45;bit &quot;sawtooth&quot; wave at a given BPM." alt="" coords="486,5,545,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,89,146,60,197,35,271,18,346,11,415,10,471,12,471,18,415,15,346,16,272,23,199,40,149,64,107,93"/>
+<area shape="rect" id="Node000005" href="$d6/d6c/group___beat_generators.html#gaecd7cbfc2640407cabf75afcc7d9ddf4" title="Generates an 8&#45;bit sine wave at a given BPM that oscillates within a given range." alt="" coords="245,49,322,77"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="149,94,229,74,231,79,151,99"/>
+<area shape="rect" id="Node000006" href="$d0/da8/group___scaling.html#gad7535ccda9c92470c4e6ee0265585555" title="Scale one byte by a second one, which is treated as the numerator of a fraction whose denominator is ..." alt="" coords="484,69,547,97"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="150,106,468,84,469,89,150,111"/>
+<area shape="rect" id="Node000007" href="$db/d87/group___pixel_types.html#a940908cc69606bdabe3b2d32a9097356" title="Get the average of the R, G, and B values." alt="" coords="198,151,370,178"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="151,129,211,144,209,149,149,134"/>
+<area shape="rect" id="Node000010" href="$d5/d98/group___math.html#ga07133b3085824d0fcd4f5086d286c4b5" title="Add one byte to another, saturating at 0xFF." alt="" coords="253,203,314,230"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="111,134,152,162,199,187,239,203,237,208,197,192,149,166,108,139"/>
+<area shape="rect" id="Node000003" href="$d6/d6c/group___beat_generators.html#gade6acbf6fd3c9d346148bccfcafb2fe2" title="Generates a 16&#45;bit &quot;sawtooth&quot; wave at a given BPM." alt="" coords="661,5,728,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="545,16,645,16,645,22,545,22"/>
+<area shape="rect" id="Node000004" href="$d6/d6c/group___beat_generators.html#ga1b48fc520db5f40910caf79974992395" title="Generates a 16&#45;bit &quot;sawtooth&quot; wave at a given BPM, with BPM specified in Q8.8 fixed&#45;point format." alt="" coords="776,5,842,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="728,16,760,16,760,22,728,22"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="323,53,471,25,472,30,324,59"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="323,64,468,76,468,82,323,69"/>
+<area shape="rect" id="Node000008" href="$d0/da5/group___scaling_dirty.html#ga3fade00fb4cf5b937b973128198a7a79" title="Clean up the r1 register after a series of *LEAVING_R1_DIRTY calls." alt="" coords="468,145,564,173"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="370,160,452,158,452,163,371,165"/>
+<area shape="rect" id="Node000009" href="$d0/da5/group___scaling_dirty.html#ga7386235cada3aca429b189681d2ec56d" title="This version of scale8() does not clean up the R1 register on AVR." alt="" coords="418,197,613,225"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="356,176,429,191,428,196,355,181"/>
+</map>

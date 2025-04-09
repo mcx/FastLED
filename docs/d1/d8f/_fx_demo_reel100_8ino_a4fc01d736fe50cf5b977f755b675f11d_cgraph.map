@@ -1,0 +1,23 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,169,63,197"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/class_c_fast_l_e_d.html#afd7928d822589740af6e23b2d510cf3f" title="Add a CLEDController instance to the world." alt="" coords="131,117,274,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,171,110,155,136,147,137,152,111,160,64,176"/>
+<area shape="rect" id="Node000011" href="$dd/dbb/class_c_fast_l_e_d.html#a730ba7d967e882b4b893689cf333b2eb" title="Set the global brightness scaling." alt="" coords="113,169,292,197"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="63,180,98,180,98,186,63,186"/>
+<area shape="rect" id="Node000012" href="$d6/d2c/class_c_l_e_d_controller.html#ac1f024ba880d94121fd39d5fea0ff70a" title=" " alt="" coords="111,221,294,249"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="64,190,111,206,137,214,136,219,110,211,62,195"/>
+<area shape="rect" id="Node000003" href="$d6/d2c/class_c_l_e_d_controller.html#a44d20f088426191c82919c9cdbc63a35" title="Gets the maximum possible refresh rate of the strip." alt="" coords="342,5,598,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="221,115,273,79,341,43,365,35,367,40,343,48,276,83,224,119"/>
+<area shape="rect" id="Node000004" href="$d6/d2c/class_c_l_e_d_controller.html#af877a15a5ec452780fbd1d359b8a9913" title="Initialize the LED controller." alt="" coords="396,57,544,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="258,114,341,94,380,86,382,91,343,99,259,119"/>
+<area shape="rect" id="Node000005" href="$de/dca/classfl_1_1_engine_events.html#a8ec266f9f7b35b9174d331cb6c338d80" title=" " alt="" coords="380,109,560,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="274,128,365,128,365,134,274,134"/>
+<area shape="rect" id="Node000009" href="$d6/d2c/class_c_l_e_d_controller.html#a6c8e2157d244ce8b1b878947ca7695d9" title="Set the default array of LEDs to be used by this controller." alt="" coords="382,177,559,205"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="259,143,343,163,379,171,378,176,341,168,258,148"/>
+<area shape="rect" id="Node000010" href="$dd/dbb/class_c_fast_l_e_d.html#a1f39e8404db214bbd6a776f52a77d8b1" title="Set the maximum refresh rate." alt="" coords="362,229,579,257"/>
+<area shape="poly" id="edge8_Node000002_Node000010" title=" " alt="" coords="271,143,296,156,311,171,320,186,328,201,344,214,355,221,353,225,340,219,324,204,315,189,307,174,292,160,269,148"/>
+<area shape="rect" id="Node000006" href="$de/dca/classfl_1_1_engine_events.html#a006e1f01b766436e0eec2e406b4512d5" title=" " alt="" coords="684,80,818,124"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="560,119,668,108,669,113,561,124"/>
+<area shape="rect" id="Node000007" href="$de/dca/classfl_1_1_engine_events.html#a34a4625c4fbcf754f70820bc4f0e418b" title=" " alt="" coords="646,148,856,176"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="561,138,631,146,630,151,560,144"/>
+</map>

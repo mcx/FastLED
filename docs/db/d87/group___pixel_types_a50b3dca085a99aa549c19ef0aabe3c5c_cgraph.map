@@ -1,0 +1,7 @@
+<map id="CRGB::lerp16" name="CRGB::lerp16">
+<area shape="rect" id="Node000001" title="Return a new CRGB object after performing a linear interpolation between this object and the passed i..." alt="" coords="5,5,113,33"/>
+<area shape="rect" id="Node000002" href="$d6/d19/group___linear_interpolation.html#ga7c02960d0f26e90054c7312e5f9a55b3" title="Linear interpolation between two unsigned 16&#45;bit values, with 16&#45;bit fraction." alt="" coords="161,5,255,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,16,145,16,145,22,113,22"/>
+<area shape="rect" id="Node000003" href="$d0/da8/group___scaling.html#ga1ff8ac00ad78e22acc7bb7445bfdb145" title="Scale a 16&#45;bit unsigned value by an 16&#45;bit value, which is treated as the numerator of a fraction who..." alt="" coords="303,5,374,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,16,287,16,287,22,255,22"/>
+</map>

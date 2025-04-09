@@ -1,0 +1,61 @@
+<map id="AVRSoftwareSPIOutput::writeByte" name="AVRSoftwareSPIOutput::writeByte">
+<area shape="rect" id="Node000001" title="Write a single byte over SPI." alt="" coords="1050,388,1218,432"/>
+<area shape="rect" id="Node000002" href="$df/d0d/group___clocked_chipsets.html#ac9676b78658ebcab74033429c5c046f8" title=" " alt="" coords="533,5,761,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1127,373,1118,306,1096,224,1080,182,1059,142,1032,105,1000,73,974,55,946,41,884,22,822,13,762,11,762,5,822,7,886,17,948,36,977,51,1003,69,1036,101,1063,139,1085,180,1101,223,1123,305,1133,372"/>
+<area shape="rect" id="Node000006" href="$df/d0d/group___clocked_chipsets.html#ab927434d5ab7d27132e4b6832a50a29e" title=" " alt="" coords="832,353,982,398"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1034,397,982,389,983,384,1034,392"/>
+<area shape="rect" id="Node000007" href="$df/d0d/group___clocked_chipsets.html#a35f42384ada050146e6813f0fc766356" title="Send the LED data to the strip." alt="" coords="572,353,722,398"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="1086,381,1046,360,1001,343,928,333,854,334,784,343,724,356,722,351,783,338,854,329,929,327,1002,338,1048,355,1089,377"/>
+<area shape="rect" id="Node000008" href="$df/d0d/group___clocked_chipsets.html#a60fc5e3173df1c494951fbdd852969aa" title=" " alt="" coords="832,422,982,467"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="1034,428,983,436,982,430,1034,422"/>
+<area shape="rect" id="Node000009" href="$df/d0d/group___clocked_chipsets.html#a2516bc6ae0059f28287e7fc6b8fd266f" title=" " alt="" coords="556,213,739,258"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="1115,375,1096,341,1071,303,1039,268,1000,242,969,228,936,219,868,210,800,211,739,218,739,213,800,206,868,205,937,214,971,223,1003,237,1042,264,1075,300,1101,338,1119,373"/>
+<area shape="rect" id="Node000010" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ad5f106b07a655da37d889037f524617d" title="Write a single byte over SPI without waiting." alt="" coords="823,492,991,536"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="1081,442,1003,482,975,493,973,488,1001,477,1078,438"/>
+<area shape="rect" id="Node000011" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a80903ee9d3226ced43e8f614a9e486b1" title="Write a single byte over SPI and wait afterwards." alt="" coords="823,561,991,606"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="1109,446,1063,499,1035,527,1003,551,982,563,979,558,1000,546,1031,523,1060,496,1105,443"/>
+<area shape="rect" id="Node000012" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#af543930d08c9ce5c8229e45be97980e9" title="Write an array of data to the SPI interface." alt="" coords="823,630,991,675"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="1121,447,1102,487,1076,533,1043,580,1003,620,985,632,982,627,1000,616,1039,576,1072,530,1097,485,1116,445"/>
+<area shape="rect" id="Node000014" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#abada62794ed922c2798bf462a98b57f0" title="Write multiple bytes of the given value over SPI, without selecting the interface." alt="" coords="823,700,991,744"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="1127,448,1112,501,1087,566,1052,631,1029,662,1003,689,987,701,984,697,1000,685,1025,659,1047,629,1082,563,1107,500,1122,447"/>
+<area shape="rect" id="Node000017" href="$df/d0d/group___clocked_chipsets.html#a3e9e62e92d3f9e175b43e28dbb2254e9" title=" " alt="" coords="830,769,984,814"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="1131,448,1120,514,1097,597,1080,640,1059,683,1034,723,1003,758,986,772,983,768,1000,755,1030,720,1055,680,1075,638,1092,595,1114,513,1126,447"/>
+<area shape="rect" id="Node000019" href="$df/d0d/group___clocked_chipsets.html#a3e85825537bbd044569052476051a970" title=" " alt="" coords="548,57,746,85"/>
+<area shape="poly" id="edge21_Node000001_Node000019" title=" " alt="" coords="1125,373,1112,315,1089,246,1073,211,1053,177,1029,147,1000,121,972,103,941,89,875,71,809,63,747,63,747,58,809,58,876,66,943,84,974,99,1003,117,1032,143,1057,174,1077,208,1094,244,1117,314,1130,371"/>
+<area shape="rect" id="Node000020" href="$df/d0d/group___clocked_chipsets.html#a153192c5ed8e28168bcb4179ed80598c" title=" " alt="" coords="812,251,1002,278"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="1099,378,1054,337,1000,299,961,281,963,276,1003,294,1058,333,1103,374"/>
+<area shape="rect" id="Node000022" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a20772a8fdfa75015731375c36ccb3515" title="Write LED pixel data to the SPI interface." alt="" coords="823,838,991,883"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="1134,448,1126,526,1106,627,1089,681,1067,733,1039,783,1004,828,989,840,985,836,1000,824,1034,780,1062,731,1084,679,1101,625,1121,525,1129,447"/>
+<area shape="rect" id="Node000023" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a34421832d232a692d08d39d87733acd8" title="Write a word (two bytes) over SPI." alt="" coords="823,132,991,176"/>
+<area shape="poly" id="edge27_Node000001_Node000023" title=" " alt="" coords="1116,375,1098,334,1072,287,1039,239,1000,197,972,179,975,174,1003,193,1043,236,1076,284,1102,332,1121,372"/>
+<area shape="rect" id="Node000003" href="$df/d0d/group___clocked_chipsets.html#a632117bec47c6b4ba7e3ed1703478a42" title=" " alt="" coords="268,14,482,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="518,30,483,32,482,27,517,25"/>
+<area shape="rect" id="Node000005" href="$df/d0d/group___clocked_chipsets.html#a040f761b3d3bb30a9275f96548ec5ef7" title=" " alt="" coords="268,84,482,128"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="556,40,531,48,507,60,483,74,452,85,450,80,481,69,505,56,529,43,555,35"/>
+<area shape="rect" id="Node000004" href="$df/d0d/group___clocked_chipsets.html#a523f76b88c07e29cba6c40bd0cefe4b3" title="Send the LED data to the strip." alt="" coords="5,57,220,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="252,55,220,60,220,54,252,50"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="252,92,220,88,220,83,252,87"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="816,378,723,378,723,372,816,372"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="816,423,722,398,723,393,817,418"/>
+<area shape="rect" id="Node000013" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#a8e0f5d9fd6f2c1e1eab4436c1b5cb23a" title="Write an array of data to the SPI interface." alt="" coords="563,596,731,640"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="807,642,731,632,732,626,808,637"/>
+<area shape="rect" id="Node000015" href="$df/d0d/group___clocked_chipsets.html#a8e402dc154857e5c6b62bffe0372e856" title=" " alt="" coords="544,734,750,779"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="808,738,751,745,750,740,807,732"/>
+<area shape="rect" id="Node000016" href="$dc/d57/class_a_v_r_software_s_p_i_output.html#ac4ffa7160697ac63bbd7734b480308bc" title="Write multiple bytes of the given value over SPI." alt="" coords="563,665,731,710"/>
+<area shape="poly" id="edge18_Node000014_Node000016" title=" " alt="" coords="807,711,731,701,732,696,808,706"/>
+<area shape="rect" id="Node000018" href="$df/d0d/group___clocked_chipsets.html#a2b68d483e7422d26d31586ca7791d7af" title="Send the LED data to the strip." alt="" coords="570,804,724,848"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="815,806,725,818,724,813,814,801"/>
+<area shape="poly" id="edge22_Node000019_Node000003" title=" " alt="" coords="532,59,482,53,483,48,533,54"/>
+<area shape="poly" id="edge23_Node000019_Node000005" title=" " alt="" coords="533,88,483,95,482,90,532,83"/>
+<area shape="rect" id="Node000021" href="$df/d0d/group___clocked_chipsets.html#ab7381f0a1850d006f3449d27838b19c5" title="Send the LED data to the strip." alt="" coords="272,208,478,236"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="797,278,668,282,598,280,530,272,466,258,411,239,412,234,467,252,530,267,599,275,668,277,796,273"/>
+<area shape="poly" id="edge31_Node000023_Node000009" title=" " alt="" coords="824,184,765,203,727,215,725,210,764,198,822,179"/>
+<area shape="poly" id="edge34_Node000023_Node000019" title=" " alt="" coords="838,128,764,100,718,88,719,83,765,95,840,123"/>
+<area shape="rect" id="Node000024" href="$df/d0d/group___clocked_chipsets.html#ab8d200f508aa910564b8db24c451c28b" title=" " alt="" coords="530,109,764,137"/>
+<area shape="poly" id="edge28_Node000023_Node000024" title=" " alt="" coords="807,145,764,140,765,134,808,139"/>
+<area shape="rect" id="Node000025" href="$df/d0d/group___clocked_chipsets.html#a387b638de0fc6cb7a2bccbcf41037b30" title=" " alt="" coords="533,161,761,189"/>
+<area shape="poly" id="edge32_Node000023_Node000025" title=" " alt="" coords="807,165,762,168,762,163,807,159"/>
+<area shape="poly" id="edge29_Node000024_Node000003" title=" " alt="" coords="555,107,529,99,505,87,481,74,450,62,452,57,483,69,507,82,531,94,556,102"/>
+<area shape="poly" id="edge30_Node000024_Node000005" title=" " alt="" coords="514,117,482,115,482,110,515,112"/>
+<area shape="poly" id="edge33_Node000025_Node000021" title=" " alt="" coords="548,195,460,210,459,205,547,190"/>
+</map>
