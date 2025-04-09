@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g_0',['g',['../d6/d39/group___palette_classes.html#ab2f5ff47436671b6e533d8dc3614845d',1,'TRGBGradientPaletteEntryUnion.__unnamed15__::g'],['../db/d87/group___pixel_types.html#ab2f5ff47436671b6e533d8dc3614845d',1,'CRGB.__unnamed17__.__unnamed19__.__unnamed23__::g']]],
+  ['g_0',['g',['../d6/d39/group___palette_classes.html#ab2f5ff47436671b6e533d8dc3614845d',1,'TRGBGradientPaletteEntryUnion.__unnamed25__::g'],['../db/d87/group___pixel_types.html#ab2f5ff47436671b6e533d8dc3614845d',1,'CRGB.__unnamed15__.__unnamed17__.__unnamed21__::g']]],
   ['g_5f_1',['g_',['../de/d12/struct_color3i.html#aa31bd0c7fdeb7977ba1a3d6a349b1779',1,'Color3i']]],
   ['g_5fcounter_2',['g_counter',['../dd/d25/namespacefl_1_1anonymous__namespace_02pir_8cpp_03.html#abe86300aa1015328598fc34546a7de4c',1,'fl::anonymous_namespace{pir.cpp}']]],
   ['g_5fpos_3',['g_pos',['../d4/d88/led__strip__types_8h.html#ab31530265f76a1e677f9bde230d8e72e',1,'led_color_component_format_t::format_layout']]],
@@ -20,7 +20,7 @@ var searchData=
   ['gpal_17',['gPal',['../db/d92/_fire2012_with_palette_8ino.html#ae12f47453b41cbfbbd4b4103bc963d92',1,'Fire2012WithPalette.ino']]],
   ['gpatterns_18',['gPatterns',['../d5/d25/_demo_reel100_8ino.html#aae59ce92875e3bbdbfce44b0d5ab9478',1,'DemoReel100.ino']]],
   ['gred_5fmw_19',['gRed_mW',['../dc/d56/power__mgt_8cpp.html#abb63507c4d4608fcfe69f09f3a5d5ecd',1,'power_mgt.cpp']]],
-  ['green_20',['green',['../d6/d74/namespaceanimartrix__detail.html#aa6a53113e9723911af50ead39500629e',1,'animartrix_detail::rgb::green'],['../db/d87/group___pixel_types.html#a9f27410725ab8cc8854a2769c7a516b8',1,'CRGB.__unnamed17__.__unnamed19__.__unnamed23__::green'],['../d4/d36/namespacefl.html#a9f27410725ab8cc8854a2769c7a516b8',1,'fl::Pixel.__unnamed39__.__unnamed41__::green']]],
+  ['green_20',['green',['../d6/d74/namespaceanimartrix__detail.html#aa6a53113e9723911af50ead39500629e',1,'animartrix_detail::rgb::green'],['../db/d87/group___pixel_types.html#a9f27410725ab8cc8854a2769c7a516b8',1,'CRGB.__unnamed15__.__unnamed17__.__unnamed21__::green'],['../d4/d36/namespacefl.html#a9f27410725ab8cc8854a2769c7a516b8',1,'fl::Pixel.__unnamed39__.__unnamed41__::green']]],
   ['green_5fanchor_5fpoint_21',['GREEN_ANCHOR_POINT',['../dc/d8e/namespacegen.html#af9abdc6916866f4dd2bb32e17ce50334',1,'gen']]],
   ['greenleds_22',['greenLeds',['../d1/d65/_multi_arrays_8ino.html#a67146678552353381d4c462bd2700140',1,'MultiArrays.ino']]],
   ['greversedirection_23',['gReverseDirection',['../d4/d26/_fire2012_8ino.html#af3e0a6f30510cfa9f7633fa8cb5fea7e',1,'gReverseDirection:&#160;Fire2012.ino'],['../db/d92/_fire2012_with_palette_8ino.html#af3e0a6f30510cfa9f7633fa8cb5fea7e',1,'gReverseDirection:&#160;Fire2012WithPalette.ino']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../d6/d39/group___palette_classes.html#a4b43b0aee35624cd95b910189b3dc231',1,'TRGBGradientPaletteEntryUnion.__unnamed15__::r'],['../db/d87/group___pixel_types.html#a4b43b0aee35624cd95b910189b3dc231',1,'CRGB.__unnamed17__.__unnamed19__.__unnamed21__::r']]],
+  ['r_0',['r',['../d6/d39/group___palette_classes.html#a4b43b0aee35624cd95b910189b3dc231',1,'TRGBGradientPaletteEntryUnion.__unnamed25__::r'],['../db/d87/group___pixel_types.html#a4b43b0aee35624cd95b910189b3dc231',1,'CRGB.__unnamed15__.__unnamed17__.__unnamed19__::r']]],
   ['r1_20dirty_1',['Scaling Functions that Leave R1 Dirty',['../d0/da5/group___scaling_dirty.html',1,'']]],
   ['r_5f_2',['r_',['../de/d12/struct_color3i.html#ac82e943def8ec0943db1a50607fb6f38',1,'Color3i']]],
   ['r_5fpos_3',['r_pos',['../d4/d88/led__strip__types_8h.html#a95b120b5390a23950a581a652895dea4',1,'led_color_component_format_t::format_layout']]],
@@ -25,7 +25,7 @@ var searchData=
   ['raspberripi_22',['RaspberriPi',['../index.html#autotoc_md35',1,'']]],
   ['raspberry_20pi_23',['Raspberry Pi',['../index.html#autotoc_md22',1,'']]],
   ['ratio_24',['ratio',['../d6/d74/namespaceanimartrix__detail.html#ac68450401610a205aa9c823cc95eaa59',1,'animartrix_detail::oscillators']]],
-  ['raw_25',['raw',['../de/ded/bitswap_8h.html#abec3634476280a30569fd77b6d80be31',1,'just8bits::raw'],['../db/d87/group___pixel_types.html#a0d57c3c33146f5661b178b0c6c82368e',1,'CHSV.__unnamed1__::raw'],['../db/d87/group___pixel_types.html#a0d57c3c33146f5661b178b0c6c82368e',1,'CRGB.__unnamed17__::raw'],['../d4/d36/namespacefl.html#a0d57c3c33146f5661b178b0c6c82368e',1,'fl::Pixel.__unnamed39__::raw']]],
+  ['raw_25',['raw',['../de/ded/bitswap_8h.html#abec3634476280a30569fd77b6d80be31',1,'just8bits::raw'],['../db/d87/group___pixel_types.html#a0d57c3c33146f5661b178b0c6c82368e',1,'CHSV.__unnamed1__::raw'],['../db/d87/group___pixel_types.html#a0d57c3c33146f5661b178b0c6c82368e',1,'CRGB.__unnamed15__::raw'],['../d4/d36/namespacefl.html#a0d57c3c33146f5661b178b0c6c82368e',1,'fl::Pixel.__unnamed39__::raw']]],
   ['rawbegindraw_26',['RawBeginDraw',['../d4/df6/class_led_rope_t_c_l.html#ae60663b8c9b70e2dd58ebbfe14c22111',1,'LedRopeTCL::RawBeginDraw()'],['../d2/d84/class_led_rope_interface.html#aabd7b16e96dfbbcf2dac2b21f389d0ac',1,'LedRopeInterface::RawBeginDraw()']]],
   ['rawcommitdraw_27',['RawCommitDraw',['../d4/df6/class_led_rope_t_c_l.html#a2c5c772faf24596d5be70d96581e7454',1,'LedRopeTCL::RawCommitDraw()'],['../d2/d84/class_led_rope_interface.html#a4655ae1b8e1b02b5604bf2303a367e4a',1,'LedRopeInterface::RawCommitDraw()']]],
   ['rawdrawpixel_28',['RawDrawPixel',['../d4/df6/class_led_rope_t_c_l.html#a44e74c392ae8f3e56d58000912d38aed',1,'LedRopeTCL::RawDrawPixel(const Color3i &amp;c)'],['../d4/df6/class_led_rope_t_c_l.html#a84123c2de8d329ed3d2e6314a08620e8',1,'LedRopeTCL::RawDrawPixel(uint8_t r, uint8_t g, uint8_t b)'],['../d2/d84/class_led_rope_interface.html#a0a54c27f180840a5713c0a20f14a8123',1,'LedRopeInterface::RawDrawPixel(const Color3i &amp;c)=0'],['../d2/d84/class_led_rope_interface.html#a087cba16ddb2f2f3ada338ad09dd7a08',1,'LedRopeInterface::RawDrawPixel(uint8_t r, uint8_t g, uint8_t b)=0']]],
@@ -52,7 +52,7 @@ var searchData=
   ['rectangulardrawbuffer_49',['RectangularDrawBuffer',['../de/d10/classfl_1_1_rectangular_draw_buffer.html',1,'fl::RectangularDrawBuffer'],['../de/d10/classfl_1_1_rectangular_draw_buffer.html#a602cf15bfef7a9ca1fca1b77819a5cf4',1,'fl::RectangularDrawBuffer::RectangularDrawBuffer()']]],
   ['red_50',['RED',['../d5/db2/_octo_w_s2811_8ino.html#a8d23feea868a983c8c2b661e1e16972f',1,'OctoWS2811.ino']]],
   ['red_51',['Red',['../db/d87/group___pixel_types.html#aeb40a08b7cb90c1e21bd408261558b99ab35114af96aa24d28e7901b1318cc43a',1,'CRGB::Red'],['../de/d12/struct_color3i.html#a7c3c8de250985b4c6f6c50891bd5aaf2',1,'Color3i::Red()']]],
-  ['red_52',['red',['../d6/d74/namespaceanimartrix__detail.html#a1278ce22b0e505c59591cd2dcb1a3715',1,'animartrix_detail::rgb::red'],['../db/d87/group___pixel_types.html#abda9643ac6601722a28f238714274da4',1,'CRGB.__unnamed17__.__unnamed19__.__unnamed21__::red'],['../d4/d36/namespacefl.html#abda9643ac6601722a28f238714274da4',1,'fl::Pixel.__unnamed39__.__unnamed41__::red']]],
+  ['red_52',['red',['../d6/d74/namespaceanimartrix__detail.html#a1278ce22b0e505c59591cd2dcb1a3715',1,'animartrix_detail::rgb::red'],['../db/d87/group___pixel_types.html#abda9643ac6601722a28f238714274da4',1,'CRGB.__unnamed15__.__unnamed17__.__unnamed19__::red'],['../d4/d36/namespacefl.html#abda9643ac6601722a28f238714274da4',1,'fl::Pixel.__unnamed39__.__unnamed41__::red']]],
   ['red_5fanchor_5fpoint_53',['RED_ANCHOR_POINT',['../dc/d8e/namespacegen.html#af447b187b137082e492093d200516cd7',1,'gen']]],
   ['redgreenwhite_5fp_54',['RedGreenWhite_p',['../d4/d36/namespacefl.html#ab670a6238000da814209ca3e77f18521',1,'fl::RedGreenWhite_p'],['../d4/dd0/_twinkle_fox_8ino.html#a60517ed6ecbdcb5c8c523f46c0ba6590',1,'RedGreenWhite_p:&#160;TwinkleFox.ino']]],
   ['redleds_55',['redLeds',['../d1/d65/_multi_arrays_8ino.html#ab41a53948595e055472e1059af939fbf',1,'MultiArrays.ino']]],

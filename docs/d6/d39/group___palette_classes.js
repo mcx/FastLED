@@ -171,7 +171,7 @@ var group___palette_classes =
       [ "bytes", "d6/d39/group___palette_classes.html#a8f3ee1dde5a25ab7cb3455b343f0ee45", null ],
       [ "dword", "d6/d39/group___palette_classes.html#a2d804a8e4f58e9aa7d65f456f69d904b", null ]
     ] ],
-    [ "TRGBGradientPaletteEntryUnion.__unnamed15__", "d6/d39/group___palette_classes.html#d0/d76/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed15____", [
+    [ "TRGBGradientPaletteEntryUnion.__unnamed25__", "d6/d39/group___palette_classes.html#d5/d58/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed25____", [
       [ "b", "d6/d39/group___palette_classes.html#a92eb5ffee6ae2fec3ad71c777531578f", null ],
       [ "g", "d6/d39/group___palette_classes.html#ab2f5ff47436671b6e533d8dc3614845d", null ],
       [ "index", "d6/d39/group___palette_classes.html#a6a992d5529f459a44fee58c733255e86", null ],

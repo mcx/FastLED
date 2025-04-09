@@ -113,7 +113,7 @@ var searchData=
   ['travelingdownwards_110',['travelingDownwards',['../de/de3/ripple_8h.html#a1f2f44ff7f5e1cfc83b354cfdfa2bcdbaf63d70a8a3f20a2dd2988a7a9b51cd2d',1,'ripple.h']]],
   ['travelingupwards_111',['travelingUpwards',['../de/de3/ripple_8h.html#a1f2f44ff7f5e1cfc83b354cfdfa2bcdba9aaf4583dc09331b3f151d015d4b59cd',1,'ripple.h']]],
   ['trgbgradientpaletteentryunion_112',['TRGBGradientPaletteEntryUnion',['../d6/d39/group___palette_classes.html#db/d74/union_t_r_g_b_gradient_palette_entry_union',1,'']]],
-  ['trgbgradientpaletteentryunion_2e_5f_5funnamed15_5f_5f_113',['TRGBGradientPaletteEntryUnion.__unnamed15__',['../d6/d39/group___palette_classes.html#d0/d76/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed15____',1,'']]],
+  ['trgbgradientpaletteentryunion_2e_5f_5funnamed25_5f_5f_113',['TRGBGradientPaletteEntryUnion.__unnamed25__',['../d6/d39/group___palette_classes.html#d5/d58/struct_t_r_g_b_gradient_palette_entry_union_8____unnamed25____',1,'']]],
   ['trig8_2eh_114',['trig8.h',['../d3/db9/trig8_8h.html',1,'']]],
   ['trigger_115',['trigger',['../d5/df2/group___timekeeping.html#a192e33c921fff572ca54d4fd85c70e16',1,'CEveryNTime::trigger()'],['../d5/df2/group___timekeeping.html#aa7fd8de7dd186ee5d3b4370882fb1ec2',1,'CEveryNMillisDynamic::trigger()']]],
   ['triggerborderwave_116',['triggerBorderWave',['../d1/ddb/_chromancer_8ino.html#a88ceb3ba2ebfc748c6bc1a2b22c1225f',1,'Chromancer.ino']]],

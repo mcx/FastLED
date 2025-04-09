@@ -25,7 +25,7 @@ var searchData=
   ['in_203_209_209_3a_2016_20way_20yves_20i2s_20parallel_20driver_20for_20the_20esp32_20s3_22',['New in 3.9.9: 16-way Yves I2S parallel driver for the ESP32-S3',['../index.html#autotoc_md12',1,'']]],
   ['in_20fastled_23',['APA102 and the &apos;High Definition&apos; Mode in FastLED',['../index.html#autotoc_md41',1,'']]],
   ['increment_24',['increment',['../d2/d4f/classfl_1_1_circular_buffer.html#af384b522248f5ed355b3f72aafe3249a',1,'fl::CircularBuffer']]],
-  ['index_25',['index',['../d6/d39/group___palette_classes.html#a6a992d5529f459a44fee58c733255e86',1,'TRGBGradientPaletteEntryUnion.__unnamed15__']]],
+  ['index_25',['index',['../d6/d39/group___palette_classes.html#a6a992d5529f459a44fee58c733255e86',1,'TRGBGradientPaletteEntryUnion.__unnamed25__']]],
   ['indianred_26',['IndianRed',['../db/d87/group___pixel_types.html#aeb40a08b7cb90c1e21bd408261558b99ab63d06563b94a638a1666ce930453edb',1,'CRGB']]],
   ['indigo_27',['Indigo',['../db/d87/group___pixel_types.html#aeb40a08b7cb90c1e21bd408261558b99aad3ce9eb9debe2f6e9284c54e06ed9c5',1,'CRGB']]],
   ['information_28',['For more information',['../index.html#autotoc_md47',1,'']]],

@@ -236,19 +236,19 @@ var group___pixel_types =
       [ "subtractFromRGB", "db/d87/group___pixel_types.html#a986ac62988523a4371f8f90cf844924d", null ],
       [ "toString", "db/d87/group___pixel_types.html#add878844c01cb6841442d982542a334a", null ]
     ] ],
-    [ "CRGB.__unnamed17__", "db/d87/group___pixel_types.html#db/d36/union_c_r_g_b_8____unnamed17____", [
+    [ "CRGB.__unnamed15__", "db/d87/group___pixel_types.html#db/d24/union_c_r_g_b_8____unnamed15____", [
       [ "raw", "db/d87/group___pixel_types.html#a0d57c3c33146f5661b178b0c6c82368e", null ]
     ] ],
-    [ "CRGB.__unnamed17__.__unnamed19__", "db/d87/group___pixel_types.html#d3/de6/struct_c_r_g_b_8____unnamed17_____8____unnamed19____", null ],
-    [ "CRGB.__unnamed17__.__unnamed19__.__unnamed21__", "db/d87/group___pixel_types.html#de/de4/union_c_r_g_b_8____unnamed17_____8____unnamed19_____8____unnamed21____", [
+    [ "CRGB.__unnamed15__.__unnamed17__", "db/d87/group___pixel_types.html#da/db3/struct_c_r_g_b_8____unnamed15_____8____unnamed17____", null ],
+    [ "CRGB.__unnamed15__.__unnamed17__.__unnamed19__", "db/d87/group___pixel_types.html#d6/df0/union_c_r_g_b_8____unnamed15_____8____unnamed17_____8____unnamed19____", [
       [ "r", "db/d87/group___pixel_types.html#a4b43b0aee35624cd95b910189b3dc231", null ],
       [ "red", "db/d87/group___pixel_types.html#abda9643ac6601722a28f238714274da4", null ]
     ] ],
-    [ "CRGB.__unnamed17__.__unnamed19__.__unnamed23__", "db/d87/group___pixel_types.html#dc/da4/union_c_r_g_b_8____unnamed17_____8____unnamed19_____8____unnamed23____", [
+    [ "CRGB.__unnamed15__.__unnamed17__.__unnamed21__", "db/d87/group___pixel_types.html#db/df9/union_c_r_g_b_8____unnamed15_____8____unnamed17_____8____unnamed21____", [
       [ "g", "db/d87/group___pixel_types.html#ab2f5ff47436671b6e533d8dc3614845d", null ],
       [ "green", "db/d87/group___pixel_types.html#a9f27410725ab8cc8854a2769c7a516b8", null ]
     ] ],
-    [ "CRGB.__unnamed17__.__unnamed19__.__unnamed25__", "db/d87/group___pixel_types.html#dd/da2/union_c_r_g_b_8____unnamed17_____8____unnamed19_____8____unnamed25____", [
+    [ "CRGB.__unnamed15__.__unnamed17__.__unnamed23__", "db/d87/group___pixel_types.html#d2/d59/union_c_r_g_b_8____unnamed15_____8____unnamed17_____8____unnamed23____", [
       [ "b", "db/d87/group___pixel_types.html#a92eb5ffee6ae2fec3ad71c777531578f", null ],
       [ "blue", "db/d87/group___pixel_types.html#a48d6215903dff56238e52e8891380c8f", null ]
     ] ],

@@ -433,275 +433,275 @@
 </a>
 </g>
 </g>
-<!-- Node65 -->
-<g id="Node000065" class="node">
-<title>Node65</title>
-<g id="a_Node000065"><a xlink:href="../../d6/d19/group___linear_interpolation.html#ga62ed4425400bc4140902347dc54ffb72" target="_top" xlink:title="Linear interpolation between two unsigned 8&#45;bit values, with 8&#45;bit fraction.">
+<!-- Node67 -->
+<g id="Node000067" class="node">
+<title>Node67</title>
+<g id="a_Node000067"><a xlink:href="../../d6/d19/group___linear_interpolation.html#ga62ed4425400bc4140902347dc54ffb72" target="_top" xlink:title="Linear interpolation between two unsigned 8&#45;bit values, with 8&#45;bit fraction.">
 <polygon fill="#fff0f0" stroke="red" points="435.38,-537.75 376.62,-537.75 376.62,-517 435.38,-517 435.38,-537.75"/>
 <text text-anchor="middle" x="406" y="-524.25" font-family="Helvetica,sans-Serif" font-size="10.00">lerp8by8</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node65 -->
-<g id="edge40_Node000001_Node000065" class="edge">
-<title>Node1&#45;&gt;Node65</title>
-<g id="a_edge40_Node000001_Node000065"><a xlink:title=" ">
+<!-- Node1&#45;&gt;Node67 -->
+<g id="edge40_Node000001_Node000067" class="edge">
+<title>Node1&#45;&gt;Node67</title>
+<g id="a_edge40_Node000001_Node000067"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M540.09,-770.21C533.77,-716.07 515.01,-579.25 483.75,-547.38 471.31,-534.69 451.92,-529.71 435.74,-527.89"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="536.6,-770.49 541.2,-780.03 543.56,-769.7 536.6,-770.49"/>
-</a>
-</g>
-</g>
-<!-- Node67 -->
-<g id="Node000067" class="node">
-<title>Node67</title>
-<g id="a_Node000067"><a xlink:href="../../d0/dee/struct_pixel_controller.html#a7f2b0c051d473813018715f1621ea259" target="_top" xlink:title="Loads, dithers, and scales a single byte for a given output slot and lane.">
-<polygon fill="white" stroke="#666666" points="472.5,-499.12 339.5,-499.12 339.5,-465.62 472.5,-465.62 472.5,-499.12"/>
-<text text-anchor="start" x="347.5" y="-485.62" font-family="Helvetica,sans-Serif" font-size="10.00">PixelController::loadAnd</text>
-<text text-anchor="middle" x="406" y="-472.88" font-family="Helvetica,sans-Serif" font-size="10.00">Scale</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node67 -->
-<g id="edge41_Node000001_Node000067" class="edge">
-<title>Node1&#45;&gt;Node67</title>
-<g id="a_edge41_Node000001_Node000067"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M540.72,-770.09C535.5,-710.19 518.4,-547.55 483.75,-508.38 480.58,-504.79 476.9,-501.7 472.9,-499.04"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="537.23,-770.35 541.55,-780.02 544.2,-769.76 537.23,-770.35"/>
-</a>
-</g>
-</g>
-<!-- Node68 -->
-<g id="Node000068" class="node">
-<title>Node68</title>
-<g id="a_Node000068"><a xlink:href="../../d0/dee/struct_pixel_controller.html#a2096cee6b377960ef21fbda622f08994" target="_top" xlink:title="Loads and scales a single byte for a given output slot and lane.">
-<polygon fill="white" stroke="#666666" points="472.5,-447.12 339.5,-447.12 339.5,-413.62 472.5,-413.62 472.5,-447.12"/>
-<text text-anchor="start" x="347.5" y="-433.62" font-family="Helvetica,sans-Serif" font-size="10.00">PixelController::loadAnd</text>
-<text text-anchor="middle" x="406" y="-420.88" font-family="Helvetica,sans-Serif" font-size="10.00">Scale</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node68 -->
-<g id="edge42_Node000001_Node000068" class="edge">
-<title>Node1&#45;&gt;Node68</title>
-<g id="a_edge42_Node000001_Node000068"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M541.53,-770.53C538.12,-703.78 524.66,-504.11 483.75,-456.38 480.55,-452.64 476.78,-449.43 472.67,-446.69"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.01,-770.37 541.99,-780.2 545.01,-770.04 538.01,-770.37"/>
 </a>
 </g>
 </g>
 <!-- Node69 -->
 <g id="Node000069" class="node">
 <title>Node69</title>
-<g id="a_Node000069"><a xlink:href="../../d1/de4/_x_y_matrix_8ino.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="424.5,-395.75 387.5,-395.75 387.5,-375 424.5,-375 424.5,-395.75"/>
-<text text-anchor="middle" x="406" y="-382.25" font-family="Helvetica,sans-Serif" font-size="10.00">loop</text>
+<g id="a_Node000069"><a xlink:href="../../d0/dee/struct_pixel_controller.html#a7f2b0c051d473813018715f1621ea259" target="_top" xlink:title="Loads, dithers, and scales a single byte for a given output slot and lane.">
+<polygon fill="white" stroke="#666666" points="472.5,-499.12 339.5,-499.12 339.5,-465.62 472.5,-465.62 472.5,-499.12"/>
+<text text-anchor="start" x="347.5" y="-485.62" font-family="Helvetica,sans-Serif" font-size="10.00">PixelController::loadAnd</text>
+<text text-anchor="middle" x="406" y="-472.88" font-family="Helvetica,sans-Serif" font-size="10.00">Scale</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node69 -->
-<g id="edge43_Node000001_Node000069" class="edge">
+<g id="edge41_Node000001_Node000069" class="edge">
 <title>Node1&#45;&gt;Node69</title>
-<g id="a_edge43_Node000001_Node000069"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M542.27,-770.42C541.03,-696.55 533.21,-458.63 483.75,-404.38 468.86,-388.04 442.34,-384.74 424.71,-384.54"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.76,-770.06 542.4,-780.01 545.76,-769.96 538.76,-770.06"/>
+<g id="a_edge41_Node000001_Node000069"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M540.72,-770.09C535.5,-710.19 518.4,-547.55 483.75,-508.38 480.58,-504.79 476.9,-501.7 472.9,-499.04"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="537.23,-770.35 541.55,-780.02 544.2,-769.76 537.23,-770.35"/>
 </a>
 </g>
 </g>
 <!-- Node70 -->
 <g id="Node000070" class="node">
 <title>Node70</title>
-<g id="a_Node000070"><a xlink:href="../../d6/d19/group___linear_interpolation.html#gaf65357c7aeca9778e5a2f80a6bac2b5d" target="_top" xlink:title="Map from one full&#45;range 8&#45;bit value into a narrower range of 8&#45;bit values, possibly a range of hues.">
+<g id="a_Node000070"><a xlink:href="../../d0/dee/struct_pixel_controller.html#a2096cee6b377960ef21fbda622f08994" target="_top" xlink:title="Loads and scales a single byte for a given output slot and lane.">
+<polygon fill="white" stroke="#666666" points="472.5,-447.12 339.5,-447.12 339.5,-413.62 472.5,-413.62 472.5,-447.12"/>
+<text text-anchor="start" x="347.5" y="-433.62" font-family="Helvetica,sans-Serif" font-size="10.00">PixelController::loadAnd</text>
+<text text-anchor="middle" x="406" y="-420.88" font-family="Helvetica,sans-Serif" font-size="10.00">Scale</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node70 -->
+<g id="edge42_Node000001_Node000070" class="edge">
+<title>Node1&#45;&gt;Node70</title>
+<g id="a_edge42_Node000001_Node000070"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M541.53,-770.53C538.12,-703.78 524.66,-504.11 483.75,-456.38 480.55,-452.64 476.78,-449.43 472.67,-446.69"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.01,-770.37 541.99,-780.2 545.01,-770.04 538.01,-770.37"/>
+</a>
+</g>
+</g>
+<!-- Node71 -->
+<g id="Node000071" class="node">
+<title>Node71</title>
+<g id="a_Node000071"><a xlink:href="../../d1/de4/_x_y_matrix_8ino.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="424.5,-395.75 387.5,-395.75 387.5,-375 424.5,-375 424.5,-395.75"/>
+<text text-anchor="middle" x="406" y="-382.25" font-family="Helvetica,sans-Serif" font-size="10.00">loop</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node71 -->
+<g id="edge43_Node000001_Node000071" class="edge">
+<title>Node1&#45;&gt;Node71</title>
+<g id="a_edge43_Node000001_Node000071"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M542.27,-770.42C541.03,-696.55 533.21,-458.63 483.75,-404.38 468.86,-388.04 442.34,-384.74 424.71,-384.54"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.76,-770.06 542.4,-780.01 545.76,-769.96 538.76,-770.06"/>
+</a>
+</g>
+</g>
+<!-- Node72 -->
+<g id="Node000072" class="node">
+<title>Node72</title>
+<g id="a_Node000072"><a xlink:href="../../d6/d19/group___linear_interpolation.html#gaf65357c7aeca9778e5a2f80a6bac2b5d" target="_top" xlink:title="Map from one full&#45;range 8&#45;bit value into a narrower range of 8&#45;bit values, possibly a range of hues.">
 <polygon fill="#fff0f0" stroke="red" points="427.88,-1246.75 384.12,-1246.75 384.12,-1226 427.88,-1226 427.88,-1246.75"/>
 <text text-anchor="middle" x="406" y="-1233.25" font-family="Helvetica,sans-Serif" font-size="10.00">map8</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node70 -->
-<g id="edge44_Node000001_Node000070" class="edge">
-<title>Node1&#45;&gt;Node70</title>
-<g id="a_edge44_Node000001_Node000070"><a xlink:title=" ">
+<!-- Node1&#45;&gt;Node72 -->
+<g id="edge44_Node000001_Node000072" class="edge">
+<title>Node1&#45;&gt;Node72</title>
+<g id="a_edge44_Node000001_Node000072"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M542.43,-813.98C541.73,-891.08 535.51,-1151.34 483.75,-1212.38 470.12,-1228.45 445.86,-1233.91 428.26,-1235.69"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="545.92,-814.41 542.49,-804.39 538.92,-814.36 545.92,-814.41"/>
-</a>
-</g>
-</g>
-<!-- Node99 -->
-<g id="Node000099" class="node">
-<title>Node99</title>
-<g id="a_Node000099"><a xlink:href="../../dc/db8/group___color_blends.html#gab18a835a14780faf17c53c64f4ba0ae6" target="_top" xlink:title="Destructively modifies one color, blending in a given fraction of an overlay color.">
-<polygon fill="white" stroke="#666666" points="430.5,-356.75 381.5,-356.75 381.5,-336 430.5,-336 430.5,-356.75"/>
-<text text-anchor="middle" x="406" y="-343.25" font-family="Helvetica,sans-Serif" font-size="10.00">nblend</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node99 -->
-<g id="edge47_Node000001_Node000099" class="edge">
-<title>Node1&#45;&gt;Node99</title>
-<g id="a_edge47_Node000001_Node000099"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M542.57,-770.38C542.37,-691.88 537.65,-427.04 483.75,-366.38 470.58,-351.55 447.94,-347.08 430.65,-346"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="539.07,-770.17 542.57,-780.17 546.07,-770.17 539.07,-770.17"/>
-</a>
-</g>
-</g>
-<!-- Node100 -->
-<g id="Node000100" class="node">
-<title>Node100</title>
-<g id="a_Node000100"><a xlink:href="../../d2/db2/classfl_1_1_pacifica.html#a0bb7bb44e52a51c0cff586cc882e249d" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="460.12,-318.12 351.88,-318.12 351.88,-284.62 460.12,-284.62 460.12,-318.12"/>
-<text text-anchor="start" x="359.88" y="-304.62" font-family="Helvetica,sans-Serif" font-size="10.00">fl::Pacifica::pacifica</text>
-<text text-anchor="middle" x="406" y="-291.88" font-family="Helvetica,sans-Serif" font-size="10.00">_deepen_colors</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node100 -->
-<g id="edge50_Node000001_Node000100" class="edge">
-<title>Node1&#45;&gt;Node100</title>
-<g id="a_edge50_Node000001_Node000100"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M542.71,-770.13C543.03,-687.08 540.06,-396.32 483.75,-327.38 477.7,-319.97 469.45,-314.66 460.59,-310.86"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="539.21,-770.08 542.64,-780.1 546.21,-770.12 539.21,-770.08"/>
 </a>
 </g>
 </g>
 <!-- Node101 -->
 <g id="Node000101" class="node">
 <title>Node101</title>
-<g id="a_Node000101"><a xlink:href="../../dc/d25/_pacifica_8ino.html#a4c00a661fc55f1df61fc874119c746df" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="276.12,-1316.75 146.88,-1316.75 146.88,-1296 276.12,-1296 276.12,-1316.75"/>
-<text text-anchor="middle" x="211.5" y="-1303.25" font-family="Helvetica,sans-Serif" font-size="10.00">pacifica_deepen_colors</text>
+<g id="a_Node000101"><a xlink:href="../../dc/db8/group___color_blends.html#gab18a835a14780faf17c53c64f4ba0ae6" target="_top" xlink:title="Destructively modifies one color, blending in a given fraction of an overlay color.">
+<polygon fill="white" stroke="#666666" points="430.5,-356.75 381.5,-356.75 381.5,-336 430.5,-336 430.5,-356.75"/>
+<text text-anchor="middle" x="406" y="-343.25" font-family="Helvetica,sans-Serif" font-size="10.00">nblend</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node101 -->
-<g id="edge51_Node000001_Node000101" class="edge">
+<g id="edge47_Node000001_Node000101" class="edge">
 <title>Node1&#45;&gt;Node101</title>
-<g id="a_edge51_Node000001_Node000101"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M541.96,-814.54C539.29,-915.96 525.78,-1332.4 483.75,-1370.38 432.47,-1416.71 390.54,-1400.31 328.25,-1370.38 305.17,-1359.28 313.88,-1339.09 292.25,-1325.38 287.08,-1322.1 281.4,-1319.39 275.52,-1317.14"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="545.46,-814.68 542.22,-804.59 538.46,-814.5 545.46,-814.68"/>
+<g id="a_edge47_Node000001_Node000101"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M542.57,-770.38C542.37,-691.88 537.65,-427.04 483.75,-366.38 470.58,-351.55 447.94,-347.08 430.65,-346"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="539.07,-770.17 542.57,-780.17 546.07,-770.17 539.07,-770.17"/>
 </a>
 </g>
 </g>
 <!-- Node102 -->
 <g id="Node000102" class="node">
 <title>Node102</title>
-<g id="a_Node000102"><a xlink:href="../../dd/dc7/group___h_s_v2_r_g_b.html#gab3d6aa6b1a86a5e9bb820c55c68fe4b9" target="_top" xlink:title="Recover approximate HSV values from RGB.">
-<polygon fill="white" stroke="#666666" points="467.25,-266.75 344.75,-266.75 344.75,-246 467.25,-246 467.25,-266.75"/>
-<text text-anchor="middle" x="406" y="-253.25" font-family="Helvetica,sans-Serif" font-size="10.00">rgb2hsv_approximate</text>
+<g id="a_Node000102"><a xlink:href="../../d2/db2/classfl_1_1_pacifica.html#a0bb7bb44e52a51c0cff586cc882e249d" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="460.12,-318.12 351.88,-318.12 351.88,-284.62 460.12,-284.62 460.12,-318.12"/>
+<text text-anchor="start" x="359.88" y="-304.62" font-family="Helvetica,sans-Serif" font-size="10.00">fl::Pacifica::pacifica</text>
+<text text-anchor="middle" x="406" y="-291.88" font-family="Helvetica,sans-Serif" font-size="10.00">_deepen_colors</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node102 -->
-<g id="edge54_Node000001_Node000102" class="edge">
+<g id="edge50_Node000001_Node000102" class="edge">
 <title>Node1&#45;&gt;Node102</title>
-<g id="a_edge54_Node000001_Node000102"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M541.45,-770.11C536.81,-675.91 516.91,-313.14 483.75,-275.38 479.31,-270.32 473.76,-266.51 467.69,-263.64"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="537.95,-770.23 541.93,-780.05 544.94,-769.89 537.95,-770.23"/>
+<g id="a_edge50_Node000001_Node000102"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M542.71,-770.13C543.03,-687.08 540.06,-396.32 483.75,-327.38 477.7,-319.97 469.45,-314.66 460.59,-310.86"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="539.21,-770.08 542.64,-780.1 546.21,-770.12 539.21,-770.08"/>
 </a>
 </g>
 </g>
 <!-- Node103 -->
 <g id="Node000103" class="node">
 <title>Node103</title>
-<g id="a_Node000103"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#ac22f7204d0501031d2431e7b2f67c25c" target="_top" xlink:title="Converts RGB to RGBW using a color transfer method from saturated color channels to white.">
+<g id="a_Node000103"><a xlink:href="../../dc/d25/_pacifica_8ino.html#a4c00a661fc55f1df61fc874119c746df" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="276.12,-1316.75 146.88,-1316.75 146.88,-1296 276.12,-1296 276.12,-1316.75"/>
+<text text-anchor="middle" x="211.5" y="-1303.25" font-family="Helvetica,sans-Serif" font-size="10.00">pacifica_deepen_colors</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node103 -->
+<g id="edge51_Node000001_Node000103" class="edge">
+<title>Node1&#45;&gt;Node103</title>
+<g id="a_edge51_Node000001_Node000103"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M541.96,-814.54C539.29,-915.96 525.78,-1332.4 483.75,-1370.38 432.47,-1416.71 390.54,-1400.31 328.25,-1370.38 305.17,-1359.28 313.88,-1339.09 292.25,-1325.38 287.08,-1322.1 281.4,-1319.39 275.52,-1317.14"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="545.46,-814.68 542.22,-804.59 538.46,-814.5 545.46,-814.68"/>
+</a>
+</g>
+</g>
+<!-- Node104 -->
+<g id="Node000104" class="node">
+<title>Node104</title>
+<g id="a_Node000104"><a xlink:href="../../dd/dc7/group___h_s_v2_r_g_b.html#gab3d6aa6b1a86a5e9bb820c55c68fe4b9" target="_top" xlink:title="Recover approximate HSV values from RGB.">
+<polygon fill="white" stroke="#666666" points="467.25,-266.75 344.75,-266.75 344.75,-246 467.25,-246 467.25,-266.75"/>
+<text text-anchor="middle" x="406" y="-253.25" font-family="Helvetica,sans-Serif" font-size="10.00">rgb2hsv_approximate</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node104 -->
+<g id="edge54_Node000001_Node000104" class="edge">
+<title>Node1&#45;&gt;Node104</title>
+<g id="a_edge54_Node000001_Node000104"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M541.45,-770.11C536.81,-675.91 516.91,-313.14 483.75,-275.38 479.31,-270.32 473.76,-266.51 467.69,-263.64"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="537.95,-770.23 541.93,-780.05 544.94,-769.89 537.95,-770.23"/>
+</a>
+</g>
+</g>
+<!-- Node105 -->
+<g id="Node000105" class="node">
+<title>Node105</title>
+<g id="a_Node000105"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#ac22f7204d0501031d2431e7b2f67c25c" target="_top" xlink:title="Converts RGB to RGBW using a color transfer method from saturated color channels to white.">
 <polygon fill="#fff0f0" stroke="red" points="458.25,-227.75 353.75,-227.75 353.75,-207 458.25,-207 458.25,-227.75"/>
 <text text-anchor="middle" x="406" y="-214.25" font-family="Helvetica,sans-Serif" font-size="10.00">rgb_2_rgbw_exact</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node103 -->
-<g id="edge55_Node000001_Node000103" class="edge">
-<title>Node1&#45;&gt;Node103</title>
-<g id="a_edge55_Node000001_Node000103"><a xlink:title=" ">
+<!-- Node1&#45;&gt;Node105 -->
+<g id="edge55_Node000001_Node000105" class="edge">
+<title>Node1&#45;&gt;Node105</title>
+<g id="a_edge55_Node000001_Node000105"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M541.63,-770.38C537.57,-672.39 519.14,-278.49 483.75,-237.38 477.19,-229.76 468.13,-224.86 458.53,-221.74"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="538.13,-770.37 542.03,-780.22 545.12,-770.09 538.13,-770.37"/>
-</a>
-</g>
-</g>
-<!-- Node109 -->
-<g id="Node000109" class="node">
-<title>Node109</title>
-<g id="a_Node000109"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#a07e94168baddf333cdc5673f28285aa9" target="_top" xlink:title="The minimum brigthness of the RGB channels is used to set the W channel.">
-<polygon fill="#fff0f0" stroke="red" points="483.75,-188.75 328.25,-188.75 328.25,-168 483.75,-168 483.75,-188.75"/>
-<text text-anchor="middle" x="406" y="-175.25" font-family="Helvetica,sans-Serif" font-size="10.00">rgb_2_rgbw_max_brightness</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node109 -->
-<g id="edge56_Node000001_Node000109" class="edge">
-<title>Node1&#45;&gt;Node109</title>
-<g id="a_edge56_Node000001_Node000109"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M541.8,-770.48C538.32,-668.46 521.65,-242.71 483.75,-198.38 480.62,-194.71 476.91,-191.68 472.84,-189.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.3,-770.58 542.13,-780.46 545.29,-770.35 538.3,-770.58"/>
-</a>
-</g>
-</g>
-<!-- Node110 -->
-<g id="Node000110" class="node">
-<title>Node110</title>
-<g id="a_Node000110"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#a026bfd212bc23d24cf2e8cc5a9ab5b9e" target="_top" xlink:title="Converts RGB to RGBW with the W channel set to black, always.">
-<polygon fill="#fff0f0" stroke="red" points="469.88,-150.12 342.12,-150.12 342.12,-116.62 469.88,-116.62 469.88,-150.12"/>
-<text text-anchor="start" x="350.12" y="-136.62" font-family="Helvetica,sans-Serif" font-size="10.00">rgb_2_rgbw_null_white</text>
-<text text-anchor="middle" x="406" y="-123.88" font-family="Helvetica,sans-Serif" font-size="10.00">_pixel</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node110 -->
-<g id="edge57_Node000001_Node000110" class="edge">
-<title>Node1&#45;&gt;Node110</title>
-<g id="a_edge57_Node000001_Node000110"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M541.85,-770.11C538.57,-663.5 522.36,-208.28 483.75,-159.38 480,-154.63 475.35,-150.74 470.2,-147.56"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.35,-770.17 542.15,-780.06 545.35,-769.96 538.35,-770.17"/>
 </a>
 </g>
 </g>
 <!-- Node111 -->
 <g id="Node000111" class="node">
 <title>Node111</title>
-<g id="a_Node000111"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#aa6e2b44325da0172a48b20940b6e5fdf" target="_top" xlink:title="Converts RGB to RGBW with a boosted white channel.">
-<polygon fill="#fff0f0" stroke="red" points="480.38,-98.75 331.62,-98.75 331.62,-78 480.38,-78 480.38,-98.75"/>
-<text text-anchor="middle" x="406" y="-85.25" font-family="Helvetica,sans-Serif" font-size="10.00">rgb_2_rgbw_white_boosted</text>
+<g id="a_Node000111"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#a07e94168baddf333cdc5673f28285aa9" target="_top" xlink:title="The minimum brigthness of the RGB channels is used to set the W channel.">
+<polygon fill="#fff0f0" stroke="red" points="483.75,-188.75 328.25,-188.75 328.25,-168 483.75,-168 483.75,-188.75"/>
+<text text-anchor="middle" x="406" y="-175.25" font-family="Helvetica,sans-Serif" font-size="10.00">rgb_2_rgbw_max_brightness</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node111 -->
-<g id="edge58_Node000001_Node000111" class="edge">
+<g id="edge56_Node000001_Node000111" class="edge">
 <title>Node1&#45;&gt;Node111</title>
-<g id="a_edge58_Node000001_Node000111"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M542.11,-770.35C539.94,-658.75 527.79,-158.94 483.75,-107.38 480.99,-104.14 477.77,-101.41 474.24,-99.11"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.61,-770.28 542.29,-780.22 545.61,-770.15 538.61,-770.28"/>
+<g id="a_edge56_Node000001_Node000111"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M541.8,-770.48C538.32,-668.46 521.65,-242.71 483.75,-198.38 480.62,-194.71 476.91,-191.68 472.84,-189.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.3,-770.58 542.13,-780.46 545.29,-770.35 538.3,-770.58"/>
 </a>
 </g>
 </g>
 <!-- Node112 -->
 <g id="Node000112" class="node">
 <title>Node112</title>
-<g id="a_Node000112"><a xlink:href="../../d0/dee/struct_pixel_controller.html#aad6f8ce8a3aa9429025e67050e312929" target="_top" xlink:title="Scale a value.">
-<polygon fill="white" stroke="#666666" points="465.38,-59.75 346.62,-59.75 346.62,-39 465.38,-39 465.38,-59.75"/>
-<text text-anchor="middle" x="406" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">PixelController::scale</text>
+<g id="a_Node000112"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#a026bfd212bc23d24cf2e8cc5a9ab5b9e" target="_top" xlink:title="Converts RGB to RGBW with the W channel set to black, always.">
+<polygon fill="#fff0f0" stroke="red" points="469.88,-150.12 342.12,-150.12 342.12,-116.62 469.88,-116.62 469.88,-150.12"/>
+<text text-anchor="start" x="350.12" y="-136.62" font-family="Helvetica,sans-Serif" font-size="10.00">rgb_2_rgbw_null_white</text>
+<text text-anchor="middle" x="406" y="-123.88" font-family="Helvetica,sans-Serif" font-size="10.00">_pixel</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node112 -->
-<g id="edge59_Node000001_Node000112" class="edge">
+<g id="edge57_Node000001_Node000112" class="edge">
 <title>Node1&#45;&gt;Node112</title>
-<g id="a_edge59_Node000001_Node000112"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M542.2,-770.24C540.45,-654.73 529.9,-124.34 483.75,-69.38 478.88,-63.58 472.56,-59.34 465.64,-56.28"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.7,-770.23 542.34,-780.18 545.7,-770.13 538.7,-770.23"/>
+<g id="a_edge57_Node000001_Node000112"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M541.85,-770.11C538.57,-663.5 522.36,-208.28 483.75,-159.38 480,-154.63 475.35,-150.74 470.2,-147.56"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.35,-770.17 542.15,-780.06 545.35,-769.96 538.35,-770.17"/>
 </a>
 </g>
 </g>
 <!-- Node113 -->
 <g id="Node000113" class="node">
 <title>Node113</title>
-<g id="a_Node000113"><a xlink:href="../../d0/dee/struct_pixel_controller.html#a060678fc5a4cf518e155ed3a6145b8d4" target="_top" xlink:title="Scale a value using the per&#45;channel scale data.">
+<g id="a_Node000113"><a xlink:href="../../d1/d8d/rgbw_8cpp.html#aa6e2b44325da0172a48b20940b6e5fdf" target="_top" xlink:title="Converts RGB to RGBW with a boosted white channel.">
+<polygon fill="#fff0f0" stroke="red" points="480.38,-98.75 331.62,-98.75 331.62,-78 480.38,-78 480.38,-98.75"/>
+<text text-anchor="middle" x="406" y="-85.25" font-family="Helvetica,sans-Serif" font-size="10.00">rgb_2_rgbw_white_boosted</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node113 -->
+<g id="edge58_Node000001_Node000113" class="edge">
+<title>Node1&#45;&gt;Node113</title>
+<g id="a_edge58_Node000001_Node000113"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M542.11,-770.35C539.94,-658.75 527.79,-158.94 483.75,-107.38 480.99,-104.14 477.77,-101.41 474.24,-99.11"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.61,-770.28 542.29,-780.22 545.61,-770.15 538.61,-770.28"/>
+</a>
+</g>
+</g>
+<!-- Node114 -->
+<g id="Node000114" class="node">
+<title>Node114</title>
+<g id="a_Node000114"><a xlink:href="../../d0/dee/struct_pixel_controller.html#aad6f8ce8a3aa9429025e67050e312929" target="_top" xlink:title="Scale a value.">
+<polygon fill="white" stroke="#666666" points="465.38,-59.75 346.62,-59.75 346.62,-39 465.38,-39 465.38,-59.75"/>
+<text text-anchor="middle" x="406" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">PixelController::scale</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node114 -->
+<g id="edge59_Node000001_Node000114" class="edge">
+<title>Node1&#45;&gt;Node114</title>
+<g id="a_edge59_Node000001_Node000114"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M542.2,-770.24C540.45,-654.73 529.9,-124.34 483.75,-69.38 478.88,-63.58 472.56,-59.34 465.64,-56.28"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.7,-770.23 542.34,-780.18 545.7,-770.13 538.7,-770.23"/>
+</a>
+</g>
+</g>
+<!-- Node115 -->
+<g id="Node000115" class="node">
+<title>Node115</title>
+<g id="a_Node000115"><a xlink:href="../../d0/dee/struct_pixel_controller.html#a060678fc5a4cf518e155ed3a6145b8d4" target="_top" xlink:title="Scale a value using the per&#45;channel scale data.">
 <polygon fill="white" stroke="#666666" points="465.38,-20.75 346.62,-20.75 346.62,0 465.38,0 465.38,-20.75"/>
 <text text-anchor="middle" x="406" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">PixelController::scale</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node113 -->
-<g id="edge60_Node000001_Node000113" class="edge">
-<title>Node1&#45;&gt;Node113</title>
-<g id="a_edge60_Node000001_Node000113"><a xlink:title=" ">
+<!-- Node1&#45;&gt;Node115 -->
+<g id="edge60_Node000001_Node000115" class="edge">
+<title>Node1&#45;&gt;Node115</title>
+<g id="a_edge60_Node000001_Node000115"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M542.3,-770.18C541.02,-650.82 532.41,-88.57 483.75,-30.38 478.89,-24.57 472.58,-20.33 465.66,-17.26"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="538.8,-770.2 542.4,-780.17 545.8,-770.13 538.8,-770.2"/>
 </a>
@@ -969,37 +969,37 @@
 </a>
 </g>
 </g>
-<!-- Node70&#45;&gt;Node17 -->
-<g id="edge45_Node000070_Node000017" class="edge">
-<title>Node70&#45;&gt;Node17</title>
-<g id="a_edge45_Node000070_Node000017"><a xlink:title=" ">
+<!-- Node72&#45;&gt;Node17 -->
+<g id="edge45_Node000072_Node000017" class="edge">
+<title>Node72&#45;&gt;Node17</title>
+<g id="a_edge45_Node000072_Node000017"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M372.48,-1241.27C342.21,-1245.83 296.68,-1252.69 261.92,-1257.93"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="372.8,-1244.77 382.17,-1239.81 371.76,-1237.84 372.8,-1244.77"/>
 </a>
 </g>
 </g>
-<!-- Node70&#45;&gt;Node18 -->
-<g id="edge46_Node000070_Node000018" class="edge">
-<title>Node70&#45;&gt;Node18</title>
-<g id="a_edge46_Node000070_Node000018"><a xlink:title=" ">
+<!-- Node72&#45;&gt;Node18 -->
+<g id="edge46_Node000072_Node000018" class="edge">
+<title>Node72&#45;&gt;Node18</title>
+<g id="a_edge46_Node000072_Node000018"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M372.48,-1234.01C342.21,-1231.81 296.68,-1228.5 261.92,-1225.97"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="371.93,-1237.48 382.15,-1234.71 372.43,-1230.5 371.93,-1237.48"/>
 </a>
 </g>
 </g>
-<!-- Node101&#45;&gt;Node8 -->
-<g id="edge52_Node000101_Node000008" class="edge">
-<title>Node101&#45;&gt;Node8</title>
-<g id="a_edge52_Node000101_Node000008"><a xlink:title=" ">
+<!-- Node103&#45;&gt;Node8 -->
+<g id="edge52_Node000103_Node000008" class="edge">
+<title>Node103&#45;&gt;Node8</title>
+<g id="a_edge52_Node000103_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M140.3,-1321.04C137.02,-1322.36 133.82,-1323.81 130.75,-1325.38 100.32,-1340.93 71.74,-1369.98 57.61,-1385.67"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="141.35,-1324.38 149.57,-1317.7 138.98,-1317.8 141.35,-1324.38"/>
 </a>
 </g>
 </g>
-<!-- Node101&#45;&gt;Node13 -->
-<g id="edge53_Node000101_Node000013" class="edge">
-<title>Node101&#45;&gt;Node13</title>
-<g id="a_edge53_Node000101_Node000013"><a xlink:title=" ">
+<!-- Node103&#45;&gt;Node13 -->
+<g id="edge53_Node000103_Node000013" class="edge">
+<title>Node103&#45;&gt;Node13</title>
+<g id="a_edge53_Node000103_Node000013"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M136.79,-1320.72C134.67,-1322.13 132.65,-1323.68 130.75,-1325.38 122.12,-1333.06 66.75,-1496.64 51.99,-1540.59"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="138.22,-1323.93 145.3,-1316.04 134.85,-1317.79 138.22,-1323.93"/>
 </a>

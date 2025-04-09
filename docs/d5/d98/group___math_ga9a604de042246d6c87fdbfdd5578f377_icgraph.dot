@@ -57,9 +57,9 @@ digraph "blend8"
   Node68 -> Node69 [id="edge25_Node000068_Node000069",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node69 [id="Node000069",label="loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db0/_fx_pride2015_8ino.html#afe461d27b9c48d5921c00d521181f12f",tooltip=" "];
   Node7 -> Node70 [id="edge26_Node000007_Node000070",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node70 [id="Node000070",label="nblend",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db8/group___color_blends.html#ga6d07fb779bbeddd59a9025cdc64594d6",tooltip="Destructively blends a given fraction of a color array into an existing color array."];
+  Node70 [id="Node000070",label="nblend",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db8/group___color_blends.html#ga2885fdebac696423812b10db0f45cb70",tooltip="Destructively blends a given fraction of a color array into an existing color array."];
   Node7 -> Node71 [id="edge27_Node000007_Node000071",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node71 [id="Node000071",label="nblend",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db8/group___color_blends.html#ga63e89e8505c65e973218d1638dda3b04",tooltip="Destructively blends a given fraction of a color array into an existing color array."];
+  Node71 [id="Node000071",label="nblend",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db8/group___color_blends.html#ga930e843c33436435516637e3fc701a28",tooltip="Destructively blends a given fraction of a color array into an existing color array."];
   Node7 -> Node72 [id="edge28_Node000007_Node000072",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node72 [id="Node000072",label="pride",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dce/_pride2015_8ino.html#a6e24bc1de16730062b4d4be6ad4f8e3b",tooltip=" "];
 }

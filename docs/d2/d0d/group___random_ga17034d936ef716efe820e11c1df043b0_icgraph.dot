@@ -30,5 +30,5 @@ digraph "random16"
   Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node13 [id="Node000013",label="random16",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d0d/group___random.html#ga69d2cf7b8d730a0c36eec8711dbb134f",tooltip="Generate an 16-bit random number in the given range."];
   Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node14 [id="Node000014",label="setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/ddc/_noise_playground_8ino.html#a4fc01d736fe50cf5b977f755b675f11d",tooltip=" "];
+  Node14 [id="Node000014",label="setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d9d/_noise_8ino.html#a4fc01d736fe50cf5b977f755b675f11d",tooltip=" "];
 }
