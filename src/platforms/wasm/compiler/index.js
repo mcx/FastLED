@@ -11,7 +11,8 @@
 
 import { UiManager } from './modules/ui_manager.js';
 import { GraphicsManager } from './modules/graphics_manager.js';
-import { GraphicsManagerThreeJS, isDenseGrid } from './modules/graphics_manager_threejs.js';
+import { GraphicsManagerThreeJS } from './modules/graphics_manager_threejs.js';
+import { isDenseGrid } from './modules/graphics_utils.js';
 
 const urlParams = new URLSearchParams(window.location.search);
 const FORCE_FAST_RENDERER = urlParams.get('gfx') === '0';
@@ -240,7 +241,6 @@ function FastLED_onStripUpdate(jsonData) {
   // to the strip state. This is where the ScreenMap will be effectively set.
   // uses global variables.
   console.log('Received strip update:', jsonData);
-
   const { event } = jsonData;
   let width = 0;
   let height = 0;
@@ -258,11 +258,19 @@ function FastLED_onStripUpdate(jsonData) {
     if (isUndefined(stripId)) {
       throw new Error('strip_id is required for set_canvas_map event');
     }
+
+    let diameter = jsonData.diameter;
+    if (diameter === undefined) {
+      const stripId = jsonData.strip_id;
+      console.warn(`Diameter was unset for strip ${stripId}, assuming default value of 2 mm.`);
+      diameter = 0.2;
+    }
+
     screenMap.strips[stripId] = {
       map,
       min,
       max,
-      diameter: jsonData.diameter,
+      diameter: diameter,
     };
     console.log('Screen map updated:', screenMap);
     // iterate through all the screenMaps and get the absolute min and max
@@ -339,7 +347,8 @@ function FastLED_onFrame(frameData, uiUpdateCallback) {
   }
   if (frameData.length === 0) {
     console.warn('Received empty frame data, skipping update');
-    return;
+    // New experiment try to run anyway.
+    // return;
   }
   frameData.screenMap = screenMap; // eslint-disable-line no-param-reassign
   updateCanvas(frameData);

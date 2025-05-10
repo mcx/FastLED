@@ -50,13 +50,11 @@ class StrStream {
     const char *c_str() const { return mStr.c_str(); }
 
     StrStream &operator<<(const CRGB &rgb) {
-        mStr.append("CRGB(");
-        mStr.append(rgb.r);
-        mStr.append(",");
-        mStr.append(rgb.g);
-        mStr.append(",");
-        mStr.append(rgb.b);
-        mStr.append(")");
+        mStr.append(rgb);
+        return *this;
+    }
+    StrStream &operator<<(const StrStream &strStream) {
+        mStr.append(strStream.str());
         return *this;
     }
 
@@ -170,6 +168,8 @@ class StrStream {
         (*this) << rgb;
         return *this;
     }
+
+    void clear() { mStr.clear(); }
 
   private:
     Str mStr;

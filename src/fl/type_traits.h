@@ -4,6 +4,7 @@
 Provides eanble_if and is_derived for compilers before C++14.
 */
 
+#include <stddef.h>
 #include <stdint.h>
 
 #include "fl/namespace.h"
@@ -58,9 +59,6 @@ template <typename T> struct is_same<T, T> {
     static constexpr bool value = true;
 };
 
-
-
-
 // Define is_same_v for compatibility with variable templates
 template <typename T, typename U> struct is_same_v_helper {
     static constexpr bool value = is_same<T, U>::value;
@@ -84,6 +82,92 @@ template <typename T> struct remove_reference<T &&> {
 // Helper alias template for remove_reference
 template <typename T>
 using remove_reference_t = typename remove_reference<T>::type;
+
+// Define conditional trait
+template <bool B, typename T, typename F> struct conditional {
+    using type = T;
+};
+
+template <typename T, typename F> struct conditional<false, T, F> {
+    using type = F;
+};
+
+template <bool B, typename T, typename F>
+using conditional_t = typename conditional<B, T, F>::type;
+
+// Define is_array trait
+template <typename T> struct is_array {
+    static constexpr bool value = false;
+};
+
+template <typename T> struct is_array<T[]> {
+    static constexpr bool value = true;
+};
+
+template <typename T, size_t N> struct is_array<T[N]> {
+    static constexpr bool value = true;
+};
+
+// Define remove_extent trait
+template <typename T> struct remove_extent {
+    using type = T;
+};
+
+template <typename T> struct remove_extent<T[]> {
+    using type = T;
+};
+
+template <typename T, size_t N> struct remove_extent<T[N]> {
+    using type = T;
+};
+
+// Define is_function trait
+template <typename T> struct is_function {
+    static constexpr bool value = false;
+};
+
+template <typename Ret, typename... Args> struct is_function<Ret(Args...)> {
+    static constexpr bool value = true;
+};
+
+template <typename Ret, typename... Args>
+struct is_function<Ret(Args...) const> {
+    static constexpr bool value = true;
+};
+
+template <typename Ret, typename... Args>
+struct is_function<Ret(Args...) volatile> {
+    static constexpr bool value = true;
+};
+
+template <typename Ret, typename... Args>
+struct is_function<Ret(Args...) const volatile> {
+    static constexpr bool value = true;
+};
+
+// Define add_pointer trait
+template <typename T> struct add_pointer {
+    using type = T *;
+};
+
+template <typename T> struct add_pointer<T &> {
+    using type = T *;
+};
+
+template <typename T> struct add_pointer<T &&> {
+    using type = T *;
+};
+
+template <typename T> using add_pointer_t = typename add_pointer<T>::type;
+
+// Define remove_const trait
+template <typename T> struct remove_const {
+    using type = T;
+};
+
+template <typename T> struct remove_const<const T> {
+    using type = T;
+};
 
 // Implementation of move
 template <typename T>
@@ -113,6 +197,40 @@ constexpr T &&forward(typename remove_reference<T>::type &&t) noexcept {
                   "Cannot forward an rvalue as an lvalue");
     return static_cast<T &&>(t);
 }
+
+// Define remove_cv trait
+template <typename T> struct remove_cv {
+    using type = T;
+};
+
+template <typename T> struct remove_cv<const T> {
+    using type = T;
+};
+
+template <typename T> struct remove_cv<volatile T> {
+    using type = T;
+};
+
+template <typename T> struct remove_cv<const volatile T> {
+    using type = T;
+};
+
+template <typename T> using remove_cv_t = typename remove_cv<T>::type;
+
+// Define decay trait
+template <typename T> struct decay {
+  private:
+    using U = typename remove_reference<T>::type;
+
+  public:
+    using type = typename conditional<
+        is_array<U>::value, typename remove_extent<U>::type *,
+        typename conditional<is_function<U>::value,
+                             typename add_pointer<U>::type,
+                             typename remove_cv<U>::type>::type>::type;
+};
+
+template <typename T> using decay_t = typename decay<T>::type;
 
 // Define is_pod trait (basic implementation)
 template <typename T> struct is_pod {
@@ -246,7 +364,7 @@ template <typename T> struct is_integral<volatile T> {
     static constexpr bool value = is_integral<T>::value;
 };
 
-template <typename T> struct is_integral<T&> {
+template <typename T> struct is_integral<T &> {
     static constexpr bool value = is_integral<T>::value;
 };
 
@@ -269,26 +387,25 @@ using is_derived = enable_if_t<is_base_of<Base, Derived>::value>;
 //-----------------------------------------------------------------------------
 // detect whether T has a member void swap(T&)
 //-----------------------------------------------------------------------------
-template<typename T>
-struct has_member_swap {
-private:
+template <typename T> struct has_member_swap {
+  private:
     // must be 1 byte vs. >1 byte for sizeof test
-    typedef uint8_t  yes;
+    typedef uint8_t yes;
     typedef uint16_t no;
 
-    // helper<U, &U::swap> is only well-formed if U::swap(T&) exists with that signature
-    template<typename U, void (U::*M)(U&)> struct helper {};
+    // helper<U, &U::swap> is only well-formed if U::swap(T&) exists with that
+    // signature
+    template <typename U, void (U::*M)(U &)> struct helper {};
 
     // picks this overload if helper<U, &U::swap> is valid
-    template<typename U> static yes test(helper<U, &U::swap>*);
+    template <typename U> static yes test(helper<U, &U::swap> *);
 
     // fallback otherwise
-    template<typename> static no  test(...);
+    template <typename> static no test(...);
 
-public:
+  public:
     static constexpr bool value = sizeof(test<T>(nullptr)) == sizeof(yes);
 };
-
 
 // primary template: dispatch on has_member_swap<T>::value
 template <typename T, bool = has_member_swap<T>::value> struct swap_impl;
@@ -321,6 +438,45 @@ template <typename T> void swap_by_copy(T &a, T &b) {
     a = b;
     b = tmp;
 }
+
+// Container type checks.
+template <typename T, typename... Types> struct contains_type;
+
+template <typename T> struct contains_type<T> {
+    static constexpr bool value = false;
+};
+
+template <typename T, typename U, typename... Rest>
+struct contains_type<T, U, Rest...> {
+    static constexpr bool value =
+        fl::is_same<T, U>::value || contains_type<T, Rest...>::value;
+};
+
+// Helper to get maximum size of types
+template <typename... Types> struct max_size;
+
+template <> struct max_size<> {
+    static constexpr size_t value = 0;
+};
+
+template <typename T, typename... Rest> struct max_size<T, Rest...> {
+    static constexpr size_t value = (sizeof(T) > max_size<Rest...>::value)
+                                        ? sizeof(T)
+                                        : max_size<Rest...>::value;
+};
+
+// Helper to get maximum alignment of types
+template <typename... Types> struct max_align;
+
+template <> struct max_align<> {
+    static constexpr size_t value = 1;
+};
+
+template <typename T, typename... Rest> struct max_align<T, Rest...> {
+    static constexpr size_t value = (alignof(T) > max_align<Rest...>::value)
+                                        ? alignof(T)
+                                        : max_align<Rest...>::value;
+};
 
 } // namespace fl
 

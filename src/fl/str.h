@@ -14,18 +14,33 @@
 #define FASTLED_STR_INLINED_SIZE 64
 #endif
 
+FASTLED_NAMESPACE_BEGIN
+struct CRGB;
+FASTLED_NAMESPACE_END;
+
 namespace fl { // Mandatory namespace for this class since it has name
                // collisions.
 
-template <typename T> struct rect_xy;
-template <typename T> struct point_xy;
+class Str;
+using string = fl::Str; // std-like string
+
+template <typename T> struct rect;
+template <typename T> struct vec2;
 template <typename T> class Slice;
 template <typename T> class HeapVector;
 template <typename T, size_t N> class InlinedVector;
 template <typename T, size_t N> class FixedVector;
 template <size_t N> class StrN;
 
-class FFTBins;
+template <typename T> struct Hash;
+
+template <typename T> struct EqualTo;
+
+template <typename Key, typename Hash, typename KeyEqual> class HashSet;
+
+class XYMap;
+
+struct FFTBins;
 
 // A copy on write string class. Fast to copy from another
 // Str object as read only pointers are shared. If the size
@@ -53,6 +68,7 @@ class StringFormatter {
     }
     static float parseFloat(const char *str, size_t len);
     static bool isDigit(char c) { return c >= '0' && c <= '9'; }
+    static void appendFloat(const float &val, StrN<64> *dst);
 };
 
 class StringHolder : public fl::Referent {
@@ -493,7 +509,7 @@ class Str : public StrN<FASTLED_STR_INLINED_SIZE> {
         }
     }
 
-    template <typename T> Str &append(const rect_xy<T> &rect) {
+    template <typename T> Str &append(const rect<T> &rect) {
         append(rect.mMin.x);
         append(",");
         append(rect.mMin.y);
@@ -504,7 +520,7 @@ class Str : public StrN<FASTLED_STR_INLINED_SIZE> {
         return *this;
     }
 
-    template <typename T> Str &append(const point_xy<T> &pt) {
+    template <typename T> Str &append(const vec2<T> &pt) {
         append("(");
         append(pt.x);
         append(",");
@@ -520,29 +536,11 @@ class Str : public StrN<FASTLED_STR_INLINED_SIZE> {
         return *this;
     }
 
+    Str &append(const CRGB &c);
+
     Str &append(const float &_val) {
-        float val = _val;
-        if (val < 0.0f) {
-            append('-');
-            val = -val;
-        }
-
         // round to nearest hundredth
-        int32_t scaled = static_cast<int32_t>(val * 100.0f + 0.5f);
-
-        int32_t integer = scaled / 100;
-        int32_t frac = scaled % 100; // 0..99
-        append(integer);
-
-        // // only print decimals if non-zero; drop this guard to always show two
-        // // digits
-        if (frac != 0) {
-            append(".");
-            if (frac < 10) // ensure leading zero
-                append("0");
-            append(frac);
-        }
-
+        StringFormatter::appendFloat(_val, this);
         return *this;
     }
 
@@ -555,18 +553,38 @@ class Str : public StrN<FASTLED_STR_INLINED_SIZE> {
 
     Str &append(const FFTBins &str);
 
+    Str &append(const XYMap &map);
+
+    template <typename Key, typename Hash, typename KeyEqual>
+    Str &append(const HashSet<Key, Hash, KeyEqual> &set) {
+        append("{");
+        for (auto it = set.begin(); it != set.end(); ++it) {
+            if (it != set.begin()) {
+                append(", ");
+            }
+            auto p = *it;
+            append(p.first);
+        }
+        append("}");
+        return *this;
+    }
+
     const char *data() const { return c_str(); }
 
-    void swap(Str &other) {
-        if (this != &other) {
-            fl::swap(mLength, other.mLength);
-            char temp[FASTLED_STR_INLINED_SIZE];
-            memcpy(temp, mInlineData, FASTLED_STR_INLINED_SIZE);
-            memcpy(mInlineData, other.mInlineData, FASTLED_STR_INLINED_SIZE);
-            memcpy(other.mInlineData, temp, FASTLED_STR_INLINED_SIZE);
-            fl::swap(mHeapData, other.mHeapData);
-        }
-    }
+    void swap(Str &other);
+
+  private:
+    enum {
+        // Bake the size into the string class so we can issue a compile time
+        // check
+        // to make sure the user doesn't do something funny like try to change
+        // the
+        // size of the inlined string via an included defined instead of a build
+        // define.
+        kStrInlineSize = FASTLED_STR_INLINED_SIZE,
+    };
+
+    static void compileTimeAssertions();
 };
 
 } // namespace fl

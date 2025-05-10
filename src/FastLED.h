@@ -84,6 +84,8 @@
 #include "chipsets.h"
 #include "fl/engine_events.h"
 
+#include "fl/leds.h"
+
 FASTLED_NAMESPACE_BEGIN
 
 // Backdoor to get the size of the CLedController object. The one place
@@ -539,6 +541,12 @@ public:
 		return addLeds(&c, data, nLedsOrOffset, nLedsIfOffset);
 	}
 
+	template<template<uint8_t DATA_PIN> class CHIPSET, uint8_t DATA_PIN>
+	static CLEDController &addLeds(class fl::Leds& leds, int nLedsOrOffset, int nLedsIfOffset = 0) {
+		CRGB* rgb = leds;
+		return addLeds<CHIPSET, DATA_PIN>(rgb, nLedsOrOffset, nLedsIfOffset);
+	}
+
 #if defined(__FASTLED_HAS_FIBCC) && (__FASTLED_HAS_FIBCC == 1)
 	template<uint8_t NUM_LANES, template<uint8_t DATA_PIN, EOrder RGB_ORDER> class CHIPSET, uint8_t DATA_PIN, EOrder RGB_ORDER=RGB>
 	static CLEDController &addLeds(struct CRGB *data, int nLeds) {
@@ -875,6 +883,9 @@ FASTLED_NAMESPACE_END
 // fl::clear(leds)
 #include "fl/clear.h"
 
+// Leds has a CRGB block and an XYMap
+#include "fl/leds.h"
+
 #include "fl/ui.h"  // Provides UIButton, UISlider, UICheckbox, UINumberField and UITitle, UIDescription.
 using fl::UIButton;  // These names are unique enough that we don't need to namespace them
 using fl::UICheckbox;
@@ -892,3 +903,28 @@ using fl::XYMap;
 #if defined(FASTLED_FORCE_USE_NAMESPACE) && FASTLED_FORCE_USE_NAMESPACE==1
 using namespace fl;
 #endif
+
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wpedantic"
+
+// Experimental: loop() hijacking.
+//
+// EngineEvents requires that FastLED.show() be invoked.
+// If the user skips that then certain updates will be skipped.
+//
+// Right now this isn't a big deal, but in the future it could be.
+//
+// Therefore this experiment is done so that this loop() hijack trick
+// can be used to insert code at the start of every loop(), such as a
+// scoped object that forces a begin and end frame event.
+//
+// It's possible to hijack the loop() via a macro so that
+// extra code can be injected at the start of every frame.
+// 
+// #define loop() \
+//     real_loop(); \
+//     void loop() { FASTLED_WARN("hijacked the loop"); real_loop(); } \
+//     void real_loop()
+
+#pragma GCC diagnostic pop

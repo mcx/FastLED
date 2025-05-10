@@ -7,8 +7,7 @@
 namespace fl {
 
 template <typename T> class Optional;
-template <typename T>
-using optional = Optional<T>;
+template <typename T> using optional = Optional<T>;
 
 struct Empty {};
 
@@ -39,7 +38,6 @@ template <typename T> class Optional {
 
     bool operator()() const { return !empty(); }
     bool operator!() const { return empty(); }
-
 
     bool operator==(const Optional &other) const {
         if (empty() && other.empty()) {
@@ -81,7 +79,7 @@ template <typename T> class Optional {
     }
 
   private:
-    variant<T, Empty> mValue;
+    fl::Variant<T, Empty> mValue;
 };
 
 } // namespace fl

@@ -1,437 +1,260 @@
 #pragma once
 
-#include "fl/inplacenew.h"
-#include "fl/template_magic.h"
-
-
-
+#include "fl/inplacenew.h"  // for fl::move, fl::forward, in‐place new
+#include "fl/type_traits.h" // for fl::enable_if, fl::is_same, etc.
 
 namespace fl {
 
-template <typename T, typename U> class Variant;
-
-// std like compatibility.
-template <typename T, typename U> using variant = Variant<T, U>;
-
-/// A simple variant that can be Empty, hold a T, or hold a U.
-template <typename T, typename U> class Variant {
+// A variant that can hold any of N different types
+template <typename... Types> class Variant {
   public:
-    enum class Tag : uint8_t { Empty, IsT, IsU };
+    using Tag = uint8_t;
+    static constexpr Tag Empty = 0;
 
-    // -- ctors/dtor ---------------------------------------------------------
+    // –– ctors/dtors/assign as before …
 
-    Variant() noexcept : _tag(Tag::Empty) {}
-    Variant(const T &t) : _tag(Tag::IsT) { new (&_storage.t) T(t); }
-    Variant(const U &u) : _tag(Tag::IsU) { new (&_storage.u) U(u); }
-    Variant(const Variant &other) : _tag(Tag::Empty) {
-        switch (other._tag) {
-        case Tag::IsT:
-            new (&_storage.t) T(other._storage.t);
-            _tag = Tag::IsT;
-            break;
-        case Tag::IsU:
-            new (&_storage.u) U(other._storage.u);
-            _tag = Tag::IsU;
-            break;
-        case Tag::Empty:
-            break;
+    Variant() noexcept : _tag(Empty) {}
+
+    template <typename T, typename = typename fl::enable_if<
+                              contains_type<T, Types...>::value>::type>
+    Variant(const T &value) : _tag(Empty) {
+        construct<T>(value);
+    }
+
+    template <typename T, typename = typename fl::enable_if<
+                              contains_type<T, Types...>::value>::type>
+    Variant(T &&value) : _tag(Empty) {
+        construct<T>(fl::move(value));
+    }
+
+    Variant(const Variant &other) : _tag(Empty) {
+        if (!other.empty()) {
+            copy_construct_from(other);
         }
     }
 
-    template<typename TT>
-    bool holdsTypeOf() {
-        if (is_same<T, TT>::value) {
-            return true;
-        } else if (is_same<U, TT>::value) {
-            return true;
-        } else {
-            return false;
+    Variant(Variant &&other) noexcept : _tag(Empty) {
+        if (!other.empty()) {
+            move_construct_from(other);
+            other.reset();
         }
     }
 
-    Variant(T &&t) : _tag(Tag::IsT) { new (&_storage.t) T(fl::move(t)); }
-    Variant(U &&u) : _tag(Tag::IsU) { new (&_storage.u) U(fl::move(u)); }
-    Variant(Variant &&other) noexcept : _tag(Tag::Empty) {
-        switch (other._tag) {
-        case Tag::IsT:
-            new (&_storage.t) T(fl::move(other._storage.t));
-            _tag = Tag::IsT;
-            break;
-        case Tag::IsU:
-            new (&_storage.u) U(fl::move(other._storage.u));
-            _tag = Tag::IsU;
-            break;
-        case Tag::Empty:
-            break;
+    ~Variant() { reset(); }
+
+    Variant &operator=(const Variant &other) {
+        if (this != &other) {
+            reset();
+            if (!other.empty()) {
+                copy_construct_from(other);
+            }
         }
-        other.reset();
+        return *this;
     }
 
     Variant &operator=(Variant &&other) noexcept {
         if (this != &other) {
             reset();
-            switch (other._tag) {
-            case Tag::IsT:
-                new (&_storage.t) T(fl::move(other._storage.t));
-                _tag = Tag::IsT;
-                break;
-            case Tag::IsU:
-                new (&_storage.u) U(fl::move(other._storage.u));
-                _tag = Tag::IsU;
-                break;
-            case Tag::Empty:
-                _tag = Tag::Empty;
-                break;
-            }
-            other.reset();
-        }
-        return *this;
-    }
-
-    /// Emplace a T in place.
-    template <typename... Args> void emplaceT(Args &&...args) {
-        reset();
-        new (&_storage.t) T(fl::forward<Args>(args)...);
-        _tag = Tag::IsT;
-    }
-
-    /// Emplace a U in place.
-    template <typename... Args> void emplaceU(Args &&...args) {
-        reset();
-        new (&_storage.u) U(fl::forward<Args>(args)...);
-        _tag = Tag::IsU;
-    }
-
-    ~Variant() { reset(); }
-
-    // -- assignment ---------------------------------------------------------
-
-    Variant &operator=(const Variant &other) {
-        if (this != &other) {
-            reset();
-            switch (other._tag) {
-            case Tag::IsT:
-                new (&_storage.t) T(other._storage.t);
-                _tag = Tag::IsT;
-                break;
-            case Tag::IsU:
-                new (&_storage.u) U(other._storage.u);
-                _tag = Tag::IsU;
-                break;
-            case Tag::Empty:
-                _tag = Tag::Empty;
-                break;
+            if (!other.empty()) {
+                move_construct_from(other);
+                other.reset();
             }
         }
         return *this;
     }
 
-    // -- modifiers ----------------------------------------------------------
+    template <typename T, typename = typename fl::enable_if<
+                              contains_type<T, Types...>::value>::type>
+    Variant &operator=(const T &value) {
+        reset();
+        construct<T>(value);
+        return *this;
+    }
 
-    /// Destroy current content and become empty.
+    template <typename T, typename = typename fl::enable_if<
+                              contains_type<T, Types...>::value>::type>
+    Variant &operator=(T &&value) {
+        reset();
+        construct<T>(fl::move(value));
+        return *this;
+    }
+
+    // –– modifiers, observers, ptr/get, etc. unchanged …
+
+    template <typename T, typename... Args>
+    typename fl::enable_if<contains_type<T, Types...>::value, T &>::type
+    emplace(Args &&...args) {
+        reset();
+        construct<T>(fl::forward<Args>(args)...);
+        return ptr<T>();
+    }
+
     void reset() noexcept {
-        switch (_tag) {
-        case Tag::IsT:
-            _storage.t.~T();
-            break;
-        case Tag::IsU:
-            _storage.u.~U();
-            break;
-        case Tag::Empty:
-            break;
+        if (!empty()) {
+            destroy_current();
+            _tag = Empty;
         }
-        _tag = Tag::Empty;
     }
-
-    // -- observers ----------------------------------------------------------
 
     Tag tag() const noexcept { return _tag; }
-    bool empty() const noexcept { return _tag == Tag::Empty; }
+    bool empty() const noexcept { return _tag == Empty; }
 
-    template <typename TYPE> bool is() const noexcept {
-        if (is_same<T, TYPE>::value) {
-            return isT();
-        } else if (is_same<U, TYPE>::value) {
-            return isU();
-        } else {
-            return false;
-        }
+    template <typename T> bool is() const noexcept {
+        return _tag == type_to_tag<T>();
     }
 
-    template <typename TYPE> TYPE *ptr() {
-        if (is<TYPE>()) {
-            return reinterpret_cast<TYPE *>(&_storage.t);
-        } else {
-            return nullptr;
-        }
+    template <typename T> T *ptr() {
+        return is<T>() ? reinterpret_cast<T *>(&_storage) : nullptr;
     }
 
-    template <typename TYPE> const TYPE *ptr() const {
-        if (is<TYPE>()) {
-            return reinterpret_cast<const TYPE *>(&_storage.t);
-        } else {
-            return nullptr;
-        }
+    template <typename T> const T *ptr() const {
+        return is<T>() ? reinterpret_cast<const T *>(&_storage) : nullptr;
     }
 
-    template <typename TYPE> bool equals(const TYPE &other) const {
-        if (is<TYPE>()) {
-            return *ptr<TYPE>() == other;
-        } else {
-            return false;
+    // template <typename T> T &get() {
+    //     if (auto p = ptr<T>())
+    //         return *p;
+    //     static T dummy;
+    //     return dummy;
+    // }
+
+    // template <typename T> const T &get() const {
+    //     if (auto p = ptr<T>())
+    //         return *p;
+    //     static const T dummy{};
+    //     return dummy;
+    // }
+
+    template <typename T> bool equals(const T &other) const {
+        if (auto p = ptr<T>()) {
+            return *p == other;
         }
+        return false;
     }
 
-    // -- swap ---------------------------------------------------------------
-    void swap(Variant &other) noexcept {
-        if (this != &other) {
-            if (isT() && other.isT()) {
-                fl::swap(getT(), other.getT());
-            } else if (isU() && other.isU()) {
-                fl::swap(getU(), other.getU());
-            } else if (isT() && other.isU()) {
-                T tmp = getT();
-                getT() = other.getU();
-                other.getU() = tmp;
-            } else if (isU() && other.isT()) {
-                U tmp = getU();
-                getU() = other.getT();
-                other.getT() = tmp;
-            }
-        }
+    // –– visitor using O(1) function‐pointer table
+    template <typename Visitor> void visit(Visitor &visitor) {
+        if (_tag == Empty)
+            return;
+
+        // Fn is "a pointer to function taking (void* storage, Visitor&)"
+        using Fn = void (*)(void *, Visitor &);
+
+        // Build a constexpr array of one thunk per type in Types...
+        // Each thunk casts the storage back to the right T* and calls
+        // visitor.accept
+        static constexpr Fn table[] = {
+            &Variant::template visit_fn<Types, Visitor>...};
+
+        // _tag is 1-based, so dispatch in O(1) via one indirect call:
+        table[_tag - 1](&_storage, visitor);
+    }
+
+    template <typename Visitor> void visit(Visitor &visitor) const {
+        if (_tag == Empty)
+            return;
+
+        // Fn is "a pointer to function taking (const void* storage, Visitor&)"
+        using Fn = void (*)(const void *, Visitor &);
+
+        // Build a constexpr array of one thunk per type in Types...
+        static constexpr Fn table[] = {
+            &Variant::template visit_fn_const<Types, Visitor>...};
+
+        // _tag is 1-based, so dispatch in O(1) via one indirect call:
+        table[_tag - 1](&_storage, visitor);
     }
 
   private:
-    bool isT() const noexcept { return _tag == Tag::IsT; }
-    bool isU() const noexcept { return _tag == Tag::IsU; }
-    T &getT() { return _storage.t; }
-    const T &getT() const { return _storage.t; }
+    // –– helper for the visit table
+    template <typename T, typename Visitor>
+    static void visit_fn(void *storage, Visitor &v) {
+        // unsafe_cast is OK here because we know _tag matched T
+        v.accept(*reinterpret_cast<T *>(storage));
+    }
 
-    U &getU() { return _storage.u; }
-    const U &getU() const { return _storage.u; }
-    Tag _tag;
-    union Storage {
-        T t;
-        U u;
-        Storage() noexcept {}  // doesn't construct either member
-        ~Storage() noexcept {} // destructor is called manually via reset()
-    } _storage;
-};
+    template <typename T, typename Visitor>
+    static void visit_fn_const(const void *storage, Visitor &v) {
+        // unsafe_cast is OK here because we know _tag matched T
+        v.accept(*reinterpret_cast<const T *>(storage));
+    }
 
-
-template <typename T, typename U, typename V> class Variant3 {
-  public:
-    enum class Tag : uint8_t { Empty, IsT, IsU, IsV };
-
-    // -- ctors/dtor ---------------------------------------------------------
-
-    Variant3() noexcept : _tag(Tag::Empty) {}
-    Variant3(const T &t) : _tag(Tag::IsT) { new (&_storage.t) T(t); }
-    Variant3(const U &u) : _tag(Tag::IsU) { new (&_storage.u) U(u); }
-    Variant3(const V &v) : _tag(Tag::IsV) { new (&_storage.v) V(v); }
-
-    Variant3(const Variant3 &other) : _tag(Tag::Empty) {
-        switch (other._tag) {
-        case Tag::IsT:
-            new (&_storage.t) T(other._storage.t);
-            _tag = Tag::IsT;
-            break;
-        case Tag::IsU:
-            new (&_storage.u) U(other._storage.u);
-            _tag = Tag::IsU;
-            break;
-        case Tag::IsV:
-            new (&_storage.v) V(other._storage.v);
-            _tag = Tag::IsV;
-            break;
-        case Tag::Empty:
-            break;
+    // –– destroy via table
+    void destroy_current() noexcept {
+        using Fn = void (*)(void *);
+        static constexpr Fn table[] = {&Variant::template destroy_fn<Types>...};
+        if (_tag != Empty) {
+            table[_tag - 1](&_storage);
         }
     }
 
+    template <typename T> static void destroy_fn(void *storage) {
+        reinterpret_cast<T *>(storage)->~T();
+    }
 
+    // –– copy‐construct via table
+    void copy_construct_from(const Variant &other) {
+        using Fn = void (*)(void *, const Variant &);
+        static constexpr Fn table[] = {&Variant::template copy_fn<Types>...};
+        table[other._tag - 1](&_storage, other);
+        _tag = other._tag;
+    }
 
-    Variant3(T &&t) : _tag(Tag::IsT) { new (&_storage.t) T(fl::move(t)); }
-    Variant3(U &&u) : _tag(Tag::IsU) { new (&_storage.u) U(fl::move(u)); }
-    Variant3(V &&v) : _tag(Tag::IsV) { new (&_storage.v) V(fl::move(v)); }
+    template <typename T>
+    static void copy_fn(void *storage, const Variant &other) {
+        new (storage) T(*reinterpret_cast<const T *>(&other._storage));
+    }
 
-    Variant3(Variant3 &&other) noexcept : _tag(Tag::Empty) {
-        switch (other._tag) {
-        case Tag::IsT:
-            new (&_storage.t) T(fl::move(other._storage.t));
-            _tag = Tag::IsT;
-            break;
-        case Tag::IsU:
-            new (&_storage.u) U(fl::move(other._storage.u));
-            _tag = Tag::IsU;
-            break;
-        case Tag::IsV:
-            new (&_storage.v) V(fl::move(other._storage.v));
-            _tag = Tag::IsV;
-            break;
-        case Tag::Empty:
-            break;
-        }
+    // –– move‐construct via table
+    void move_construct_from(Variant &other) noexcept {
+        using Fn = void (*)(void *, Variant &);
+        static constexpr Fn table[] = {&Variant::template move_fn<Types>...};
+        table[other._tag - 1](&_storage, other);
+        _tag = other._tag;
         other.reset();
     }
 
-    Variant3 &operator=(Variant3 &&other) noexcept {
-        if (this != &other) {
-            reset();
-            switch (other._tag) {
-            case Tag::IsT:
-                new (&_storage.t) T(fl::move(other._storage.t));
-                _tag = Tag::IsT;
-                break;
-            case Tag::IsU:
-                new (&_storage.u) U(fl::move(other._storage.u));
-                _tag = Tag::IsU;
-                break;
-            case Tag::IsV:
-                new (&_storage.v) V(fl::move(other._storage.v));
-                _tag = Tag::IsV;
-                break;
-            case Tag::Empty:
-                _tag = Tag::Empty;
-                break;
-            }
-            other.reset();
-        }
-        return *this;
+    template <typename T> static void move_fn(void *storage, Variant &other) {
+        new (storage) T(fl::move(*reinterpret_cast<T *>(&other._storage)));
     }
 
-    /// Emplace a T in place.
-    template <typename... Args> void emplaceT(Args &&...args) {
-        reset();
-        new (&_storage.t) T(fl::forward<Args>(args)...);
-        _tag = Tag::IsT;
+    // –– everything below here (type_traits, construct<T>, type_to_tag,
+    // storage)
+    //    stays exactly as you wrote it:
+
+    // … max_size, max_align, contains_type, type_to_tag_impl, etc. …
+
+    // Helper to map a type to its tag value
+    template <typename T> static constexpr Tag type_to_tag() {
+        return type_to_tag_impl<T, Types...>::value;
     }
 
-    /// Emplace a U in place.
-    template <typename... Args> void emplaceU(Args &&...args) {
-        reset();
-        new (&_storage.u) U(fl::forward<Args>(args)...);
-        _tag = Tag::IsU;
+    // Implementation details for type_to_tag
+    template <typename T, typename... Ts> struct type_to_tag_impl;
+
+    template <typename T> struct type_to_tag_impl<T> {
+        static constexpr Tag value = 0; // Not found
+    };
+
+    template <typename T, typename U, typename... Rest>
+    struct type_to_tag_impl<T, U, Rest...> {
+        static constexpr Tag value =
+            fl::is_same<T, U>::value
+                ? 1
+                : (type_to_tag_impl<T, Rest...>::value == 0
+                       ? 0
+                       : type_to_tag_impl<T, Rest...>::value + 1);
+    };
+
+    template <typename T, typename... Args> void construct(Args &&...args) {
+        new (&_storage) T(fl::forward<Args>(args)...);
+        _tag = type_to_tag<T>();
     }
 
-    /// Emplace a V in place.
-    template <typename... Args> void emplaceV(Args &&...args) {
-        reset();
-        new (&_storage.v) V(fl::forward<Args>(args)...);
-        _tag = Tag::IsV;
-    }
-
-
-    ~Variant3() { reset(); }
-
-    // -- assignment ---------------------------------------------------------
-
-    Variant3 &operator=(const Variant3 &other) {
-        if (this != &other) {
-            reset();
-            switch (other._tag) {
-            case Tag::IsT:
-                new (&_storage.t) T(other._storage.t);
-                _tag = Tag::IsT;
-                break;
-            case Tag::IsU:
-                new (&_storage.u) U(other._storage.u);
-                _tag = Tag::IsU;
-                break;
-            case Tag::IsV:
-                new (&_storage.v) V(other._storage.v);
-                _tag = Tag::IsV;
-                break;
-            case Tag::Empty:
-                _tag = Tag::Empty;
-                break;
-            }
-        }
-        return *this;
-    }
-
-    // -- modifiers ----------------------------------------------------------
-
-    void reset() noexcept {
-        switch (_tag) {
-        case Tag::IsT:
-            _storage.t.~T();
-            break;
-        case Tag::IsU:
-            _storage.u.~U();
-            break;
-        case Tag::IsV:
-            _storage.v.~V();
-            break;
-        case Tag::Empty:
-            break;
-        }
-        _tag = Tag::Empty;
-    }
-
-    // -- observers ----------------------------------------------------------
-
-    Tag tag() const noexcept { return _tag; }
-    bool empty() const noexcept { return _tag == Tag::Empty; }
-
-    template <typename TYPE> bool is() const noexcept {
-        if (is_same<T, TYPE>::value) {
-            return isT();
-        } else if (is_same<U, TYPE>::value) {
-            return isU();
-        } else if (is_same<V, TYPE>::value) {
-            return isV();
-        } else {
-            return false;
-        }
-    }
-
-    template <typename TYPE> TYPE *ptr() {
-        if (is<TYPE>()) {
-            return reinterpret_cast<TYPE *>(&_storage.t);
-        } else {
-            return nullptr;
-        }
-    }
-
-    template <typename TYPE> const TYPE *ptr() const {
-        if (is<TYPE>()) {
-            return reinterpret_cast<const TYPE *>(&_storage.t);
-        } else {
-            return nullptr;
-        }
-    }
-
-    template <typename TYPE> bool equals(const TYPE &other) const {
-        if (is<TYPE>()) {
-            return *ptr<TYPE>() == other;
-        } else {
-            return false;
-        }
-    }
-
-  private:
-    bool isT() const noexcept { return _tag == Tag::IsT; }
-    bool isU() const noexcept { return _tag == Tag::IsU; }
-    bool isV() const noexcept { return _tag == Tag::IsV; }
-
-    T &getT() { return _storage.t; }
-    const T &getT() const { return _storage.t; }
-
-    U &getU() { return _storage.u; }
-    const U &getU() const { return _storage.u; }
-
-    V &getV() { return _storage.v; }
-    const V &getV() const { return _storage.v; }
+    alignas(
+        max_align<Types...>::value) char _storage[max_size<Types...>::value];
 
     Tag _tag;
-    union Storage {
-        T t;
-        U u;
-        V v;
-        Storage() noexcept {}  // doesn't construct anything
-        ~Storage() noexcept {} // destructor is manual via reset()
-    } _storage;
 };
 
 } // namespace fl
