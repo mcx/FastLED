@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 
+#include "fl/clamp.h"
 #include "fl/force_inline.h"
 #include "fl/math_macros.h"
 
@@ -11,7 +12,7 @@
 
 namespace fl {
 
-template <typename T> struct point_xy;
+template <typename T> struct vec2;
 
 namespace map_range_detail {
 
@@ -36,9 +37,18 @@ FASTLED_FORCE_INLINE U map_range(T value, T in_min, T in_max, U out_min,
     return map_range_math<T, U>::map(value, in_min, in_max, out_min, out_max);
 }
 
+template <typename T, typename U>
+FASTLED_FORCE_INLINE U map_range_clamped(T value, T in_min, T in_max, U out_min,
+                                         U out_max) {
+    // Not fully tested with all unsigned types, so watch out if you use this
+    // with uint16_t and you value < in_min.
+    using namespace map_range_detail;
+    value = clamp(value, in_min, in_max);
+    return map_range<T, U>(value, in_min, in_max, out_min, out_max);
+}
 
 //////////////////////////////////// IMPLEMENTATION
-///////////////////////////////////////
+//////////////////////////////////////////
 
 namespace map_range_detail {
 
@@ -78,12 +88,10 @@ template <> struct map_range_math<uint8_t, uint8_t> {
     }
 };
 
-// partial specialization for U = point_xy<V>
-template <typename T, typename V> struct map_range_math<T, point_xy<V>> {
-    static point_xy<V> map(T value, T in_min, T in_max,
-                           point_xy<V> out_min, // <-- now
-                           point_xy<V> out_max) // <-- match call
-    {
+// partial specialization for U = vec2<V>
+template <typename T, typename V> struct map_range_math<T, vec2<V>> {
+    static vec2<V> map(T value, T in_min, T in_max, vec2<V> out_min,
+                       vec2<V> out_max) {
         if (in_min == in_max) {
             return out_min;
         }

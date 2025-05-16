@@ -1,12 +1,67 @@
 #include <stdlib.h>
 
-#include "fl/namespace.h"
 #include "fl/str.h"
+
+#include "crgb.h"
 #include "fl/fft.h"
+#include "fl/namespace.h"
+#include "fl/unused.h"
+#include "fl/xymap.h"
+
+#ifdef FASTLED_TESTING
+#include <cstdio> // ok include
+#endif
 
 namespace fl {
 
 namespace string_functions {
+
+static void ftoa(float value, char *buffer, int precision = 2) {
+
+    FASTLED_UNUSED(precision);
+
+#ifdef FASTLED_TESTING
+    // use sprintf during testing
+    sprintf(buffer, "%f", value);
+    return;
+
+#else
+    // Handle negative values
+    if (value < 0) {
+        *buffer++ = '-';
+        value = -value;
+    }
+
+    // Extract integer part
+    uint32_t intPart = (uint32_t)value;
+
+    // Convert integer part to string (reversed)
+    char intBuf[12]; // Enough for 32-bit integers
+    int i = 0;
+    do {
+        intBuf[i++] = '0' + (intPart % 10);
+        intPart /= 10;
+    } while (intPart);
+
+    // Write integer part in correct order
+    while (i--) {
+        *buffer++ = intBuf[i];
+    }
+
+    *buffer++ = '.'; // Decimal point
+
+    // Extract fractional part
+    float fracPart = value - (uint32_t)value;
+    for (int j = 0; j < precision; ++j) {
+        fracPart *= 10.0f;
+        int digit = (int)fracPart;
+        *buffer++ = '0' + digit;
+        fracPart -= digit;
+    }
+
+    *buffer = '\0'; // Null-terminate
+#endif
+}
 
 static int itoa(int value, char *sp, int radix) {
     char tmp[16]; // be careful with the length of the buffer
@@ -168,14 +223,59 @@ float StringFormatter::parseFloat(const char *str, size_t len) {
     return string_functions::atoff(str, len);
 }
 
-Str & Str::append(const FFTBins &str) {
-    append("\n FFT Bins:\n  ");
+Str &Str::append(const FFTBins &str) {
+    append("\n FFTImpl Bins:\n  ");
     append(str.bins_raw);
     append("\n");
-    append(" FFT Bins DB:\n  ");
+    append(" FFTImpl Bins DB:\n  ");
     append(str.bins_db);
     append("\n");
     return *this;
+}
+
+Str &Str::append(const XYMap &map) {
+    append("XYMap(");
+    append(map.getWidth());
+    append(",");
+    append(map.getHeight());
+    append(")");
+    return *this;
+}
+
+void Str::swap(Str &other) {
+    if (this != &other) {
+        fl::swap(mLength, other.mLength);
+        char temp[FASTLED_STR_INLINED_SIZE];
+        memcpy(temp, mInlineData, FASTLED_STR_INLINED_SIZE);
+        memcpy(mInlineData, other.mInlineData, FASTLED_STR_INLINED_SIZE);
+        memcpy(other.mInlineData, temp, FASTLED_STR_INLINED_SIZE);
+        fl::swap(mHeapData, other.mHeapData);
+    }
+}
+
+void Str::compileTimeAssertions() {
+    static_assert(FASTLED_STR_INLINED_SIZE > 0,
+                  "FASTLED_STR_INLINED_SIZE must be greater than 0");
+    static_assert(FASTLED_STR_INLINED_SIZE == kStrInlineSize,
+                  "If you want to change the FASTLED_STR_INLINED_SIZE, then it "
+                  "must be through a build define and not an include define.");
+}
+
+Str &Str::append(const CRGB &rgb) {
+    append("CRGB(");
+    append(rgb.r);
+    append(",");
+    append(rgb.g);
+    append(",");
+    append(rgb.b);
+    append(")");
+    return *this;
+}
+
+void StringFormatter::appendFloat(const float &val, StrN<64> *dst) {
+    char buf[64] = {0};
+    string_functions::ftoa(val, buf);
+    dst->write(buf, strlen(buf));
 }
 
 } // namespace fl

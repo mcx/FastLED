@@ -3,6 +3,7 @@
 
 #include "fl/assert.h"
 #include "fl/function.h"
+#include "fl/gradient.h"
 #include "fl/lut.h"
 #include "fl/map_range.h"
 #include "fl/math_macros.h"
@@ -10,10 +11,16 @@
 #include "fl/xypath.h"
 #include "fl/xypath_renderer.h"
 
+#include "fl/thread_local.h"
+
 namespace fl {
 
+namespace { // anonymous namespace
+ThreadLocal<XYRasterU8Sparse> tls_raster;
+} // namespace
+
 namespace xypath_detail {
-fl::Str unique_missing_name(const fl::Str& prefix) {
+fl::Str unique_missing_name(const fl::Str &prefix) {
     static int sUniqueName = 0;
     int id = ++sUniqueName;
     Str name = prefix;
@@ -22,7 +29,7 @@ fl::Str unique_missing_name(const fl::Str& prefix) {
 }
 } // namespace xypath_detail
 
-point_xy_float XYPath::at(float alpha, const TransformFloat &tx) {
+vec2f XYPath::at(float alpha, const TransformFloat &tx) {
     // return compute_float(alpha, tx);
     return mPathRenderer->at(alpha, tx);
 }
@@ -38,12 +45,13 @@ Tile2x2_u8 XYPath::at_subpixel(float alpha) {
     return mPathRenderer->at_subpixel(alpha);
 }
 
-void XYPath::rasterize(float from, float to, int steps, XYRasterU8Sparse &raster,
-                       function<uint8_t(float)> *optional_alpha_gen) {
+void XYPath::rasterize(float from, float to, int steps,
+                       XYRasterU8Sparse &raster,
+                       XYPath::AlphaFunction *optional_alpha_gen) {
     mPathRenderer->rasterize(from, to, steps, raster, optional_alpha_gen);
 }
 
-point_xy_float XYPath::at(float alpha) { return mPathRenderer->at(alpha); }
+vec2f XYPath::at(float alpha) { return mPathRenderer->at(alpha); }
 
 TransformFloat &XYPath::transform() { return mPathRenderer->transform(); }
 
@@ -108,13 +116,13 @@ void XYPathRenderer::setScale(float scale) {
     onTransformFloatChanged();
 }
 
-point_xy_float XYPathRenderer::compute(float alpha) {
+vec2f XYPathRenderer::compute(float alpha) {
     return compute_float(alpha, mTransform);
 }
 
-point_xy_float XYPathRenderer::at(float alpha) { return at(alpha, mTransform); }
+vec2f XYPathRenderer::at(float alpha) { return at(alpha, mTransform); }
 
-point_xy_float XYPathRenderer::at(float alpha, const TransformFloat &tx) {
+vec2f XYPathRenderer::at(float alpha, const TransformFloat &tx) {
     return compute_float(alpha, tx);
 }
 
@@ -216,23 +224,21 @@ XYPathPtr XYPath::NewCatmullRomPath(uint16_t width, uint16_t height,
     return out;
 }
 
-XYPathPtr
-XYPath::NewCustomPath(const fl::function<point_xy_float(float)> &f,
-                      const rect_xy<int> & drawbounds,
-                      const TransformFloat &transform,
-                      const Str &name) {
+XYPathPtr XYPath::NewCustomPath(const fl::function<vec2f(float)> &f,
+                                const rect<int> &drawbounds,
+                                const TransformFloat &transform,
+                                const Str &name) {
 
     XYPathFunctionPtr path = NewPtr<XYPathFunction>(f);
     path->setName(name);
     if (!drawbounds.empty()) {
         path->setDrawBounds(drawbounds);
-
     }
     XYPathPtr out = XYPathPtr::New(path);
     if (!transform.is_identity()) {
         out->setTransform(transform);
     }
-    rect_xy<int> bounds;
+    rect<int> bounds;
     if (path->hasDrawBounds(&bounds)) {
         if (!bounds.mMin.is_zero()) {
             // Set the bounds to the path's bounds
@@ -249,5 +255,30 @@ XYPath::NewCustomPath(const fl::function<point_xy_float(float)> &f,
 void XYPath::setTransform(const TransformFloat &transform) {
     mPathRenderer->setTransform(transform);
 }
+
+void XYPath::drawColor(const CRGB &color, float from, float to, Leds *leds,
+                       int steps) {
+    XYRasterU8Sparse &raster = tls_raster.access();
+    raster.clear();
+    steps = steps > 0 ? steps : calculateSteps(from, to);
+    rasterize(from, to, steps, raster);
+    raster.draw(color, leds->xymap(), leds->rgb());
+}
+
+void XYPath::drawGradient(const Gradient &gradient, float from, float to,
+                          Leds *leds, int steps) {
+    XYRasterU8Sparse &raster = tls_raster.access();
+    raster.clear();
+    steps = steps > 0 ? steps : calculateSteps(from, to);
+    rasterize(from, to, steps, raster);
+    raster.drawGradient(gradient, leds->xymap(), leds->rgb());
+}
+
+int XYPath::calculateSteps(float from, float to) {
+    float diff = fl::clamp(ABS(to - from), 0.0f, 1.0f);
+    return MAX(1, 200 * diff);
+}
+
+bool XYPath::hasDrawBounds() const { return mPathRenderer->hasDrawBounds(); }
 
 } // namespace fl

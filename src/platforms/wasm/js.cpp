@@ -1,4 +1,6 @@
 #ifdef __EMSCRIPTEN__
+// DO NOT clang-format this file!! It will destroy the EM_ASM_ macros.
+// clang-format off
 
 #include <emscripten.h>
 #include <emscripten/emscripten.h> // Include Emscripten headers
@@ -96,7 +98,7 @@ EMSCRIPTEN_KEEPALIVE void jsFillInMissingScreenMaps(ActiveStripData &active_stri
                 for (uint16_t i = 0; i < side; i++) {
                     for (uint16_t j = 0; j < side; j++) {
                         uint16_t index = i * side + j;
-                        point_xy_float p = {
+                        vec2f p = {
                             static_cast<float>(i),
                             static_cast<float>(j)
                         };
