@@ -8,10 +8,10 @@
 // #include "fl/math_macros.h"
 // #include "fl/raster.h"
 // #include "fl/xypath.h"
-#include "fl/ptr.h"
-#include "fl/transform.h"
-#include "fl/tile2x2.h"
 #include "fl/function.h"
+#include "fl/ptr.h"
+#include "fl/tile2x2.h"
+#include "fl/transform.h"
 
 namespace fl {
 
@@ -21,7 +21,7 @@ class XYPathRenderer : public Referent {
   public:
     XYPathRenderer(XYPathGeneratorPtr path,
                    TransformFloat transform = TransformFloat());
-    point_xy_float at(float alpha);
+    vec2f at(float alpha);
 
     Tile2x2_u8 at_subpixel(float alpha);
 
@@ -29,13 +29,14 @@ class XYPathRenderer : public Referent {
                    fl::function<uint8_t(float)> *optional_alpha_gen = nullptr);
 
     // Overloaded to allow transform to be passed in.
-    point_xy_float at(float alpha, const TransformFloat &tx);
+    vec2f at(float alpha, const TransformFloat &tx);
 
     // Needed for drawing to the screen. When this called the rendering will
     // be centered on the width and height such that 0,0 -> maps to .5,.5,
     // which is convenient for drawing since each float pixel can be truncated
     // to an integer type.
     void setDrawBounds(uint16_t width, uint16_t height);
+    bool hasDrawBounds() const { return mDrawBoundsSet; }
 
     void onTransformFloatChanged();
 
@@ -48,14 +49,14 @@ class XYPathRenderer : public Referent {
 
     void setScale(float scale);
 
-    point_xy_float compute(float alpha);
+    vec2f compute(float alpha);
 
   private:
     XYPathGeneratorPtr mPath;
     TransformFloat mTransform;
     TransformFloat mGridTransform;
     bool mDrawBoundsSet = false;
-    point_xy_float compute_float(float alpha, const TransformFloat &tx);
+    vec2f compute_float(float alpha, const TransformFloat &tx);
 };
 
 } // namespace fl
