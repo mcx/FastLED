@@ -9,6 +9,9 @@ This will keep the memory from growing during multiple inserts
 and removals.
 */
 
+// #include <cstddef>
+// #include <iterator>
+
 #include "fl/assert.h"
 #include "fl/bitset.h"
 #include "fl/clamp.h"
@@ -48,9 +51,8 @@ class HashMap {
     HashMap(size_t initial_capacity = FASTLED_HASHMAP_INLINED_COUNT,
             float max_load = 0.7f)
         : _buckets(next_power_of_two(initial_capacity)), _size(0),
-          _tombstones(0) {
-        for (auto &e : _buckets)
-            e.state = EntryState::Empty;
+          _tombstones(0), _occupied(next_power_of_two(initial_capacity)),
+          _deleted(next_power_of_two(initial_capacity)) {
         setLoadFactor(max_load);
     }
 
@@ -61,8 +63,14 @@ class HashMap {
 
     // Iterator support.
     struct iterator {
-        using value_type = pair<Key, T>;
+        // Standard iterator typedefs
+        // using difference_type = std::ptrdiff_t;
+        using value_type = pair<const Key, T>;
+        using pointer = value_type *;
+        using reference = value_type &;
+        // using iterator_category = std::forward_iterator_tag;
 
+        iterator() : _map(nullptr), _idx(0) {}
         iterator(HashMap *m, size_t idx) : _map(m), _idx(idx) {
             advance_to_occupied();
         }
@@ -72,10 +80,21 @@ class HashMap {
             return {e.key, e.value};
         }
 
+        pointer operator->() {
+            _cached_value = operator*();
+            return &_cached_value;
+        }
+
         iterator &operator++() {
             ++_idx;
             advance_to_occupied();
             return *this;
+        }
+
+        iterator operator++(int) {
+            iterator tmp = *this;
+            ++(*this);
+            return tmp;
         }
 
         bool operator==(const iterator &o) const {
@@ -83,28 +102,42 @@ class HashMap {
         }
         bool operator!=(const iterator &o) const { return !(*this == o); }
 
+        void advance_to_occupied() {
+            if (!_map)
+                return;
+            size_t cap = _map->_buckets.size();
+            while (_idx < cap && !_map->is_occupied(_idx))
+                ++_idx;
+        }
+
       private:
         HashMap *_map;
         size_t _idx;
-
-        void advance_to_occupied() {
-            size_t cap = _map->_buckets.size();
-            while (_idx < cap &&
-                   _map->_buckets[_idx].state != EntryState::Occupied)
-                ++_idx;
-        }
+        mutable value_type _cached_value;
     };
 
     struct const_iterator {
-        using value_type = pair<Key, T>;
+        // Standard iterator typedefs
+        // using difference_type = std::ptrdiff_t;
+        using value_type = pair<const Key, T>;
+        using pointer = const value_type *;
+        using reference = const value_type &;
+        // using iterator_category = std::forward_iterator_tag;
 
+        const_iterator() : _map(nullptr), _idx(0) {}
         const_iterator(const HashMap *m, size_t idx) : _map(m), _idx(idx) {
             advance_to_occupied();
         }
+        const_iterator(const iterator &it) : _map(it._map), _idx(it._idx) {}
 
         value_type operator*() const {
             auto &e = _map->_buckets[_idx];
             return {e.key, e.value};
+        }
+
+        pointer operator->() const {
+            _cached_value = operator*();
+            return &_cached_value;
         }
 
         const_iterator &operator++() {
@@ -113,27 +146,41 @@ class HashMap {
             return *this;
         }
 
+        const_iterator operator++(int) {
+            const_iterator tmp = *this;
+            ++(*this);
+            return tmp;
+        }
+
         bool operator==(const const_iterator &o) const {
             return _map == o._map && _idx == o._idx;
         }
         bool operator!=(const const_iterator &o) const { return !(*this == o); }
 
+        void advance_to_occupied() {
+            if (!_map)
+                return;
+            size_t cap = _map->_buckets.size();
+            while (_idx < cap && !_map->is_occupied(_idx))
+                ++_idx;
+        }
+
+        friend class HashMap;
+
       private:
         const HashMap *_map;
         size_t _idx;
-
-        void advance_to_occupied() {
-            size_t cap = _map->_buckets.size();
-            while (_idx < cap &&
-                   _map->_buckets[_idx].state != EntryState::Occupied)
-                ++_idx;
-        }
+        mutable value_type _cached_value;
     };
 
     iterator begin() { return iterator(this, 0); }
     iterator end() { return iterator(this, _buckets.size()); }
     const_iterator begin() const { return const_iterator(this, 0); }
     const_iterator end() const { return const_iterator(this, _buckets.size()); }
+    const_iterator cbegin() const { return const_iterator(this, 0); }
+    const_iterator cend() const {
+        return const_iterator(this, _buckets.size());
+    }
 
     static bool NeedsRehash(size_t size, size_t bucket_size, size_t tombstones,
                             uint8_t load_factor) {
@@ -169,7 +216,7 @@ class HashMap {
         if (is_new) {
             _buckets[idx].key = key;
             _buckets[idx].value = value;
-            _buckets[idx].state = EntryState::Occupied;
+            mark_occupied(idx);
             ++_size;
         } else {
             FASTLED_ASSERT(idx != npos, "HashMap::insert: invalid index at "
@@ -183,7 +230,7 @@ class HashMap {
         auto idx = find_index(key);
         if (idx == npos)
             return false;
-        _buckets[idx].state = EntryState::Deleted;
+        mark_deleted(idx);
         --_size;
         ++_tombstones;
         return true;
@@ -193,30 +240,30 @@ class HashMap {
 
     void clear() {
         _buckets.assign(_buckets.size(), Entry{});
-        for (auto &e : _buckets)
-            e.state = EntryState::Empty;
+        _occupied.reset();
+        _deleted.reset();
         _size = _tombstones = 0;
     }
 
     // find pointer to value or nullptr
-    T *find(const Key &key) {
+    T *find_value(const Key &key) {
         auto idx = find_index(key);
         return idx == npos ? nullptr : &_buckets[idx].value;
     }
 
-    const T *find(const Key &key) const {
+    const T *find_value(const Key &key) const {
         auto idx = find_index(key);
         return idx == npos ? nullptr : &_buckets[idx].value;
     }
 
-    const_iterator find_it_const(const Key &key) const {
-        auto idx = find_index(key);
-        return idx == npos ? end() : const_iterator(this, idx);
-    }
-
-    iterator find_it(const Key &key) {
+    iterator find(const Key &key) {
         auto idx = find_index(key);
         return idx == npos ? end() : iterator(this, idx);
+    }
+
+    const_iterator find(const Key &key) const {
+        auto idx = find_index(key);
+        return idx == npos ? end() : const_iterator(this, idx);
     }
 
     // access or default-construct
@@ -230,7 +277,7 @@ class HashMap {
         if (is_new) {
             _buckets[idx].key = key;
             _buckets[idx].value = T{};
-            _buckets[idx].state = EntryState::Occupied;
+            mark_occupied(idx);
             ++_size;
         }
         return _buckets[idx].value;
@@ -240,20 +287,39 @@ class HashMap {
     bool empty() const { return _size == 0; }
     size_t capacity() const { return _buckets.size(); }
 
-
   private:
     static constexpr size_t npos = size_t(-1);
 
-    enum class EntryState : uint8_t { Empty, Occupied, Deleted };
+    // Helper methods to check entry state
+    bool is_occupied(size_t idx) const { return _occupied.test(idx); }
+
+    bool is_deleted(size_t idx) const { return _deleted.test(idx); }
+
+    bool is_empty(size_t idx) const {
+        return !is_occupied(idx) && !is_deleted(idx);
+    }
+
+    void mark_occupied(size_t idx) {
+        _occupied.set(idx);
+        _deleted.reset(idx);
+    }
+
+    void mark_deleted(size_t idx) {
+        _occupied.reset(idx);
+        _deleted.set(idx);
+    }
+
+    void mark_empty(size_t idx) {
+        _occupied.reset(idx);
+        _deleted.reset(idx);
+    }
 
     struct Entry {
         Key key;
         T value;
-        EntryState state;
         void swap(Entry &other) {
             fl::swap(key, other.key);
             fl::swap(value, other.value);
-            fl::swap(state, other.state);
         }
     };
 
@@ -274,14 +340,13 @@ class HashMap {
             // linear probing
             for (size_t i = 0; i < cap; ++i) {
                 const size_t idx = (h + i) & mask;
-                auto &e = _buckets[idx];
 
-                if (e.state == EntryState::Empty)
+                if (is_empty(idx))
                     return {first_tomb != npos ? first_tomb : idx, true};
-                if (e.state == EntryState::Deleted) {
+                if (is_deleted(idx)) {
                     if (first_tomb == npos)
                         first_tomb = idx;
-                } else if (_equal(e.key, key)) {
+                } else if (is_occupied(idx) && _equal(_buckets[idx].key, key)) {
                     return {idx, false};
                 }
             }
@@ -290,28 +355,26 @@ class HashMap {
             size_t i = 0;
             for (; i < 8; ++i) {
                 const size_t idx = (h + i + i * i) & mask;
-                auto &e = _buckets[idx];
 
-                if (e.state == EntryState::Empty)
+                if (is_empty(idx))
                     return {first_tomb != npos ? first_tomb : idx, true};
-                if (e.state == EntryState::Deleted) {
+                if (is_deleted(idx)) {
                     if (first_tomb == npos)
                         first_tomb = idx;
-                } else if (_equal(e.key, key)) {
+                } else if (is_occupied(idx) && _equal(_buckets[idx].key, key)) {
                     return {idx, false};
                 }
             }
             // fallback to linear for the rest
             for (; i < cap; ++i) {
                 const size_t idx = (h + i) & mask;
-                auto &e = _buckets[idx];
 
-                if (e.state == EntryState::Empty)
+                if (is_empty(idx))
                     return {first_tomb != npos ? first_tomb : idx, true};
-                if (e.state == EntryState::Deleted) {
+                if (is_deleted(idx)) {
                     if (first_tomb == npos)
                         first_tomb = idx;
-                } else if (_equal(e.key, key)) {
+                } else if (is_occupied(idx) && _equal(_buckets[idx].key, key)) {
                     return {idx, false};
                 }
             }
@@ -334,10 +397,9 @@ class HashMap {
             // linear probing
             for (size_t i = 0; i < cap; ++i) {
                 const size_t idx = (h + i) & mask;
-                auto &e = _buckets[idx];
-                if (e.state == EntryState::Empty)
+                if (is_empty(idx))
                     return npos;
-                if (e.state == EntryState::Occupied && _equal(e.key, key))
+                if (is_occupied(idx) && _equal(_buckets[idx].key, key))
                     return idx;
             }
         } else {
@@ -345,19 +407,17 @@ class HashMap {
             size_t i = 0;
             for (; i < kQuadraticProbingTries; ++i) {
                 const size_t idx = (h + i + i * i) & mask;
-                auto &e = _buckets[idx];
-                if (e.state == EntryState::Empty)
+                if (is_empty(idx))
                     return npos;
-                if (e.state == EntryState::Occupied && _equal(e.key, key))
+                if (is_occupied(idx) && _equal(_buckets[idx].key, key))
                     return idx;
             }
             // fallback to linear for the rest
             for (; i < cap; ++i) {
                 const size_t idx = (h + i) & mask;
-                auto &e = _buckets[idx];
-                if (e.state == EntryState::Empty)
+                if (is_empty(idx))
                     return npos;
-                if (e.state == EntryState::Occupied && _equal(e.key, key))
+                if (is_occupied(idx) && _equal(_buckets[idx].key, key))
                     return idx;
             }
         }
@@ -408,40 +468,40 @@ class HashMap {
     void rehash(size_t new_cap) {
         new_cap = next_power_of_two(new_cap);
         fl::vector_inlined<Entry, INLINED_COUNT> old;
+        fl::bitset<1024> old_occupied = _occupied;
+
         _buckets.swap(old);
         _buckets.clear();
         _buckets.assign(new_cap, Entry{});
-        for (auto &e : _buckets)
-            e.state = EntryState::Empty;
+
+        _occupied.reset();
+        _occupied.resize(new_cap);
+        _deleted.reset();
+        _deleted.resize(new_cap);
+
         _size = _tombstones = 0;
 
-        for (auto &e : old) {
-            if (e.state == EntryState::Occupied)
-                insert(e.key, e.value);
+        for (size_t i = 0; i < old.size(); i++) {
+            if (old_occupied.test(i))
+                insert(old[i].key, old[i].value);
         }
     }
 
     void rehash_inline_no_resize() {
-        // filter out tompstones and compact
+        // filter out tombstones and compact
         size_t cap = _buckets.size();
         size_t pos = 0;
         // compact live elements to the left.
         for (size_t i = 0; i < cap; ++i) {
-            auto &e = _buckets[i];
-            switch (e.state) {
-            case EntryState::Occupied:
+            if (is_occupied(i)) {
                 if (pos != i) {
-                    _buckets[pos] = e;
-                    e.state = EntryState::Empty;
+                    _buckets[pos] = _buckets[i];
+                    mark_empty(i);
+                    mark_occupied(pos);
                 }
                 ++pos;
-                break;
-            case EntryState::Deleted:
-                e.state = EntryState::Empty;
-                break;
-            case EntryState::Empty:
-                // empty
-                break;
+            } else if (is_deleted(i)) {
+                mark_empty(i);
             }
         }
 
@@ -456,8 +516,9 @@ class HashMap {
                 continue;
             }
             auto &e = _buckets[i];
-            FASTLED_ASSERT(e.state == EntryState::Occupied,
-                           "HashMap::rehash_inline_no_resize: invalid state");
+            // FASTLED_ASSERT(e.state == EntryState::Occupied,
+            //                "HashMap::rehash_inline_no_resize: invalid
+            //                state");
 
             size_t idx = find_unoccupied_index_using_bitset(e.key, occupied);
             if (idx == npos) {
@@ -516,6 +577,8 @@ class HashMap {
     size_t _size;
     size_t _tombstones;
     uint8_t mLoadFactor;
+    fl::bitset<1024> _occupied;
+    fl::bitset<1024> _deleted;
     Hash _hash;
     KeyEqual _equal;
 };

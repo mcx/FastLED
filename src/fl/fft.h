@@ -1,15 +1,13 @@
 #pragma once
 
-#include "fl/hash_map.h"
-#include "fl/pair.h"
 #include "fl/scoped_ptr.h"
 #include "fl/slice.h"
 #include "fl/vector.h"
 
 namespace fl {
 
+class FFTImpl;
 class AudioSample;
-class FFTContext;
 
 struct FFTBins {
   public:
@@ -25,7 +23,7 @@ struct FFTBins {
 
     size_t size() const { return mSize; }
 
-    // The bins are the output of the FFT.
+    // The bins are the output of the FFTImpl.
     fl::vector<float> bins_raw;
     // The frequency range of the bins.
     fl::vector<float> bins_db;
@@ -61,100 +59,30 @@ struct FFT_Args {
         this->sample_rate = sample_rate;
     }
 
-    bool operator==(const FFT_Args &other) const {
-        return samples == other.samples && bands == other.bands &&
-               fmin == other.fmin && fmax == other.fmax &&
-               sample_rate == other.sample_rate;
-    }
+    bool operator==(const FFT_Args &other) const ;
     bool operator!=(const FFT_Args &other) const { return !(*this == other); }
 };
 
-template <> struct Hash<FFT_Args> {
-    uint32_t operator()(const FFT_Args &key) const noexcept {
-        return MurmurHash3_x86_32(&key, sizeof(FFT_Args));
-    }
-};
-
-// Example:
-//   FFT fft(512, 16);
-//   auto sample = SINE WAVE OF 512 SAMPLES
-//   fft.run(buffer, &out);
-//   FASTLED_WARN("FFT output: " << out);  // 16 bands of output.
-class FFT : public fl::Referent {
+class FFT {
   public:
-    // Output bins for FFT. This is the output when the fft is run.
-    // using OutputBins = fl::vector_inlined<float, 16>;
-
-    using OutputBins = FFTBins;
-
-    // Result indicating success or failure of the FFT run (in which case there
-    // will be an error message).
-    struct Result {
-        Result(bool ok, const Str &error) : ok(ok), error(error) {}
-        bool ok = false;
-        fl::Str error;
-    };
-    // Default values for the FFT.
-    FFT(FFT_Args args = FFT_Args());
+    FFT();
     ~FFT();
 
-    size_t sampleSize() const;
-    // Note that the sample sizes MUST match the samples size passed into the
-    // constructor.
-    Result run(const AudioSample &sample, OutputBins *out);
-    Result run(Slice<const int16_t> sample, OutputBins *out);
-    // Info on what the frequency the bins represent
-    fl::Str info() const;
+    void run(const Slice<const int16_t> &sample, FFTBins *out,
+             const FFT_Args &args = FFT_Args());
 
-    // Detail.
-    static int DefaultSamples() { return 512; }
-    static int DefaultBands() { return 16; }
-    static float DefaultMinFrequency() { return 174.6f; }
-    static float DefaultMaxFrequency() { return 4698.3f; }
-    static int DefaultSampleRate() { return 44100; }
+    void clear();
+    size_t size() const;
 
-    // Disable copy and move constructors and assignment operators
-    FFT(const FFT &) = delete;
-    FFT &operator=(const FFT &) = delete;
-    FFT(FFT &&) = delete;
-    FFT &operator=(FFT &&) = delete;
+    // FFT's are expensive to create, so we cache them. This sets the size of
+    // the cache. The default is 8.
+    void setFFTCacheSize(size_t size);
 
   private:
-    fl::scoped_ptr<FFTContext> mContext;
-};
-
-class FlexFFT {
-  public:
-    FlexFFT() = default;
-    ~FlexFFT() = default;
-
-    void run(const Slice<const int16_t> &sample, FFT::OutputBins *out,
-             const FFT_Args &args = FFT_Args()) {
-        FFT_Args args2 = args;
-        args2.samples = sample.size();
-        get_or_create(args2).run(sample, out);
-    }
-
-    void clear() { mMap.clear(); }
-
-    size_t size() const { return mMap.size(); }
-
-  private:
-    // Get the FFT for the given arguments.
-    FFT &get_or_create(const FFT_Args &args) {
-        Ptr<FFT> *val = mMap.find(args);
-        if (val) {
-            // we have it.
-            return **val;
-        }
-        // else we have to make a new one.
-        Ptr<FFT> fft = NewPtr<FFT>(args);
-        mMap[args] = fft;
-        return *fft;
-    }
-
-    using HashMap = fl::hash_map<FFT_Args, Ptr<FFT>>;
-    HashMap mMap;
+    // Get the FFTImpl for the given arguments.
+    FFTImpl &get_or_create(const FFT_Args &args);
+    struct HashMap;
+    scoped_ptr<HashMap> mMap;
 };
 
 }; // namespace fl

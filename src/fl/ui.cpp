@@ -30,12 +30,21 @@ void UISlider::Listener::onBeginFrame() {
 }
 
 void UIButton::Listener::onBeginFrame() {
-    const bool clicked_this_frame = mOwner->clicked();
-    const bool clicked_changed = 
-        (clicked_this_frame != mClickedLastFrame);
+    bool clicked_this_frame = mOwner->clicked();
+    
+    // Check the real button if one is attached
+    if (mOwner->mRealButton) {
+        if (mOwner->mRealButton->isPressed()) {
+            clicked_this_frame = true;
+            mOwner->click(); // Update the UI button state
+        }
+    }
+    
+    const bool clicked_changed = (clicked_this_frame != mClickedLastFrame);
     mClickedLastFrame = clicked_this_frame;
     if (clicked_changed) {
-        // FASTLED_WARN("Button: " << mOwner->name() << " clicked: " << mOwner->clicked());
+        // FASTLED_WARN("Button: " << mOwner->name() << " clicked: " <<
+        // mOwner->clicked());
         mOwner->mCallbacks.invoke(*mOwner);
     }
     // mOwner->mCallbacks.invoke(*mOwner);

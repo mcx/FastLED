@@ -1,18 +1,18 @@
 
 #include <math.h>
 
-#include "lib8tion/trig8.h"
-#include "lib8tion/intmap.h"
-#include "fl/transform.h"
-#include "fl/math_macros.h"
 #include "fl/lut.h"
+#include "fl/math_macros.h"
+#include "fl/transform.h"
+#include "lib8tion/intmap.h"
+#include "lib8tion/trig8.h"
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wfloat-equal"
 
 namespace fl {
 
-point_xy_float TransformFloatImpl::transform(const point_xy_float &xy) const {
+vec2f TransformFloatImpl::transform(const vec2f &xy) const {
     if (is_identity()) {
         return xy;
     }
@@ -36,9 +36,9 @@ point_xy_float TransformFloatImpl::transform(const point_xy_float &xy) const {
         float sin_theta = sinf(radians);
         float x_rotated = x * cos_theta - y * sin_theta;
         float y_rotated = x * sin_theta + y * cos_theta;
-        return point_xy_float(x_rotated, y_rotated);
+        return vec2f(x_rotated, y_rotated);
     }
-    return point_xy_float(x, y);
+    return vec2f(x, y);
 }
 
 Transform16 Transform16::ToBounds(alpha16 max_value) {
@@ -61,10 +61,8 @@ Transform16 Transform16::ToBounds(alpha16 max_value) {
     return tx;
 }
 
-
-Transform16 Transform16::ToBounds(const point_xy<alpha16> &min,
-                                  const point_xy<alpha16> &max,
-                                  alpha16 rotation) {
+Transform16 Transform16::ToBounds(const vec2<alpha16> &min,
+                                  const vec2<alpha16> &max, alpha16 rotation) {
     Transform16 tx;
     // Compute a Q16 “scale” so that:
     //    (alpha16 * scale) >> 16  == max_value  when alpha16==0xFFFF
@@ -91,8 +89,8 @@ Transform16 Transform16::ToBounds(const point_xy<alpha16> &min,
     return tx;
 }
 
-point_xy<alpha16> Transform16::transform(const point_xy<alpha16> &xy) const {
-    point_xy<alpha16> out = xy;
+vec2<alpha16> Transform16::transform(const vec2<alpha16> &xy) const {
+    vec2<alpha16> out = xy;
 
     // 1) Rotate around the 16‑bit center first
     if (rotation != 0) {
@@ -134,27 +132,17 @@ point_xy<alpha16> Transform16::transform(const point_xy<alpha16> &xy) const {
     return out;
 }
 
-
-
-float TransformFloatImpl::scale() const {
-    return MIN(scale_x, scale_y);
-}
-
-
+float TransformFloatImpl::scale() const { return MIN(scale_x, scale_y); }
 
 void TransformFloatImpl::set_scale(float scale) {
     scale_x = scale;
     scale_y = scale;
 }
 
-
-
 bool TransformFloatImpl::is_identity() const {
     return (scale_x == 1.0f && scale_y == 1.0f && offset_x == 0.0f &&
             offset_y == 0.0f && rotation == 0.0f);
 }
-
-
 
 Matrix3x3f TransformFloat::compile() const {
     Matrix3x3f out;

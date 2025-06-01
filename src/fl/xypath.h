@@ -11,13 +11,18 @@
 // your animations.
 
 #include "fl/function.h"
+#include "fl/leds.h"
+#include "fl/pair.h"
 #include "fl/ptr.h"
 #include "fl/tile2x2.h"
 #include "fl/transform.h"
 #include "fl/xypath_impls.h"
-#include "fl/pair.h"
+
+#include "fl/avr_disallowed.h"
 
 namespace fl {
+
+class Gradient;
 
 class XYRasterU8Sparse;
 template <typename T> class function;
@@ -29,9 +34,10 @@ FASTLED_SMART_PTR(XYPathGenerator);
 FASTLED_SMART_PTR(XYPathFunction);
 
 namespace xypath_detail {
-fl::Str unique_missing_name(const fl::Str &prefix = "XYCustomPath: ");
+fl::Str unique_missing_name(const char *prefix = "XYCustomPath: ");
 } // namespace xypath_detail
 
+AVR_DISALLOWED
 class XYPath : public Referent {
   public:
     /////////////////////////////////////////////
@@ -50,10 +56,10 @@ class XYPath : public Referent {
 
     // Custom path using just a function.
     static XYPathPtr
-    NewCustomPath(const fl::function<point_xy_float(float)> &path,
-                  const rect_xy<int> &drawbounds = rect_xy<int>(),
+    NewCustomPath(const fl::function<vec2f(float)> &path,
+                  const rect<int> &drawbounds = rect<int>(),
                   const TransformFloat &transform = TransformFloat(),
-                  const Str &name = xypath_detail::unique_missing_name());
+                  const char *name = nullptr);
 
     static XYPathPtr NewCirclePath();
     static XYPathPtr NewCirclePath(uint16_t width, uint16_t height);
@@ -74,56 +80,78 @@ class XYPath : public Referent {
         uint16_t width = 0, uint16_t height = 0,
         const Ptr<GielisCurveParams> &params = NewPtr<GielisCurveParams>());
     // END pre-baked paths.
-    /////////////////////////////////////////////////////////////
 
-    // Create a new Catmull-Rom spline path with custom parameters
-
-    XYPath(XYPathGeneratorPtr path,
-           TransformFloat transform = TransformFloat());
+    // Takes in a float at time [0, 1] and returns alpha values
+    // for that point in time.
+    using AlphaFunction = fl::function<uint8_t(float)>;
 
     // Future work: we don't actually want just the point, but also
     // it's intensity at that value. Otherwise a seperate class has to
     // made to also control the intensity and that sucks.
-    using xy_brightness = fl::pair<point_xy_float, uint8_t>;
+    using xy_brightness = fl::pair<vec2f, uint8_t>;
+
+    /////////////////////////////////////////////////////////////
+    // Create a new Catmull-Rom spline path with custom parameters
+    XYPath(XYPathGeneratorPtr path,
+           TransformFloat transform = TransformFloat());
 
     virtual ~XYPath();
-    point_xy_float at(float alpha);
+    vec2f at(float alpha);
     Tile2x2_u8 at_subpixel(float alpha);
+
+    // Rasterizes and draws to the leds.
+    void drawColor(const CRGB &color, float from, float to, Leds *leds,
+                   int steps = -1);
+
+    void drawGradient(const Gradient &gradient, float from, float to,
+                      Leds *leds, int steps = -1);
+
+    // Low level draw function.
     void rasterize(float from, float to, int steps, XYRasterU8Sparse &raster,
-                   fl::function<uint8_t(float)> *optional_alpha_gen = nullptr);
+                   AlphaFunction *optional_alpha_gen = nullptr);
+
     void setScale(float scale);
     Str name() const;
     // Overloaded to allow transform to be passed in.
-    point_xy_float at(float alpha, const TransformFloat &tx);
+    vec2f at(float alpha, const TransformFloat &tx);
     xy_brightness at_brightness(float alpha) {
-        point_xy_float p = at(alpha);
-        return xy_brightness(p, 0xff);  // Full brightness for now.
+        vec2f p = at(alpha);
+        return xy_brightness(p, 0xff); // Full brightness for now.
     }
     // Needed for drawing to the screen. When this called the rendering will
     // be centered on the width and height such that 0,0 -> maps to .5,.5,
     // which is convenient for drawing since each float pixel can be truncated
     // to an integer type.
     void setDrawBounds(uint16_t width, uint16_t height);
+    bool hasDrawBounds() const;
     TransformFloat &transform();
 
     void setTransform(const TransformFloat &transform);
 
   private:
+    int calculateSteps(float from, float to);
+
     XYPathGeneratorPtr mPath;
     XYPathRendererPtr mPathRenderer;
+
+    // By default the XYPath will use a shared raster. This is a problem on
+    // multi threaded apps. Since there isn't an easy way to check for multi
+    // threading, give the api user the ability to turn this off and use a local
+    // raster.
+    scoped_ptr<XYRasterU8Sparse> mOptionalRaster;
 };
 
 class XYPathFunction : public XYPathGenerator {
   public:
-    XYPathFunction(fl::function<point_xy_float(float)> f) : mFunction(f) {}
-    point_xy_float compute(float alpha) override { return mFunction(alpha); }
+    XYPathFunction(fl::function<vec2f(float)> f) : mFunction(f) {}
+    vec2f compute(float alpha) override { return mFunction(alpha); }
     const Str name() const override { return mName; }
     void setName(const Str &name) { mName = name; }
 
-    fl::rect_xy<int> drawBounds() const { return mDrawBounds; }
-    void setDrawBounds(const fl::rect_xy<int> &bounds) { mDrawBounds = bounds; }
+    fl::rect<int> drawBounds() const { return mDrawBounds; }
+    void setDrawBounds(const fl::rect<int> &bounds) { mDrawBounds = bounds; }
 
-    bool hasDrawBounds(fl::rect_xy<int> *bounds) override {
+    bool hasDrawBounds(fl::rect<int> *bounds) override {
         if (bounds) {
             *bounds = mDrawBounds;
         }
@@ -131,9 +159,9 @@ class XYPathFunction : public XYPathGenerator {
     }
 
   private:
-    fl::function<point_xy_float(float)> mFunction;
+    fl::function<vec2f(float)> mFunction;
     fl::Str mName = "XYPathFunction Unnamed";
-    fl::rect_xy<int> mDrawBounds;
+    fl::rect<int> mDrawBounds;
 };
 
 } // namespace fl

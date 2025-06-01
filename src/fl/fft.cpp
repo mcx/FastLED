@@ -1,173 +1,62 @@
-/// #include <Arduino.h>
-// #include <iostream>
-// #include "audio_types.h"
-// // #include "defs.h"
-// #include "thirdparty/cq_kernel/cq_kernel.h"
-// #include "thirdparty/cq_kernel/kiss_fftr.h"
-// #include "util.h"
 
-#define FASTLED_INTERNAL 1
-
-#include "FastLED.h"
-
-#include "third_party/cq_kernel/cq_kernel.h"
-#include "third_party/cq_kernel/kiss_fftr.h"
-
-#include "fl/array.h"
-#include "fl/audio.h"
 #include "fl/fft.h"
-#include "fl/str.h"
-#include "fl/unused.h"
-#include "fl/vector.h"
-#include "fl/warn.h"
-
-// #define SAMPLES IS2_AUDIO_BUFFER_LEN
-#define AUDIO_SAMPLE_RATE 44100
-#define SAMPLES 512
-#define BANDS 16
-#define SAMPLING_FREQUENCY AUDIO_SAMPLE_RATE
-#define MAX_FREQUENCY 4698.3
-#define MIN_FREQUENCY 174.6
-#define MIN_VAL 5000 // Equivalent to 0.15 in Q15
-
-#define PRINT_HEADER 1
+#include "fl/fft_impl.h"
+#include "fl/hash_map_lru.h"
+#include "fl/compiler_control.h"
 
 namespace fl {
 
-class FFTContext {
-  public:
-    FFTContext(int samples, int bands, float fmin, float fmax, int sample_rate)
-        : m_fftr_cfg(nullptr), m_kernels(nullptr) {
-        memset(&m_cq_cfg, 0, sizeof(m_cq_cfg));
-        m_cq_cfg.samples = samples;
-        m_cq_cfg.bands = bands;
-        m_cq_cfg.fmin = fmin;
-        m_cq_cfg.fmax = fmax;
-        m_cq_cfg.fs = sample_rate;
-        m_cq_cfg.min_val = MIN_VAL;
-        m_fftr_cfg = kiss_fftr_alloc(samples, 0, NULL, NULL);
-        if (!m_fftr_cfg) {
-            FASTLED_WARN("Failed to allocate FFT context");
-            return;
-        }
-        m_kernels = generate_kernels(m_cq_cfg);
+template <> struct Hash<FFT_Args> {
+    uint32_t operator()(const FFT_Args &key) const noexcept {
+        return MurmurHash3_x86_32(&key, sizeof(FFT_Args));
     }
-    ~FFTContext() {
-        if (m_fftr_cfg) {
-            kiss_fftr_free(m_fftr_cfg);
-        }
-        if (m_kernels) {
-            free_kernels(m_kernels, m_cq_cfg);
-        }
-    }
-
-    size_t sampleSize() const { return m_cq_cfg.samples; }
-
-    void fft_unit_test(Slice<const int16_t> buffer, FFT::OutputBins *out) {
-
-        // FASTLED_ASSERT(512 == m_cq_cfg.samples, "FFT samples mismatch and are
-        // still hardcoded to 512");
-        out->clear();
-        // allocate
-        FASTLED_STACK_ARRAY(kiss_fft_cpx, fft, m_cq_cfg.samples);
-        FASTLED_STACK_ARRAY(kiss_fft_cpx, cq, m_cq_cfg.bands);
-        // initialize
-        kiss_fftr(m_fftr_cfg, buffer.data(), fft);
-        apply_kernels(fft, cq, m_kernels, m_cq_cfg);
-        const float maxf = m_cq_cfg.fmax;
-        const float minf = m_cq_cfg.fmin;
-        const float delta_f = (maxf - minf) / m_cq_cfg.bands;
-        // begin transform
-        for (int i = 0; i < m_cq_cfg.bands; ++i) {
-            int32_t real = cq[i].r;
-            int32_t imag = cq[i].i;
-            float r2 = float(real * real);
-            float i2 = float(imag * imag);
-            float magnitude = sqrt(r2 + i2);
-            float magnitude_db = 20 * log10(magnitude);
-            float f_start = minf + i * delta_f;
-            float f_end = f_start + delta_f;
-            FASTLED_UNUSED(f_start);
-            FASTLED_UNUSED(f_end);
-
-
-            if (magnitude <= 0.0f) {
-                magnitude_db = 0.0f;
-            }
-
-            // FASTLED_UNUSED(magnitude_db);
-            // FASTLED_WARN("magnitude_db: " << magnitude_db);
-            // out->push_back(magnitude_db);
-            out->bins_raw.push_back(magnitude);
-            out->bins_db.push_back(magnitude_db);
-        }
-    }
-
-    fl::Str info() const {
-        // Calculate frequency delta
-        float delta_f = (m_cq_cfg.fmax - m_cq_cfg.fmin) / m_cq_cfg.bands;
-        fl::StrStream ss;
-        ss << "FFT Frequency Bands: ";
-
-        for (int i = 0; i < m_cq_cfg.bands; ++i) {
-            float f_start = m_cq_cfg.fmin + i * delta_f;
-            float f_end = f_start + delta_f;
-            ss << f_start << "Hz-" << f_end << "Hz, ";
-        }
-
-        return ss.str();
-    }
-
-  private:
-    kiss_fftr_cfg m_fftr_cfg;
-    cq_kernels_t m_kernels;
-    cq_kernel_cfg m_cq_cfg;
 };
 
-FFT::FFT(FFT_Args args) {
-    if (!mContext) {
-        FASTLED_WARN("Failed to allocate FFT context");
-    }
-    
-    mContext.reset(
-        new FFTContext(args.samples, args.bands, args.fmin, args.fmax, args.sample_rate)
-    );
+struct FFT::HashMap : public fl::HashMapLru<FFT_Args, Ptr<FFTImpl>> {
+    HashMap(size_t max_size)
+        : fl::HashMapLru<FFT_Args, Ptr<FFTImpl>>(max_size) {}
+};
+
+FFT::FFT() { mMap.reset(new HashMap(8)); };
+
+FFT::~FFT() = default;
+
+void FFT::run(const Slice<const int16_t> &sample, FFTBins *out,
+              const FFT_Args &args) {
+    FFT_Args args2 = args;
+    args2.samples = sample.size();
+    get_or_create(args2).run(sample, out);
 }
 
-FFT::~FFT() { mContext.reset(); }
+void FFT::clear() { mMap->clear(); }
 
-fl::Str FFT::info() const {
-    if (mContext) {
-        return mContext->info();
-    } else {
-        FASTLED_WARN("FFT context is not initialized");
-        return fl::Str();
+size_t FFT::size() const { return mMap->size(); }
+
+void FFT::setFFTCacheSize(size_t size) { mMap->setMaxSize(size); }
+
+FFTImpl &FFT::get_or_create(const FFT_Args &args) {
+    Ptr<FFTImpl> *val = mMap->find_value(args);
+    if (val) {
+        // we have it.
+        return **val;
     }
+    // else we have to make a new one.
+    Ptr<FFTImpl> fft = NewPtr<FFTImpl>(args);
+    (*mMap)[args] = fft;
+    return *fft;
 }
 
-size_t FFT::sampleSize() const {
-    if (mContext) {
-        return mContext->sampleSize();
-    }
-    return 0;
-}
 
-FFT::Result FFT::run(const AudioSample &sample, OutputBins *out) {
-    auto &audio_sample = sample.pcm();
-    Slice<const int16_t> slice(audio_sample);
-    return run(slice, out);
-}
 
-FFT::Result FFT::run(Slice<const int16_t> sample, OutputBins *out) {
-    if (!mContext) {
-        return FFT::Result(false, "FFT context is not initialized");
-    }
-    if (sample.size() != mContext->sampleSize()) {
-        FASTLED_WARN("FFT sample size mismatch");
-        return FFT::Result(false, "FFT sample size mismatch");
-    }
-    mContext->fft_unit_test(sample, out);
-    return FFT::Result(true, "");
+bool FFT_Args::operator==(const FFT_Args &other) const {
+    FL_DISABLE_WARNING_PUSH
+    FL_DISABLE_WARNING("-Wfloat-equal");
+
+    return samples == other.samples && bands == other.bands &&
+           fmin == other.fmin && fmax == other.fmax &&
+           sample_rate == other.sample_rate;
+
+    FL_DISABLE_WARNING_POP
 }
 
 } // namespace fl

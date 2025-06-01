@@ -2,15 +2,14 @@
 
 #include <stdint.h>
 
+#include "fl/audio.h"
 #include "fl/math_macros.h"
 #include "fl/namespace.h"
+#include "fl/str.h"
 #include "fl/template_magic.h"
 #include "fl/unused.h"
-#include "fl/str.h"
-#include "fl/audio.h"
-#include "platforms/ui_defs.h"
 #include "fl/warn.h"
-
+#include "platforms/ui_defs.h"
 
 #ifndef FASTLED_HAS_UI_SLIDER
 #define FASTLED_HAS_UI_SLIDER 0
@@ -199,6 +198,11 @@ class UIAudioImpl {
     AudioSample next() {
         FASTLED_WARN("Audio sample not implemented");
         return AudioSample();
+    }
+
+    bool hasNext() {
+        FASTLED_WARN("Audio sample not implemented");
+        return false;
     }
 };
 #endif

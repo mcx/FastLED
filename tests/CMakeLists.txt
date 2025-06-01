@@ -9,6 +9,14 @@ project(FastLED_Tests)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Force creation of thin archives (instead of full .a files) only for non apple builds
+if(NOT APPLE)
+    set(CMAKE_CXX_ARCHIVE_CREATE "<CMAKE_AR> rcT <TARGET> <OBJECTS>")
+    set(CMAKE_CXX_ARCHIVE_APPEND "<CMAKE_AR> rT <TARGET> <OBJECTS>")
+    set(CMAKE_CXX_ARCHIVE_FINISH "<CMAKE_RANLIB> <TARGET>")
+    message(STATUS "Using thin archives for Clang build")
+endif()
+
 # Enable parallel compilation
 include(ProcessorCount)
 ProcessorCount(CPU_COUNT)
@@ -73,6 +81,7 @@ set(COMMON_COMPILE_FLAGS
     -Werror=unused-value
     -Werror=cast-align
     -DFASTLED_FIVE_BIT_HD_GAMMA_FUNCTION_2_8
+    -Wno-comment
     # ignore Arduino/PlatformIO-specific PROGMEM macro
     -DPROGMEM=
 )
@@ -89,7 +98,7 @@ set(CXX_SPECIFIC_FLAGS
 )
 
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-    list(APPEND CXX_SPECIFIC_FLAGS -Werror=self-assign -Werror=infinite-recursion -Werror=extra-tokens -Werror=unused-private-field)
+    list(APPEND CXX_SPECIFIC_FLAGS -Werror=self-assign -Werror=infinite-recursion -Werror=extra-tokens -Werror=unused-private-field -Wglobal-constructors -Werror=global-constructors)
 endif()
 
 
@@ -120,6 +129,7 @@ set(UNIT_TEST_COMPILE_FLAGS
     # Not supported in gcc.
     #-Werror=infinite-recursion
     #-v
+    -Wno-comment
 )
 
 set(UNIT_TEST_CXX_FLAGS
