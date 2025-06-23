@@ -130,6 +130,11 @@ extern "C" {
     EMSCRIPTEN_KEEPALIVE void jsUpdateUiComponents(const char* jsonStr) {
         fl::jsUpdateUiComponents(std::string(jsonStr));
     }
+    
+    // Compatibility alias for old embind name (for existing compiled JS files)
+    EMSCRIPTEN_KEEPALIVE void _jsUpdateUiComponents(const char* jsonStr) {
+        fl::jsUpdateUiComponents(std::string(jsonStr));
+    }
 }
 
 #endif // __EMSCRIPTEN__

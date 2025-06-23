@@ -1,8 +1,6 @@
-
 #ifdef __EMSCRIPTEN__
 
 #include <emscripten.h>
-#include <emscripten/bind.h>
 #include <emscripten/emscripten.h> // Include Emscripten headers
 #include <emscripten/html5.h>
 #include <emscripten/val.h>
@@ -230,6 +228,35 @@ FileDataPtr _createIfNotExists(const Str &path, size_t len) {
     return entry;
 }
 
+void fastled_declare_files_impl(const char* jsonStr) {
+    fl::JsonDocument doc;
+    fl::parseJson(jsonStr, &doc);
+    auto files = doc["files"];
+    if (files.isNull()) {
+        return;
+    }
+    auto files_array = files.as<FLArduinoJson::JsonArray>();
+    if (files_array.isNull()) {
+        return;
+    }
+
+    for (auto file : files_array) {
+        auto size_obj = file["size"];
+        if (size_obj.isNull()) {
+            continue;
+        }
+        auto size = size_obj.as<int>();
+        auto path_obj = file["path"];
+        if (path_obj.isNull()) {
+            continue;
+        }
+        printf("Declaring file %s with size %d. These will become available as "
+               "File system paths within the app.\n",
+               path_obj.as<const char *>(), size);
+        jsDeclareFile(path_obj.as<const char *>(), size);
+    }
+}
+
 } // namespace fl
 
 FASTLED_USING_NAMESPACE
@@ -269,44 +296,16 @@ EMSCRIPTEN_KEEPALIVE bool jsDeclareFile(const char *path, size_t len) {
     return true;
 }
 
-EMSCRIPTEN_KEEPALIVE void fastled_declare_files(std::string jsonStr) {
-    fl::JsonDocument doc;
-    fl::parseJson(jsonStr.c_str(), &doc);
-    auto files = doc["files"];
-    if (files.isNull()) {
-        return;
-    }
-    auto files_array = files.as<FLArduinoJson::JsonArray>();
-    if (files_array.isNull()) {
-        return;
-    }
+EMSCRIPTEN_KEEPALIVE void fastled_declare_files(const char* jsonStr) {
+    fl::fastled_declare_files_impl(jsonStr);
+}
 
-    for (auto file : files_array) {
-        auto size_obj = file["size"];
-        if (size_obj.isNull()) {
-            continue;
-        }
-        auto size = size_obj.as<int>();
-        auto path_obj = file["path"];
-        if (path_obj.isNull()) {
-            continue;
-        }
-        printf("Declaring file %s with size %d. These will become available as "
-               "File system paths within the app.\n",
-               path_obj.as<const char *>(), size);
-        jsDeclareFile(path_obj.as<const char *>(), size);
-    }
+// Compatibility alias for old embind name (for existing compiled JS files)
+EMSCRIPTEN_KEEPALIVE void _fastled_declare_files(const char* jsonStr) {
+    fl::fastled_declare_files_impl(jsonStr);
 }
 
 } // extern "C"
-
-EMSCRIPTEN_BINDINGS(_fastled_declare_files) {
-    emscripten::function("_fastled_declare_files", &fastled_declare_files);
-    // emscripten::function("jsAppendFile",
-    // emscripten::select_overload<bool(const char*, const uint8_t*,
-    // size_t)>(&jsAppendFile), emscripten::allow_raw_pointer<arg<0>,
-    // arg<1>>());
-};
 
 namespace fl {
 // Platforms eed to implement this to create an instance of the filesystem.
