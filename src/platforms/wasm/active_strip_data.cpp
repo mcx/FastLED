@@ -38,18 +38,6 @@ void ActiveStripData::updateScreenMap(int id, const ScreenMap &screenmap) {
     mScreenMap.update(id, screenmap);
 }
 
-emscripten::val ActiveStripData::getPixelData_Uint8(int stripIndex) {
-    // Efficient, zero copy conversion from internal data to JavaScript.
-    SliceUint8 stripData;
-    if (mStripMap.get(stripIndex, &stripData)) {
-        const uint8_t *data = stripData.data();
-        uint8_t *data_mutable = const_cast<uint8_t *>(data);
-        size_t size = stripData.size();
-        return emscripten::val(
-            emscripten::typed_memory_view(size, data_mutable));
-    }
-    return emscripten::val::undefined();
-}
 
 Str ActiveStripData::infoJsonString() {
     FLArduinoJson::JsonDocument doc;
